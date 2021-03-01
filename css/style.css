@@ -8180,7 +8180,7 @@ h1, h2, h3, h4, h5,
       padding: 10px 15px; } }
   .ftco-navbar-light .navbar-brand {
     color: #2c396b;
-    margin-top: 20px; }
+    margin-top: 10px; }
     .ftco-navbar-light .navbar-brand span {
       color: #ffb5b5;
       font-size: 28px; }
@@ -8637,9 +8637,9 @@ h1, h2, h3, h4, h5,
       font-weight: 400;
       letter-spacing: 4px; }
       .hero-wrap .slider-text .breadcrumbs span {
-        color: #3d435c; }
+        color: white; }
         .hero-wrap .slider-text .breadcrumbs span a {
-          color: #2c396b; }
+          color:white; }
     .hero-wrap .slider-text h1 {
       font-size: 40px;
       color: #000;
@@ -8650,7 +8650,7 @@ h1, h2, h3, h4, h5,
       font-size: 18px; }
     .hero-wrap .slider-text .bread {
       font-size: 40px;
-      color: #2c396b;
+      color: white;
       line-height: 1.2;
       font-weight: 400; }
       @media (max-width: 991.98px) {
@@ -9844,8 +9844,14 @@ textarea.form-control {
       height: 300px;
   }
   .cert.small{
-      height: 100px;
+      height: 70px;
   }
+
+  .logo{
+    width: 50px;
+    margin-right: 10px;
+    height: 70px;      
+  } 
 
   div[class^="cert"] img{
     max-width: 100%;
