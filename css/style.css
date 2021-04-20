@@ -8427,9 +8427,11 @@ h1, h2, h3, h4, h5,
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 600px;
+      height: 600px; 
       position: relative;
-      z-index: 0; }
+      z-index: 0; 
+      /*max-width: 100%;
+      height: auto;  */  }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
