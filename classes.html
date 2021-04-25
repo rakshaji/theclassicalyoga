@@ -28,6 +28,126 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <script
+      async
+      src="https://pay.google.com/gp/p/js/pay.js"
+      onload="onGooglePayLoaded()">
+    </script>
+
+    <!-- <script>
+      const paymentsClient =
+        new google.payments.api.PaymentsClient({environment: 'TEST'});
+
+      if(window.PaymentRequest) {
+        // Use Payment Request API
+      } else {
+        // Fallback to traditional checkout
+        window.location.href = '/checkout/traditional';
+      }
+
+      const supportedPaymentMethods = [
+        {
+          supportedMethods: 'basic-card',
+        }
+      ];
+      const paymentDetails = {
+        total: {
+          label: 'Total',
+          amount:{
+            currency: 'USD',
+            value: 0
+          }
+        }
+      };
+      // Options isn't required.
+      const options = {};
+
+      const creditCardPaymentMethod = {
+        supportedMethods: 'basic-card',
+      };
+
+      const creditCardPaymentMethod = {
+        supportedMethods: 'basic-card',
+        data: {
+          supportedNetworks: ['visa', 'mastercard', 'amex'],
+          supportedTypes: ['credit', 'debit'],
+        },
+      };
+
+      const debitCardPaymentMethod = {
+        supportedMethods: 'debut-card',
+        data: {
+          supportedNetworks: ['visa', 'mastercard', 'amex'],
+        },
+      };
+
+      const bobPayPaymentMethod = {
+        supportedMethods: "https://example.com/bobpay",
+        data: {
+          merchantIdentifier: "XXXX",
+          bobPaySpecificField: true
+        }
+      };
+
+      const googlePayPaymentMethod = {
+        supportedMethods: 'https://google.com/pay',
+        data: {
+          'environment': 'TEST',
+          'apiVersion': 1,
+          'allowedPaymentMethods': ['CARD', 'TOKENIZED_CARD'],
+          'paymentMethodTokenizationParameters': {
+            'tokenizationType': 'PAYMENT_GATEWAY',
+            // Check with your payment gateway on the parameters to pass.
+            'parameters': {}
+          },
+          'cardRequirements': {
+            'allowedCardNetworks': ['AMEX', 'DISCOVER', 'MASTERCARD', 'VISA'],
+            'billingAddressRequired': true,
+            'billingAddressFormat': 'MIN'
+          },
+          'phoneNumberRequired': true,
+          'emailRequired': true,
+          'shippingAddressRequired': true
+        },
+      };
+
+      const supportedPaymentMethods = [creditCardPaymentMethod];
+
+      const paymentDetails = {
+        total: {
+          label: 'Total',
+          amount: {
+            currency: 'USD',
+            value: '0',
+          },
+        },
+      };
+
+      const paymentRequest = new PaymentRequest(
+        supportedPaymentMethods,
+        paymentDetails,
+        options
+      );
+
+      function showGPay() {
+
+        // Call when you wish to show the UI to the user.
+        paymentRequest.show()
+        .then((paymentResponse) => {
+          // The user filled in the required fields and completed the flow
+          // Get the details from `paymentResponse` and complete the transaction.
+          return paymentResponse.complete().then(() => {
+            // TODO: Get the payment details from paymentResponse object.
+            // TODO: Process payment
+          });;
+        })
+        .catch((err) => {
+          // The API threw an error or the user closed the UI
+          console.error('Payment Request API error: ', err);
+        });
+      }
+     
+    </script> -->
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -90,8 +210,8 @@
         			<a href="#" class="img w-100 mb-3" style="background-image: url(images/classes/online1.webp);"></a>
         			<div class="text w-100 text-center">
         				<h3><a href="#">Online Lessons</a></h3>
-                <p class="mb-5">Without the need to arrive at a studio at any certain time, online yoga allows you to select the time of the day that suits you to practice. 
-                  Whether you’re a morning bird or a night owl, this offers greater freedom and allows you to commit to your practice in a way that is simple and easy.</p>
+                <p class="mb-5">Let your home be your personal Yoga studio. With our community, you can stream yoga classes in your favorite device. An online class is a course conducted over the Internet. Without the need to arrive at a studio or getting stuck in traffic.
+                  Online yoga allows you to stay at home and commit to your practice in a way that is simple and easy.</p>
         				<!-- <p>March 20, 2021 : 01:00pm - 03:00pm</p> -->
         			</div>
         		</div>
@@ -110,6 +230,116 @@
     	</div>
     </section>
 
+    <section class="ftco-section bg-light" id="up">
+    	<div  class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-12 heading-section ftco-animate text-center">
+            <h2 class="mb-1">Upcoming Classes</h2>
+          </div>
+        </div>
+    		<div class="row" id="10DaysKids">
+
+    			<!-- <div class="col-md-6 d-flex">
+    				<div class="img img-services w-100" style="background-image: url(images/classes/online1.webp);"></div>
+    			</div> -->
+
+    			<div class="col-md-12">
+    				<div class="services-2 ftco-animate d-flex w-100" >
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<a href="images/flyer/10DayKidsMay1May10/0001.webp" target="_blank">
+                  <h3>7 Day Yog-Nirog <b>Online</b> Program for Kids in English</h3>
+                  <p>May 1, 2021 to May 7, 2021 | 7:30AM to 8:30AM | For 7 to 14 years only | Zoom Online Meeting</p>
+                  <p>
+                    <a href="#reg" class="btn btn-white px-4 py-3">Register Now <span class="ion-ios-arrow-round-forward"></span></a></p>
+                </a>
+
+                <div class="container-fluid px-md-5" >
+                  <div class="row">
+                    <div class="col-md-3 ftco-animate">
+                      <a href="images/flyer/10DayKidsMay1May10/0001.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/10DayKidsMay1May10/0001.webp);">
+                        <!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                          <span class="icon-instagram"></span>
+                        </div> -->
+                      </a>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                      <a href="images/flyer/10DayKidsMay1May10/0002.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/10DayKidsMay1May10/0002.webp);">
+                        <!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                          <span class="icon-instagram"></span>
+                        </div> -->
+                      </a>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                      <a href="images/flyer/10DayKidsMay1May10/0003.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/10DayKidsMay1May10/0003.webp);">
+                        <!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                          <span class="icon-instagram"></span>
+                        </div> -->
+                      </a>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                      <a href="images/flyer/10DayKidsMay1May10/0004.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/10DayKidsMay1May10/0004.webp);">
+                        <!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                          <span class="icon-instagram"></span>
+                        </div> -->
+                      </a>
+                    </div>
+                  </div>
+                </div>
+							</div>
+						</div>
+          </div>
+        </div>
+
+        <div class="row" id="10DaysAdults">
+          <div class="col-md-12">
+						<div class="services-2 ftco-animate d-flex w-100" >
+							<div class="icon d-flex justify-content-center align-items-center">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<a href="images/flyer/10DayAdultsMay1May10/0001.webp" target="_blank">
+                  <h3>7 Day Yog-Nirog <b>Online</b> Program for Adults in Hindi</h3>
+                  <p>May 1, 2021 to May 7, 2021 | 6:00AM to 7:00AM | For 14+ years  | Zoom Online Meeting</p>
+                  <p>
+                    <a href="#reg" class="btn btn-white px-4 py-3">Register Now <span class="ion-ios-arrow-round-forward"></span></a></p>
+                </a>
+                <div class="container-fluid px-md-5" >
+                  <div class="row">
+                    <div class="col-md-3 ftco-animate">
+                      <a href="images/flyer/10DayAdultsMay1May10/0001.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/10DayAdultsMay1May10/0001.webp);">
+                        <!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                          <span class="icon-instagram"></span>
+                        </div> -->
+                      </a>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                      <a href="images/flyer/10DayAdultsMay1May10/0002.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/10DayAdultsMay1May10/0002.webp);">
+                        <!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                          <span class="icon-instagram"></span>
+                        </div> -->
+                      </a>
+                    </div>
+                    <div class="col-md-3 ftco-animate">
+                      <a href="images/flyer/10DayAdultsMay1May10/0003.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/10DayAdultsMay1May10/0003.webp);">
+                        <!-- <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                          <span class="icon-instagram"></span>
+                        </div> -->
+                      </a>
+                    </div>
+                  </div>
+                </div>
+							</div>
+						</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    
+
     <footer class="ftco-footer ftco-section bg-light just">
       <div class="container">
         <div class="row d-flex">
@@ -122,6 +352,15 @@
                 <li class="ftco-animate"><a href="https://www.facebook.com/theclassicalyoga" 
   target="_blank"><span class="icon-facebook"></span></a></li>
                 <li class="ftco-animate"><a href="https://www.instagram.com/theclassicalyoga/?hl=en" target="_blank"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Quick Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="terms.html">Terms & Conditions</a></li>
+                <li><a href="refund_cancel.html">Refund/Cancellation Policy</a></li>
               </ul>
             </div>
           </div>
@@ -162,13 +401,9 @@
         </div>
       </div>
     </footer>
-    
-    
-  
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -187,6 +422,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script src="js/my_gpay.js"></script>
+  <!-- <script src="paymentProcessor.js"></script> -->
   </body>
 </html>

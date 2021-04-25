@@ -1,0 +1,42 @@
+<html>
+        <body>
+                <div id="load"></div><!--loading icon-->
+                <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+                <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+                <form action="https://www.example.com/payment/success/" method="POST" >
+                <script src="https://checkout.razorpay.com/v1/checkout.js" 
+                        data-key="rzp_test_xmtYVGhPrKMFT6"  
+                        data-amount="100"
+                        data-currency="INR" 
+                        data-buttontext="Proceed with Payment" 
+                        data-name="The Classical Yoga"
+                        data-description="Hatha Yoga In Its Purest Form"
+                        data-image="https://d33wubrfki0l68.cloudfront.net/9507a6ff391171e22b0881fbb08b3606b7179446/38167/images/logo.png" 
+                        data-prefill.name="Gaurav Kumar"
+                        data-prefill.email="gaurav.kumar@example.com" 
+                        data-theme.color="#F37254">
+                        
+                </script>
+
+                <script>
+                        $(window).on('load', function() {
+                                jQuery('.razorpay-payment-button').click();
+                        });
+
+                        document.onreadystatechange = function () {
+                        var state = document.readyState
+                        if (state == 'interactive') {
+                                //document.getElementById('contents').style.visibility="hidden";
+                        } else if (state == 'complete') {
+                        setTimeout(function(){
+                                document.getElementById('interactive');
+                                document.getElementById('load').style.visibility="hidden";
+                                },1000);
+                                }
+                        }
+                </script>
+                
+                <input type="hidden" custom="Hidden Element" name="hidden">
+                </form>
+        </body>
+</html>
