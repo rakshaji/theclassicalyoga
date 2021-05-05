@@ -9873,4 +9873,8 @@ textarea.form-control {
     touch-action: auto;
   }
 
-  
+  .up-details{
+    font-weight: 500;
+    font-size: larger;
+    color: #7b7777;
+  }

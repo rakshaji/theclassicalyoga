@@ -19,127 +19,13 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    
-    <!-- <script
-      async
-      src="https://pay.google.com/gp/p/js/pay.js"
-      onload="onGooglePayLoaded()">
-    </script> -->
-
-    <!-- <script>
-      const paymentsClient =
-        new google.payments.api.PaymentsClient({environment: 'TEST'});
-
-      if(window.PaymentRequest) {
-        // Use Payment Request API
-      } else {
-        // Fallback to traditional checkout
-        window.location.href = '/checkout/traditional';
+    <style>
+      .btn.btn-white {
+          background: #ffb5b5;
+          border: 1px solid #fff;
+          color: #000;
       }
-
-      const supportedPaymentMethods = [
-        {
-          supportedMethods: 'basic-card',
-        }
-      ];
-      const paymentDetails = {
-        total: {
-          label: 'Total',
-          amount:{
-            currency: 'USD',
-            value: 0
-          }
-        }
-      };
-      // Options isn't required.
-      const options = {};
-
-      const creditCardPaymentMethod = {
-        supportedMethods: 'basic-card',
-      };
-
-      const creditCardPaymentMethod = {
-        supportedMethods: 'basic-card',
-        data: {
-          supportedNetworks: ['visa', 'mastercard', 'amex'],
-          supportedTypes: ['credit', 'debit'],
-        },
-      };
-
-      const debitCardPaymentMethod = {
-        supportedMethods: 'debut-card',
-        data: {
-          supportedNetworks: ['visa', 'mastercard', 'amex'],
-        },
-      };
-
-      const bobPayPaymentMethod = {
-        supportedMethods: "https://example.com/bobpay",
-        data: {
-          merchantIdentifier: "XXXX",
-          bobPaySpecificField: true
-        }
-      };
-
-      const googlePayPaymentMethod = {
-        supportedMethods: 'https://google.com/pay',
-        data: {
-          'environment': 'TEST',
-          'apiVersion': 1,
-          'allowedPaymentMethods': ['CARD', 'TOKENIZED_CARD'],
-          'paymentMethodTokenizationParameters': {
-            'tokenizationType': 'PAYMENT_GATEWAY',
-            // Check with your payment gateway on the parameters to pass.
-            'parameters': {}
-          },
-          'cardRequirements': {
-            'allowedCardNetworks': ['AMEX', 'DISCOVER', 'MASTERCARD', 'VISA'],
-            'billingAddressRequired': true,
-            'billingAddressFormat': 'MIN'
-          },
-          'phoneNumberRequired': true,
-          'emailRequired': true,
-          'shippingAddressRequired': true
-        },
-      };
-
-      const supportedPaymentMethods = [creditCardPaymentMethod];
-
-      const paymentDetails = {
-        total: {
-          label: 'Total',
-          amount: {
-            currency: 'USD',
-            value: '0',
-          },
-        },
-      };
-
-      const paymentRequest = new PaymentRequest(
-        supportedPaymentMethods,
-        paymentDetails,
-        options
-      );
-
-      function showGPay() {
-
-        // Call when you wish to show the UI to the user.
-        paymentRequest.show()
-        .then((paymentResponse) => {
-          // The user filled in the required fields and completed the flow
-          // Get the details from `paymentResponse` and complete the transaction.
-          return paymentResponse.complete().then(() => {
-            // TODO: Get the payment details from paymentResponse object.
-            // TODO: Process payment
-          });;
-        })
-        .catch((err) => {
-          // The API threw an error or the user closed the UI
-          console.error('Payment Request API error: ', err);
-        });
-      }
-     
-    </script> -->
+    </style>
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -237,13 +123,11 @@
 								<span class="flaticon-meditation"></span>
 							</div>
 							<div class="text text-left pl-4">
-								<a href="images/flyer/7DayKidsMay12May18/" target="#">
                   <h3>7 Day Yog-Nirog <b>Online</b> Program for Kids in English</h3>
-                  <p>May 12, 2021 to May 18, 2021 | 7:30AM to 8:30AM | For 7 to 14 years only | Zoom Online Meeting</p>
+                  <p class="up-details">May 12, 2021 to May 18, 2021 | 7:30AM to 8:30AM | For 7 to 14 years only | Zoom Online Meeting</p>
                   <p>
                     <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" >Register Now <span class="ion-ios-arrow-round-forward"></span></a></p>
-                </a>
-
+               
                 <div class="container-fluid px-md-5" >
                   <div class="row">
                     <div class="col-md-3 ftco-animate">
@@ -276,12 +160,11 @@
 								<span class="flaticon-meditation"></span>
 							</div>
 							<div class="text text-left pl-4">
-								<a href="images/flyer/7DayAdultsMay12May18/" target="_blank">
                   <h3>7 Day Yog-Nirog <b>Online</b> Program for Adults in Hindi</h3>
-                  <p>May 12, 2021 to May 18, 2021 | 6:00AM to 7:00AM | For 14+ years  | Zoom Online Meeting</p>
+                  <p class="up-details">May 12, 2021 to May 18, 2021 | 6:00AM to 7:00AM | For 14+ years  | Zoom Online Meeting</p>
                   <p>
                     <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" >Register Now <span class="ion-ios-arrow-round-forward"></span></a></p>
-                </a>
+                
                 <div class="container-fluid px-md-5" >
                   <div class="row">
                     <div class="col-md-3 ftco-animate">
