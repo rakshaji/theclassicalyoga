@@ -106,7 +106,7 @@ function processPayment() {
       "address": $('input[name="address"]').val()
     }
   };
-  console.log("open razorpay")
+  console.log("open rzpy")
   var rzp1 = new Razorpay(options);
   rzp1.on('payment.failed', function (response) {
     console.log("Error payment failed!!");
