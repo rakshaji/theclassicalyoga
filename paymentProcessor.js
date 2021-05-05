@@ -81,7 +81,7 @@ function processPayment() {
     " contact " + $('input[name="phone"]').val()) +
     " address " + $('input[name="address"]').val()
   var options = {
-    "key": "rzp_test_kLmsHnmQfdgIhF",//"rzp_live_l91cg0z4PNOkVp", 
+    "key": "rzp_live_l91cg0z4PNOkVp", //"rzp_test_kLmsHnmQfdgIhF",
     "amount": amount * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
     "name": "The Classical Yoga",
