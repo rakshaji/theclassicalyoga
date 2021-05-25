@@ -41,11 +41,11 @@ function hideLoader() {
 function submitForm(e) {
   console.log("submitting form");
   var $regform = $('form#registration-form'),
-  //test url - don not delete
-  regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
+    //test url - don not delete
+    //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
 
     //live
-    //regurl = 'https://script.google.com/macros/s/AKfycbzjeaDa9eICyEwiz4i6nElQEiyr75WnhpFgA7HtxSfOMiv3LO8t/exec'
+    regurl = 'https://script.google.com/macros/s/AKfycbzjeaDa9eICyEwiz4i6nElQEiyr75WnhpFgA7HtxSfOMiv3LO8t/exec'
 
   // code to save to google sheet
   e.preventDefault(); // prevent form calling deafult action method
@@ -57,8 +57,7 @@ function submitForm(e) {
     success: function (data, text) {
       // asynchronous, after thr response from google returns
       console.log("form submittion successful");
-      //processPayment();
-      processOrder();
+      processPayment();
     },
     error: function (request, status, error) {
       $("#failureModal").modal('show');
@@ -69,32 +68,6 @@ function submitForm(e) {
     // synchronous handling
   );
 }
-
-function processOrder(){
-  var formData = {
-    "amount": 3000,
-    "currency": "INR",
-    "offers": [
-      "offer_HCxvDzCpV1kkRN"
-    ]
-  }; //Array 
-  
-  $.ajax({
-      url : "https://api.razorpay.com/v1/orders",
-      type: "POST",
-      data : formData,
-      success: function(data, textStatus, jqXHR)
-      {
-          //data - response from server
-          console.log("success");
-      },
-      error: function (jqXHR, textStatus, errorThrown)
-      {
-        console.log("error");
-      }
-  });
-}
-
 function processPayment() {
 
   console.log("Processing payment");
@@ -108,8 +81,8 @@ function processPayment() {
     " contact " + $('input[name="phone"]').val()) +
     " address " + $('input[name="address"]').val()
   var options = {
-    //"key": "rzp_live_l91cg0z4PNOkVp", 
-    "key": "rzp_test_9bEdx7j6J7IYvb",// secret id = XThAbdxUVzVsdxQjEvqnZZSn
+    // "key": "rzp_test_kLmsHnmQfdgIhF",//"rzp_live_l91cg0z4PNOkVp", 
+    "key": "rzp_live_l91cg0z4PNOkVp", //"rzp_test_kLmsHnmQfdgIhF",
     "amount": amount * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
     "name": "The Classical Yoga",
@@ -123,6 +96,7 @@ function processPayment() {
 
       // show payment sucess msg pop up
       $("#staticBackdropSuccess").modal('show');
+
     },
     "prefill": {
       "name": $('input[name="firstName"]').val() + " " + $('input[name="lastName"]').val(),
@@ -131,12 +105,7 @@ function processPayment() {
     },
     "notes": {
       "address": $('input[name="address"]').val()
-     }//,
-    // "options": {
-    //   "order": [
-    //       "offer_HCxvDzCpV1kkRN"
-    //     ]
-    // }
+    }
   };
   console.log("open rzpy")
   var rzp1 = new Razorpay(options);
@@ -152,7 +121,9 @@ function processPayment() {
     // show payment failure msg pop up not needed, razor pay has its built in popup
   });
   rzp1.open();
+  //e.preventDefault();
   return false;
+
 }
 
 function onSuccessOKClick() {
