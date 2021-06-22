@@ -16,10 +16,12 @@ $(window).load(function () {
       if (!form.checkValidity()) {
         event.preventDefault();
         event.stopPropagation();
-        console.log("check validity");
+        console.log("check validity failed");
         form.classList.add('was-validated');
+        $("#formErrorsModal").modal('show');
       } else {
         console.log("check validity done");
+        $("#formErrorsModal").modal('hide');
         showLoader(3000);
         submitForm(event);
       }
