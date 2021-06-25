@@ -1,350 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" type="image/x-icon" href="images/logo.ico" />
-    <title>The Classical Yoga - Hatha Yoga In Its Purest Form</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-      .btn.btn-white {
-          background: #ffb5b5;
-          border: 1px solid #fff;
-          color: #000;
-      }
-    </style>
-  </head>
-  <body>
-  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-  		<div class="container">
-  			<div class="row m-auto">
-  				<div class="col-12 w-100 text-center">
-  					<a class="navbar-brand w-100" href="index.html"><img class="logo" src="images/logo.png"/>The Classical Yoga</a>
-			      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-			        <span class="oi oi-menu"></span> Menu
-			      </button>
-  				</div>
-  				<div class="col-12 w-100 text-center">
-  					<div class="collapse navbar-collapse" id="ftco-nav">
-			        <ul class="navbar-nav m-auto">
-			          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-			          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-			          <li class="nav-item"><a href="trainer.html" class="nav-link">Trainers</a></li>
-                <li class="nav-item"><a href="offerings.html" class="nav-link">Offerings</a></li>
-			          <li class="nav-item active"><a href="classes.html" class="nav-link">Classes</a></li>
-			          <li class="nav-item"><a href="blog.html" class="nav-link">Articles</a></li>
-			          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-			        </ul>
-              <div>Also in: <a href="classes_hi.html" >Hindi</a></div>
-			      </div>
-  				</div>
-  			</div>
-  		</div>
-	  </nav>
-    <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/bg_3_.webp');" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-3 bread">Classes</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Classes</span></p>
+<head>
+  <link rel="icon" type="image/x-icon" href="images/logo.ico" />
+  <title>The Classical Yoga - Hatha Yoga In Its Purest Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mdb/mdb.min.css">
+  <link rel="stylesheet" href="css/mdb/mdb.min.css.map">
+  <style>
+    .btn.btn-white {
+      background: #ffb5b5;
+      border: 1px solid #fff;
+      color: #000;
+    }
+  </style>
+
+  <style>
+    #loader {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('images/pageloader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <div class="row m-auto">
+        <div class="col-12 w-100 text-center">
+          <a class="navbar-brand w-100" href="index.html"><img class="logo" src="images/logo.png" />The Classical
+            Yoga</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+          </button>
+        </div>
+        <div class="col-12 w-100 text-center">
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="trainer.html" class="nav-link">Trainers</a></li>
+              <li class="nav-item"><a href="offerings.html" class="nav-link">Offerings</a></li>
+              <li class="nav-item active"><a href="classes.html" class="nav-link">Classes</a></li>
+              <li class="nav-item"><a href="blog.html" class="nav-link">Articles</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div>Also in: <a href="classes_hi.html">Hindi</a></div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </nav>
+  <!-- END nav -->
 
-    <section class="ftco-section">
-    	<div class="container">
-        <p>We offer these three class formats:</p>
-        <div class="row">
-        	<div class="col-md-4">
-        		<div class="classes w-100 ftco-animate">
-        			<a href="#" class="img w-100 mb-3" style="background-image: url(images/classes/group.webp);"></a>
-        			<div class="text w-100 text-center">
-        				<h3><a href="#">Group Sessions</a></h3>
-                <p class="mb-5">The energy shared between everyone in class, whether you are doing yoga together or meditating as a group, there’s a certain feeling you get in a group class that you can’t get anywhere else. 
-                  Plus, you can use that group to intensify your own practices and push yourself further!</p>
-        				<!--<p>March 20, 2021 : 01:00pm - 03:00pm</p>-->
-        			</div>
-        		</div>
-        	</div>
-          <div class="col-md-4">
-        		<div class="classes w-100 ftco-animate">
-        			<a href="#" class="img w-100 mb-3" style="background-image: url(images/classes/online1.webp);"></a>
-        			<div class="text w-100 text-center">
-        				<h3><a href="#">Online Sessions</a></h3>
-                <p class="mb-5">Let your home be your personal Yoga studio. With our community, you can stream yoga classes in your favorite device. An online class is a course conducted over the Internet. Without the need to arrive at a studio or getting stuck in traffic.
-                  Online yoga allows you to stay at home and commit to your practice in a way that is simple and easy.</p>
-        				<!-- <p>March 20, 2021 : 01:00pm - 03:00pm</p> -->
-        			</div>
-        		</div>
-        	</div>
-          <div class="col-md-4">
-        		<div class="classes w-100 ftco-animate">
-        			<a href="#" class="img w-100 mb-3" style="background-image: url(images/classes/private.webp);"></a>
-        			<div class="text w-100 text-center">
-        				<h3><a href="#">Private Sessions</a></h3>
-                <p class="mb-5">There’s also an option of attending private yoga classes or even find a male or female physical trainer that will incorporate yoga in your regular routine.</p>
-        				<!-- <p>March 20, 2021 : 01:00pm - 03:00pm</p> -->
-        			</div>
-        		</div>
-        	</div>
+  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/bg_3_.webp');"
+    data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+        <div class="col-md-9 ftco-animate text-center">
+          <h1 class="mb-3 bread">Classes</h1>
+          <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Classes</span></p>
         </div>
-    	</div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="ftco-section bg-light" id="up">
-    	<div  class="container">
-    		<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-12 heading-section ftco-animate text-center">
-            <h2 class="mb-1">Upcoming Programs</h2>
-            <!-- <h3 class="mb-1">No programs scheduled yet</h3> -->
+  <section class="ftco-section">
+    <div class="container">
+      <p>We offer these three class formats:</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="classes w-100 ftco-animate">
+            <a href="#" class="img w-100 mb-3" style="background-image: url(images/classes/group.webp);"></a>
+            <div class="text w-100 text-center">
+              <h3><a href="#">Group Sessions</a></h3>
+              <p class="mb-5">The energy shared between everyone in class, whether you are doing yoga together or
+                meditating as a group, there’s a certain feeling you get in a group class that you can’t get anywhere
+                else.
+                Plus, you can use that group to intensify your own practices and push yourself further!</p>
+              <!--<p>March 20, 2021 : 01:00pm - 03:00pm</p>-->
+            </div>
           </div>
         </div>
-        
-        <!-- Bikash -->
-
-        <div class="row" id="Angamardana">
-    			<div class="col-md-12">
-    				<div class="services-2 ftco-animate d-flex w-100" >
-							<div class="icon d-flex justify-content-center align-items-center\">
-								<span class="flaticon-meditation"></span>
-							</div>
-							<div class="text text-left pl-4">
-                  <h3> <b>Angamardana</b> - The Ultimate Fitness Session in English</h3>
-                  <p class="up-details">Jun 28, 2021 to Jul 1, 2021 | 6:00AM to 9:00AM | Age - 8+ years </p>
-                  <p>
-
-                    <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" > Register Now <span class="ion-ios-arrow-round-forward"></span></a>
-
-                <div class="container-fluid px-md-5" >
-                  <div class="row">
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/Angamardana26May2021/Angamardana1.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/Angamardana26May2021/Angamardana1.png);"></a>
-                      </a>
-                      
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/Angamardana26May2021/Angamardana2.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/Angamardana26May2021/Angamardana2.png);">
-                      </a>
-                    </div>
-                
-                  </div>
-                </div>
-							</div>
-						</div>
+        <div class="col-md-4">
+          <div class="classes w-100 ftco-animate">
+            <a href="#" class="img w-100 mb-3" style="background-image: url(images/classes/online1.webp);"></a>
+            <div class="text w-100 text-center">
+              <h3><a href="#">Online Sessions</a></h3>
+              <p class="mb-5">Let your home be your personal Yoga studio. With our community, you can stream yoga
+                classes in your favorite device. An online class is a course conducted over the Internet. Without the
+                need to arrive at a studio or getting stuck in traffic.
+                Online yoga allows you to stay at home and commit to your practice in a way that is simple and easy.</p>
+              <!-- <p>March 20, 2021 : 01:00pm - 03:00pm</p> -->
+            </div>
           </div>
         </div>
-
-       
-        <div class="row" id="SuryaKriya">
-    			<div class="col-md-12">
-    				<div class="services-2 ftco-animate d-flex w-100" >
-							<div class="icon d-flex justify-content-center align-items-center\">
-								<span class="flaticon-meditation"></span>
-							</div>
-							<div class="text text-left pl-4">
-                  <h3> <b>Surya Kriya - Fire Up The Sun Within in English</b> </h3>
-                  <p class="up-details">Jun 22, 2021 to Jun 25, 2021 | 6:00AM to 8:00AM | Age - 14+ years </p>
-                  <p>
-                    Registration Closed
-                  <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" > Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-               
-                <div class="container-fluid px-md-5" >
-                  <div class="row">
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/SuryaKriya/SK1.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/SuryaKriya/SK1.png);"></a>
-                      </a>
-                      
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/SuryaKriya/SK2.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/SuryaKriya/SK2.png);">
-                      </a>
-                    </div>
-                
-                  </div>
-                </div>
-							</div>
-						</div>
+        <div class="col-md-4">
+          <div class="classes w-100 ftco-animate">
+            <a href="#" class="img w-100 mb-3" style="background-image: url(images/classes/private.webp);"></a>
+            <div class="text w-100 text-center">
+              <h3><a href="#">Private Sessions</a></h3>
+              <p class="mb-5">There’s also an option of attending private yoga classes or even find a male or female
+                physical trainer that will incorporate yoga in your regular routine.</p>
+              <!-- <p>March 20, 2021 : 01:00pm - 03:00pm</p> -->
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="row" id="IDY21JunEve_700815_0">
-    			<div class="col-md-12">
-    				<div class="services-2 ftco-animate d-flex w-100" >
-							<div class="icon d-flex justify-content-center align-items-center\">
-								<span class="flaticon-meditation"></span>
-							</div>
-							<div class="text text-left pl-4">
-                  <h3>International Day of Yoga - Free <b>Online</b> Session in Hindi</h3>
-                  <p class="up-details">Jun 21, 2021 | 7:00 AM to 8:15 AM OR 7:00 PM to 8:15 PM | Age - 14+ years | Google Online Meeting</p>
-                  <p>
-                    Registration Closed
-                    <!-- <a href="registration_page_freeonlinesession.html" target="_blank" class="btn btn-white px-4 py-3" > Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-               
-                <div class="container-fluid px-md-5" >
-                  <div class="row">
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/FreeOnline/IDY.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/FreeOnline/IDY.png);"></a>
-                      </a>
-                    </div>
-    
-                  </div>
-                </div>
-							</div>
-						</div>
+  <section class="ftco-section bg-light">
+    <div class="container" style="width: 55%;">
+      <h1 class="text-center">Show Your Interest</h1>
+      <form id="interest-form" novalidate class="needs-validation">
+
+        <input type="date" style="visibility: hidden;" name="Timestamp" />
+        <div class="row g-3 needs-validation">
+
+          <div class="col-md-6">
+            <div class="form-outline">
+              <input type="text" class="form-control" name="firstName" required />
+              <label for="firstName" class="form-label">First name</label>
+              <div class="invalid-feedback">Please provide your first name</div>
+            </div>
           </div>
-        </div>
 
-        <div class="row" id="IDY21JunEve_700815_0">
-    			<div class="col-md-12">
-    				<div class="services-2 ftco-animate d-flex w-100" >
-							<div class="icon d-flex justify-content-center align-items-center\">
-								<span class="flaticon-meditation"></span>
-							</div>
-							<div class="text text-left pl-4">
-                  <h3>International Day of Yoga - Free <b>Online</b> Session in Hindi</h3>
-                  <p class="up-details">Jun 21, 2021 | 7:00 AM to 8:15 AM OR 7:00 PM to 8:15 PM | Age - 14+ years | Google Online Meeting</p>
-                  <p>
-                    Registration Closed
-                    <!-- <a href="registration_page_freeonlinesession.html" target="_blank" class="btn btn-white px-4 py-3" > Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-               
-                <div class="container-fluid px-md-5" >
-                  <div class="row">
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/FreeOnline/IDY.png" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/FreeOnline/IDY.png);"></a>
-                      </a>
-                    </div>
-    
-                  </div>
-                </div>
-							</div>
-						</div>
+          <div class="col-md-6">
+            <div class="form-outline">
+              <input type="text" class="form-control" name="lastName" required />
+              <label for="lastName" class="form-label">Last name</label>
+              <div class="invalid-feedback">Please provide your last name</div>
+            </div>
           </div>
-        </div>
 
-        <div class="row" id="7DaysAdults">
           <div class="col-md-12">
-						<div class="services-2 ftco-animate d-flex w-100" >
-							<div class="icon d-flex justify-content-center align-items-center">
-								<span class="flaticon-meditation"></span>
-							</div>
-							<div class="text text-left pl-4">
-                  <h3>7 Day Yog-Nirog <b>Online</b> Program for Adults in Hindi</h3>
-                  <p class="up-details">May 12, 2021 to May 18, 2021 | 6:00AM to 7:00AM | For 14+ years  | Zoom Online Meeting</p>
-                  <p>
-                    <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" >Register Now <span class="ion-ios-arrow-round-forward"></span></a></p> -->
-                <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" >-->Registrations Closed <!--<span class="ion-ios-arrow-round-forward"></span></a>--> 
-                <div class="container-fluid px-md-5" >
-                  <div class="row">
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/7DayAdultsMay12May18/0001.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/7DayAdultsMay12May18/0001.webp);">
-                        </a>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/7DayAdultsMay12May18/0002.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/7DayAdultsMay12May18/0002.webp);">
-                       </a>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                      <a href="images/flyer/7DayAdultsMay12May18/0003.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/flyer/7DayAdultsMay12May18/0003.webp);">
-                        </a>
-                    </div>
+            <div class="form-outline">
+              <input type="text" class="form-control" name="streetAddress" required />
+              <label for="streetAddress" class="form-label">Full Address</label>
+              <div class="invalid-feedback">Please provide a valid street address.</div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-outline">
+              <input type="email" class="form-control" name="email" />
+              <label for="email" class="form-label">Email Address</label>
+              <div class="invalid-feedback">Please provide a valid email address.</div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-outline">
+              <input type="tel" class="form-control" name="phone" required maxlength="10"/>
+              <label for="phone" class="form-label">Phone Number</label>
+              <div class="invalid-feedback">Please provide a valid phone number.</div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-outline">
+              <label for="details" class="form-label">Please select the programs you are interested in: </label>
+            </div>
+          </div>
+
+          <div class="col-md-4 " name="check1">
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="upaYogaCheck" />
+              <label class="form-check-label" for="upaYogaCheck"> Upa Yoga</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="suryaShaktiCheck" />
+              <label class="form-check-label" for="suryaShaktiCheck"> Surya Shakti</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="suryaKriyaCheck" />
+              <label class="form-check-label" for="suryaKriyaCheck"> Surya Kriya</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="yogasanasCheck" />
+              <label class="form-check-label" for="yogasanasCheck"> Yogasanas</label>
+            </div>
+
+          </div>
+
+          <div class="col-md-4 " name="check2">
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="angamardanaCheck" />
+              <label class="form-check-label" for="angamardanaCheck"> Angamardana</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="bhutaShudhiCheck" />
+              <label class="form-check-label" for="bhutaShudhiCheck"> Bhuta Shudhi</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="jalNetiCheck" />
+              <label class="form-check-label" for="jalNetiCheck"> Jal Neti</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="nadaYogaCheck" />
+              <label class="form-check-label" for="nadaYogaCheck"> Nada Yoga</label>
+            </div>
+
+          </div>
+          <div class="col-md-4 " name="check3">
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="meditationCheck" />
+              <label class="form-check-label" for="meditationCheck"> Meditation</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="bhaktiSadhanaCheck" />
+              <label class="form-check-label" for="bhaktiSadhanaCheck"> Bhakti Sadhana</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="thoppukarnamCheck" />
+              <label class="form-check-label" for="thoppukarnamCheck"> Thoppukarnam</label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="mantraYogaCheck" />
+              <label class="form-check-label" for="mantraYogaCheck"> Mantra Yoga</label>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-outline">
+              <textarea class="form-control" name="message" rows="2" required></textarea>
+              <label for="message" class="form-label">Please enter a message (if any)</label>
+              <!-- <div class="invalid-feedback">Please answer this question</div> -->
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <button id="submit-reg-form" class="btn btn-primary" type="submit"
+              style="margin-bottom: 1rem;">Submit</button>
+          </div>
+        </div>
+
+      </div>
+    </form>
+
+    <!-- Modal -->
+    <div class="modal fade" id="successModal" data-mdb-backdrop="static" data-mdb-keyboard="false"
+      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Message</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">Thank you for your interest.</div>
+          <div class="modal-footer">
+            <button id="successOKBtn" type="button" class="btn btn-secondary" data-mdb-dismiss="modal"
+              onclick="refreshPage()">
+              OK
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="failureModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Error</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">Oops! Something went wrong. Please
+            try again or contact us directly.</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="formErrorsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Error</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">Please fix the form errors then retry.</div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- page loader -->
+    <div id="loader"></div>
+  </section>
+
+  <section class="ftco-section" id="up">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-12 heading-section ftco-animate text-center">
+          <h2 class="mb-1">Upcoming Programs</h2>
+          <!-- <h3 class="mb-1">No programs scheduled yet</h3> -->
+        </div>
+      </div>
+
+      <!-- Bikash -->
+      <div class="row" id="Angamardana">
+        <div class="col-md-12">
+          <div class="services-2 ftco-animate d-flex w-100">
+            <div class="icon d-flex justify-content-center align-items-center\">
+              <span class="flaticon-meditation"></span>
+            </div>
+            <div class="text text-left pl-4">
+              <h3> <b>Angamardana</b> - The Ultimate Fitness Session in English</h3>
+              <p class="up-details">Jun 28, 2021 to Jul 1, 2021 | 6:00AM to 9:00AM | Age - 8+ years </p>
+              <p>
+
+                <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3"> Register Now <span
+                    class="ion-ios-arrow-round-forward"></span></a>
+
+              <div class="container-fluid px-md-5">
+                <div class="row">
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/Angamardana26May2021/Angamardana1.png"
+                      class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/Angamardana26May2021/Angamardana1.png);"></a>
+                    </a>
+
+                  </div>
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/Angamardana26May2021/Angamardana2.png"
+                      class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/Angamardana26May2021/Angamardana2.png);">
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" id="SuryaKriya">
+        <div class="col-md-12">
+          <div class="services-2 ftco-animate d-flex w-100">
+            <div class="icon d-flex justify-content-center align-items-center\">
+              <span class="flaticon-meditation"></span>
+            </div>
+            <div class="text text-left pl-4">
+              <h3> <b>Surya Kriya - Fire Up The Sun Within in English</b> </h3>
+              <p class="up-details">Jun 22, 2021 to Jun 25, 2021 | 6:00AM to 8:00AM | Age - 14+ years </p>
+              <p>
+                Registration Closed
+                <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" > Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
+
+              <div class="container-fluid px-md-5">
+                <div class="row">
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/SuryaKriya/SK1.png" class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/SuryaKriya/SK1.png);"></a>
+                    </a>
+
+                  </div>
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/SuryaKriya/SK2.png" class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/SuryaKriya/SK2.png);">
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="IDY21JunEve_700815_0">
+        <div class="col-md-12">
+          <div class="services-2 ftco-animate d-flex w-100">
+            <div class="icon d-flex justify-content-center align-items-center\">
+              <span class="flaticon-meditation"></span>
+            </div>
+            <div class="text text-left pl-4">
+              <h3>International Day of Yoga - Free <b>Online</b> Session in Hindi</h3>
+              <p class="up-details">Jun 21, 2021 | 7:00 AM to 8:15 AM OR 7:00 PM to 8:15 PM | Age - 14+ years | Google
+                Online Meeting</p>
+              <p>
+                Registration Closed
+                <!-- <a href="registration_page_freeonlinesession.html" target="_blank" class="btn btn-white px-4 py-3" > Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
+
+              <div class="container-fluid px-md-5">
+                <div class="row">
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/FreeOnline/IDY.png" class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/FreeOnline/IDY.png);"></a>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" id="7DaysAdults">
+        <div class="col-md-12">
+          <div class="services-2 ftco-animate d-flex w-100">
+            <div class="icon d-flex justify-content-center align-items-center">
+              <span class="flaticon-meditation"></span>
+            </div>
+            <div class="text text-left pl-4">
+              <h3>7 Day Yog-Nirog <b>Online</b> Program for Adults in Hindi</h3>
+              <p class="up-details">May 12, 2021 to May 18, 2021 | 6:00AM to 7:00AM | For 14+ years | Zoom Online
+                Meeting</p>
+              <p>
+                <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" >Register Now <span class="ion-ios-arrow-round-forward"></span></a></p> -->
+                <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" >-->Registrations
+                Closed
+                <!--<span class="ion-ios-arrow-round-forward"></span></a>-->
+              <div class="container-fluid px-md-5">
+                <div class="row">
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/7DayAdultsMay12May18/0001.webp"
+                      class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/7DayAdultsMay12May18/0001.webp);">
+                    </a>
+                  </div>
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/7DayAdultsMay12May18/0002.webp"
+                      class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/7DayAdultsMay12May18/0002.webp);">
+                    </a>
+                  </div>
+                  <div class="col-md-3 ftco-animate">
+                    <a href="images/flyer/7DayAdultsMay12May18/0003.webp"
+                      class="gallery image-popup img d-flex align-items-center"
+                      style="background-image: url(images/flyer/7DayAdultsMay12May18/0003.webp);">
+                    </a>
                   </div>
                 </div>
-							</div>
-						</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-    <!-- <h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:rgb(8, 8, 8)"> Your Request has been posted to Google Spreadsheet</h3>
+  <!-- <h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:rgb(8, 8, 8)"> Your Request has been posted to Google Spreadsheet</h3>
     <h3 id="error-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:rgb(221, 14, 14)"> Your Request has been posted with error to Google Spreadsheet</h3> -->
 
-    <footer class="ftco-footer ftco-section bg-light just">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">The Classical Yoga</h2>
-              <p>We offer Hatha Yoga in its purest form. Hatha Yoga is about creating a body that is not a hurdle in your life and using it to blossom into your untimate possibility.</p>
-              <ul class="ftco-footer-social list-unstyled float-lft mt-3">
-                <li class="ftco-animate"><a href="https://twitter.com/classicalyog" target="_blank"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/theclassicalyoga" 
-  target="_blank"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.instagram.com/theclassicalyoga/?hl=en" target="_blank"><span class="icon-instagram"></span></a></li>
+  <footer class="ftco-footer ftco-section bg-light just">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">The Classical Yoga</h2>
+            <p>We offer Hatha Yoga in its purest form. Hatha Yoga is about creating a body that is not a hurdle in your
+              life and using it to blossom into your untimate possibility.</p>
+            <ul class="ftco-footer-social list-unstyled float-lft mt-3">
+              <li class="ftco-animate"><a href="https://twitter.com/classicalyog" target="_blank"><span
+                    class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/theclassicalyoga" target="_blank"><span
+                    class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.instagram.com/theclassicalyoga/?hl=en" target="_blank"><span
+                    class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Quick Links</h2>
+            <ul class="list-unstyled">
+              <li><a href="terms.html">Terms & Conditions</a></li>
+              <li><a href="refund_cancel.html">Refund/Cancellation Policy</a></li>
+              <li><a href="privacy_policy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have a Question?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><span class="icon icon-map-marker"></span><span class="text">Swarnabhooomi, Ama Seoni, Vidhan Sabha
+                    Road, Raipur, C.G., India, 492001</span></li>
+                <li><a href="tel: +91 81096 96955"><span class="icon icon-phone"></span><span class="text">+91 81096
+                      96955</span></a></li>
+                <li><a href="mailto: contact@theclassicalyoga.com"><span class="icon icon-envelope"></span><span
+                      class="text">contact@theclassicalyoga.com</span></a></li>
               </ul>
             </div>
           </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Quick Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="terms.html">Terms & Conditions</a></li>
-                <li><a href="refund_cancel.html">Refund/Cancellation Policy</a></li>
-                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Question?</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li><span class="icon icon-map-marker"></span><span class="text">Swarnabhooomi, Ama Seoni, Vidhan Sabha Road, Raipur, C.G., India, 492001</span></li>
-                  <li><a href="tel: +91 81096 96955"><span class="icon icon-phone"></span><span class="text">+91 81096 96955</span></a></li>
-                  <li><a href="mailto: contact@theclassicalyoga.com"><span class="icon icon-envelope"></span><span class="text">contact@theclassicalyoga.com</span></a></li>
-                </ul>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <div class="block-23 mb-3">
+              <div class="cert medium">
+                <img src="images/certificate/HYS_TAG_CMYK_WHITE-D0003.png">
               </div>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <div class="block-23 mb-3">
-                <div class="cert medium">
-                  <img src="images/certificate/HYS_TAG_CMYK_WHITE-D0003.png" >
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p class="mb-0">
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;<script>
-                document.write(new Date().getFullYear());
-
-              </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> | Logo icon made by <a href="www.flaticon.com" target="_blank">Freepik</a>  
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </p>
           </div>
         </div>
       </div>
-    </footer>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p class="mb-0">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+
+            </script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>
+            by <a href="https://colorlib.com" target="_blank">Colorlib</a> | Logo icon made by <a
+              href="www.flaticon.com" target="_blank">Freepik</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg></div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/mdb/mdb.min.js"></script>
+  <script src="js/mdb/mdb.min.js.map"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
@@ -357,11 +603,13 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
   <script src="js/my_gpay.js"></script>
-  <!-- <script src="paymentProcessor.js"></script> -->
-  
-  </body>
+  <script src="interestForm.js"></script>
+
+</body>
+
 </html>
