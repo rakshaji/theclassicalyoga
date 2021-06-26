@@ -76,7 +76,7 @@
 
   <section class="ftco-section bg-light">
     <div class="container" style="width: 50%;">
-      <h1 class="text-center">पंजीकरण फॉर्म</h1>
+      <h1 class="text-center">पंजीकरण</h1>
 
       <!-- <form id="test-form">
   
@@ -364,29 +364,50 @@
           </div>
 
           <div class="col-12">
+            <label for="details" class="form-label">यदि उपरोक्त में से कोई भी चुना गया है,
+              कृपया प्रकृति, अवधि और उपचार से गुजरने जैसी जानकारी दें </label>
             <div class="form-outline">
-              <textarea class="form-control" name="details" rows="3"></textarea>
-              <label for="details" class="form-label">यदि उपरोक्त में से कोई भी चुना गया है,
-                कृपया प्रकृति, अवधि और उपचार से गुजरने जैसी जानकारी दें </label>
+              <textarea class="form-control" name="details" rows="1"></textarea>
             </div>
           </div>
             
           <div class="col-12">
+            <label for="yogaBeforeQ" class="form-label">क्या आपने पहले कोई योग कार्यक्रम लिया है? कृपया विवरण दें</label>
             <div class="form-outline">
-              <textarea class="form-control" name="yogaBeforeQ" rows="2" required></textarea>
-              <label for="yogaBeforeQ" class="form-label">क्या आपने पहले कोई योग कार्यक्रम लिया है? कृपया विवरण दें</label>
+              <textarea class="form-control" name="yogaBeforeQ" rows="1" required></textarea>
               <div class="invalid-feedback">कृपया इस प्रश्न का उत्तर दें</div>
+            </div>
+          </div>
+
+          <div class="col-5">
+            <label for="referral" class="form-label">आपको हमारे बारे में कैसे पता चला?</label>
+            <div class="form-outline">
+              <textarea class="form-control" name="referral" rows="1"></textarea>
             </div>
           </div>
 
           <div class="col-12">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="invalidCheck" required />
-              <label class="form-check-label" for="invalidCheck">
-                मैं प्रमाणित करता हूं कि उपरोक्त तथ्य मेरी जानकारी में सत्य हैं। 
-                <p>मैंने <a href="refund_cancel_hi.html" target="_blank"></a>धनवापसी और रद्द</a> करने की नीति को पढ़ा है </p>
+              <input class="form-check-input" type="checkbox" name="covidCheck" required />
+              <label class="form-check-label" for="covidCheck"><i>
+                मैंने <a href="medical_agreement_hi.html" target="_blank">चिकित्सा नियम और शर्तें</a> 
+                और <a href="refund_cancel_hi.html" target="_blank">धनवापसी और रद्दीकरण नीति </a> पढ़ ली है।
+              </i></label>
+              <div class="invalid-feedback">सबमिट करने से पहले आपको सहमत होना होगा।</div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="certifyRefundCheck" required />
+              <label class="form-check-label" for="certifyRefundCheck"><i>मैं स्वेच्छा से इस कार्यक्रम में पूर्ण रूप से भाग लेने का वचन देता हूं।
+                मैं परिणाम की पूरी जिम्मेदारी लेता हूं और सभी दावों और मुकदमों के खिलाफ आयोजकों को हर्जाना देता हूं।
+                मैं कार्यक्रम की सामग्री को प्रत्यक्ष या अप्रत्यक्ष रूप से किसी और को नहीं बताऊंगा।
+                मैं भागीदारी दिशानिर्देशों को समझता हूं और उनका पालन करने के लिए सहमत हूं।
+                मैं एतद्द्वारा घोषणा करता हूं कि उपरोक्त जानकारी मेरी जानकारी के अनुसार सत्य, सटीक और पूर्ण है।
+                </i>
               </label>
-              <div class="invalid-feedback">सबमिट करने से पहले आपको सहमत होना चाहिए।</div>
+              <div class="invalid-feedback">सबमिट करने से पहले आपको सहमत होना होगा।</div>
             </div>
           </div>
 
