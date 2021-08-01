@@ -1,10 +1,13 @@
 $(window).load(function () {
   $("#loader").fadeOut(1000);
+  //showLoader(500);
 });
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
   'use strict';
+
+  
 
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
   const forms = document.querySelectorAll('.needs-validation');
@@ -28,6 +31,22 @@ $(window).load(function () {
 
     }, false);
 
+    $('#payByCashBtn').bind( 'click', function(event) {
+      var $regform = $('form#registration-form')[0];
+      if (!$regform.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+        console.log("check validity failed");
+        $regform.classList.add('was-validated');
+        $("#formErrorsModal").modal('show');
+      } else {
+        console.log("check validity done");
+        $("#formErrorsModal").modal('hide');
+        $("#payByCashPopup").modal('show');
+      }
+
+    });
+
   });
 })();
 
@@ -40,14 +59,48 @@ function hideLoader() {
   $("#loader").hide();
 }
 
+function submitFormWithoutPayment(e) {
+  console.log("submitting form");
+  var $regform = $('form#registration-form'),
+  //test url - don not delete
+  //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
+
+  //live
+  regurl = 'https://script.google.com/macros/s/AKfycbzjeaDa9eICyEwiz4i6nElQEiyr75WnhpFgA7HtxSfOMiv3LO8t/exec'
+
+  // code to save to google sheet
+  e.preventDefault(); // prevent form calling deafult action method
+  var jqxhr = $.ajax({
+    url: regurl,
+    method: "GET",
+    dataType: "json",
+    data: $regform.serialize(),
+    success: function (data, text) {
+      // asynchronous, after thr response from google returns
+      console.log("form submittion successful");
+      hideLoader();
+      // show payment sucess msg pop up
+      $("#staticBackdropSuccess").modal('show');
+    },
+    error: function (request, status, error) {
+      hideLoader();
+      $("#failureModal").modal('show');
+      console.log("form submittion failed");
+      console.log(request.responseText);
+    }
+  }).success(
+    // synchronous handling
+  );
+}
+
 function submitForm(e) {
   console.log("submitting form");
   var $regform = $('form#registration-form'),
-    //test url - don not delete
-    //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
+  //test url - don not delete
+  //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
 
-    //live
-    regurl = 'https://script.google.com/macros/s/AKfycbzjeaDa9eICyEwiz4i6nElQEiyr75WnhpFgA7HtxSfOMiv3LO8t/exec'
+  //live
+  regurl = 'https://script.google.com/macros/s/AKfycbzjeaDa9eICyEwiz4i6nElQEiyr75WnhpFgA7HtxSfOMiv3LO8t/exec'
 
   // code to save to google sheet
   e.preventDefault(); // prevent form calling deafult action method
@@ -70,6 +123,7 @@ function submitForm(e) {
     // synchronous handling
   );
 }
+
 function processPayment() {
 
   console.log("Processing payment");
@@ -139,6 +193,11 @@ function onSuccessOKClick() {
 
   // reload the page 
   window.location.reload();
+}
+
+function onYesIUnderstandClick(event) {
+  showLoader(3000);
+  submitFormWithoutPayment(event);
 }
 
 

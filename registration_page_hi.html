@@ -412,13 +412,41 @@
           </div>
 
           <div class="col-12">
-            <button id="submit-reg-form" class="btn btn-primary" type="submit">
-              भुगतान करें</button>
+            <button id="submit-reg-form" class="btn btn-primary" type="submit">ऑनलाइन भुगतान करें</button>
+            <button id="payByCashBtn" class="btn btn-primary" type="button" style="margin-bottom: 1rem;">नकद द्वारा भुगतान करें</button>
             <!-- <div class="invalid-feedback" id="error-on-submit" style="font-size: larger;">उफ़! कुछ गलत हो गया। कृपया पुन: प्रयास करें।</div> -->
           </div>
 
         </div>
       </form>
+
+            <!-- Modal -->
+            <div class="modal fade" id="payByCashPopup" data-mdb-backdrop="static" data-mdb-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">पुष्टीकरण</h5>
+                  <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <b>ध्यान दें:</b><p></p>
+                  कृपया अपना स्थान सुरक्षित करने के लिए 24 घंटे के भीतर नकद भुगतान करें। नहीं तो आपका रजिस्ट्रेशन अपने आप रद्द हो जाएगा।
+                  <p></p>
+                  यदि आपके कोई प्रश्न हैं, तो आप हमसे 81096-96955 पर संपर्क कर सकते हैं। 
+                  <p></p>
+                  हम आपको कार्यक्रम में देखने की उम्मीद करते हैं।
+                </div>
+                <div class="modal-footer">
+                  <button id="successOKBtn" type="button" class="btn btn-primary" data-mdb-dismiss="modal"
+                    onclick="onYesIUnderstandClick(event)">
+                    मैं समझता हूं, मुझे पंजीकृत करें
+                  </button>
+                  <button type="button" class="btn btn-primary" data-mdb-dismiss="modal" >इसे रद्द करें</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
       <!-- Modal -->
       <div class="modal fade" id="formErrorsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
