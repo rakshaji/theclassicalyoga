@@ -1,13 +1,10 @@
 $(window).load(function () {
   $("#loader").fadeOut(1000);
-  //showLoader(500);
 });
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
   'use strict';
-
-  
 
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
   const forms = document.querySelectorAll('.needs-validation');
@@ -25,7 +22,6 @@ $(window).load(function () {
       } else {
         console.log("check validity done");
         $("#formErrorsModal").modal('hide');
-        showLoader(3000);
         submitForm(event);
       }
 
@@ -55,11 +51,16 @@ function showLoader(time) {
   $("#loader").fadeOut(time);
 }
 
+function showLoader() {
+  $("#loader").show();
+}
+
 function hideLoader() {
   $("#loader").hide();
 }
 
 function submitFormWithoutPayment(e) {
+  showLoader();
   console.log("submitting form");
   var $regform = $('form#registration-form'),
   //test url - don not delete
@@ -94,6 +95,7 @@ function submitFormWithoutPayment(e) {
 }
 
 function submitForm(e) {
+  showLoader();
   console.log("submitting form");
   var $regform = $('form#registration-form'),
   //test url - don not delete
@@ -112,9 +114,11 @@ function submitForm(e) {
     success: function (data, text) {
       // asynchronous, after thr response from google returns
       console.log("form submittion successful");
+      hideLoader();
       processPayment();
     },
     error: function (request, status, error) {
+      hideLoader();
       $("#failureModal").modal('show');
       console.log("form submittion failed");
       console.log(request.responseText);
@@ -125,7 +129,6 @@ function submitForm(e) {
 }
 
 function processPayment() {
-
   console.log("Processing payment");
   var progVal = $('select[name="program"]').val();
   var progArr = progVal.split("_");
@@ -150,9 +153,17 @@ function processPayment() {
       console.log(response.razorpay_order_id);
       console.log(response.razorpay_signature);
 
+      hideLoader();
       // show payment sucess msg pop up
       $("#staticBackdropSuccess").modal('show');
 
+    },
+    "modal": {
+      "ondismiss": function(){
+        hideLoader();
+        // reload the page 
+        // window.location.reload();
+       }
     },
     "prefill": {
       "name": $('input[name="firstName"]').val() + " " + $('input[name="lastName"]').val(),
@@ -166,6 +177,7 @@ function processPayment() {
   console.log("open rzpy")
   var rzp1 = new Razorpay(options);
   rzp1.on('payment.failed', function (response) {
+    hideLoader();
     console.log("Error payment failed!!");
     console.log(response.error.code);
     console.log(response.error.description);
@@ -196,7 +208,6 @@ function onSuccessOKClick() {
 }
 
 function onYesIUnderstandClick(event) {
-  showLoader(3000);
   submitFormWithoutPayment(event);
 }
 
