@@ -1,16 +1,16 @@
 ====
-4DSK_9Aug12Aug_600830_2500  
-Surya Kriya  
-Fire Up The Sun Within   
-Hindi   
-9 Aug 2021 to 12 Aug 2021  
-6:00AM to 8:30AM  
-14+ years  
-images/flyer/SuryaKriya/SuryaKriya1.webp  
-images/flyer/SuryaKriya/SuryaKriya2.webp  
+4DANGA_16Aug19Jul_600900_3500
+Angamardana 
+The Ultimate Fitness Session
+English   
+16 Aug 2021 to 19 Jul 2021  
+6:00AM to 9:00AM 
+Age - 8+ years  
+images/flyer/Angamardana26May2021/Angamardana1.webp 
+images/flyer/Angamardana26May2021/Angamardana2.webp 
 NA
-₹ 2500  
-images/banner/SK.webp 
+₹ 3500  
+images/banner/bg_1.webp 
 true  
 true  
 true  
@@ -21,7 +21,7 @@ Purifying five elements
 Hindi 
 14 Aug 2021 
 5:00PM to 6:30PM 
-14+ years 
+Age - 14+ years 
 images/flyer/BhutaShuddhi/BhutaShuddhi1.webp
 images/flyer/BhutaShuddhi/BhutaShuddhi2.webp 
 NA
@@ -33,32 +33,32 @@ true
 ====
 1DSS_14Aug_600800_750  
 Surya Shakti  
-Brings about physical fitness and overall wellbeing   
+For those who have completed Surya Kriya   
 English   
 14 Aug 2021
 6:00AM to 8:00AM
-14+ years  
+Age - 14+ years  
 images/flyer/4DaySuryaShakti/SuryaShakti1.webp
 images/flyer/4DaySuryaShakti/SuryaShakti2.webp
 NA
-₹ 750  
+₹ 1000  
 images/banner/SuryaShakti.webp  
 true  
 true  
-true   
+true  
 ====
-4DANGA_16Aug19Jul_600900_3500
-Angamardana 
-The Ultimate Fitness Session
-English   
-16 Aug 2021 to 19 Jul 2021  
-6:00AM to 9:00AM 
-8+ years  
-images/flyer/Angamardana26May2021/Angamardana1.webp 
-images/flyer/Angamardana26May2021/Angamardana2.webp 
+4DSK_9Aug12Aug_600830_2500  
+Surya Kriya  
+Fire Up The Sun Within   
+Hindi   
+9 Aug 2021 to 12 Aug 2021  
+6:00AM to 8:30AM  
+Age - 14+ years  
+images/flyer/SuryaKriya/SuryaKriya1.webp  
+images/flyer/SuryaKriya/SuryaKriya2.webp  
 NA
-₹ 3500  
-images/banner/bg_1.webp 
+₹ 2500  
+images/banner/SK.webp 
 true  
 true  
-true  
+true   

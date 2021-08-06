@@ -228,9 +228,9 @@ class ProgramUpdater {
         content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </p>";
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
-                content += "<a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                content += "<a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             } else {
-                content += "<a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3'> Register Now <span class='ion-ios-arrow-round-forward'></span></a>";
+                content += "<a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             }
         } else {
             if(language.equals("Hindi")){
@@ -298,7 +298,7 @@ class ProgramUpdater {
         content += "<div class='container'>";
         content += "<div class='row no-gutters slider-text js-fullheight align-items-center justify-content-center' data-scrollax-parent='true'>";
         content += "<div class='col-md-10 text ftco-animate'>";
-        content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.programName + "-" + program.tagLine + "</h1>";
+        content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.programName + " - " + program.tagLine + "</h1>";
         if(program.showRegisterNowBtn) {
             content += "<h3 class='subheading'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </h3> <p></p>";
             
