@@ -143,7 +143,8 @@ class ProgramUpdater {
         String docHtml = doc.html();
         Writer out = new BufferedWriter(new OutputStreamWriter
                            (new FileOutputStream(fileName), StandardCharsets.UTF_8));
-        out.append(docHtml);
+        docHtml = docHtml.replaceAll("\u2019", "&#39;");
+        out.append(docHtml);// fix issue which converts single quote to question mark.
         out.flush();
         out.close();
         System.out.println("Updated Registration Page");
@@ -179,7 +180,8 @@ class ProgramUpdater {
 
         Writer out = new BufferedWriter(new OutputStreamWriter
                            (new FileOutputStream(fileName), StandardCharsets.UTF_8));
-        out.append(docHtml);
+        docHtml = docHtml.replaceAll("\u2019", "&#39;");
+        out.append(docHtml);// fix issue which converts single quote to question mark.
         out.flush();
         out.close();
         System.out.println("Updated Classes Page");
@@ -209,7 +211,8 @@ class ProgramUpdater {
 
         Writer out = new BufferedWriter(new OutputStreamWriter
                            (new FileOutputStream(fileName), StandardCharsets.UTF_8));
-        out.append(docHtml);
+        docHtml = docHtml.replaceAll("\u2019", "&#39;");
+        out.append(docHtml);// fix issue which converts single quote to question mark.
         out.flush();
         out.close();
         System.out.println("Updated Home Page");
@@ -370,7 +373,8 @@ class ProgramUpdater {
 
         Writer out = new BufferedWriter(new OutputStreamWriter
                            (new FileOutputStream(fileName), StandardCharsets.UTF_8));
-        out.append(docHtml);
+        docHtml = docHtml.replaceAll("\u2019", "&#39;");
+        out.append(docHtml);// fix issue which converts single quote to question mark.
         out.flush();
         out.close();
         System.out.println("Updated Gallery");
