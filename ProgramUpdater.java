@@ -22,6 +22,7 @@ class ProgramUpdater {
     public static String REGISTRATION_CLOSED_HINDI;
     public static String VIEW_ALL_UPCOMING_PROGS_HINDI;
     public static String SHOW_YOUR_INTEREST_HINDI;
+    public static String PARTICIPANT_HINDI;
     // english and hindi progs
     public static ArrayList<Program> progArrEng = new ArrayList<Program>();
     public static ArrayList<Program> progArrHindi = new ArrayList<Program>();
@@ -66,6 +67,8 @@ class ProgramUpdater {
         UPCOMING_PROGS_HINDI = bufferedReader.readLine();
         VIEW_ALL_UPCOMING_PROGS_HINDI = bufferedReader.readLine();
         SHOW_YOUR_INTEREST_HINDI = bufferedReader.readLine();
+        PARTICIPANT_HINDI = bufferedReader.readLine();
+
         String line = null;
         // read program info hindi
         //System.out.println("line - " + line);
@@ -268,7 +271,11 @@ class ProgramUpdater {
             } 
             content += "<div class='ml-4'>";
             content += "<p class='name'>" + t.name + "</p>";
-            content += "<span class='position'>Customer</span>";
+            if(!language.equalsIgnoreCase("Hindi")){
+                content += "<span class='position'>Participant</span>";
+            } else {
+                content += "<span class='position'>"+ PARTICIPANT_HINDI + "</span>";
+            }
             content += "</div>";
             content += "</div>";
             content += "</div>";
