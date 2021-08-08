@@ -36,6 +36,7 @@ class ProgramUpdater {
     // config files
     public static String HINDI_PROGS_CONFIG_FILE = "./configurables/Hindi Classes.txt";
     public static String ENGLISH_PROGS_CONFIG_FILE = "./configurables/English Classes.txt";
+    public static String TESTIMONIES_CONFIG_FILE = "./configurables/Testimonies.txt";
     
     public static void main(String[] args) throws IOException {
         initHindiProgs();  
@@ -45,13 +46,11 @@ class ProgramUpdater {
         updateClassesPage(progArrEng, CLASSES_PAGE_ENGLISH);
         updateRegistrationPage(progArrEng, REGISTRATION_PAGE_ENGLISH);
         updateHomePage(progArrEng, HOME_PAGE_ENGLISH);
-        updateGalleryWithLatestPics(HOME_PAGE_ENGLISH);
 
         // hindi pages
         updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
         updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
         updateHomePage(progArrHindi, HOME_PAGE_HINDI);
-        updateGalleryWithLatestPics(HOME_PAGE_HINDI);
     }
 
     private static void initHindiProgs() throws IOException {
@@ -61,7 +60,7 @@ class ProgramUpdater {
         final InputStreamReader streamReader = new InputStreamReader(inStream, "UTF-8");
         final BufferedReader bufferedReader = new BufferedReader(streamReader);
         
-        // initialize hindi variables
+        // initialize hindi constants
         REGISTER_NOW_HINDI = bufferedReader.readLine();
         REGISTRATION_CLOSED_HINDI = bufferedReader.readLine();
         UPCOMING_PROGS_HINDI = bufferedReader.readLine();
@@ -69,7 +68,7 @@ class ProgramUpdater {
         SHOW_YOUR_INTEREST_HINDI = bufferedReader.readLine();
         String line = null;
         // read program info hindi
-        System.out.println("line - " + line);
+        //System.out.println("line - " + line);
         while ((line = bufferedReader.readLine()) != null) {
             Program prog = new ProgramUpdater().new Program(
                 bufferedReader.readLine().trim(), // program code
@@ -103,7 +102,7 @@ class ProgramUpdater {
         // read program info hindi
         String line = null;
         // read program info hindi
-        System.out.println("line - " + line);
+        //System.out.println("line - " + line);
         while ((line = bufferedReader.readLine()) != null) {
             Program prog = new ProgramUpdater().new Program(
                 bufferedReader.readLine().trim(), // program code
@@ -128,12 +127,11 @@ class ProgramUpdater {
     }
 
     private static void updateRegistrationPage(ArrayList<Program> progArr, String fileName) throws IOException {
-        Path path = Paths.get(fileName);
-        File input = new File(fileName);
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
         System.out.println(fileName + "    |    updateRegistrationPage - " + language);
+
         // parse html
-        Document doc = Jsoup.parse(input, "UTF-8", "");
+        Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
         
         // start clean
         Element programSelectTag = doc.getElementById("program");
@@ -152,6 +150,11 @@ class ProgramUpdater {
         }
         programSelectTag.html(optionsHtml);
 
+        writeToFile(doc, fileName);
+        System.out.println("Updated Registration Page");
+    }
+
+    private static void writeToFile(Document doc, String fileName) throws IOException{
         // write to file
         String docHtml = doc.html();
         Writer out = new BufferedWriter(new OutputStreamWriter
@@ -160,23 +163,20 @@ class ProgramUpdater {
         out.append(docHtml);// fix issue which converts single quote to question mark.
         out.flush();
         out.close();
-        System.out.println("Updated Registration Page");
     }
 
     private static String getAmount(String fee) {
         fee = (fee.substring(1, fee.length())).trim();
-        System.out.println("fee = "+ fee);
+        // System.out.println("fee = "+ fee);
         return fee;
     }
 
     private static void updateClassesPage(ArrayList<Program> progArr
                 , String fileName) throws IOException {
-        Path path = Paths.get(fileName);
-        File input = new File(fileName);
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
         System.out.println(fileName + "    |    updateClassesPage - " + language);
         // parse html
-        Document doc = Jsoup.parse(input, "UTF-8", "");
+        Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
         
         // start clean container
         Element upDivParent = doc.getElementById("up");
@@ -189,57 +189,97 @@ class ProgramUpdater {
         // add programs
         for (int i = 0; i < progArr.size(); i++){
             if(progArr.get(i) != null){
-                upDiv.after(getContentForClasses(progArr.get(i), language));
+                upDiv.after(getContentForUpcomingPrograms(progArr.get(i), language));
             }
         }
         
-       // write to file
-        String docHtml = doc.html();
-        // byte[] htmlToBytes = docHtml.getBytes();
-        // Files.write(path, htmlToBytes);
-
-        Writer out = new BufferedWriter(new OutputStreamWriter
-                           (new FileOutputStream(fileName), StandardCharsets.UTF_8));
-        docHtml = docHtml.replaceAll("\u2019", "&#39;");
-        out.append(docHtml);// fix issue which converts single quote to question mark.
-        out.flush();
-        out.close();
+        writeToFile(doc, fileName);
         System.out.println("Updated Classes Page");
     }
 
     private static void updateHomePage(ArrayList<Program> progArr, String fileName) throws IOException {
-        Path path = Paths.get(fileName);
-        File input = new File(fileName);
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
         System.out.println(fileName + "    |    updateHomePage - " + language);
         // parse html
-        Document doc = Jsoup.parse(input, "UTF-8", "");
+        Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
+        
         Element sliderDiv = doc.getElementById("slider");
         if(sliderDiv == null) return;
         // start clean
         sliderDiv.html("");
+
+        Element testimonyDiv = doc.getElementById("testimony");
+        if(testimonyDiv == null) return;
+        // start clean
+        testimonyDiv.html("");
         
-        // add program banners
+        // add program banners and testimonies
         for (int i = 0; i < progArr.size(); i++) {
-            sliderDiv.append(getContentForHomePage(progArr.get(i), language));
+            sliderDiv.append(getContentForBanners(progArr.get(i), language));
         }
 
-        // write to file
-        String docHtml = doc.html();
-        // byte[] htmlToBytes = docHtml.getBytes();
-        // Files.write(path, htmlToBytes);
+        testimonyDiv.append(getContentForTestimony(language));
+        updateGalleryWithLatestPics(doc, fileName);
 
-        Writer out = new BufferedWriter(new OutputStreamWriter
-                           (new FileOutputStream(fileName), StandardCharsets.UTF_8));
-        docHtml = docHtml.replaceAll("\u2019", "&#39;");
-        out.append(docHtml);// fix issue which converts single quote to question mark.
-        out.flush();
-        out.close();
-        System.out.println("Updated Home Page");
+        writeToFile(doc, fileName);
+        System.out.println("Updated Home Page - Banners, testimonies & gallery");
     }
     
+    private static String getContentForTestimony(String language) throws IOException{
 
-    private static String getContentForClasses(Program program, String language){ 
+        // load hindi programs
+        final StringBuilder stringBuilder = new StringBuilder();
+        InputStream inStream = new FileInputStream(TESTIMONIES_CONFIG_FILE);
+        final InputStreamReader streamReader = new InputStreamReader(inStream, "UTF-8");
+        final BufferedReader bufferedReader = new BufferedReader(streamReader);
+        ArrayList<Testimony> testimonyList = new ArrayList<Testimony>();
+
+        // read program info hindi
+        String line = null;
+        // read program info hindi
+        while ((line = bufferedReader.readLine()) != null) {
+            //System.out.println("line - " + line);
+            Testimony testimony = new ProgramUpdater().new Testimony(
+                bufferedReader.readLine(),// testimony
+                bufferedReader.readLine(),// name
+                bufferedReader.readLine(),// photo path
+                bufferedReader.readLine() // language
+                );
+            if(language.equalsIgnoreCase(testimony.language)){
+                testimonyList.add(testimony);
+            }
+        }
+        System.out.println("testimonyList size - " + testimonyList.size());
+        String content = "";
+        for (Testimony t : testimonyList){
+            content += "<div class='item'>";
+            content += "<div class='testimony-wrap p-4 pb-5'>";
+            content += "<div class='text'>";
+            content += "<div class='line'>";
+            content += "<p class='mb-4 pb-1'>"+ t.testimony +"</p>";
+            content += "<span class='quote d-flex align-items-center justify-content-center'>";
+            content += "<i class='icon-quote-left'></i>";
+            content += "</span>";
+            content += "</div>";
+            content += "<div class='d-flex align-items-center'>";
+            if(!(t.photo).equalsIgnoreCase("NA")){
+                content += "<div class='user-img' style='background-image: url(" + t.photo + ")'>";
+                content += "</div>";
+            } 
+            content += "<div class='ml-4'>";
+            content += "<p class='name'>" + t.name + "</p>";
+            content += "<span class='position'>Customer</span>";
+            content += "</div>";
+            content += "</div>";
+            content += "</div>";
+            content += "</div>";
+            content += "</div>";
+        }
+
+        return content;
+    }
+
+    private static String getContentForUpcomingPrograms(Program program, String language){ 
         String content = "<div class='row' id='" + program.id + "'>";
         content += "<div class='col-md-12'>";
         content += "<div class='services-2 ftco-animate d-flex w-100'>";
@@ -294,7 +334,6 @@ class ProgramUpdater {
     }
 
     private static void clearUpcomingPrograms(Element elementToEmpty, String language){
-
         System.out.println(language);
         if(elementToEmpty == null) return;
         elementToEmpty.html("");
@@ -313,7 +352,7 @@ class ProgramUpdater {
         elementToEmpty.html(upcomingProgramsDiv);
     }
 
-    private static String getContentForHomePage(Program program, String language){
+    private static String getContentForBanners(Program program, String language){
         System.out.println(program.toString());
         String content = 
         "<div class='slider-item js-fullheight' style='background-image:url(" + program.bannerImagePath + ");'>";
@@ -360,17 +399,10 @@ class ProgramUpdater {
         return content;
     }
 
-    private static void updateGalleryWithLatestPics(String fileName) throws IOException{
+    private static void updateGalleryWithLatestPics(Document doc, String fileName) throws IOException{
         final File folder = new File("./images/gallery");
         ArrayList<String> picList = listFilesForFolder(folder);
 
-        Path path = Paths.get(fileName);
-        File input = new File(fileName);
-        String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
-        System.out.println(fileName + "    |    updateGallery - " + language);
-
-        // parse html
-        Document doc = Jsoup.parse(input, "UTF-8", "");
         Element photosDiv = doc.getElementById("photos");
         if(photosDiv == null) return;
         // start clean
@@ -385,19 +417,6 @@ class ProgramUpdater {
             content += "</div>";
             photosDiv.append(content);
         }
-
-        // write to file
-        String docHtml = doc.html();
-        // byte[] htmlToBytes = docHtml.getBytes();
-        // Files.write(path, htmlToBytes);
-
-        Writer out = new BufferedWriter(new OutputStreamWriter
-                           (new FileOutputStream(fileName), StandardCharsets.UTF_8));
-        docHtml = docHtml.replaceAll("\u2019", "&#39;");
-        out.append(docHtml);// fix issue which converts single quote to question mark.
-        out.flush();
-        out.close();
-        System.out.println("Updated Gallery");
     }
 
     public static ArrayList<String> listFilesForFolder(final File folder) {
@@ -409,6 +428,24 @@ class ProgramUpdater {
         }
         System.out.println(pics);
         return pics;
+    }
+
+    class Testimony {
+        String testimony;
+        String name;
+        String photo;
+        String language;
+
+        Testimony(String testimony,
+            String name,
+            String photo,
+            String language){
+            this.testimony = testimony;
+            this.name = name;
+            this.photo = photo;
+            this.language = language;
+        }
+
     }
 
     class Program {
