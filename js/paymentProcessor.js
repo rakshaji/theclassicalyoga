@@ -133,8 +133,6 @@ function processPayment() {
   var progVal = $('select[name="program"]').val();
   var progArr = progVal.split("_");
   var amount = progArr[progArr.length - 1];
-  amount = amount.substr(1, amount.length); // remove rupeee symbol
-  amount = amount.trim();// remove spaces
   console.log("amount = " + amount);
   console.log($('input[name="firstName"]').val() + " "
     + $('input[name="lastName"]').val() +

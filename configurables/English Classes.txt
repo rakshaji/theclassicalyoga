@@ -1,5 +1,5 @@
 ====
-4DANGA_16Aug19Jul_600900_3500
+4DANGA_16Aug19Jul_600900
 Angamardana 
 The Ultimate Fitness Session
 English   
@@ -15,7 +15,7 @@ true
 true  
 true  
 ====                
-1DBS_14Aug_17001830_3500 
+1DBS_14Aug_17001830 
 Bhuta Shuddhi 
 Purifying five elements 
 Hindi 
@@ -31,7 +31,7 @@ true
 true  
 true
 ====
-1DSS_14Aug_600800_750  
+1DSS_14Aug_600800  
 Surya Shakti  
 For those who have completed Surya Kriya   
 English   
@@ -47,7 +47,7 @@ true
 true  
 true  
 ====
-4DSK_9Aug12Aug_600830_2500  
+4DSK_9Aug12Aug_600830  
 Surya Kriya  
 Fire Up The Sun Within   
 Hindi   

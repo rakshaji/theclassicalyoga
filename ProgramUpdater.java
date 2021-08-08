@@ -16,35 +16,48 @@ import java.nio.charset.StandardCharsets;
 import java.io.IOException;
 
 class ProgramUpdater {
+    // hindi constants
     public static String REGISTER_NOW_HINDI;
     public static String UPCOMING_PROGS_HINDI;
     public static String REGISTRATION_CLOSED_HINDI;
     public static String VIEW_ALL_UPCOMING_PROGS_HINDI;
     public static String SHOW_YOUR_INTEREST_HINDI;
+    // english and hindi progs
     public static ArrayList<Program> progArrEng = new ArrayList<Program>();
-    public static ArrayList<Program> progArrHindi = new ArrayList<Program>();;
+    public static ArrayList<Program> progArrHindi = new ArrayList<Program>();
+    // file constants - english pages
+    public static String CLASSES_PAGE_ENGLISH = "./classes.html";
+    public static String REGISTRATION_PAGE_ENGLISH = "./registration_page.html";
+    public static String HOME_PAGE_ENGLISH = "./index.html";
+    // file constants - hindi pages
+    public static String CLASSES_PAGE_HINDI = "./classes_hi.html";
+    public static String REGISTRATION_PAGE_HINDI = "./registration_page_hi.html";
+    public static String HOME_PAGE_HINDI = "./index_hi.html";
+    // config files
+    public static String HINDI_PROGS_CONFIG_FILE = "./configurables/Hindi Classes.txt";
+    public static String ENGLISH_PROGS_CONFIG_FILE = "./configurables/English Classes.txt";
     
     public static void main(String[] args) throws IOException {
         initHindiProgs();  
         initEnglishProgs();  
 
         // english pages
-        updateClassesPage(progArrEng, "./classes.html");
-        updateRegistrationPage(progArrEng, "./registration_page.html");
-        updateHomePage(progArrEng, "./index.html");
-        updateGalleryWithLatestPics("./index.html");
+        updateClassesPage(progArrEng, CLASSES_PAGE_ENGLISH);
+        updateRegistrationPage(progArrEng, REGISTRATION_PAGE_ENGLISH);
+        updateHomePage(progArrEng, HOME_PAGE_ENGLISH);
+        updateGalleryWithLatestPics(HOME_PAGE_ENGLISH);
 
         // hindi pages
-        updateClassesPage(progArrHindi, "./classes_hi.html");
-        updateRegistrationPage(progArrHindi, "./registration_page_hi.html");
-        updateHomePage(progArrHindi, "./index_hi.html");
-        updateGalleryWithLatestPics("./index_hi.html");
+        updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
+        updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
+        updateHomePage(progArrHindi, HOME_PAGE_HINDI);
+        updateGalleryWithLatestPics(HOME_PAGE_HINDI);
     }
 
     private static void initHindiProgs() throws IOException {
         // load hindi programs
         final StringBuilder stringBuilder = new StringBuilder();
-        InputStream inStream = new FileInputStream("./Hindi Classes.txt");
+        InputStream inStream = new FileInputStream(HINDI_PROGS_CONFIG_FILE);
         final InputStreamReader streamReader = new InputStreamReader(inStream, "UTF-8");
         final BufferedReader bufferedReader = new BufferedReader(streamReader);
         
@@ -83,7 +96,7 @@ class ProgramUpdater {
     private static void initEnglishProgs() throws IOException {
         // load hindi programs
         final StringBuilder stringBuilder = new StringBuilder();
-        InputStream inStream = new FileInputStream("./English Classes.txt");
+        InputStream inStream = new FileInputStream(ENGLISH_PROGS_CONFIG_FILE);
         final InputStreamReader streamReader = new InputStreamReader(inStream, "UTF-8");
         final BufferedReader bufferedReader = new BufferedReader(streamReader);
     
@@ -132,9 +145,9 @@ class ProgramUpdater {
         for(int i = 0; i < progArr.size(); i++){
             Program program = progArr.get(i);
             if (program.showRegisterNowBtn) {
-                optionsHtml += "<option value='" + program.id + "_" + program.price + "'>" 
+                optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
                     + program.programName + " | " + program.date + " | " + program.time 
-                    + " - " + program.price + "</option>";
+                    + " - " + program.fee + "</option>";
             }
         }
         programSelectTag.html(optionsHtml);
@@ -150,7 +163,14 @@ class ProgramUpdater {
         System.out.println("Updated Registration Page");
     }
 
-    private static void updateClassesPage(ArrayList<Program> progArr, String fileName) throws IOException {
+    private static String getAmount(String fee) {
+        fee = (fee.substring(1, fee.length())).trim();
+        System.out.println("fee = "+ fee);
+        return fee;
+    }
+
+    private static void updateClassesPage(ArrayList<Program> progArr
+                , String fileName) throws IOException {
         Path path = Paths.get(fileName);
         File input = new File(fileName);
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
@@ -383,7 +403,7 @@ class ProgramUpdater {
     public static ArrayList<String> listFilesForFolder(final File folder) {
         ArrayList<String> pics = new ArrayList<String>();
         for (final File fileEntry : folder.listFiles()) {
-            if(fileEntry.getName().endsWith("webp")){
+            if(fileEntry.getName().endsWith(".webp")){
                 pics.add(fileEntry.getName());
             }
         }
@@ -402,11 +422,12 @@ class ProgramUpdater {
         String eflyerImg1;
         String eflyerImg2;
         String eflyerImg3;
-        String price;
+        String fee;
         String bannerImagePath;
         boolean showInterestBtn; 
         boolean showUpcomingProgsBtn;
         boolean showRegisterNowBtn;
+        String amount;
 
         Program (String id,
             String programName,
@@ -418,7 +439,7 @@ class ProgramUpdater {
             String eflyerImg1,
             String eflyerImg2,
             String eflyerImg3,
-            String price,
+            String fee,
             String bannerImagePath,
             boolean showInterestBtn, 
             boolean showUpcomingProgsBtn,
@@ -433,11 +454,14 @@ class ProgramUpdater {
             this.eflyerImg1 = eflyerImg1;
             this.eflyerImg2 = eflyerImg2;
             this.eflyerImg3 = eflyerImg3;
-            this.price = price;
+            this.fee = fee;
             this.bannerImagePath = bannerImagePath;
             this.showInterestBtn = showInterestBtn; 
             this.showUpcomingProgsBtn = showUpcomingProgsBtn;
             this.showRegisterNowBtn = showRegisterNowBtn;
+            if(fee != null && !fee.equals("")){
+                this.amount = getAmount(this.fee);
+            }
         }
 
         private String convertToUTF8(String rawString){
@@ -457,11 +481,12 @@ class ProgramUpdater {
             this.eflyerImg1 + "\n" +
             this.eflyerImg2 + "\n" +
             this.eflyerImg3 + "\n" +
-            this.price + "\n" +
+            this.fee + "\n" +
             this.bannerImagePath + "\n" +
             this.showInterestBtn + "\n" + 
             this.showUpcomingProgsBtn + "\n" +
-            this.showRegisterNowBtn;
+            this.showRegisterNowBtn + "\n" +
+            this.amount;
         }
     }
     
