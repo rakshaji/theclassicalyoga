@@ -67,4 +67,4 @@ NA
 images/banner/SK.webp 
 true
 true
-true     
+false     
