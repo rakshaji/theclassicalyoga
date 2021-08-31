@@ -10,7 +10,7 @@ Age - 8+ years
 NA
 NA
 NA
-₹ 799  
+₹ 699  
 images/banner/PromoPP211.webp 
 true  
 true  
@@ -27,7 +27,7 @@ Age - 8+ years
 NA
 NA
 NA
-₹ 699  
+₹ 599  
 images/banner/PromoPP210.webp 
 true  
 true  
@@ -44,7 +44,7 @@ Age - 8+ years
 NA
 NA
 NA
-₹ 599  
+₹ 499  
 images/banner/PromoPP214.webp 
 true  
 true  

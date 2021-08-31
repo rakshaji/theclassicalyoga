@@ -152,7 +152,7 @@ class ProgramUpdater {
         } else {
             optionsHtml = "<option value=''>- Select Program -</option>";
         }
-        for(int i = 0; i < progArr.size(); i++){
+        for(int i = progArr.size() -1; i >= 0; i--){
             Program program = progArr.get(i);
             if (program.showRegisterNowBtn) {
                 optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 

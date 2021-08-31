@@ -4,7 +4,7 @@
 सभी आगामी कार्यक्रम देखें
 अपनी रुचि दिखाएं
 प्रतिभागी
-कार्यक्रम का चयन करें
+- कार्यक्रम का चयन करें -
 ====
 4DUY_25Oct29Oct_700800_630730
 उप योग (5 दिन)
@@ -17,7 +17,7 @@ NA
 NA
 NA
 NA
-₹ 799  
+₹ 699  
 images/banner/PromoPP211.webp 
 true  
 true  
@@ -34,7 +34,7 @@ NA
 NA
 NA
 NA
-₹ 699  
+₹ 599  
 images/banner/PromoPP210.webp 
 true  
 true  
@@ -51,7 +51,7 @@ NA
 NA
 NA
 NA
-₹ 599  
+₹ 499  
 images/banner/PromoPP214.webp 
 true  
 true  
