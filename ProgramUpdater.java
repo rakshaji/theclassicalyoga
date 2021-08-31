@@ -23,6 +23,7 @@ class ProgramUpdater {
     public static String VIEW_ALL_UPCOMING_PROGS_HINDI;
     public static String SHOW_YOUR_INTEREST_HINDI;
     public static String PARTICIPANT_HINDI;
+    public static String SELECT_PROGRAM_HINDI;
     // english and hindi progs
     public static ArrayList<Program> progArrEng = new ArrayList<Program>();
     public static ArrayList<Program> progArrHindi = new ArrayList<Program>();
@@ -68,6 +69,7 @@ class ProgramUpdater {
         VIEW_ALL_UPCOMING_PROGS_HINDI = bufferedReader.readLine();
         SHOW_YOUR_INTEREST_HINDI = bufferedReader.readLine();
         PARTICIPANT_HINDI = bufferedReader.readLine();
+        SELECT_PROGRAM_HINDI = bufferedReader.readLine();
 
         String line = null;
         // read program info hindi
@@ -76,7 +78,8 @@ class ProgramUpdater {
             Program prog = new ProgramUpdater().new Program(
                 bufferedReader.readLine().trim(), // program code
                 bufferedReader.readLine().trim(), // program name
-                bufferedReader.readLine().trim(), // tag line 
+                bufferedReader.readLine().trim(), // tag line 1
+                bufferedReader.readLine().trim(), // tag line 2 
                 bufferedReader.readLine().trim(), // language 
                 bufferedReader.readLine().trim(), // date
                 bufferedReader.readLine().trim(), // time
@@ -110,7 +113,8 @@ class ProgramUpdater {
             Program prog = new ProgramUpdater().new Program(
                 bufferedReader.readLine().trim(), // program code
                 bufferedReader.readLine().trim(), // program name
-                bufferedReader.readLine().trim(), // tag line 
+                bufferedReader.readLine().trim(), // tag line 1
+                bufferedReader.readLine().trim(), // tag line 2
                 bufferedReader.readLine().trim(), // language 
                 bufferedReader.readLine().trim(), // date
                 bufferedReader.readLine().trim(), // time
@@ -142,7 +146,12 @@ class ProgramUpdater {
         programSelectTag.html("");
 
         // add new options
-        String optionsHtml = "<option value=''>- Select Program -</option>";
+        String optionsHtml;
+        if(language.equals("Hindi")) {
+            optionsHtml = "<option value=''> " + SELECT_PROGRAM_HINDI + "</option>";
+        } else {
+            optionsHtml = "<option value=''>- Select Program -</option>";
+        }
         for(int i = 0; i < progArr.size(); i++){
             Program program = progArr.get(i);
             if (program.showRegisterNowBtn) {
@@ -217,7 +226,7 @@ class ProgramUpdater {
         testimonyDiv.html("");
         
         // add program banners and testimonies
-        for (int i = 0; i < progArr.size(); i++) {
+        for (int i = progArr.size()-1; i >= 0; i--) {
             sliderDiv.append(getContentForBanners(progArr.get(i), language));
         }
 
@@ -294,7 +303,14 @@ class ProgramUpdater {
         content += "<span class='flaticon-meditation'></span>";
         content += "</div>";
         content += "<div class='text text-left pl-4'>";
-        content += "<h3> <b>" + program.programName + "</b> - " + program.tagLine + " <b> (" + program.language + ")</b> </h3>";
+        content += "<h3> <b>" + program.programName + "</b>" ;
+        if(!(program.tagLine1).equalsIgnoreCase("NA")) {
+            content += " - " + program.tagLine1;
+        } 
+        if(!(program.tagLine2).equalsIgnoreCase("NA")) {
+            content += " * " + program.tagLine2 + " * ";
+        } 
+        content +=  " <b> (" + program.language + ")</b> </h3>";
         content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </p>";
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
@@ -312,13 +328,13 @@ class ProgramUpdater {
         content += "<div class='container-fluid px-md-5'>";
         content += "<div class='row'>";
          
-        if(program.eflyerImg1 != null && !"".equals(program.eflyerImg1)) {
+        if(program.eflyerImg1 != null && !"NA".equals(program.eflyerImg1)) {
             content += "<div class='col-md-3 ftco-animate'>";
             content += "<a href='" + program.eflyerImg1 ;
             content += "' class='gallery image-popup img d-flex align-items-center' style='background-image: url(" + program.eflyerImg1 + ");'></a>";
             content += "</div>";
         }
-        if(program.eflyerImg2 != null && !"".equals(program.eflyerImg2)) {
+        if(program.eflyerImg2 != null && !"NA".equals(program.eflyerImg2)) {
             content += "<div class='col-md-3 ftco-animate'>";
             content += "<a href='" + program.eflyerImg2 ;
             content += "' class='gallery image-popup img d-flex align-items-center' style='background-image: url(" + program.eflyerImg2 + ");'></a>";
@@ -360,14 +376,20 @@ class ProgramUpdater {
     }
 
     private static String getContentForBanners(Program program, String language){
-        System.out.println(program.toString());
+        System.out.println("***\n" + program.toString());
         String content = 
         "<div class='slider-item js-fullheight' style='background-image:url(" + program.bannerImagePath + ");'>";
       	content += "<div class='overlay'></div>";
         content += "<div class='container'>";
         content += "<div class='row no-gutters slider-text js-fullheight align-items-center justify-content-center' data-scrollax-parent='true'>";
         content += "<div class='col-md-10 text ftco-animate'>";
-        content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.programName + " - " + program.tagLine + "</h1>";
+        content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.programName ;
+        if(!(program.tagLine1).equalsIgnoreCase("NA")) {
+            content += " - " + program.tagLine1 + "</h1>";
+        } 
+        if(!"NA".equals(program.tagLine2)) {
+            content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.tagLine2 + "</h1>";
+        }
         if(program.showRegisterNowBtn) {
             content += "<h3 class='subheading'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </h3> <p></p>";
             
@@ -379,16 +401,6 @@ class ProgramUpdater {
                 content += "style='background-color: #ffb5b5; opacity: 90%;'>Register Now</a> ";
             }           
         }         
-        
-        if(program.showUpcomingProgsBtn) {
-            if(language.equals("Hindi")){
-                content += "<a href='classes_hi.html#up' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
-                content += "style='background-color: #ffb5b5; opacity: 90%;'>" + VIEW_ALL_UPCOMING_PROGS_HINDI + "</a> ";
-            } else {
-                content += "<a href='classes.html#up' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
-                content += "style='background-color: #ffb5b5; opacity: 90%;'>View All Upcoming Classes</a> ";
-            }
-        }
             
         if(program.showInterestBtn) {
             if(language.equals("Hindi")){
@@ -399,6 +411,17 @@ class ProgramUpdater {
                 content += "style='background-color: #ffb5b5; opacity: 90%;'>Show Your Interest</a>";
             }
         }
+
+        if(program.showUpcomingProgsBtn) {
+            if(language.equals("Hindi")){
+                content += " <a href='classes_hi.html#up' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
+                content += "style='background-color: #ffb5b5; opacity: 90%;'>" + VIEW_ALL_UPCOMING_PROGS_HINDI + "</a> ";
+            } else {
+                content += " <a href='classes.html#up' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
+                content += "style='background-color: #ffb5b5; opacity: 90%;'>View All Upcoming Classes</a> ";
+            }
+        }
+
         content += "</div>";
         content += "</div>";
         content += "</div>";
@@ -458,7 +481,8 @@ class ProgramUpdater {
     class Program {
         String id;
         String programName;
-        String tagLine;
+        String tagLine1;
+        String tagLine2;
         String language;
         String date;
         String time;
@@ -475,7 +499,8 @@ class ProgramUpdater {
 
         Program (String id,
             String programName,
-            String tagLine,
+            String tagLine1,
+            String tagLine2,
             String language,
             String date,
             String time,
@@ -490,7 +515,8 @@ class ProgramUpdater {
             boolean showRegisterNowBtn) {
             this.id = id;
             this.programName = convertToUTF8(programName);
-            this.tagLine = tagLine;
+            this.tagLine1 = tagLine1;
+            this.tagLine2 = tagLine2;
             this.language = language;
             this.date = date;
             this.time = time;
@@ -517,7 +543,8 @@ class ProgramUpdater {
         public String toString(){
             return this.id + "\n" +
             this.programName + "\n" +
-            this.tagLine + "\n" +
+            this.tagLine1 + "\n" +
+            this.tagLine2 + "\n" +
             this.language + "\n" +
             this.date + "\n" +
             this.time + "\n" +

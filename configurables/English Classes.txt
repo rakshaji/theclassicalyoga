@@ -1,64 +1,170 @@
 ====
-4DANGA_16Aug19Jul_600900
-Angamardana 
-The Ultimate Fitness Session
-English   
-16 Aug 2021 to 19 Aug 2021  
-6:00AM to 9:00AM 
+4DUY_25Oct29Oct_700800_630730
+Upa Yoga (5 Day)
+Lubricate The Joints
+NA
+Hindi   
+25 Oct 2021 - 29 Oct 2021
+7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM
 Age - 8+ years  
-images/flyer/Angamardana26May2021/Angamardana1.webp 
-images/flyer/Angamardana26May2021/Angamardana2.webp 
 NA
-₹ 3500  
-images/banner/bg_1.webp 
-true  
-true  
-true  
-====                
-1DBS_14Aug_17001830 
-Bhuta Shuddhi 
-Purifying five elements 
-Hindi 
-14 Aug 2021 
-5:00PM to 6:30PM 
-Age - 14+ years 
-images/flyer/BhutaShuddhi/BhutaShuddhi1.webp
-images/flyer/BhutaShuddhi/BhutaShuddhi2.webp 
 NA
-₹ 3500
-images/banner/BhutaShuddhi1.webp 
+NA
+₹ 799  
+images/banner/PromoPP211.webp 
 true  
 true  
 true
 ====
-1DSS_14Aug_600800  
-Surya Shakti  
-For those who have completed Surya Kriya   
+4DUY_25Oct28Oct_700800_630730
+Upa Yoga (4 Day)
+Lubricate The Joints 
+NA
+Hindi   
+25 Oct 2021 - 28 Oct 2021
+7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM
+Age - 8+ years  
+NA
+NA
+NA
+₹ 699  
+images/banner/PromoPP210.webp 
+true  
+true  
+true
+====
+3DUY_25Oct27Oct_700800_630730
+Upa Yoga (3 Day)
+Lubricate The Joints 
+NA
+Hindi   
+25 Oct 2021 - 27 Oct 2021
+7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM
+Age - 8+ years  
+NA
+NA
+NA
+₹ 599  
+images/banner/PromoPP214.webp 
+true  
+true  
+true
+====
+4DANGA_18Oct22Oct_600900
+Angamardana 
+The Ultimate Fitness Session
+NA
 English   
-14 Aug 2021
-6:00AM to 8:00AM
+18 Oct 2021 - 22 Oct 2021
+6:00 AM - 8:15 AM & 6:15 PM - 8:30 PM
+Age - 8+ years  
+NA
+NA
+NA
+₹ 3500  
+images/banner/PromoPP200.webp 
+true  
+true  
+true
+====
+5DY_11Oct16Oct_600815  
+Yogasanas  
+Align With The Divine
+NA
+English   
+11 Oct - 14 Oct & 16 Oct 2021
+6:00 AM - 8:15 AM & 6:15 PM - 8:30 PM
 Age - 14+ years  
-images/flyer/4DaySuryaShakti/SuryaShakti1.webp
-images/flyer/4DaySuryaShakti/SuryaShakti2.webp
+NA
+NA
+NA
+₹ 3500  
+images/banner/PromoPP221.webp  
+true  
+true  
+true
+====      
+1DBS_14Aug_17001830 
+Bhuta Shuddhi 
+Purifying five elements
+NA 
+Hindi 
+8 Oct 2021 
+7:00 AM - 8:00 AM & 7:00 PM - 8:00 PM
+Age - 14+ years 
+NA
+NA 
+NA
+₹ 3500
+images/banner/BhutaShuddhi2.webp 
+true  
+true  
+true
+====
+1DSK_14Aug_600800  
+Surya Kriya (For those who have completed Surya Shakti)  
+NA
+NA
+English   
+7 Oct 2021
+6:00 AM - 8:00 AM & 6:30 PM - 8:30 PM
+Age - 14+ years  
+NA
+NA
 NA
 ₹ 1000  
-images/banner/SuryaShakti.webp  
+images/banner/SK.webp 
+true  
+true  
+true 
+====
+3DSK_4Oct6Oct_600800
+Surya Shakti 
+For Fitness and Strength Building
+NA
+English   
+4 Oct 2021 - 6 Oct 2021  
+8:00 AM - 9:30 AM & 5:00 PM - 6:30 PM
+Age - 14+ years  
+NA
+NA
+NA
+₹ 2500  
+images/banner/PromoPP208.webp  
+true  
+true  
+true   
+====
+1MSUB_1Oct31Oct_830930_500600
+TAPAS 
+Break your Karmic Cycles
+* Monthly Subscription * 
+English   
+1 Oct - 31 Oct
+8:30 am - 9:30 am & 5:00 pm - 6:00 pm [Exceptions 4, 5, 6 Oct timings 8:00 am - 9:30 am & 5:00 pm - 6:30 pm]
+Age - 14+ years  
+NA
+NA
+NA
+₹ 3999  
+images/banner/PromoPP226.webp 
 true  
 true  
 true  
 ====
-4DSK_9Aug12Aug_600830  
+4DSK_6Sep9Sep_600800  
 Surya Kriya  
-Fire Up The Sun Within   
-Hindi   
-9 Aug 2021 to 12 Aug 2021  
-6:00AM to 8:30AM  
+Fire Up The Sun Within 
+NA
+English   
+6 Sep 2021 - 9 Sep 2021
+6:00 AM - 8:00 AM
 Age - 14+ years  
-images/flyer/SuryaKriya/SuryaKriya1.webp  
-images/flyer/SuryaKriya/SuryaKriya2.webp  
+NA
+NA
 NA
 ₹ 2500  
-images/banner/SK.webp 
+images/banner/PromoPP237.webp 
 true  
 true  
-false   
+true 
