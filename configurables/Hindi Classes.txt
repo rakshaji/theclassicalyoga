@@ -14,10 +14,10 @@ NA
 25 अक्टूबर 2021 - 29 अक्टूबर 2021
 सुबह 7:00 - 8:00 या शाम 6:30  - 7:30
 आयु - 8+ वर्ष
+images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
-NA
-₹ 699  
+₹ 700  
 images/banner/PromoPP211.webp 
 true  
 true  
@@ -31,10 +31,10 @@ NA
 25 अक्टूबर 2021 - 28 अक्टूबर 2021
 सुबह 7:00 - 8:00 या शाम 6:30 - 7:30
 आयु - 8+ वर्ष 
+images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
-NA
-₹ 599  
+₹ 600  
 images/banner/PromoPP210.webp 
 true  
 true  
@@ -48,10 +48,10 @@ NA
 25 अक्टूबर 2021 - 27 अक्टूबर 2021
 सुबह 7:00 - 8:00 या शाम 6:30 - 7:30
 आयु - 8+ वर्ष
+images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
-NA
-₹ 499  
+₹ 500  
 images/banner/PromoPP214.webp 
 true  
 true  
@@ -65,7 +65,7 @@ NA
 18 अक्टूबर 2021 - 22 अक्टूबर 2021
 सुबह 6:00 - 8:15 या शाम 6:15 - 8:30
 आयु - 8+ वर्ष
-NA
+images/flyer/StudioLaunch/angamardana.webp
 NA
 NA
 ₹ 3500  
@@ -82,7 +82,7 @@ NA
 11 अक्टूबर - 14 अक्टूबर और 16 अक्टूबर 2021
 सुबह 6:00 - 8:15 या शाम 6:15 - 8:30
 आयु - 14+ वर्ष
-NA
+images/flyer/StudioLaunch/yogasanas.webp
 NA
 NA
 ₹ 3500  
@@ -99,7 +99,7 @@ NA
 8 अक्टूबर 2021
 सुबह 7:00 - 8:00 या शाम 7:00 - 8:00
 आयु - 14+ वर्ष 
-NA
+images/flyer/StudioLaunch/bhutashuddhi.webp
 NA 
 NA
 ₹ 3500
@@ -116,7 +116,7 @@ NA
 7 अक्टूबर 2021
 सुबह 6:00 - 8:00 या शाम 6:30 - 8:30
 आयु - 14+ वर्ष  
-NA
+images/flyer/StudioLaunch/suryakriya_and_suryashakti.webp
 NA
 NA
 ₹ 1000  
@@ -133,17 +133,17 @@ NA
 4 अक्टूबर 2021 से 6 अक्टूबर 2021
 सुबह 8:00 - 9:30 या शाम 5:00 - 6:30
 आयु - 14+ वर्ष
+images/flyer/StudioLaunch/suryakriya_and_suryashakti.webp
 NA
 NA
-NA
-₹ 2500  
+₹ 2000  
 images/banner/PromoPP208.webp  
 true  
 true  
 true   
 ====
 1MSUB_1Oct31Oct_830930_500600
-तपस
+दैनिक निर्देशित योग
 अपने कर्म चक्र को तोड़ें 
 * मासिक सदस्यता *
 अंग्रेज़ी
@@ -165,7 +165,7 @@ true
 NA
 अंग्रेज़ी
 6 सितंबर 2021 - 9 सितंबर 2021
-सुबह 6:00 - 8:00
+सुबह 6:30 - 8:30
 आयु - 14+ वर्ष
 NA
 NA

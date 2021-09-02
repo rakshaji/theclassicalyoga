@@ -7,10 +7,10 @@ Hindi
 25 Oct 2021 - 29 Oct 2021
 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM
 Age - 8+ years  
+images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
-NA
-₹ 699  
+₹ 700  
 images/banner/PromoPP211.webp 
 true  
 true  
@@ -24,10 +24,10 @@ Hindi
 25 Oct 2021 - 28 Oct 2021
 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM
 Age - 8+ years  
+images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
-NA
-₹ 599  
+₹ 600  
 images/banner/PromoPP210.webp 
 true  
 true  
@@ -41,10 +41,10 @@ Hindi
 25 Oct 2021 - 27 Oct 2021
 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM
 Age - 8+ years  
+images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
-NA
-₹ 499  
+₹ 500  
 images/banner/PromoPP214.webp 
 true  
 true  
@@ -58,7 +58,7 @@ English
 18 Oct 2021 - 22 Oct 2021
 6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM
 Age - 8+ years  
-NA
+images/flyer/StudioLaunch/angamardana.webp
 NA
 NA
 ₹ 3500  
@@ -72,10 +72,10 @@ Yogasanas
 Align With The Divine
 NA
 English   
-11 Oct - 14 Oct or 16 Oct 2021
+11 Oct - 14 Oct & 16 Oct 2021
 6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM
 Age - 14+ years  
-NA
+images/flyer/StudioLaunch/yogasanas.webp
 NA
 NA
 ₹ 3500  
@@ -92,7 +92,7 @@ Hindi
 8 Oct 2021 
 7:00 AM - 8:00 AM or 7:00 PM - 8:00 PM
 Age - 14+ years 
-NA
+images/flyer/StudioLaunch/bhutashuddhi.webp
 NA 
 NA
 ₹ 3500
@@ -109,7 +109,7 @@ English
 7 Oct 2021
 6:00 AM - 8:00 AM or 6:30 PM - 8:30 PM
 Age - 14+ years  
-NA
+images/flyer/StudioLaunch/suryakriya_and_suryashakti.webp
 NA
 NA
 ₹ 1000  
@@ -126,17 +126,17 @@ English
 4 Oct 2021 - 6 Oct 2021  
 8:00 AM - 9:30 AM or 5:00 PM - 6:30 PM
 Age - 14+ years  
+images/flyer/StudioLaunch/suryakriya_and_suryashakti.webp
 NA
 NA
-NA
-₹ 2500  
+₹ 2000  
 images/banner/PromoPP208.webp  
 true  
 true  
 true   
 ====
 1MSUB_1Oct31Oct_830930_500600
-TAPAS 
+Daily Guided Yoga 
 Break your Karmic Cycles
 * Monthly Subscription * 
 English   
@@ -152,13 +152,13 @@ true
 true  
 true  
 ====
-4DSK_6Sep9Sep_600800  
+4DSK_6Sep9Sep_630830  
 Surya Kriya  
 Fire Up The Sun Within 
 NA
 English   
 6 Sep 2021 - 9 Sep 2021
-6:00 AM - 8:00 AM
+6:30 AM - 8:30 AM
 Age - 14+ years  
 NA
 NA

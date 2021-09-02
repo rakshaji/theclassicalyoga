@@ -1,6 +1,95 @@
+var progTimingsMap = new Object(); // or var map = {};
+
 $(window).load(function () {
   $("#loader").fadeOut(1000);
+  // get all the timings in and id-timings map
+  
+  $("#program option").each(function()
+  {
+    console.log($(this).text());
+
+    var optionText = $(this).text();
+    var key = $(this).val();
+    if(key == "") {
+      return;
+    }
+
+    // get all program details in an array
+    const progDetailArr = optionText.split(" | ");
+    let id = progDetailArr[0];
+    let date = progDetailArr[1];
+    let timeWithExceptions = progDetailArr[2];
+    let amount = progDetailArr[3];
+
+    // get timings removing the exceptions part
+    var timeArr = clearExceptions(timeWithExceptions);
+    
+    // replace program details by removing timings
+    $(this).text(id + " | " + date + " | " + amount);
+    
+    // check if we have store time already
+    if(get(key) == null) {
+      progTimingsMap[key] = timeArr;
+    } 
+
+    console.log(get(key));
+    console.log($(this).text());
+  });
+  
+  $('#program').on('change', function() {
+    // remove all options except first one
+    $("#time option").each(function() {
+      if($(this).val() != "") {
+        $(this).remove();
+      }
+    });
+
+    // return if first option selected
+    let key = this.value;
+    console.log( key );
+    if(key == "") {
+      return;
+    }
+
+    // add timings to the drop down
+    let matchedTimeArr = get(key);
+    console.log( matchedTimeArr );
+    if(matchedTimeArr != null && matchedTimeArr.length > 0) { 
+      for (let i = 0; i < matchedTimeArr.length; i++) {
+        let time = matchedTimeArr[i];
+        console.log(time);
+        $('#time').append(new Option(time, time));
+      }
+    }
+  });
 });
+
+function clearExceptions(timeWithExceptions){
+    var timeWithoutExceptions;
+    var timeArr = [];
+    if(timeWithExceptions.includes("[")) {
+      // remove exceptions part
+      timeWithoutExceptions = timeWithExceptions.split("[")[0];
+    } else {
+      timeWithoutExceptions = timeWithExceptions;
+    }
+
+    console.log(timeWithoutExceptions);
+    // get all the timings in an array
+    if(timeWithoutExceptions.includes(" या ")) {
+      timeArr = timeWithoutExceptions.split(" या ");
+    } else if(timeWithoutExceptions.includes(" or ")) {
+      timeArr = timeWithoutExceptions.split(" or ");
+    } else {
+      timeArr[0] = timeWithoutExceptions;
+    }
+    console.log(timeArr);
+    return timeArr;
+}
+
+function get(k) {
+  return progTimingsMap[k];
+}
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
@@ -131,8 +220,8 @@ function submitForm(e) {
 function processPayment() {
   console.log("Processing payment");
   var progVal = $('select[name="program"]').val();
-  var progArr = progVal.split("_");
-  var amount = progArr[progArr.length - 1];
+  var progDetailArr = progVal.split("_");
+  var amount = progDetailArr[progDetailArr.length - 1];
   console.log("amount = " + amount);
   console.log($('input[name="firstName"]').val() + " "
     + $('input[name="lastName"]').val() +

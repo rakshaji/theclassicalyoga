@@ -157,7 +157,7 @@ class ProgramUpdater {
             if (program.showRegisterNowBtn) {
                 optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
                     + program.programName + " | " + program.date + " | " + program.time 
-                    + " - " + program.fee + "</option>";
+                    + " | " + program.fee + "</option>";
             }
         }
         programSelectTag.html(optionsHtml);

@@ -44,7 +44,7 @@
         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li> 
         <li class="nav-item"><a href="trainer.html" class="nav-link">Trainers</a></li> 
         <li class="nav-item"><a href="offerings.html" class="nav-link">Offerings</a></li> 
-        <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li> 
+        <li class="nav-item"><a href="classes.html" class="nav-link">Programs <sup style="background-color:rgb(251, 255, 0);color:black;font-weight:bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"> New </sup></a></li> 
         <li class="nav-item"><a href="blog.html" class="nav-link">Articles</a></li> 
         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> 
        </ul> 
@@ -153,7 +153,7 @@
         </div> 
        </div> 
       </div> 
-      <div class="col-md-6"> 
+      <div class="col-md-4"> 
        <div class="form-outline"> 
         <input type="text" class="form-control" name="qualification" required> <label for="qualification" class="form-label">Educational Qualification</label> 
         <div class="invalid-feedback">
@@ -161,7 +161,7 @@
         </div> 
        </div> 
       </div> 
-      <div class="col-md-6"> 
+      <div class="col-md-4"> 
        <div class="form-outline"> 
         <input type="text" class="form-control" name="occupation" required> <label for="occupation" class="form-label">Occupation</label> 
         <div class="invalid-feedback">
@@ -169,7 +169,7 @@
         </div> 
        </div> 
       </div> 
-      <div class="col-md-3"> 
+      <div class="col-md-4"> 
        <div class="form-outline"> <!-- <label for="gender" class="form-label">Gender</label> --> <select name="gender" class="btn-primary btn-lg" style="width:100%;margin-bottom: 1rem;background-color: white;color: black;border-color: #c1b6b6;" required> <option value="">- Select Gender-</option> <option>Male</option> <option>Female</option> <option>Prefer not to say</option> <option>Other</option> </select> 
         <div class="invalid-feedback">
           Please select a gender. 
@@ -184,9 +184,16 @@
        </div> 
       </div> 
       <div class="col-md-5"> 
-       <div class="form-outline"> <!-- <label for="program" class="form-label">Program</label> --> <select name="program" id="program" class="btn-primary btn-lg" style="width:100%;margin-bottom: 1rem;background-color: white;color: black;border-color: #c1b6b6" required><option value="">- Select Program -</option><option value="4DSK_6Sep9Sep_600800_2500">Surya Kriya | 6 Sep 2021 - 9 Sep 2021 | 6:00 AM - 8:00 AM - ₹ 2500</option><option value="1MSUB_1Oct31Oct_830930_500600_3999">TAPAS | 1 Oct - 31 Oct | 8:30 AM - 9:30 AM or 5:00 PM - 6:00 PM [Exceptions 4, 5, 6 Oct timings 8:00 AM - 9:30 AM or 5:00 PM - 6:30 pm] - ₹ 3999</option><option value="3DSK_4Oct6Oct_600800_2500">Surya Shakti | 4 Oct 2021 - 6 Oct 2021 | 8:00 AM - 9:30 AM or 5:00 PM - 6:30 PM - ₹ 2500</option><option value="1DSK_14Aug_600800_1000">Surya Kriya (For those who have completed Surya Shakti) | 7 Oct 2021 | 6:00 AM - 8:00 AM or 6:30 PM - 8:30 PM - ₹ 1000</option><option value="1DBS_14Aug_17001830_3500">Bhuta Shuddhi | 8 Oct 2021 | 7:00 AM - 8:00 AM or 7:00 PM - 8:00 PM - ₹ 3500</option><option value="5DY_11Oct16Oct_600815_3500">Yogasanas | 11 Oct - 14 Oct or 16 Oct 2021 | 6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM - ₹ 3500</option><option value="4DANGA_18Oct22Oct_600900_3500">Angamardana | 18 Oct 2021 - 22 Oct 2021 | 6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM - ₹ 3500</option><option value="3DUY_25Oct27Oct_700800_630730_499">Upa Yoga (3 Day) | 25 Oct 2021 - 27 Oct 2021 | 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM - ₹ 499</option><option value="4DUY_25Oct28Oct_700800_630730_599">Upa Yoga (4 Day) | 25 Oct 2021 - 28 Oct 2021 | 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM - ₹ 599</option><option value="4DUY_25Oct29Oct_700800_630730_699">Upa Yoga (5 Day) | 25 Oct 2021 - 29 Oct 2021 | 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM - ₹ 699</option></select> 
+       <div class="form-outline"> <!-- <label for="program" class="form-label">Program</label> --> <select name="program" id="program" class="btn-primary btn-lg" style="width:100%;margin-bottom: 1rem;background-color: white;color: black;border-color: #c1b6b6" required><option value="">- Select Program -</option><option value="4DSK_6Sep9Sep_630830_2500">Surya Kriya | 6 Sep 2021 - 9 Sep 2021 | 6:30 AM - 8:30 AM | ₹ 2500</option><option value="1MSUB_1Oct31Oct_830930_500600_3999">Daily Guided Yoga | 1 Oct - 31 Oct | 8:30 AM - 9:30 AM or 5:00 PM - 6:00 PM [Exceptions 4, 5, 6 Oct timings 8:00 AM - 9:30 AM or 5:00 PM - 6:30 pm] | ₹ 3999</option><option value="3DSK_4Oct6Oct_600800_2000">Surya Shakti | 4 Oct 2021 - 6 Oct 2021 | 8:00 AM - 9:30 AM or 5:00 PM - 6:30 PM | ₹ 2000</option><option value="1DSK_14Aug_600800_1000">Surya Kriya (For those who have completed Surya Shakti) | 7 Oct 2021 | 6:00 AM - 8:00 AM or 6:30 PM - 8:30 PM | ₹ 1000</option><option value="1DBS_14Aug_17001830_3500">Bhuta Shuddhi | 8 Oct 2021 | 7:00 AM - 8:00 AM or 7:00 PM - 8:00 PM | ₹ 3500</option><option value="5DY_11Oct16Oct_600815_3500">Yogasanas | 11 Oct - 14 Oct &amp; 16 Oct 2021 | 6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM | ₹ 3500</option><option value="4DANGA_18Oct22Oct_600900_3500">Angamardana | 18 Oct 2021 - 22 Oct 2021 | 6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM | ₹ 3500</option><option value="3DUY_25Oct27Oct_700800_630730_500">Upa Yoga (3 Day) | 25 Oct 2021 - 27 Oct 2021 | 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM | ₹ 500</option><option value="4DUY_25Oct28Oct_700800_630730_600">Upa Yoga (4 Day) | 25 Oct 2021 - 28 Oct 2021 | 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM | ₹ 600</option><option value="4DUY_25Oct29Oct_700800_630730_700">Upa Yoga (5 Day) | 25 Oct 2021 - 29 Oct 2021 | 7:00 AM - 8:00 AM or 6:30 PM - 7:30 PM | ₹ 700</option></select> 
         <div class="invalid-feedback">
           Please select a program. 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-md-3"> 
+       <div class="form-outline"> <!-- <label for="program" class="form-label">Program</label> --> <select name="time" id="time" class="btn-primary btn-lg" style="width:100%;margin-bottom: 1rem;background-color: white;color: black;border-color: #c1b6b6" required><option value="">- Select Time -</option></select> 
+        <div class="invalid-feedback">
+          Please select a time. 
         </div> 
        </div> 
       </div> 
@@ -423,7 +430,7 @@
        <div class="modal-header"> 
         <h5 class="modal-title" id="staticBackdropLabel">Confirmation</h5> <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button> 
        </div> 
-       <div class="modal-body"> <b>Note:</b> 
+       <div class="modal-body"> <b>Important Note:</b> 
         <p></p> Please make the cash payment within 24 hours to secure your spot. Otherwise, your registration will get cancelled automatically. 
         <p></p> If you have any questions, you can contact us at 81096-96955. 
         <p></p> We hope to see you at the program. 
