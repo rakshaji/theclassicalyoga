@@ -1,0 +1,9 @@
+Surya Kriya + Surya Shakti,सूर्य क्रिया + सूर्य शक्ति,./offerings/surya_kriya_hi.html
+Surya Shakti + Surya Kriya,सूर्य शक्ति + सूर्य क्रिया,./offerings/surya_shakti_hi.html
+Surya Kriya,सूर्य क्रिया,./offerings/surya_kriya_hi.html
+Surya Shakti,सूर्य शक्ति,./offerings/surya_shakti_hi.html
+Bhuta Shuddhi,भूत शुद्धि,./offerings/bhuta_shudhi_hi.html
+Yogasanas,योगासन,./offerings/yogasanas_hi.html
+Angamardana,अंगमर्दना,./offerings/angamardana_hi.html
+Upa Yoga,उप योग,./offerings/upa_yoga_hi.html
+Daily Guided Yoga,दैनिक निर्देशित योग,./offerings/daily_guided_yoga_hi.html

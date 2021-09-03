@@ -24,6 +24,7 @@ class ProgramUpdater {
     public static String SHOW_YOUR_INTEREST_HINDI;
     public static String PARTICIPANT_HINDI;
     public static String SELECT_PROGRAM_HINDI;
+    public static String LEARN_MORE_HINDI;
     // english and hindi progs
     public static ArrayList<Program> progArrEng = new ArrayList<Program>();
     public static ArrayList<Program> progArrHindi = new ArrayList<Program>();
@@ -39,8 +40,13 @@ class ProgramUpdater {
     public static String HINDI_PROGS_CONFIG_FILE = "./configurables/Hindi Classes.txt";
     public static String ENGLISH_PROGS_CONFIG_FILE = "./configurables/English Classes.txt";
     public static String TESTIMONIES_CONFIG_FILE = "./configurables/Testimonies.txt";
+    public static String ALL_PROG_NAMES_TXT = "./configurables/AllProgNames.txt";
+    public static Map<String, String> programPageMapEng = new HashMap<String, String>();;
+    public static Map<String, String> programPageMapHindi = new HashMap<String, String>();;
     
     public static void main(String[] args) throws IOException {
+        
+        initProgramPageMap();
         initHindiProgs();  
         initEnglishProgs();  
 
@@ -53,6 +59,28 @@ class ProgramUpdater {
         updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
         updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
         updateHomePage(progArrHindi, HOME_PAGE_HINDI);
+    }
+
+    private static void initProgramPageMap() throws IOException { 
+        final StringBuilder stringBuilder = new StringBuilder();
+        InputStream inStream = new FileInputStream(ALL_PROG_NAMES_TXT);
+        final InputStreamReader streamReader = new InputStreamReader(inStream, "UTF-8");
+        final BufferedReader bufferedReader = new BufferedReader(streamReader);
+        
+        String line = null;
+        while ((line = bufferedReader.readLine()) != null) {
+            String[] splitArr = line.split(",");
+            programPageMapHindi.put(splitArr[1], splitArr[2]);  
+            programPageMapEng.put(splitArr[0], splitArr[2].replace("_hi", ""));   
+
+            // System.out.println(line);
+            // System.out.println(splitArr[0]);
+            // System.out.println(splitArr[1]);
+            // System.out.println(splitArr[2]);
+        }    
+
+        System.out.println(programPageMapEng);
+        System.out.println(programPageMapHindi);
     }
 
     private static void initHindiProgs() throws IOException {
@@ -70,6 +98,7 @@ class ProgramUpdater {
         SHOW_YOUR_INTEREST_HINDI = bufferedReader.readLine();
         PARTICIPANT_HINDI = bufferedReader.readLine();
         SELECT_PROGRAM_HINDI = bufferedReader.readLine();
+        LEARN_MORE_HINDI = bufferedReader.readLine();
 
         String line = null;
         // read program info hindi
@@ -99,15 +128,15 @@ class ProgramUpdater {
     }
 
     private static void initEnglishProgs() throws IOException {
-        // load hindi programs
+        // load english programs
         final StringBuilder stringBuilder = new StringBuilder();
         InputStream inStream = new FileInputStream(ENGLISH_PROGS_CONFIG_FILE);
         final InputStreamReader streamReader = new InputStreamReader(inStream, "UTF-8");
         final BufferedReader bufferedReader = new BufferedReader(streamReader);
     
-        // read program info hindi
+        // read program info english
         String line = null;
-        // read program info hindi
+        // read program info english
         //System.out.println("line - " + line);
         while ((line = bufferedReader.readLine()) != null) {
             Program prog = new ProgramUpdater().new Program(
@@ -295,6 +324,31 @@ class ProgramUpdater {
         return content;
     }
 
+    private static String getMatchingProgramFile(String programNameOriginal, String language) {
+        
+        if(language.equalsIgnoreCase("Hindi")){
+            for (Map.Entry<String, String> set : programPageMapHindi.entrySet()) {
+                String programName = set.getKey();
+                String programPage = set.getValue();
+                System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
+                if(programNameOriginal.startsWith(programName)){
+                    return programPage;
+                }
+            }
+        } else {
+            for (Map.Entry<String, String> set : programPageMapEng.entrySet()) {
+                String programName = set.getKey();
+                String programPage = set.getValue();
+                System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
+                if(programNameOriginal.startsWith(programName)){
+                    return programPage;
+                }
+            }
+        }
+        
+        return "";
+    }
+
     private static String getContentForUpcomingPrograms(Program program, String language){ 
         String content = "<div class='row' id='" + program.id + "'>";
         content += "<div class='col-md-12'>";
@@ -303,6 +357,7 @@ class ProgramUpdater {
         content += "<span class='flaticon-meditation'></span>";
         content += "</div>";
         content += "<div class='text text-left pl-4'>";
+        content += "<a href='" + getMatchingProgramFile(program.programName, language) + "'>" ;
         content += "<h3> <b>" + program.programName + "</b>" ;
         if(!(program.tagLine1).equalsIgnoreCase("NA")) {
             content += " - " + program.tagLine1;
@@ -310,13 +365,15 @@ class ProgramUpdater {
         if(!(program.tagLine2).equalsIgnoreCase("NA")) {
             content += " * " + program.tagLine2 + " * ";
         } 
-        content +=  " <b> (" + program.language + ")</b> </h3>";
+        content +=  " <b> (" + program.language + ")</b> </h3></a>";
         content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </p>";
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
-                content += "<a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                content += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             } else {
-                content += "<a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + "Learn More" + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                content += "  <a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             }
         } else {
             if(language.equals("Hindi")){
