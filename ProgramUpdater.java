@@ -29,6 +29,7 @@ class ProgramUpdater {
     public static ArrayList<Program> progArrEng = new ArrayList<Program>();
     public static ArrayList<Program> progArrHindi = new ArrayList<Program>();
     // file constants - english pages
+    public static String UP_PROG_SPLIT_DELIMITER = ",,,,";
     public static String CLASSES_PAGE_ENGLISH = "./classes.html";
     public static String REGISTRATION_PAGE_ENGLISH = "./registration_page.html";
     public static String HOME_PAGE_ENGLISH = "./index.html";
@@ -47,8 +48,9 @@ class ProgramUpdater {
     public static void main(String[] args) throws IOException {
         
         initProgramPageMap();
-        initHindiProgs();  
-        initEnglishProgs();  
+        // initHindiProgs();  
+        // initEnglishProgs();  
+        initPrograms();
 
         // english pages
         updateClassesPage(progArrEng, CLASSES_PAGE_ENGLISH);
@@ -83,7 +85,7 @@ class ProgramUpdater {
         System.out.println(programPageMapHindi);
     }
 
-    private static void initHindiProgs() throws IOException {
+    private static void initPrograms() throws IOException {
         // load hindi programs
         final StringBuilder stringBuilder = new StringBuilder();
         InputStream inStream = new FileInputStream(HINDI_PROGS_CONFIG_FILE);
@@ -104,27 +106,69 @@ class ProgramUpdater {
         // read program info hindi
         //System.out.println("line - " + line);
         while ((line = bufferedReader.readLine()) != null) {
+            String programCode = bufferedReader.readLine().trim();//1
+
+            String programName = bufferedReader.readLine().trim(); // 2 program name
+            String[] progNameArr = programName.split(UP_PROG_SPLIT_DELIMITER);
+
+            String tagLine1 = bufferedReader.readLine().trim(); // 3 tag line 1
+            String[] tagLine1Arr = tagLine1.split(UP_PROG_SPLIT_DELIMITER);
+
+            String tagLine2 = bufferedReader.readLine().trim(); // 4 tag line 2 
+            String[] tagLine2Arr = tagLine2.split(UP_PROG_SPLIT_DELIMITER);
+
+            String language = bufferedReader.readLine().trim(); // 5 language 
+            String[] languageArr = language.split(UP_PROG_SPLIT_DELIMITER);
+
+            String date = bufferedReader.readLine().trim(); // 6 date
+            String[] dateArr = date.split(UP_PROG_SPLIT_DELIMITER);
+
+            String time = bufferedReader.readLine().trim(); // 7 time
+            String[] timeArr = time.split(UP_PROG_SPLIT_DELIMITER);
+
+            String ageLimit = bufferedReader.readLine().trim(); // 8 age limit
+            String[] ageLimitArr = ageLimit.split(UP_PROG_SPLIT_DELIMITER);
+
+            String eflyer1 = bufferedReader.readLine().trim(); // 9 1st image
+            String eflyer2 = bufferedReader.readLine().trim(); // 10 2nd image
+            String eflyer3 = bufferedReader.readLine().trim(); // 11 3rd image if any
+            String fee = bufferedReader.readLine().trim(); // 12 fee
+            String bannerImagePath = bufferedReader.readLine().trim(); // 13 bannerImagePath
+            boolean showInterestBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 14 showInterestBtn
+            boolean showUpcomingProgsBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 15 showUpcomingProgsBtn
+            boolean showRegisterNowBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 16 showRegisterNowBtn
+            boolean showLearnMoreBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 17 showLearnMoreBtn
+
+            // hindi prog
             Program prog = new ProgramUpdater().new Program(
-                bufferedReader.readLine().trim(), // program code
-                bufferedReader.readLine().trim(), // program name
-                bufferedReader.readLine().trim(), // tag line 1
-                bufferedReader.readLine().trim(), // tag line 2 
-                bufferedReader.readLine().trim(), // language 
-                bufferedReader.readLine().trim(), // date
-                bufferedReader.readLine().trim(), // time
-                bufferedReader.readLine().trim(), // age limit
-                bufferedReader.readLine().trim(), // 1st image
-                bufferedReader.readLine().trim(), // 2nd image
-                bufferedReader.readLine().trim(), // 3rd image if any
-                bufferedReader.readLine().trim(), // fee
-                bufferedReader.readLine().trim(), // bannerImagePath
-                Boolean.parseBoolean(bufferedReader.readLine().trim()), // showInterestBtn
-                Boolean.parseBoolean(bufferedReader.readLine().trim()), // showUpcomingProgsBtn
-                Boolean.parseBoolean(bufferedReader.readLine().trim()) // showRegisterNowBtn
-                ); 
-            progArrHindi.add(prog);   
+                programCode
+                , progNameArr.length > 0? progNameArr[0]:""
+                , tagLine1Arr.length > 0? tagLine1Arr[0]:""
+                , tagLine2Arr.length > 0? tagLine2Arr[0]:""
+                , languageArr.length > 0? languageArr[0]:""
+                , dateArr.length > 0? dateArr[0]:""
+                , timeArr.length > 0? timeArr[0]:""
+                , ageLimitArr.length > 0? ageLimitArr[0]:""
+                , eflyer1, eflyer2, eflyer3, fee, bannerImagePath
+                , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
+            progArrHindi.add(prog);               
+
+            // english prog
+            prog = new ProgramUpdater().new Program(
+                programCode
+                , progNameArr.length > 1? progNameArr[1]:""
+                , tagLine1Arr.length > 1? tagLine1Arr[1]:""
+                , tagLine2Arr.length > 1? tagLine2Arr[1]:""
+                , languageArr.length > 1? languageArr[1]:""
+                , dateArr.length > 1? dateArr[1]:""
+                , timeArr.length > 1? timeArr[1]:""
+                , ageLimitArr.length > 1? ageLimitArr[1]:""
+                , eflyer1, eflyer2, eflyer3, fee, bannerImagePath
+                , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
+            progArrEng.add(prog);   
         }    
         System.out.println("Hindi size - "+progArrHindi.size());
+        System.out.println("Hindi size - "+progArrEng.size());
     }
 
     private static void initEnglishProgs() throws IOException {
@@ -155,7 +199,8 @@ class ProgramUpdater {
                 bufferedReader.readLine().trim(), // bannerImagePath
                 Boolean.parseBoolean(bufferedReader.readLine().trim()), // showInterestBtn
                 Boolean.parseBoolean(bufferedReader.readLine().trim()), // showUpcomingProgsBtn
-                Boolean.parseBoolean(bufferedReader.readLine().trim()) // showRegisterNowBtn
+                Boolean.parseBoolean(bufferedReader.readLine().trim()), // showRegisterNowBtn
+                Boolean.parseBoolean(bufferedReader.readLine().trim()) // showLearnMoreBtn
                 ); 
             progArrEng.add(prog);   
         }    
@@ -457,7 +502,18 @@ class ProgramUpdater {
                 content += "<a href='registration_page.html' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
                 content += "style='background-color: #ffb5b5; opacity: 90%;'>Register Now</a> ";
             }           
-        }         
+        }    
+
+        
+        if(program.showLearnMoreBtn) {
+             if(language.equals("Hindi")){
+                content += " <a href='" + getMatchingProgramFile(program.programName, language) + "' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
+                content += "style='background-color: #ffb5b5; opacity: 90%;'>" + LEARN_MORE_HINDI + "</a> ";
+            } else {
+                content += " <a href='" + getMatchingProgramFile(program.programName, language) + "' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
+                content += "style='background-color: #ffb5b5; opacity: 90%;'>Learn More</a> ";
+            }           
+        }      
             
         if(program.showInterestBtn) {
             if(language.equals("Hindi")){
@@ -552,7 +608,9 @@ class ProgramUpdater {
         boolean showInterestBtn; 
         boolean showUpcomingProgsBtn;
         boolean showRegisterNowBtn;
+        boolean showLearnMoreBtn;
         String amount;
+        
 
         Program (String id,
             String programName,
@@ -569,7 +627,8 @@ class ProgramUpdater {
             String bannerImagePath,
             boolean showInterestBtn, 
             boolean showUpcomingProgsBtn,
-            boolean showRegisterNowBtn) {
+            boolean showRegisterNowBtn,
+            boolean showLearnMoreBtn) {
             this.id = id;
             this.programName = convertToUTF8(programName);
             this.tagLine1 = tagLine1;
@@ -589,6 +648,7 @@ class ProgramUpdater {
             if(fee != null && !fee.equals("")){
                 this.amount = getAmount(this.fee);
             }
+            this.showLearnMoreBtn = showLearnMoreBtn;
         }
 
         private String convertToUTF8(String rawString){
@@ -614,6 +674,7 @@ class ProgramUpdater {
             this.showInterestBtn + "\n" + 
             this.showUpcomingProgsBtn + "\n" +
             this.showRegisterNowBtn + "\n" +
+            this.showLearnMoreBtn + "\n" +
             this.amount;
         }
     }

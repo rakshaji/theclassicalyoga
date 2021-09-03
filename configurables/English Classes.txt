@@ -12,8 +12,9 @@ NA
 NA
 ₹ 700  
 images/banner/PromoPP211.webp 
+false  
 true  
-true  
+true 
 true
 ====
 4DUY_25Oct28Oct_700800_630730
@@ -29,8 +30,9 @@ NA
 NA
 ₹ 600  
 images/banner/PromoPP210.webp 
+false  
 true  
-true  
+true 
 true
 ====
 3DUY_25Oct27Oct_700800_630730
@@ -46,8 +48,9 @@ NA
 NA
 ₹ 500  
 images/banner/PromoPP214.webp 
+false  
 true  
-true  
+true 
 true
 ====
 4DANGA_18Oct22Oct_600900
@@ -63,8 +66,9 @@ NA
 NA
 ₹ 3500  
 images/banner/PromoPP200.webp 
+false  
 true  
-true  
+true 
 true
 ====
 5DY_11Oct16Oct_600815  
@@ -80,8 +84,9 @@ NA
 NA
 ₹ 3500  
 images/banner/PromoPP221.webp  
+false  
 true  
-true  
+true 
 true
 ====      
 1DBS_14Aug_17001830 
@@ -97,8 +102,9 @@ NA
 NA
 ₹ 3500
 images/banner/BhutaShuddhi2.webp 
+false  
 true  
-true  
+true 
 true
 ====
 1DSK_14Aug_600800  
@@ -114,9 +120,10 @@ NA
 NA
 ₹ 1000  
 images/banner/SK.webp 
-true  
+false  
 true  
 true 
+true
 ====
 3DSK_4Oct6Oct_600800
 Surya Shakti 
@@ -131,9 +138,10 @@ NA
 NA
 ₹ 2000  
 images/banner/PromoPP208.webp  
+false  
 true  
+true 
 true  
-true   
 ====
 1MSUB_1Oct31Oct_830930_500600
 Daily Guided Yoga 
@@ -148,8 +156,9 @@ NA
 NA
 ₹ 2999  
 images/banner/PromoPP226.webp 
+false  
 true  
-true  
+true
 true  
 ====
 4DSK_6Sep9Sep_630830  
@@ -165,6 +174,7 @@ NA
 NA
 ₹ 2500  
 images/banner/PromoPP237.webp 
-true  
+false  
 true  
 true 
+true
