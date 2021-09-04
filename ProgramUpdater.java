@@ -33,10 +33,12 @@ class ProgramUpdater {
     public static String CLASSES_PAGE_ENGLISH = "./classes.html";
     public static String REGISTRATION_PAGE_ENGLISH = "./registration_page.html";
     public static String HOME_PAGE_ENGLISH = "./index.html";
+    public static String GALLERY_PAGE_ENGLISH = "./gallery.html";
     // file constants - hindi pages
     public static String CLASSES_PAGE_HINDI = "./classes_hi.html";
     public static String REGISTRATION_PAGE_HINDI = "./registration_page_hi.html";
     public static String HOME_PAGE_HINDI = "./index_hi.html";
+    public static String GALLERY_PAGE_HINDI = "./gallery_hi.html";
     // config files
     public static String HINDI_PROGS_CONFIG_FILE = "./configurables/Hindi Classes.txt";
     public static String ENGLISH_PROGS_CONFIG_FILE = "./configurables/English Classes.txt";
@@ -56,11 +58,13 @@ class ProgramUpdater {
         updateClassesPage(progArrEng, CLASSES_PAGE_ENGLISH);
         updateRegistrationPage(progArrEng, REGISTRATION_PAGE_ENGLISH);
         updateHomePage(progArrEng, HOME_PAGE_ENGLISH);
+        updateGalleryWithLatestPics(GALLERY_PAGE_ENGLISH);
 
         // hindi pages
         updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
         updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
         updateHomePage(progArrHindi, HOME_PAGE_HINDI);
+        updateGalleryWithLatestPics(GALLERY_PAGE_HINDI);
     }
 
     private static void initProgramPageMap() throws IOException { 
@@ -305,8 +309,7 @@ class ProgramUpdater {
         }
 
         testimonyDiv.append(getContentForTestimony(language));
-        updateGalleryWithLatestPics(doc, fileName);
-
+        
         writeToFile(doc, fileName);
         System.out.println("Updated Home Page - Banners, testimonies & gallery");
     }
@@ -544,12 +547,16 @@ class ProgramUpdater {
         return content;
     }
 
-    private static void updateGalleryWithLatestPics(Document doc, String fileName) throws IOException{
+    private static void updateGalleryWithLatestPics(String fileName) throws IOException{
+        // parse html
+        Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
+        
         final File folder = new File("./images/gallery");
         ArrayList<String> picList = listFilesForFolder(folder);
 
         Element photosDiv = doc.getElementById("photos");
         if(photosDiv == null) return;
+
         // start clean
         photosDiv.html("");
         
@@ -562,11 +569,17 @@ class ProgramUpdater {
             content += "</div>";
             photosDiv.append(content);
         }
+
+        writeToFile(doc, fileName);
     }
 
     public static ArrayList<String> listFilesForFolder(final File folder) {
         ArrayList<String> pics = new ArrayList<String>();
-        for (final File fileEntry : folder.listFiles()) {
+        
+        File[] files = folder.listFiles();
+        Arrays.sort(files, Comparator.comparingLong(File::lastModified));
+       
+        for (final File fileEntry : files) {
             if(fileEntry.getName().endsWith(".webp")){
                 pics.add(fileEntry.getName());
             }
@@ -612,7 +625,6 @@ class ProgramUpdater {
         boolean showRegisterNowBtn;
         boolean showLearnMoreBtn;
         String amount;
-        
 
         Program (String id,
             String programName,
