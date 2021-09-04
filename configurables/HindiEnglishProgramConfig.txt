@@ -168,21 +168,3 @@ false
 true  
 true 
 true  
-====
-4DSK_6Sep9Sep_600800  
-सूर्य क्रिया,,,,Surya Kriya  
-अपने भीतर सूर्य को सक्रिय करें,,,,Fire Up The Sun Within 
-NA
-अंग्रेज़ी,,,,English
-6 सितंबर 2021 - 9 सितंबर 2021,,,,6 Sep 2021 - 9 Sep 2021
-सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
-आयु - 14+ वर्ष,,,,Age - 14+ years 
-NA
-NA
-NA
-₹ 2500  
-images/banner/PromoPP237.webp 
-true  
-true  
-false 
-true   
