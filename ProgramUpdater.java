@@ -40,6 +40,7 @@ class ProgramUpdater {
     public static String HOME_PAGE_HINDI = "./index_hi.html";
     public static String GALLERY_PAGE_HINDI = "./gallery_hi.html";
     // config files
+    public static String HINDI_ENGLISH_PROGS_CONFIG_FILE = "./configurables/HindiEnglishProgramConfig.txt";
     public static String HINDI_PROGS_CONFIG_FILE = "./configurables/Hindi Classes.txt";
     public static String ENGLISH_PROGS_CONFIG_FILE = "./configurables/English Classes.txt";
     public static String TESTIMONIES_CONFIG_FILE = "./configurables/Testimonies.txt";
@@ -92,7 +93,7 @@ class ProgramUpdater {
     private static void initPrograms() throws IOException {
         // load hindi programs
         final StringBuilder stringBuilder = new StringBuilder();
-        InputStream inStream = new FileInputStream(HINDI_PROGS_CONFIG_FILE);
+        InputStream inStream = new FileInputStream(HINDI_ENGLISH_PROGS_CONFIG_FILE);
         final InputStreamReader streamReader = new InputStreamReader(inStream, "UTF-8");
         final BufferedReader bufferedReader = new BufferedReader(streamReader);
         
