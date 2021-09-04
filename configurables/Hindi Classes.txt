@@ -154,7 +154,7 @@ true
 1MSUB_1Oct31Oct_830930_500600
 दैनिक निर्देशित योग,,,,Daily Guided Yoga 
 अपने कर्म चक्र को तोड़ें,,,,Break your Karmic Cycles 
-* मासिक सदस्यता *,,,,* Monthly Subscription *
+ * मासिक सदस्यता *,,,, * Monthly Subscription *
 अंग्रेज़ी,,,,English
 1 अक्टूबर 2021 - 31 अक्टूबर 2021,,,,1 Oct 2021 - 31 Oct 2021
 सुबह 8:30 - 9:30 या शाम 5:00 - 6:00 [अपवाद 4, 5, 6 अक्टूबर का समय सुबह 8:00 - 9:30 या  शाम 5:00 - 6:30],,,,8:30 AM - 9:30 AM or 5:00 PM - 6:00 PM [Exceptions 4, 5, 6 Oct timings 8:00 AM - 9:30 AM or 5:00 PM - 6:30 pm]
@@ -182,7 +182,7 @@ NA
 NA
 ₹ 2500  
 images/banner/PromoPP237.webp 
-false  
 true  
-true 
+true  
+false 
 true   

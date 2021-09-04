@@ -142,13 +142,13 @@ class ProgramUpdater {
             // hindi prog
             Program prog = new ProgramUpdater().new Program(
                 programCode
-                , progNameArr.length > 0? progNameArr[0]:""
-                , tagLine1Arr.length > 0? tagLine1Arr[0]:""
-                , tagLine2Arr.length > 0? tagLine2Arr[0]:""
-                , languageArr.length > 0? languageArr[0]:""
-                , dateArr.length > 0? dateArr[0]:""
-                , timeArr.length > 0? timeArr[0]:""
-                , ageLimitArr.length > 0? ageLimitArr[0]:""
+                , progNameArr.length > 0? progNameArr[0]:"NA"
+                , tagLine1Arr.length > 0? tagLine1Arr[0]:"NA"
+                , tagLine2Arr.length > 0? tagLine2Arr[0]:"NA"
+                , languageArr.length > 0? languageArr[0]:"NA"
+                , dateArr.length > 0? dateArr[0]:"NA"
+                , timeArr.length > 0? timeArr[0]:"NA"
+                , ageLimitArr.length > 0? ageLimitArr[0]:"NA"
                 , eflyer1, eflyer2, eflyer3, fee, bannerImagePath
                 , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
             progArrHindi.add(prog);               
@@ -156,13 +156,13 @@ class ProgramUpdater {
             // english prog
             prog = new ProgramUpdater().new Program(
                 programCode
-                , progNameArr.length > 1? progNameArr[1]:""
-                , tagLine1Arr.length > 1? tagLine1Arr[1]:""
-                , tagLine2Arr.length > 1? tagLine2Arr[1]:""
-                , languageArr.length > 1? languageArr[1]:""
-                , dateArr.length > 1? dateArr[1]:""
-                , timeArr.length > 1? timeArr[1]:""
-                , ageLimitArr.length > 1? ageLimitArr[1]:""
+                , progNameArr.length > 1? progNameArr[1]:"NA"
+                , tagLine1Arr.length > 1? tagLine1Arr[1]:"NA"
+                , tagLine2Arr.length > 1? tagLine2Arr[1]:"NA"
+                , languageArr.length > 1? languageArr[1]:"NA"
+                , dateArr.length > 1? dateArr[1]:"NA"
+                , timeArr.length > 1? timeArr[1]:"NA"
+                , ageLimitArr.length > 1? ageLimitArr[1]:"NA"
                 , eflyer1, eflyer2, eflyer3, fee, bannerImagePath
                 , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
             progArrEng.add(prog);   
@@ -408,7 +408,7 @@ class ProgramUpdater {
             content += " - " + program.tagLine1;
         } 
         if(!(program.tagLine2).equalsIgnoreCase("NA")) {
-            content += " * " + program.tagLine2 + " * ";
+            content += program.tagLine2;
         } 
         content +=  " <b> (" + program.language + ")</b> </h3></a>";
         content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </p>";
@@ -422,8 +422,10 @@ class ProgramUpdater {
             }
         } else {
             if(language.equals("Hindi")){
+                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
                 content += "<p>" + REGISTRATION_CLOSED_HINDI + "</p> ";
             } else {
+                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + "Learn More" + " <span class='ion-ios-arrow-round-forward'></span></a>";
                 content += "<p>Registeration Closed</p> ";
             }
         } 
