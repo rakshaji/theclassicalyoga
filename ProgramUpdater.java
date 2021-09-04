@@ -353,8 +353,7 @@ class ProgramUpdater {
             content += "</div>";
             content += "<div class='d-flex align-items-center'>";
             if(!(t.photo).equalsIgnoreCase("NA")){
-                content += "<div class='user-img' style='background-image: url(" + t.photo + ")'>";
-                content += "</div>";
+                content += "<div class='user-img' style='background-image: url(" + t.photo + ")'></div>";
             } 
             content += "<div class='ml-4'>";
             content += "<p class='name'>" + t.name + "</p>";
