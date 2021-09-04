@@ -430,7 +430,7 @@ class ProgramUpdater {
                 content += "<p>" + REGISTRATION_CLOSED_HINDI + "</p> ";
             } else {
                 content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + "Learn More" + " <span class='ion-ios-arrow-round-forward'></span></a>";
-                content += "<p>Registeration Closed</p> ";
+                content += "<p><b>Registrations Closed</b></p> ";
             }
         } 
         content += "<div class='container-fluid px-md-5'>";
