@@ -7,7 +7,7 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-4DUY_25Oct29Oct_700800_630730
+4DUY_25Oct29Oct
 उप योग (5 दिन),,,,Upa Yoga (5 Day)
 जोड़ों को चिकनाई दें,,,,Lubricate The Joints
 NA
@@ -25,7 +25,7 @@ true
 true 
 true
 ====
-4DUY_25Oct28Oct_700800_630730
+4DUY_25Oct28Oct
 उप योग (4 दिन),,,,Upa Yoga (4 Day)
 जोड़ों को चिकनाई दें,,,,Lubricate The Joints
 NA
@@ -43,7 +43,7 @@ true
 true 
 true
 ====
-3DUY_25Oct27Oct_700800_630730
+3DUY_25Oct27Oct
 उप योग (3 दिन),,,,Upa Yoga (3 Day)
 जोड़ों को चिकनाई दें,,,,Lubricate The Joints
 NA
@@ -61,7 +61,7 @@ true
 true 
 true
 ====
-4DANGA_18Oct22Oct_600900
+4DANGA_18Oct22Oct
 अंगमर्दना,,,,Angamardana
 परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
 NA
@@ -79,7 +79,7 @@ true
 true 
 true
 ====
-5DY_11Oct16Oct_600815  
+5DY_11Oct16Oct 
 योगासन,,,,Yogasanas
 परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 NA
@@ -97,7 +97,7 @@ true
 true 
 true
 ====      
-1DBS_14Aug_17001830 
+1DBS_14Aug
 भूत शुद्धि,,,,Bhuta Shuddhi 
 पांच तत्वों को शुद्ध करना,,,,Purifying five elements
 NA
@@ -115,7 +115,7 @@ true
 true 
 true
 ====
-1DSK_14Aug_600800  
+1DSKC_14Aug
 सूर्य क्रिया (उन लोगों के लिए जिन्होंने सूर्य शक्ति पूरी कर ली है),,,,Surya Kriya (For those who have completed Surya Shakti)  
 NA
 NA
@@ -133,7 +133,7 @@ true
 true 
 true 
 ====
-3DSK_4Oct6Oct_600800
+3DSS_4Oct6Oct
 सूर्य शक्ति,,,,Surya Shakti 
 फिटनेस और स्ट्रेंथ बिल्डिंग के लिए,,,,For Fitness and Strength Building
 NA
@@ -151,7 +151,7 @@ true
 true 
 true   
 ====
-1MSUB_1Oct31Oct_830930_500600
+1MSUB_1Oct31Oct
 दैनिक निर्देशित योग,,,,Daily Guided Yoga 
 अपने कर्म चक्र को तोड़ें,,,,Break your Karmic Cycles 
  * मासिक सदस्यता *,,,, * Monthly Subscription *
