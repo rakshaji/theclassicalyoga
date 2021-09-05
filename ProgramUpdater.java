@@ -413,7 +413,7 @@ class ProgramUpdater {
         if(!(program.tagLine2).equalsIgnoreCase("NA")) {
             content += program.tagLine2;
         } 
-        content +=  " <b> (" + program.language + ")</b> </h3></a>";
+        content +=  "</h3></a>";// <b> (" + program.language + ")</b>
         content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </p>";
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
