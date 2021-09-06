@@ -414,7 +414,7 @@ class ProgramUpdater {
             content += program.tagLine2;
         } 
         content +=  "</h3></a>";// <b> (" + program.language + ")</b>
-        content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </p>";
+        content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " | " + program.fee +  " </p>";
         String htmlFilePath = getMatchingProgramFile(program.programName, language);
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
