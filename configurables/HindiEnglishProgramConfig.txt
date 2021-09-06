@@ -19,6 +19,7 @@ images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
 ₹ 700  
+NA
 images/banner/PromoPP211.webp 
 false  
 true  
@@ -37,6 +38,7 @@ images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
 ₹ 600  
+NA
 images/banner/PromoPP210.webp 
 false  
 true  
@@ -55,6 +57,7 @@ images/flyer/StudioLaunch/upayoga.webp
 NA
 NA
 ₹ 500  
+NA
 images/banner/PromoPP214.webp 
 false  
 true  
@@ -73,6 +76,7 @@ images/flyer/StudioLaunch/angamardana.webp
 NA
 NA
 ₹ 3500  
+NA
 images/banner/PromoPP200.webp 
 false  
 true  
@@ -90,7 +94,8 @@ NA
 images/flyer/StudioLaunch/yogasanas.webp
 NA
 NA
-₹ 3500  
+₹ 3500
+NA  
 images/banner/PromoPP221.webp  
 false  
 true  
@@ -109,6 +114,7 @@ NA
 NA
 NA
 ₹ 300  
+NA
 images/about/Med.webp 
 false  
 true  
@@ -127,6 +133,7 @@ images/flyer/StudioLaunch/bhutashuddhi.webp
 NA 
 NA
 ₹ 3500
+(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
 images/banner/BhutaShuddhi2.webp 
 false  
 true  
@@ -145,6 +152,7 @@ images/flyer/StudioLaunch/suryakriya_and_suryashakti.webp
 NA
 NA
 ₹ 1000  
+NA
 images/banner/SK.webp 
 false  
 true  
@@ -163,6 +171,7 @@ images/flyer/StudioLaunch/suryakriya_and_suryashakti.webp
 NA
 NA
 ₹ 2000  
+NA
 images/banner/PromoPP208.webp  
 false  
 true  
@@ -180,7 +189,8 @@ true
 images/flyer/StudioLaunch/DGY.webp
 NA
 NA
-₹ 2999  
+₹ 2999 
+(रियायती मूल्य),,,,(discounted price) 
 images/banner/PromoPP226.webp 
 false  
 true  
@@ -190,7 +200,7 @@ true
 1D_FY_1Oct
 फ्री योग दिवस,,,,Free Yoga Day 
 NA
- * पंजीकरण अनिवार्य है*,,,, *Registration is mandatory*
+ * पंजीकरण अनिवार्य है*,,,, * Registration is mandatory *
 द्विभाषिक,,,,Bilingual
 1 अक्टूबर 2021,,,,1 Oct 2021
 सुबह 8:30 - 9:30 या शाम 5:00 - 6:00,,,,8:30 AM - 9:30 AM or 5:00 PM - 6:00 PM
@@ -199,6 +209,7 @@ NA
 NA
 NA
 ₹ 0  
+NA
 images/about/YN.webp 
 false  
 true  

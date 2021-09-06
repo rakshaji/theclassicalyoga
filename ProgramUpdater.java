@@ -39,6 +39,7 @@ class ProgramUpdater {
     public static String REGISTRATION_PAGE_HINDI = "./registration_page_hi.html";
     public static String HOME_PAGE_HINDI = "./index_hi.html";
     public static String GALLERY_PAGE_HINDI = "./gallery_hi.html";
+    public static String PIPE_SEPARATOR = " | ";
     // config files
     public static String HINDI_ENGLISH_PROGS_CONFIG_FILE = "./configurables/HindiEnglishProgramConfig.txt";
     public static String HINDI_PROGS_CONFIG_FILE = "./configurables/Hindi Classes.txt";
@@ -138,11 +139,13 @@ class ProgramUpdater {
             String eflyer2 = bufferedReader.readLine().trim(); // 10 2nd image
             String eflyer3 = bufferedReader.readLine().trim(); // 11 3rd image if any
             String fee = bufferedReader.readLine().trim(); // 12 fee
-            String bannerImagePath = bufferedReader.readLine().trim(); // 13 bannerImagePath
-            boolean showInterestBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 14 showInterestBtn
-            boolean showUpcomingProgsBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 15 showUpcomingProgsBtn
-            boolean showRegisterNowBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 16 showRegisterNowBtn
-            boolean showLearnMoreBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 17 showLearnMoreBtn
+            String feeInfo = bufferedReader.readLine().trim(); // 13 feeInfo
+            String[] feeInfoArr = feeInfo.split(UP_PROG_SPLIT_DELIMITER);
+            String bannerImagePath = bufferedReader.readLine().trim(); // 14 bannerImagePath
+            boolean showInterestBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 15 showInterestBtn
+            boolean showUpcomingProgsBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 16 showUpcomingProgsBtn
+            boolean showRegisterNowBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 17 showRegisterNowBtn
+            boolean showLearnMoreBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 18 showLearnMoreBtn
 
             // hindi prog
             Program prog = new ProgramUpdater().new Program(
@@ -154,7 +157,9 @@ class ProgramUpdater {
                 , dateArr.length > 0? dateArr[0]:"NA"
                 , timeArr.length > 0? timeArr[0]:"NA"
                 , ageLimitArr.length > 0? ageLimitArr[0]:"NA"
-                , eflyer1, eflyer2, eflyer3, fee, bannerImagePath
+                , eflyer1, eflyer2, eflyer3, fee
+                , feeInfoArr.length > 0? feeInfoArr[0].equalsIgnoreCase("NA")? "" : feeInfoArr[0] :""
+                , bannerImagePath
                 , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
             progArrHindi.add(prog);               
 
@@ -168,7 +173,9 @@ class ProgramUpdater {
                 , dateArr.length > 1? dateArr[1]:"NA"
                 , timeArr.length > 1? timeArr[1]:"NA"
                 , ageLimitArr.length > 1? ageLimitArr[1]:"NA"
-                , eflyer1, eflyer2, eflyer3, fee, bannerImagePath
+                , eflyer1, eflyer2, eflyer3, fee
+                , feeInfoArr.length > 1? feeInfoArr[1].equalsIgnoreCase("NA")? "" : feeInfoArr[1] :""
+                , bannerImagePath
                 , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
             progArrEng.add(prog);   
         }    
@@ -201,6 +208,7 @@ class ProgramUpdater {
                 bufferedReader.readLine().trim(), // 2nd image
                 bufferedReader.readLine().trim(), // 3rd image if any
                 bufferedReader.readLine().trim(), // fee
+                bufferedReader.readLine().trim(), // 13 feeInfo
                 bufferedReader.readLine().trim(), // bannerImagePath
                 Boolean.parseBoolean(bufferedReader.readLine().trim()), // showInterestBtn
                 Boolean.parseBoolean(bufferedReader.readLine().trim()), // showUpcomingProgsBtn
@@ -235,8 +243,8 @@ class ProgramUpdater {
             Program program = progArr.get(i);
             if (program.showRegisterNowBtn) {
                 optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
-                    + program.programName + " | " + program.date + " | " + program.time 
-                    + " | " + program.fee + "</option>";
+                    + program.programName + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.time 
+                    + PIPE_SEPARATOR + program.fee + "</option>";
             }
         }
         programSelectTag.html(optionsHtml);
@@ -414,7 +422,8 @@ class ProgramUpdater {
             content += program.tagLine2;
         } 
         content +=  "</h3></a>";// <b> (" + program.language + ")</b>
-        content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " | " + program.fee +  " </p>";
+        content += "<p class='up-details'>" + program.date + PIPE_SEPARATOR + program.time 
+        + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.fee + " " + program.feeInfo + " </p>";
         String htmlFilePath = getMatchingProgramFile(program.programName, language);
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
@@ -507,7 +516,7 @@ class ProgramUpdater {
             content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.tagLine2 + "</h1>";
         }
         if(program.showRegisterNowBtn) {
-            content += "<h3 class='subheading'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </h3> <p></p>";
+            content += "<h3 class='subheading'>" + program.date + PIPE_SEPARATOR + program.time + PIPE_SEPARATOR + program.ageLimit + " </h3> <p></p>";
             
             if(language.equals("Hindi")){
                 content += "<a href='registration_page_hi.html' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
@@ -628,6 +637,7 @@ class ProgramUpdater {
         String eflyerImg2;
         String eflyerImg3;
         String fee;
+        String feeInfo;
         String bannerImagePath;
         boolean showInterestBtn; 
         boolean showUpcomingProgsBtn;
@@ -647,6 +657,7 @@ class ProgramUpdater {
             String eflyerImg2,
             String eflyerImg3,
             String fee,
+            String feeInfo,
             String bannerImagePath,
             boolean showInterestBtn, 
             boolean showUpcomingProgsBtn,
@@ -664,6 +675,7 @@ class ProgramUpdater {
             this.eflyerImg2 = eflyerImg2;
             this.eflyerImg3 = eflyerImg3;
             this.fee = fee;
+            this.feeInfo = feeInfo;
             this.bannerImagePath = bannerImagePath;
             this.showInterestBtn = showInterestBtn; 
             this.showUpcomingProgsBtn = showUpcomingProgsBtn;
@@ -693,6 +705,7 @@ class ProgramUpdater {
             this.eflyerImg2 + "\n" +
             this.eflyerImg3 + "\n" +
             this.fee + "\n" +
+            this.feeInfo + "\n" +
             this.bannerImagePath + "\n" +
             this.showInterestBtn + "\n" + 
             this.showUpcomingProgsBtn + "\n" +
