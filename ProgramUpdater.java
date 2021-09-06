@@ -415,20 +415,29 @@ class ProgramUpdater {
         } 
         content +=  "</h3></a>";// <b> (" + program.language + ")</b>
         content += "<p class='up-details'>" + program.date + " | " + program.time + " | " + program.ageLimit + " </p>";
+        String htmlFilePath = getMatchingProgramFile(program.programName, language);
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
-                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
-                content += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+                 if(!htmlFilePath.equalsIgnoreCase("NA")){
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                }content += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             } else {
-                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + "Learn More" + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                if(!htmlFilePath.equalsIgnoreCase("NA")){
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
+                }
                 content += "  <a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             }
         } else {
+            
             if(language.equals("Hindi")){
-                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                if(!htmlFilePath.equalsIgnoreCase("NA")){
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                }
                 content += "<p>" + REGISTRATION_CLOSED_HINDI + "</p> ";
             } else {
-                content += "<a href='" + getMatchingProgramFile(program.programName, language) + "' target='_blank' class='btn btn-white px-4 py-3'> " + "Learn More" + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                if(!htmlFilePath.equalsIgnoreCase("NA")){
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
+                }
                 content += "<p><b>Registrations Closed</b></p> ";
             }
         } 
