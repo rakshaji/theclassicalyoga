@@ -51,6 +51,14 @@ $(window).load(function () {
       return;
     }
 
+    // rename submit button if they are for free programs
+    if(key.endsWith("_0")) {
+      $('#submit-reg-form').html("Register");
+    } else {
+      // if they are for paid programs
+      $('#submit-reg-form').html("Pay Online");  
+    }
+
     // add timings to the drop down
     let matchedTimeArr = get(key);
     console.log( matchedTimeArr );
@@ -204,7 +212,20 @@ function submitForm(e) {
       // asynchronous, after thr response from google returns
       console.log("form submittion successful");
       hideLoader();
-      processPayment();
+
+      var progVal = $('select[name="program"]').val();
+      var progDetailArr = progVal.split("_");
+      var amount = progDetailArr[progDetailArr.length - 1];
+      console.log("amount = " + amount);
+
+      if(amount == "0"){
+        // no payment for free programs
+        // show registration sucess msg pop up 
+        $("#staticBackdropSuccess").modal('show');
+      } else {
+        processPayment();  
+      }
+      
     },
     error: function (request, status, error) {
       hideLoader();
