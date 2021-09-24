@@ -2,6 +2,7 @@ var progTimingsMap = new Object(); // or var map = {};
 
 $(window).load(function () {
   $("#loader").fadeOut(1000);
+  $('#payByCashBtn').hide();
   // get all the timings in and id-timings map
   
   $("#program option").each(function()
@@ -50,13 +51,14 @@ $(window).load(function () {
     if(key == "") {
       return;
     }
-
+    
     // rename submit button if they are for free programs
     if(key.endsWith("_0")) {
       $('#submit-reg-form').html("Register");
     } else {
       // if they are for paid programs
       $('#submit-reg-form').html("Pay Online");  
+      
     }
 
     // add timings to the drop down
@@ -159,6 +161,7 @@ function hideLoader() {
 function submitFormWithoutPayment(e) {
   showLoader();
   console.log("submitting form");
+  $('#payOptionClicked').val("PayByCash");
   var $regform = $('form#registration-form'),
   //test url - don not delete
   //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
@@ -194,6 +197,7 @@ function submitFormWithoutPayment(e) {
 function submitForm(e) {
   showLoader();
   console.log("submitting form");
+  $('#payOptionClicked').val("PayOnline/RegisterFree");
   var $regform = $('form#registration-form'),
   //test url - don not delete
   //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
