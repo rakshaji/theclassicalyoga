@@ -267,9 +267,41 @@ function processPayment() {
       console.log(response.razorpay_order_id);
       console.log(response.razorpay_signature);
 
+      console.log("submitting form");
+      $('#payOptionClicked').val("Paid");
+      var $regform = $('form#registration-form'),
+      //test url - don not delete
+      //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
+    
+      //live
+      regurl = 'https://script.google.com/macros/s/AKfycbzjeaDa9eICyEwiz4i6nElQEiyr75WnhpFgA7HtxSfOMiv3LO8t/exec'
+    
+      // code to save to google sheet
+      //e.preventDefault(); // prevent form calling deafult action method
+      var jqxhr = $.ajax({
+        url: regurl,
+        method: "GET",
+        dataType: "json",
+        data: $regform.serialize(),
+        success: function (data, text) {
+          // asynchronous, after thr response from google returns
+          console.log("2nd form submittion successful");
+          hideLoader();
+        },
+        error: function (request, status, error) {
+          hideLoader();
+          $("#failureModal").modal('show');
+          console.log("2nd form submittion failed");
+          console.log(request.responseText);
+        }
+      }).success(
+        // synchronous handling
+      );
+
       hideLoader();
       // show payment sucess msg pop up
       $("#staticBackdropSuccess").modal('show');
+
 
     },
     "modal": {
