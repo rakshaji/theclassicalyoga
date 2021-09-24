@@ -102,7 +102,7 @@ true
 true 
 true
 ====
-1D_AUMNS_1Oct
+1D_AUMNS_11Oct
 डिप्रेशन के लिए योग,,,,Yoga For Depression
 प्राणायाम और मंत्र योग,,,,Pranayam & Mantra Yoga 
 NA
@@ -121,7 +121,7 @@ true
 true 
 false  
 ====      
-1D_BS_14Aug
+1D_BS_8Oct
 भूत शुद्धि,,,,Bhuta Shuddhi 
 पांच तत्वों को शुद्ध करना,,,,Purifying five elements
 NA
@@ -140,7 +140,7 @@ true
 true 
 true
 ====
-1D_SKC_14Aug
+1D_SKC_7Oct
 सूर्य क्रिया (उन लोगों के लिए जिन्होंने सूर्य शक्ति पूरी कर ली है),,,,Surya Kriya (For those who have completed Surya Shakti)  
 NA
 NA
@@ -203,7 +203,7 @@ NA
  * पंजीकरण अनिवार्य है*,,,, * Registration is mandatory *
 द्विभाषिक,,,,Bilingual
 1 अक्टूबर 2021,,,,1 Oct 2021
-सुबह 8:30 - 9:30 या शाम 5:00 - 6:00,,,,8:30 AM - 9:30 AM or 5:00 PM - 6:00 PM
+शाम 5:00 - 6:00,,,,5:00 PM - 6:00 PM
 आयु - 14+ वर्ष,,,,Age - 14+ years 
 NA
 NA
@@ -214,4 +214,23 @@ images/about/YN.webp
 false  
 true  
 true 
+false 
+====
+1D_FY_1Oct
+फ्री योग दिवस,,,,Free Yoga Day 
+NA
+NA
+द्विभाषिक,,,,Bilingual
+1 अक्टूबर 2021,,,,1 Oct 2021
+सुबह 8:30 - 9:30,,,,8:30 AM - 9:30 AM
+आयु - 14+ वर्ष,,,,Age - 14+ years 
+NA
+NA
+NA
+₹ 0  
+NA
+NA
+false  
+true  
+false 
 false  

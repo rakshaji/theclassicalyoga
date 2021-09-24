@@ -502,6 +502,10 @@ class ProgramUpdater {
 
     private static String getContentForBanners(Program program, String language){
         System.out.println("***\n" + program.toString());
+
+        if("NA".equalsIgnoreCase(program.bannerImagePath)) {
+            return "";
+        }
         String content = 
         "<div class='slider-item js-fullheight' style='background-image:url(" + program.bannerImagePath + ");'>";
       	content += "<div class='overlay'></div>";
