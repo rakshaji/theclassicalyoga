@@ -7,7 +7,7 @@ $(window).load(function () {
   
   $("#program option").each(function()
   {
-    console.log($(this).text());
+    //console.log($(this).text());
 
     var optionText = $(this).text();
     var key = $(this).val();
@@ -33,8 +33,8 @@ $(window).load(function () {
       progTimingsMap[key] = timeArr;
     } 
 
-    console.log(get(key));
-    console.log($(this).text());
+    //console.log(get(key));
+    //console.log($(this).text());
   });
   
   $('#program').on('change', function() {
@@ -160,7 +160,7 @@ function hideLoader() {
 
 function submitFormWithoutPayment(e) {
   showLoader();
-  console.log("submitting form");
+  console.log("submitting form without payment");
   $('#payOptionClicked').val("PayByCash");
   var $regform = $('form#registration-form'),
   //test url - don not delete
@@ -187,7 +187,7 @@ function submitFormWithoutPayment(e) {
       hideLoader();
       $("#failureModal").modal('show');
       console.log("form submittion failed");
-      console.log(request.responseText);
+      //console.log(request.responseText);
     }
   }).success(
     // synchronous handling
@@ -196,8 +196,8 @@ function submitFormWithoutPayment(e) {
 
 function submitForm(e) {
   showLoader();
-  console.log("submitting form");
-  $('#payOptionClicked').val("PayOnline/RegisterFree");
+  console.log("submitting form...");
+  $('#payOptionClicked').val("PayOnlineClicked/RegisterFree");
   var $regform = $('form#registration-form'),
   //test url - don not delete
   //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
@@ -226,6 +226,15 @@ function submitForm(e) {
         // no payment for free programs
         // show registration sucess msg pop up 
         $("#staticBackdropSuccess").modal('show');
+        
+        var time = $('select[name="time"] :selected').html();
+        if(time.includes("am") || time.includes("AM") 
+          || time.includes("pm") || time.includes("PM")){
+          // send email confirmation for free program 
+          sendEmail($('input[name="email"]').val()
+          , $('select[name="program"] :selected').html().split(" | ")[0]
+          , time);
+        }
       } else {
         processPayment();  
       }
@@ -234,8 +243,8 @@ function submitForm(e) {
     error: function (request, status, error) {
       hideLoader();
       $("#failureModal").modal('show');
-      console.log("form submittion failed");
-      console.log(request.responseText);
+      //console.log("form submittion failed");
+      //console.log(request.responseText);
     }
   }).success(
     // synchronous handling
@@ -248,11 +257,11 @@ function processPayment() {
   var progDetailArr = progVal.split("_");
   var amount = progDetailArr[progDetailArr.length - 1];
   console.log("amount = " + amount);
-  console.log($('input[name="firstName"]').val() + " "
-    + $('input[name="lastName"]').val() +
-    " email " + $('input[name="email"]').val() +
-    " contact " + $('input[name="phone"]').val()) +
-    " address " + $('input[name="address"]').val()
+  //console.log($('input[name="firstName"]').val() + " "
+  // + $('input[name="lastName"]').val() +
+  // " email " + $('input[name="email"]').val() +
+  // " contact " + $('input[name="phone"]').val()) +
+  // " address " + $('input[name="address"]').val()
   var options = {
     // "key": "rzp_test_kLmsHnmQfdgIhF",//"rzp_live_l91cg0z4PNOkVp", 
     "key": "rzp_live_l91cg0z4PNOkVp", //"rzp_test_kLmsHnmQfdgIhF",
@@ -263,11 +272,12 @@ function processPayment() {
     "handler": function (response) {
       //success handler
       console.log("Payment Success!!");
-      console.log(response.razorpay_payment_id);
-      console.log(response.razorpay_order_id);
-      console.log(response.razorpay_signature);
+      //console.log(response.razorpay_payment_id);
+      //console.log(response.razorpay_order_id);
+      //console.log(response.razorpay_signature);
 
       console.log("submitting form");
+
       $('#payOptionClicked').val("Paid");
       var $regform = $('form#registration-form'),
       //test url - don not delete
@@ -287,6 +297,14 @@ function processPayment() {
           // asynchronous, after thr response from google returns
           console.log("2nd form submittion successful");
           hideLoader();
+          var time = $('select[name="time"] :selected').html();
+          if(time.includes("am") || time.includes("AM") 
+            || time.includes("pm") || time.includes("PM")){
+              // send email confirmation
+              sendEmail($('input[name="email"]').val()
+              , $('select[name="program"] :selected').html().split(" | ")[0]
+              , time);
+          }
         },
         error: function (request, status, error) {
           hideLoader();
@@ -301,7 +319,6 @@ function processPayment() {
       hideLoader();
       // show payment sucess msg pop up
       $("#staticBackdropSuccess").modal('show');
-
 
     },
     "modal": {

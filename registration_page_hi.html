@@ -287,7 +287,7 @@
        </div> 
       </div> 
       <div class="col-12"> <label for="yogaBeforeQ" class="form-label">क्या आपने पहले कोई योग कार्यक्रम लिया है? कृपया विवरण दें</label> 
-       <div class="form-outline"> <textarea class="form-control" name="yogaBeforeQ" rows="1" required></textarea> 
+       <div class="form-outline"> <textarea class="form-control" name="yogaBeforeQ" rows="1" ></textarea> 
         <div class="invalid-feedback">
           कृपया इस प्रश्न का उत्तर दें 
         </div> 
@@ -321,6 +321,20 @@
       </div> 
      </div> 
     </form> <!-- Modal --> 
+    <div class="modal fade" id="staticBackdropSuccess" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"> 
+      <div class="modal-dialog"> 
+       <div class="modal-content"> 
+        <div class="modal-header"> 
+         <h5 class="modal-title" id="staticBackdropLabel">संदेश</h5> <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body">
+          पंजीकरण सफल हुआ
+        </div> 
+        <div class="modal-footer"> <button id="successOKBtn" type="button" class="btn btn-primary" data-mdb-dismiss="modal" onclick="onSuccessOKClick()"> ठीक है </button> <!-- <button type="button" class="btn btn-primary">Understood</button> --> 
+        </div> 
+       </div> 
+      </div> 
+     </div> <!-- Modal --> 
     <div class="modal fade" id="payByCashPopup" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true"> 
      <div class="modal-dialog"> 
       <div class="modal-content"> 
@@ -484,7 +498,9 @@
   <script src="js/main.js"></script> 
   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script> 
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script> 
-  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script> <!-- <script src="js/my_gpay.js"></script> --> <!-- <script src="BootstrapFormHelpers-master/dist/js/bootstrap-formhelpers.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+  </script>
+  <!-- <script src="js/my_gpay.js"></script> --> <!-- <script src="BootstrapFormHelpers-master/dist/js/bootstrap-formhelpers.js"></script>
   <script src="BootstrapFormHelpers-master/dist/js/bootstrap-formhelpers.min.js"></script> --> <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script> --> 
