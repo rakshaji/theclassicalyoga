@@ -2,7 +2,7 @@ var progTimingsMap = new Object(); // or var map = {};
 
 $(window).load(function () {
   $("#loader").fadeOut(1000);
-  $('#payByCashBtn').hide();
+  
   // get all the timings in and id-timings map
   
   $("#program option").each(function()
@@ -55,10 +55,11 @@ $(window).load(function () {
     // rename submit button if they are for free programs
     if(key.endsWith("_0")) {
       $('#submit-reg-form').html("Register");
+      $('#payByCashBtn').hide();
     } else {
       // if they are for paid programs
       $('#submit-reg-form').html("Pay Online");  
-      
+      $('#payByCashBtn').show();
     }
 
     // add timings to the drop down
@@ -226,7 +227,7 @@ function submitForm(e) {
         // no payment for free programs
         // show registration sucess msg pop up 
         $("#staticBackdropSuccess").modal('show');
-        
+
         var time = $('select[name="time"] :selected').html();
         if(time.includes("am") || time.includes("AM") 
           || time.includes("pm") || time.includes("PM")){
