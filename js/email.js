@@ -62,6 +62,7 @@ function getBody(program, time){
 }
 
 function sendEmail(to,program, time) {
+    //alert(to);
     Email.send({
       Host: "smtpout.secureserver.net",
       Username: "contact@theclassicalyoga.com",
