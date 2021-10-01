@@ -254,15 +254,6 @@ function submitForm(e) {
 
 function processPayment() {
   console.log("Processing payment");
-  var time = $('select[name="time"] :selected').html();
-          if(time.includes("AM") || time.includes("PM")
-            || time.includes("सुबह") || time.includes("शाम")){
-              // send email confirmation
-              sendEmail($('input[name="email"]').val()
-              , $('select[name="program"] :selected').html().split(" | ")[0]
-              , time);
-          }
-        return;
   var progVal = $('select[name="program"]').val();
   var progDetailArr = progVal.split("_");
   var amount = progDetailArr[progDetailArr.length - 1];
