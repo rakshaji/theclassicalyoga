@@ -1,0 +1,42 @@
+<section>
+    <h2>Quick Easy SMS</h2>
+    <form onsubmit="QuickEasySMS()">
+      <label>Phone Number</label>
+      <input name="to" value="917828531536">
+      <label>Message</label>
+      <textarea name="msg">Testing from JavaScript using RapidAPI!</textarea>
+      <span></span>
+      <button>Make API Request</button>
+    </form>
+  </section>
+  <script>
+    async function QuickEasySMS() {
+      event.preventDefault();
+      const form = event.target;
+  
+      const to = form.querySelector('[name=to]').value;
+      const msg = form.querySelector('[name=msg]').value;
+      const result = await fetch("https://d7sms.p.rapidapi.com/secure/send", {
+        "method": "POST",
+        "headers": {
+            "content-type": "application/json",
+		"authorization": "Basic Ynh2dTU2NTg6eThOTFd5M2k=",
+          "x-rapidapi-host": "d7sms.p.rapidapi.com",
+          "x-rapidapi-key": "4558eed7cdmsh5293fc0cc832298p142344jsn7834b6cdffa4",
+          "content-type": "application/json"
+        },
+        "data": {
+          "content": msg,
+          "from": "D7-Rapid",
+          "to": to
+        }
+      });
+  
+      const body = await result.json();
+      console.log(body);
+  
+      alert(body.StatusCode === 0
+        ? 'Code sent!'
+        : 'Something went wrong. Check dev console.');
+    }
+  </script>

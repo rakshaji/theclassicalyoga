@@ -1,10 +1,9 @@
 var progTimingsMap = new Object(); // or var map = {};
 
 $(window).load(function () {
-  $("#loader").fadeOut(1000);
+  $("#loader").fadeOut(1000);  
   
   // get all the timings in and id-timings map
-  
   $("#program option").each(function()
   {
     //console.log($(this).text());

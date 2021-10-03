@@ -54,7 +54,7 @@ function getBody(program, time){
     for (var i = 0; i < body.length; i++) {
         var bodyItem = body[i];
         if(bodyItem.includes(program)){
-            alert(bodyItem);
+            //alert(bodyItem);
             return bodyItem;
         }
     }
@@ -76,6 +76,8 @@ function sendEmail(to, program, time) {
         console.log("Mail sent successfully")
     });
   }
+
+  
 
   
   
