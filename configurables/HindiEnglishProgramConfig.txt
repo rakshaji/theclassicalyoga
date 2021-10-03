@@ -195,26 +195,7 @@ images/banner/PromoPP226.webp
 false  
 true  
 true 
-true 
-====
-1D_FY_1Oct
-फ्री योग दिवस,,,,Free Yoga Day 
-NA
- * पंजीकरण अनिवार्य है*,,,, * Registration is mandatory *
-द्विभाषिक,,,,Bilingual
-1 अक्टूबर 2021,,,,1 Oct 2021
-शाम 5:00 - 6:00,,,,5:00 PM - 6:00 PM
-आयु - 14+ वर्ष,,,,Age - 14+ years 
-NA
-NA
-NA
-₹ 0  
-NA
-images/about/YN.webp 
-false  
-true  
-true 
-false 
+true
 ====
 1D_FY_1Oct
 फ्री योग दिवस,,,,Free Yoga Day 
@@ -222,7 +203,7 @@ NA
 NA
 द्विभाषिक,,,,Bilingual
 1 अक्टूबर 2021,,,,1 Oct 2021
-सुबह 8:30 - 9:30,,,,8:30 AM - 9:30 AM
+सुबह 8:30 - 9:30 या शाम 5:00 - 6:00,,,,8:30 AM - 9:30 AM or 5:00 PM - 6:00 PM
 आयु - 14+ वर्ष,,,,Age - 14+ years 
 NA
 NA
