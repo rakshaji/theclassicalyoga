@@ -113,39 +113,70 @@ class ProgramUpdater {
         //System.out.println("line - " + line);
         while ((line = bufferedReader.readLine()) != null) {
             String programCode = bufferedReader.readLine().trim();//1
+            programCode = programCode.replace("PROGRAM_CODE::", "");
 
             String programName = bufferedReader.readLine().trim(); // 2 program name
+            programName = programName.replace("PROGRAM_NAME::", "");
             String[] progNameArr = programName.split(UP_PROG_SPLIT_DELIMITER);
 
             String tagLine1 = bufferedReader.readLine().trim(); // 3 tag line 1
+            tagLine1 = tagLine1.replace("TAGELINE1::", "");
             String[] tagLine1Arr = tagLine1.split(UP_PROG_SPLIT_DELIMITER);
 
             String tagLine2 = bufferedReader.readLine().trim(); // 4 tag line 2 
+            tagLine2 = tagLine2.replace("TAGLINE2::", "");
             String[] tagLine2Arr = tagLine2.split(UP_PROG_SPLIT_DELIMITER);
 
             String language = bufferedReader.readLine().trim(); // 5 language 
+            language = language.replace("LANGUAGE::", "");
             String[] languageArr = language.split(UP_PROG_SPLIT_DELIMITER);
 
             String date = bufferedReader.readLine().trim(); // 6 date
+            date = date.replace("DATE::", "");
             String[] dateArr = date.split(UP_PROG_SPLIT_DELIMITER);
 
             String time = bufferedReader.readLine().trim(); // 7 time
+            time = time.replace("TIME::", "");
             String[] timeArr = time.split(UP_PROG_SPLIT_DELIMITER);
 
             String ageLimit = bufferedReader.readLine().trim(); // 8 age limit
+            ageLimit = ageLimit.replace("AGE_LIMIT::", "");
             String[] ageLimitArr = ageLimit.split(UP_PROG_SPLIT_DELIMITER);
 
             String eflyer1 = bufferedReader.readLine().trim(); // 9 1st image
+            eflyer1 = eflyer1.replace("EFLYER1::", "");
+
             String eflyer2 = bufferedReader.readLine().trim(); // 10 2nd image
+            eflyer2 = eflyer2.replace("EFLYER2::", "");
+
             String eflyer3 = bufferedReader.readLine().trim(); // 11 3rd image if any
+            eflyer3 = eflyer3.replace("EFLYER3::", "");
+
             String fee = bufferedReader.readLine().trim(); // 12 fee
+            fee = fee.replace("FEE::", "");
+
             String feeInfo = bufferedReader.readLine().trim(); // 13 feeInfo
+            feeInfo = feeInfo.replace("FEE_INFO::", "");
+
             String[] feeInfoArr = feeInfo.split(UP_PROG_SPLIT_DELIMITER);
             String bannerImagePath = bufferedReader.readLine().trim(); // 14 bannerImagePath
-            boolean showInterestBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 15 showInterestBtn
-            boolean showUpcomingProgsBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 16 showUpcomingProgsBtn
-            boolean showRegisterNowBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 17 showRegisterNowBtn
-            boolean showLearnMoreBtn = Boolean.parseBoolean(bufferedReader.readLine().trim()); // 18 showLearnMoreBtn
+            bannerImagePath = bannerImagePath.replace("BANNER_IMAGE::", "");
+
+            String showInterestBtnStr = bufferedReader.readLine().trim();
+            showInterestBtnStr = showInterestBtnStr.replace("SHOW_INTEREST_BTN::", "");
+            boolean showInterestBtn = Boolean.parseBoolean(showInterestBtnStr); // 15 showInterestBtn
+
+            String showUpcomingProgsBtnStr = bufferedReader.readLine().trim();
+            showUpcomingProgsBtnStr = showUpcomingProgsBtnStr.replace("SHOW_UPCOMING_PROG_BTN::", "");
+            boolean showUpcomingProgsBtn = Boolean.parseBoolean(showUpcomingProgsBtnStr); // 16 showUpcomingProgsBtn
+
+            String showRegisterNowBtnStr = bufferedReader.readLine().trim();
+            showRegisterNowBtnStr = showRegisterNowBtnStr.replace("SHOW_REGISTER_BTN::", "");
+            boolean showRegisterNowBtn = Boolean.parseBoolean(showRegisterNowBtnStr); // 17 showRegisterNowBtn
+
+            String showLearnMoreBtnStr = bufferedReader.readLine().trim();
+            showLearnMoreBtnStr = showLearnMoreBtnStr.replace("SHOW_LEARN_MORE_BTN::", "");
+            boolean showLearnMoreBtn = Boolean.parseBoolean(showLearnMoreBtnStr); // 18 showLearnMoreBtn
 
             // hindi prog
             Program prog = new ProgramUpdater().new Program(
@@ -352,6 +383,7 @@ class ProgramUpdater {
 
     private static String getContentForProgramDetails(Program program, String language) throws IOException {
         String content = "No programs scheduled yet";
+        return content;
     }
     
     private static String getContentForTestimony(String language) throws IOException{
@@ -444,7 +476,10 @@ class ProgramUpdater {
         content += "<span class='flaticon-meditation'></span>";
         content += "</div>";
         content += "<div class='text text-left pl-4'>";
-        content += "<a href='" + getMatchingProgramFile(program.programName, language) + "'>" ;
+        String htmlFilePath = getMatchingProgramFile(program.programName, language);
+        if(!htmlFilePath.equalsIgnoreCase("NA")){
+            content += "<a href='" + getMatchingProgramFile(program.programName, language) + "'>" ;
+        }
         content += "<h3> <b>" + program.programName + "</b>" ;
         if(!(program.tagLine1).equalsIgnoreCase("NA")) {
             content += " - " + program.tagLine1;
@@ -455,7 +490,7 @@ class ProgramUpdater {
         content +=  "</h3></a>";// <b> (" + program.language + ")</b>
         content += "<p class='up-details'>" + program.date + PIPE_SEPARATOR + program.time 
         + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.fee + " " + program.feeInfo + " </p>";
-        String htmlFilePath = getMatchingProgramFile(program.programName, language);
+        
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
                  if(!htmlFilePath.equalsIgnoreCase("NA")){
