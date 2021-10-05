@@ -323,6 +323,37 @@ class ProgramUpdater {
         System.out.println("Updated Home Page - Banners, testimonies & gallery");
     }
     
+    private static void updateProgramPage(ArrayList<Program> progArr, String fileName) throws IOException {
+        String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
+        System.out.println(fileName + "    |    updateHomePage - " + language);
+        // parse html
+        Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
+        
+        Element detailsDiv = doc.getElementById("details");
+        if(detailsDiv == null) return;
+        // start clean
+        detailsDiv.html("");
+
+        Element scheduleDiv = doc.getElementById("schedule");
+        if(scheduleDiv == null) return;
+        // start clean
+        scheduleDiv.html("");
+        
+        // add program info
+        for (int i = progArr.size()-1; i >= 0; i--) {
+            detailsDiv.append(getContentForProgramDetails(progArr.get(i), language));
+        }
+
+        // scheduleDiv.append(getContentForTestimony(language));
+        
+        writeToFile(doc, fileName);
+        System.out.println("Updated Home Page - Banners, testimonies & gallery");
+    }
+
+    private static String getContentForProgramDetails(Program program, String language) throws IOException {
+        String content = "No programs scheduled yet";
+    }
+    
     private static String getContentForTestimony(String language) throws IOException{
 
         // load hindi programs

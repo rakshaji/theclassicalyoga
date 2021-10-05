@@ -73,7 +73,7 @@ function sendEmail(to, program, time) {
       Body: getBody(program, time)
     })
     .then(function (message) {
-        console.log("Mail sent successfully")
+        // console.log("Mail sent successfully")
     });
   }
 

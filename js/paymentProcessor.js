@@ -2,11 +2,11 @@ var progTimingsMap = new Object(); // or var map = {};
 
 $(window).load(function () {
   $("#loader").fadeOut(1000);  
-  
+
   // get all the timings in and id-timings map
   $("#program option").each(function()
   {
-    //console.log($(this).text());
+    //// console.log($(this).text());
 
     var optionText = $(this).text();
     var key = $(this).val();
@@ -32,8 +32,8 @@ $(window).load(function () {
       progTimingsMap[key] = timeArr;
     } 
 
-    //console.log(get(key));
-    //console.log($(this).text());
+    //// console.log(get(key));
+    //// console.log($(this).text());
   });
   
   $('#program').on('change', function() {
@@ -46,7 +46,7 @@ $(window).load(function () {
 
     // return if first option selected
     let key = this.value;
-    console.log( key );
+    // console.log( key );
     if(key == "") {
       return;
     }
@@ -63,11 +63,11 @@ $(window).load(function () {
 
     // add timings to the drop down
     let matchedTimeArr = get(key);
-    console.log( matchedTimeArr );
+    // console.log( matchedTimeArr );
     if(matchedTimeArr != null && matchedTimeArr.length > 0) { 
       for (let i = 0; i < matchedTimeArr.length; i++) {
         let time = matchedTimeArr[i];
-        console.log(time);
+        // console.log(time);
         $('#time').append(new Option(time, time));
       }
     }
@@ -84,7 +84,7 @@ function clearExceptions(timeWithExceptions){
       timeWithoutExceptions = timeWithExceptions;
     }
 
-    console.log(timeWithoutExceptions);
+    // console.log(timeWithoutExceptions);
     // get all the timings in an array
     if(timeWithoutExceptions.includes(" या ")) {
       timeArr = timeWithoutExceptions.split(" या ");
@@ -93,7 +93,7 @@ function clearExceptions(timeWithExceptions){
     } else {
       timeArr[0] = timeWithoutExceptions;
     }
-    console.log(timeArr);
+    // console.log(timeArr);
     return timeArr;
 }
 
@@ -115,11 +115,11 @@ function get(k) {
       if (!form.checkValidity()) {
         event.preventDefault();
         event.stopPropagation();
-        console.log("check validity failed");
+        // console.log("check validity failed");
         form.classList.add('was-validated');
         $("#formErrorsModal").modal('show');
       } else {
-        console.log("check validity done");
+        // console.log("check validity done");
         $("#formErrorsModal").modal('hide');
         submitForm(event);
       }
@@ -131,11 +131,11 @@ function get(k) {
       if (!$regform.checkValidity()) {
         event.preventDefault();
         event.stopPropagation();
-        console.log("check validity failed");
+        // console.log("check validity failed");
         $regform.classList.add('was-validated');
         $("#formErrorsModal").modal('show');
       } else {
-        console.log("check validity done");
+        // console.log("check validity done");
         $("#formErrorsModal").modal('hide');
         $("#payByCashPopup").modal('show');
       }
@@ -160,7 +160,7 @@ function hideLoader() {
 
 function submitFormWithoutPayment(e) {
   showLoader();
-  console.log("submitting form without payment");
+  // console.log("submitting form without payment");
   $('#payOptionClicked').val("PayByCash");
   var $regform = $('form#registration-form'),
   //test url - don not delete
@@ -178,7 +178,7 @@ function submitFormWithoutPayment(e) {
     data: $regform.serialize(),
     success: function (data, text) {
       // asynchronous, after thr response from google returns
-      console.log("form submittion successful");
+      // console.log("form submittion successful");
       hideLoader();
       // show payment sucess msg pop up
       $("#staticBackdropSuccess").modal('show');
@@ -186,8 +186,8 @@ function submitFormWithoutPayment(e) {
     error: function (request, status, error) {
       hideLoader();
       $("#failureModal").modal('show');
-      console.log("form submittion failed");
-      //console.log(request.responseText);
+      // console.log("form submittion failed");
+      //// console.log(request.responseText);
     }
   }).success(
     // synchronous handling
@@ -196,8 +196,17 @@ function submitFormWithoutPayment(e) {
 
 function submitForm(e) {
   showLoader();
-  console.log("submitting form...");
-  $('#payOptionClicked').val("PayOnlineClicked/RegisterFree");
+  // console.log("submitting form...");
+  var progVal = $('select[name="program"]').val();
+  var progDetailArr = progVal.split("_");
+  var amount = progDetailArr[progDetailArr.length - 1];
+  // console.log("amount = " + amount);
+  if(amount == "0"){ 
+    $('#payOptionClicked').val("Free");
+  } else {
+    $('#payOptionClicked').val("Pending Payment");
+  }
+  
   var $regform = $('form#registration-form'),
   //test url - don not delete
   //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
@@ -214,14 +223,8 @@ function submitForm(e) {
     data: $regform.serialize(),
     success: function (data, text) {
       // asynchronous, after thr response from google returns
-      console.log("form submittion successful");
+      // console.log("form submittion successful");
       hideLoader();
-
-      var progVal = $('select[name="program"]').val();
-      var progDetailArr = progVal.split("_");
-      var amount = progDetailArr[progDetailArr.length - 1];
-      console.log("amount = " + amount);
-
       if(amount == "0"){
         // no payment for free programs
         // show registration sucess msg pop up 
@@ -243,8 +246,8 @@ function submitForm(e) {
     error: function (request, status, error) {
       hideLoader();
       $("#failureModal").modal('show');
-      //console.log("form submittion failed");
-      //console.log(request.responseText);
+      //// console.log("form submittion failed");
+      //// console.log(request.responseText);
     }
   }).success(
     // synchronous handling
@@ -252,12 +255,12 @@ function submitForm(e) {
 }
 
 function processPayment() {
-  console.log("Processing payment");
+  // console.log("Processing payment");
   var progVal = $('select[name="program"]').val();
   var progDetailArr = progVal.split("_");
   var amount = progDetailArr[progDetailArr.length - 1];
-  console.log("amount = " + amount);
-  //console.log($('input[name="firstName"]').val() + " "
+  // console.log("amount = " + amount);
+  //// console.log($('input[name="firstName"]').val() + " "
   // + $('input[name="lastName"]').val() +
   // " email " + $('input[name="email"]').val() +
   // " contact " + $('input[name="phone"]').val()) +
@@ -271,14 +274,14 @@ function processPayment() {
     "description": "Hatha Yoga In Its Purest Form",
     "handler": function (response) {
       //success handler
-      console.log("Payment Success!!");
-      //console.log(response.razorpay_payment_id);
-      //console.log(response.razorpay_order_id);
-      //console.log(response.razorpay_signature);
+      // console.log("Payment Success!!");
+      //// console.log(response.razorpay_payment_id);
+      //// console.log(response.razorpay_order_id);
+      //// console.log(response.razorpay_signature);
 
-      console.log("submitting form");
+      // console.log("submitting form");
 
-      $('#payOptionClicked').val("Paid");
+      $('#payOptionClicked').val("Paid By RZP");
       var $regform = $('form#registration-form'),
       //test url - don not delete
       //regurl = 'https://script.google.com/macros/s/AKfycbx6IiND5GRpqJsRDKU8TOU-vVO5g94jHHb-73JCD52Wlf_o6691/exec'
@@ -295,7 +298,7 @@ function processPayment() {
         data: $regform.serialize(),
         success: function (data, text) {
           // asynchronous, after thr response from google returns
-          console.log("2nd form submittion successful");
+          // console.log("2nd form submittion successful");
           hideLoader();
           var time = $('select[name="time"] :selected').html();
           if(time.includes("AM") || time.includes("PM")
@@ -309,8 +312,8 @@ function processPayment() {
         error: function (request, status, error) {
           hideLoader();
           $("#failureModal").modal('show');
-          console.log("2nd form submittion failed");
-          console.log(request.responseText);
+          // console.log("2nd form submittion failed");
+          // console.log(request.responseText);
         }
       }).success(
         // synchronous handling
@@ -337,18 +340,18 @@ function processPayment() {
       "address": $('input[name="address"]').val()
     }
   };
-  console.log("open rzpy")
+  // console.log("open rzpy")
   var rzp1 = new Razorpay(options);
   rzp1.on('payment.failed', function (response) {
     hideLoader();
-    console.log("Error payment failed!!");
-    console.log(response.error.code);
-    console.log(response.error.description);
-    console.log(response.error.source);
-    console.log(response.error.step);
-    console.log(response.error.reason);
-    console.log(response.error.metadata.order_id);
-    console.log(response.error.metadata.payment_id);
+    // console.log("Error payment failed!!");
+    // console.log(response.error.code);
+    // console.log(response.error.description);
+    // console.log(response.error.source);
+    // console.log(response.error.step);
+    // console.log(response.error.reason);
+    // console.log(response.error.metadata.order_id);
+    // console.log(response.error.metadata.payment_id);
     // show payment failure msg pop up not needed, razor pay has its built in popup
   });
   rzp1.open();
@@ -379,7 +382,7 @@ function onYesIUnderstandClick(event) {
 //   url = 'https://script.google.com/macros/s/AKfycbyJ1tw_nDgwE92ZtQq59eW9KAyeK79qrWBE2RWWTQH25UHmS4s/exec'
 
 // $('#submit-test-form').on('click', function (e) {
-//   console.log("test form url - " +url);
+//   // console.log("test form url - " +url);
 
 //   e.preventDefault();
 //   var jqxhr = $.ajax({

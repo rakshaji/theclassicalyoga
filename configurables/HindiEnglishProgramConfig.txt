@@ -172,11 +172,11 @@ NA
 NA
 ₹ 2000  
 NA
-images/banner/PromoPP208.webp  
+NA
 false  
 true  
-true 
-true   
+false 
+false   
 ====
 1M_DGY_1Oct31Oct
 दैनिक निर्देशित योग,,,,Daily Guided Yoga 
@@ -191,11 +191,11 @@ NA
 NA
 ₹ 2999 
 (रियायती मूल्य),,,,(discounted price) 
-images/banner/PromoPP226.webp 
+NA
 false  
 true  
-true 
-true
+false 
+false  
 ====
 1D_FY_1Oct
 फ्री योग दिवस,,,,Free Yoga Day 
@@ -213,5 +213,5 @@ NA
 NA
 false  
 true  
-false 
-false  
+true 
+true  
