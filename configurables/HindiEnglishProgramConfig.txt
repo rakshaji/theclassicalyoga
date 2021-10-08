@@ -22,7 +22,7 @@ FEE::₹ 700
 FEE_INFO::NA
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
+SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false 
 ====
@@ -41,7 +41,7 @@ FEE::₹ 600
 FEE_INFO::NA
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
+SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false 
 ====
@@ -60,7 +60,7 @@ FEE::₹ 500
 FEE_INFO::NA
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
+SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false 
 ====
@@ -70,7 +70,7 @@ TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fit
 TAGLINE2::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::18 अक्टूबर 2021 - 22 अक्टूबर 2021,,,,18 Oct 2021 - 22 Oct 2021
-TIME::सुबह 6:00 - 8:15 या शाम 6:15 - 8:30,,,,6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM
+TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::images/flyer/StudioLaunch/angamardana.webp
 EFLYER2::NA
@@ -89,7 +89,7 @@ TAGLINE1::परमात्मा के साथ संरेखित कर
 TAGLINE2::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::11 अक्टूबर - 14 अक्टूबर और 16 अक्टूबर 2021,,,,11 Oct - 14 Oct & 16 Oct 2021
-TIME::सुबह 6:00 - 8:15 या शाम 6:15 - 8:30,,,,6:00 AM - 8:15 AM or 6:15 PM - 8:30 PM
+TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/flyer/StudioLaunch/yogasanas.webp
 EFLYER2::NA
@@ -103,8 +103,8 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true 
 ====
 PROGRAM_CODE::1D_AUMNS_11Oct
-PROGRAM_NAME::डिप्रेशन के लिए योग,,,,Yoga For Depression
-TAGLINE1::प्राणायाम और मंत्र योग,,,,Pranayam & Mantra Yoga 
+PROGRAM_NAME::प्राणायाम और मंत्र योग,,,,Pranayam & Mantra Yoga
+TAGLINE1::NA
 TAGLINE2::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::11 अक्टूबर 2021,,,,11 Oct 2021
@@ -134,11 +134,11 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500
 FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi2.webp 
+BANNER_IMAGE::NA 
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true 
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::false 
 ====
 PROGRAM_CODE::1D_SKC_7Oct
 PROGRAM_NAME::सूर्य क्रिया (उन लोगों के लिए जिन्होंने सूर्य शक्ति पूरी कर ली है),,,,Surya Kriya (For those who have completed Surya Shakti)  
@@ -153,11 +153,11 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1000  
 FEE_INFO::NA
-BANNER_IMAGE::images/banner/SK.webp 
+BANNER_IMAGE::NA 
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true 
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::false 
 ====
 PROGRAM_CODE::3D_SS_4Oct6Oct
 PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
@@ -174,7 +174,7 @@ FEE::₹ 2000
 FEE_INFO::NA
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
+SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false   
 ====
@@ -193,7 +193,7 @@ FEE::₹ 2999
 FEE_INFO::(रियायती मूल्य),,,,(discounted price) 
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
+SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false   
 ====
@@ -212,6 +212,6 @@ FEE::₹ 0
 FEE_INFO::NA
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
+SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false  

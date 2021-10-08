@@ -120,7 +120,7 @@ class ProgramUpdater {
             String[] progNameArr = programName.split(UP_PROG_SPLIT_DELIMITER);
 
             String tagLine1 = bufferedReader.readLine().trim(); // 3 tag line 1
-            tagLine1 = tagLine1.replace("TAGELINE1::", "");
+            tagLine1 = tagLine1.replace("TAGLINE1::", "");
             String[] tagLine1Arr = tagLine1.split(UP_PROG_SPLIT_DELIMITER);
 
             String tagLine2 = bufferedReader.readLine().trim(); // 4 tag line 2 
