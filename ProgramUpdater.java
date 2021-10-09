@@ -1,7 +1,15 @@
 
-//set path=C:\Program Files\Java\jdk-16.0.2\bin
-//javac -cp .;./jar/jsoup-1.14.1.jar ProgramUpdater.java
-//java -cp .;./jar/jsoup-1.14.1.jar ProgramUpdater
+// FOR WINDOWS:
+// set path=C:\Program Files\Java\jdk-16.0.2\bin
+// javac -cp .;./jar/jsoup-1.14.1.jar ProgramUpdater.java
+// java -cp .;./jar/jsoup-1.14.1.jar ProgramUpdater
+// FOR MAC OS:
+// set path=/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/bin/
+// javac -cp .:./jar/jsoup-1.14.1.jar ProgramUpdater.java
+// java -cp .:./jar/jsoup-1.14.1.jar ProgramUpdater
+// IF JSOUP FILE IS NOT FOUND OR ERRORS: GIVE 'EXECUTABLE' PERMISSION :
+// ls -l ./jar/jsoup-1.14.1.jar
+// chmod 755 ./jar/jsoup-1.14.1.jar
 import org.jsoup.Jsoup;
 import org.jsoup.helper.Validate;
 import org.jsoup.nodes.Document;
