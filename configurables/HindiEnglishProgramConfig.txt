@@ -53,7 +53,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::15 नवंबर 2021 - 19 नवंबर 2021,,,,15 Nov 2021 - 19 Nov 2021
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
-EFLYER1::images/flyer/StudioLaunch/angamardana.webp
+EFLYER1::images/flyer/Nov2021/angamardana.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500  
