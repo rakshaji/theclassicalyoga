@@ -63,18 +63,18 @@ function getBody(program, time){
 
 function sendEmail(to, program, time) {
     //alert(to);
-    Email.send({
-      Host: "smtpout.secureserver.net",
-      Username: "contact@theclassicalyoga.com",
-      Password: "br12345678",
-      To: to,
-      From: "contact@theclassicalyoga.com",
-      Subject: "Program Guidelines and Confirmation for "+ program,
-      Body: getBody(program, time)
-    })
-    .then(function (message) {
-        // console.log("Mail sent successfully")
-    });
+    // Email.send({
+    //   Host: "smtpout.secureserver.net",
+    //   Username: "contact@theclassicalyoga.com",
+    //   Password: "br12345678",
+    //   To: to,
+    //   From: "contact@theclassicalyoga.com",
+    //   Subject: "Program Guidelines and Confirmation for "+ program,
+    //   Body: getBody(program, time)
+    // })
+    // .then(function (message) {
+    //     // console.log("Mail sent successfully")
+    // });
   }
 
   
