@@ -158,22 +158,3 @@ SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::false  
-====
-PROGRAM_CODE::1D_FY_23Oct
-PROGRAM_NAME::फ्री योग दिवस,,,,Free Yoga Day 
-TAGLINE1::NA
-TAGLINE2::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 अक्टूबर 2021,,,,23 Oct 2021
-TIME::सुबह 7:00 - 8:00,,,,7:00 AM - 8:00 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/yogaforfree.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 0  
-FEE_INFO::NA
-BANNER_IMAGE::NA
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::false  
