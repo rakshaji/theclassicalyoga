@@ -135,6 +135,10 @@ class ProgramUpdater {
             tagLine2 = tagLine2.replace("TAGLINE2::", "");
             String[] tagLine2Arr = tagLine2.split(UP_PROG_SPLIT_DELIMITER);
 
+            String progInfo = bufferedReader.readLine().trim(); // 4 tag line 2 
+            progInfo = progInfo.replace("PROGRAM_INFO::", "");
+            String[] progInfoArr = progInfo.split(UP_PROG_SPLIT_DELIMITER);
+
             String language = bufferedReader.readLine().trim(); // 5 language 
             language = language.replace("LANGUAGE::", "");
             String[] languageArr = language.split(UP_PROG_SPLIT_DELIMITER);
@@ -192,6 +196,7 @@ class ProgramUpdater {
                 , progNameArr.length > 0? progNameArr[0]:"NA"
                 , tagLine1Arr.length > 0? tagLine1Arr[0]:"NA"
                 , tagLine2Arr.length > 0? tagLine2Arr[0]:"NA"
+                , progInfoArr.length > 0? progInfoArr[0]:"NA"
                 , languageArr.length > 0? languageArr[0]:"NA"
                 , dateArr.length > 0? dateArr[0]:"NA"
                 , timeArr.length > 0? timeArr[0]:"NA"
@@ -208,6 +213,7 @@ class ProgramUpdater {
                 , progNameArr.length > 1? progNameArr[1]:"NA"
                 , tagLine1Arr.length > 1? tagLine1Arr[1]:"NA"
                 , tagLine2Arr.length > 1? tagLine2Arr[1]:"NA"
+                , progInfoArr.length > 1? progInfoArr[1]:"NA"
                 , languageArr.length > 1? languageArr[1]:"NA"
                 , dateArr.length > 1? dateArr[1]:"NA"
                 , timeArr.length > 1? timeArr[1]:"NA"
@@ -239,6 +245,7 @@ class ProgramUpdater {
                 bufferedReader.readLine().trim(), // program name
                 bufferedReader.readLine().trim(), // tag line 1
                 bufferedReader.readLine().trim(), // tag line 2
+                bufferedReader.readLine().trim(), // program info
                 bufferedReader.readLine().trim(), // language 
                 bufferedReader.readLine().trim(), // date
                 bufferedReader.readLine().trim(), // time
@@ -496,6 +503,9 @@ class ProgramUpdater {
             content += program.tagLine2;
         } 
         content +=  "</h3></a>";// <b> (" + program.language + ")</b>
+        if(!(program.progInfo).equalsIgnoreCase("NA")) {
+            content += "<p class='up-details'>" + program.progInfo + " </p>";
+        }
         content += "<p class='up-details'>" + program.date + PIPE_SEPARATOR + program.time 
         + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.fee + " " + program.feeInfo + " </p>";
         
@@ -707,6 +717,7 @@ class ProgramUpdater {
         String programName;
         String tagLine1;
         String tagLine2;
+        String progInfo;
         String language;
         String date;
         String time;
@@ -727,6 +738,7 @@ class ProgramUpdater {
             String programName,
             String tagLine1,
             String tagLine2,
+            String progInfo,
             String language,
             String date,
             String time,
@@ -745,6 +757,7 @@ class ProgramUpdater {
             this.programName = convertToUTF8(programName);
             this.tagLine1 = tagLine1;
             this.tagLine2 = tagLine2;
+            this.progInfo = progInfo;
             this.language = language;
             this.date = date;
             this.time = time;
@@ -775,6 +788,7 @@ class ProgramUpdater {
             this.programName + "\n" +
             this.tagLine1 + "\n" +
             this.tagLine2 + "\n" +
+            this.progInfo + "\n" +
             this.language + "\n" +
             this.date + "\n" +
             this.time + "\n" +
