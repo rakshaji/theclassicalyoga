@@ -11,6 +11,7 @@ PROGRAM_CODE::1D_BS_27Dec
 PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
 TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying five elements
 TAGLINE2::NA
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::27 दिसंबर 2021,,,,27 Dec 2021
 TIME::सुबह 7:30 - 8:45,,,,7:30 AM - 8:45 AM
@@ -30,6 +31,7 @@ PROGRAM_CODE::1D_SKC_23Dec
 PROGRAM_NAME::सूर्य क्रिया (उन लोगों के लिए जिन्होंने सूर्य शक्ति पूरी कर ली है),,,,Surya Kriya (For those who have completed Surya Shakti)  
 TAGLINE1::NA
 TAGLINE2::NA
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::23 दिसंबर 2021,,,,23 Dec 2021
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
@@ -49,6 +51,7 @@ PROGRAM_CODE::3D_SS_20Dec22Dec
 PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
 TAGLINE1::फिटनेस और स्ट्रेंथ बिल्डिंग के लिए,,,,For Fitness and Strength Building
 TAGLINE2::NA
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::20 दिसंबर 2021 से 22 दिसंबर 2021,,,,20 Dec 2021 - 22 Dec 2021
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
@@ -68,6 +71,7 @@ PROGRAM_CODE::5D_Y_13Dec17Dec
 PROGRAM_NAME::योगासन,,,,Yogasanas
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::13 अक्टूबर - 17 अक्टूबर,,,,13 Dec - 17 Dec
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
@@ -87,6 +91,7 @@ PROGRAM_CODE::4D_ANGA_6Dec10Dec
 PROGRAM_NAME::अंगमर्दना,,,,Angamardana
 TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
 TAGLINE2::NA
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::6 दिसंबर 2021 - 10 दिसंबर 2021,,,,6 Dec 2021 - 10 Dec 2021
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
@@ -105,7 +110,8 @@ SHOW_LEARN_MORE_BTN::true
 PROGRAM_CODE::1M_DGY_1Dec30Dec
 PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga 
 TAGLINE1::NA 
-TAGLINE2:: * मासिक सदस्यता *,,,, * Monthly Subscription *
+TAGLINE2:: * मासिक सदस्यता *,,,, * Monthly Subscription For December*
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::1 दिसंबर 2021 - 30 दिसंबर 2021,,,,1 Dec 2021 - 30 Dec 2021
 TIME::सुबह 6:00 - 7:00 या शाम 6:30 - 7:30,,,,6:00 AM - 7:00 AM or 6:30 PM - 7:30 PM
@@ -121,10 +127,11 @@ SHOW_UPCOMING_PROG_BTN::false
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true   
 ====
-PROGRAM_CODE::1D_FY_29Nov
-PROGRAM_NAME::फ्री योग दिवस,,,,Free Yoga Day 
+PROGRAM_CODE::1D_YFW_29Nov
+PROGRAM_NAME::कल्याण के लिए योग,,,,Yoga for Wellbeing
 TAGLINE1::NA
 TAGLINE2::NA
+PROGRAM_INFO::संपूर्ण स्वास्थ्य के लिए एक शक्तिशाली योग अभ्यास और ध्यान सीखें,,,,Learn one powerful yoga practice and a meditation for overall wellbeing
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::29 नवंबर 2021,,,,29 Nov 2021
 TIME::सुबह 7:30 - 8:30,,,,7:30 AM - 8:30 AM
@@ -132,7 +139,7 @@ AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/flyer/Nov2021/yogaforfree.webp
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 0  
+FEE::₹ 200  
 FEE_INFO::NA
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false
