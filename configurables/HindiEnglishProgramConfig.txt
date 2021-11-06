@@ -227,6 +227,26 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true 
 ====
+PROGRAM_CODE::1D_YFW_13Nov
+PROGRAM_NAME::कल्याण के लिए योग,,,,Yoga for Wellbeing
+TAGLINE1::NA
+TAGLINE2::NA
+PROGRAM_INFO::संपूर्ण स्वास्थ्य के लिए एक शक्तिशाली योग अभ्यास और ध्यान सीखें,,,,Learn one powerful yoga practice and a meditation for overall wellbeing
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::13 नवंबर 2021,,,,13 Nov 2021
+TIME::सुबह 7:00 - 8:30,,,,7:00 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 200  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP214.webp
+SHOW_INTEREST_BTN::false
+SHOW_UPCOMING_PROG_BTN::true
+SHOW_REGISTER_BTN::true
+SHOW_LEARN_MORE_BTN::false
+====
 PROGRAM_CODE::5D_Y_8Nov12Nov 
 PROGRAM_NAME::योगासन,,,,Yogasanas
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
@@ -265,24 +285,4 @@ BANNER_IMAGE::images/banner/bg_3.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true   
-====
-PROGRAM_CODE::1D_YFW_7Nov
-PROGRAM_NAME::कल्याण के लिए योग,,,,Yoga for Wellbeing
-TAGLINE1::NA
-TAGLINE2::NA
-PROGRAM_INFO::संपूर्ण स्वास्थ्य के लिए एक शक्तिशाली योग अभ्यास और ध्यान सीखें,,,,Learn one powerful yoga practice and a meditation for overall wellbeing
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::7 नवंबर 2021,,,,7 Nov 2021
-TIME::सुबह 7:00 - 8:30,,,,7:00 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::NA
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 200  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP214.webp
-SHOW_INTEREST_BTN::false
-SHOW_UPCOMING_PROG_BTN::true
-SHOW_REGISTER_BTN::true
-SHOW_LEARN_MORE_BTN::false
+SHOW_LEARN_MORE_BTN::true
