@@ -418,6 +418,7 @@ class ProgramUpdater {
             Testimony testimony = new ProgramUpdater().new Testimony(
                 bufferedReader.readLine(),// testimony
                 bufferedReader.readLine(),// name
+                bufferedReader.readLine(),// profession
                 bufferedReader.readLine(),// photo path
                 bufferedReader.readLine() // language
                 );
@@ -443,6 +444,7 @@ class ProgramUpdater {
             } 
             content += "<div class='ml-4'>";
             content += "<p class='name'>" + t.name + "</p>";
+            content += "<p class='position'>" + t.profession + "</p>";
             if(!language.equalsIgnoreCase("Hindi")){
                 content += "<span class='position'>Participant</span>";
             } else {
@@ -697,15 +699,18 @@ class ProgramUpdater {
     class Testimony {
         String testimony;
         String name;
+        String profession;
         String photo;
         String language;
 
         Testimony(String testimony,
             String name,
+            String profession,
             String photo,
             String language){
             this.testimony = testimony;
             this.name = name;
+            this.profession = profession;
             this.photo = photo;
             this.language = language;
         }

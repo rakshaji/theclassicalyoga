@@ -119,7 +119,7 @@ AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/flyer/Nov2021/dailyguidedyoga.webp
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 2999 
+FEE::₹ 3000 
 FEE_INFO::(रियायती मूल्य),,,,(discounted price) 
 BANNER_IMAGE::images/banner/bg_3.webp
 SHOW_INTEREST_BTN::false  
@@ -136,12 +136,12 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::29 नवंबर 2021,,,,29 Nov 2021
 TIME::सुबह 7:30 - 8:30,,,,7:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/yogaforfree.webp
+EFLYER1::images/flyer/Nov2021/yogaforwellbeing.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 200  
 FEE_INFO::NA
-BANNER_IMAGE::NA
+BANNER_IMAGE::images/flyer/Nov2021/yogaforwellbeing.webp
 SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true
@@ -236,12 +236,12 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::13 नवंबर 2021,,,,13 Nov 2021
 TIME::सुबह 7:00 - 8:30,,,,7:00 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::NA
+EFLYER1::images/flyer/Nov2021/yogaforwellbeing.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 200  
 FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP214.webp
+BANNER_IMAGE::images/flyer/Nov2021/yogaforwellbeing.webp
 SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true
