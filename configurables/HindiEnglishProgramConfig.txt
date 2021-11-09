@@ -120,7 +120,7 @@ EFLYER1::images/flyer/Nov2021/dailyguidedyoga.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3000 
-FEE_INFO::(रियायती मूल्य),,,,(discounted price) 
+FEE_INFO::(रेफरल बोनस उपलब्ध है),,,,(referral bonus is available) 
 BANNER_IMAGE::images/banner/bg_3.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::false  
@@ -280,9 +280,9 @@ EFLYER1::images/flyer/Nov2021/dailyguidedyoga.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3000 
-FEE_INFO::(रियायती मूल्य),,,,(discounted price) 
+FEE_INFO::(रेफरल बोनस उपलब्ध है),,,,(referral bonus is available) 
 BANNER_IMAGE::images/banner/bg_3.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::false  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::false
