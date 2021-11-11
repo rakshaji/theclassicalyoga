@@ -261,11 +261,11 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500
 FEE_INFO::NA  
-BANNER_IMAGE::images/banner/PromoPP221.webp  
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true 
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::false 
 ====
 PROGRAM_CODE::1M_DGY_8Nov30Nov
 PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga 
@@ -281,7 +281,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3000 
 FEE_INFO::(रेफरल बोनस उपलब्ध है),,,,(referral bonus is available) 
-BANNER_IMAGE::images/banner/bg_3.webp
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::false 
