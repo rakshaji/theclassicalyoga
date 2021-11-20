@@ -27,33 +27,13 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::false
 ====
-PROGRAM_CODE::1D_BS_23Dec
-PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
-TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying five elements
-TAGLINE2::NA
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसंबर 2021,,,,23 Dec 2021
-TIME::सुबह 7:30 - 8:45,,,,7:30 AM - 8:45 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 3500
-FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true 
-====
-PROGRAM_CODE::1D_SSC_22Dec
+PROGRAM_CODE::1D_SSC_24Dec
 PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::22 दिसंबर 2021,,,,22 Dec 2021
+DATE::24 दिसंबर 2021,,,,24 Dec 2021
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
 EFLYER1::images/flyer/Nov2021/skss.webp
@@ -67,13 +47,13 @@ SHOW_UPCOMING_PROG_BTN::false
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true 
 ====
-PROGRAM_CODE::4D_SK_18Dec21Dec
+PROGRAM_CODE::4D_SK_20Dec23Dec
 PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
 TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate the sun within
 TAGLINE2::NA
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::18 दिसंबर 2021 से 21 दिसंबर 2021,,,,18 Dec 2021 - 21 Dec 2021
+DATE::20 दिसंबर 2021 से 23 दिसंबर 2021,,,,20 Dec 2021 - 23 Dec 2021
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
 EFLYER1::images/flyer/Nov2021/skss.webp
@@ -86,6 +66,26 @@ SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true   
+====
+PROGRAM_CODE::1D_BS_19Dec
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
+TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying five elements
+TAGLINE2::NA
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::19 दिसंबर 2021,,,,19 Dec 2021
+TIME::सुबह 7:30 - 8:45,,,,7:30 AM - 8:45 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true 
 ====
 PROGRAM_CODE::5D_Y_13Dec17Dec 
 PROGRAM_NAME::योगासन,,,,Yogasanas
