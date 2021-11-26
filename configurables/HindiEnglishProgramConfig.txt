@@ -147,6 +147,26 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true 
 ====
+PROGRAM_CODE::1D_BS_3Dec
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
+TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying five elements
+TAGLINE2::NA
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::3 दिसंबर 2021,,,,3 Dec 2021
+TIME::सुबह 7:30 - 8:45,,,,7:30 AM - 8:45 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true 
+====
 PROGRAM_CODE::1M_DGY_1Dec30Dec
 PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga 
 TAGLINE1::NA 
@@ -186,26 +206,6 @@ SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::false
-====
-PROGRAM_CODE::1D_BS_26Nov
-PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
-TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying five elements
-TAGLINE2::NA
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::26 नवंबर 2021,,,,26 Nov 2021
-TIME::सुबह 7:30 - 8:45,,,,7:30 AM - 8:45 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 3500
-FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true 
 ====
 PROGRAM_CODE::1D_SKC_25Nov
 PROGRAM_NAME::सूर्य क्रिया (उन लोगों के लिए जिन्होंने सूर्य शक्ति पूरी कर ली है),,,,Surya Kriya (For those who have completed Surya Shakti)  
