@@ -61,6 +61,13 @@ $(window).load(function () {
       $('#payByCashBtn').show();
     }
 
+    // show cash payment button only for raipur programs alone
+    if(key.search("@RAIPUR") > 0) {
+      $('#payByCashBtn').show();
+    } else {
+      $('#payByCashBtn').hide();
+    }
+
     // add timings to the drop down
     let matchedTimeArr = get(key);
     // console.log( matchedTimeArr );
