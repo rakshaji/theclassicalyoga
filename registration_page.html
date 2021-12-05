@@ -570,6 +570,26 @@
      </div> 
     </div> 
    </div> 
+<!-- --- Privyr Contact Form Integration ---  -->
+<script>
+  var privyrScript = document.createElement('script');
+  privyrScript.addEventListener('load', function () {
+  
+  window['_pvyr_cf_code'] = 'zLpmLMUm';
+  window['_pvyr_cf_btn_id'] = ['payByCashBtn','submit-reg-form'];
+  window['_pvyr_host'] = 'privyr.com';
+  (function (c, n, e, p) {
+      window['_privyr_cf'] = PrivyrUPCfIntegration.run_up({
+          "license_code": window['_pvyr_cf_code'],
+          "btns_id": window['_pvyr_cf_btn_id']
+      });
+  })(window, document);
+  });
+  privyrScript.src = "https://ei.privyr.com/v2.3/pvyr-up-cf.min.js";
+  document.head.appendChild(privyrScript); 
+  </script>
+  <!-- --- End Privyr Contact Form Integration ----->
+
   </footer> 
   <script src="js/jquery.min.js"></script> 
   <script src="js/jquery-migrate-3.0.1.min.js"></script> 
@@ -618,5 +638,6 @@
         </div>
       
       </form> -->  
+
  </body>
 </html>
