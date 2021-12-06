@@ -11,12 +11,12 @@ PROGRAM_CODE::1D@BHILAI_SSC_27Dec
 PROGRAM_NAME::सूर्य शक्ति (Bhilai),,,,Surya Shakti (Bhilai)
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>,,,,𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::27 दिसंबर 2021,,,,27 Dec 2021
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::images/flyer/Nov2021/skss.webp
+EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1000  
@@ -29,14 +29,14 @@ SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@BHILAI_BS_26Dec
 PROGRAM_NAME::भूत शुद्धि (Bhilai),,,,Bhuta Shuddhi (Bhilai)
-TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying five elements
+TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>,,,,𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::26 दिसंबर 2021,,,,26 Dec 2021
 TIME::सुबह 10:00 - 11:15,,,,10:00 AM - 11:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
+EFLYER1::NA
 EFLYER2::NA 
 EFLYER3::NA
 FEE::₹ 3500
@@ -51,12 +51,12 @@ PROGRAM_CODE::5D@BHILAI_ANGA_23Dec27Dec
 PROGRAM_NAME::अंगमर्दना (Bhilai),,,,Angamardana (Bhilai)
 TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>,,,,𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::23 दिसंबर - 27 दिसंबर,,,,23 Dec - 27 Dec
 TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
-EFLYER1::images/flyer/Nov2021/angamardana.webp
+EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500  
@@ -69,14 +69,14 @@ SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::4D@BHILAI_SK_23Dec26Dec
 PROGRAM_NAME::सूर्य क्रिया (Bhilai),,,,Surya Kriya (Bhilai)
-TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate the sun within
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>,,,,𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::23 दिसंबर से 26 दिसंबर,,,,23 Dec - 26 Dec
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
-EFLYER1::images/flyer/Nov2021/skss.webp
+EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 2500  
@@ -91,12 +91,12 @@ PROGRAM_CODE::5D@BHILAI_Y_23Dec27Dec
 PROGRAM_NAME::योगासन (Bhilai),,,,Yogasanas (Bhilai)
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>,,,,𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai <a href="http://shorturl.at/ivHO2" target="_blank">(http://shorturl.at/ivHO2)</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::23 दिसंबर - 27 दिसंबर,,,,23 Dec - 27 Dec
 TIME::सुबह 6:00 - 8:45,,,,6:00 AM - 8:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
-EFLYER1::images/flyer/Nov2021/yogasanas.webp
+EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500
@@ -108,7 +108,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true 
 ====
 PROGRAM_CODE::1D@RAIPUR_YFW_26Dec
-PROGRAM_NAME::कल्याण के लिए योग (Raipur),,,,Yoga for Wellbeing (Raipur)
+PROGRAM_NAME::कल्याण के लिए योग (Raipur),,,,Yoga For Wellbeing (Raipur)
 TAGLINE1::NA
 TAGLINE2::NA
 PROGRAM_INFO::संपूर्ण स्वास्थ्य के लिए एक शक्तिशाली योग अभ्यास और ध्यान सीखें,,,,Learn one powerful yoga practice and a meditation for overall wellbeing
@@ -131,7 +131,7 @@ PROGRAM_CODE::1D@RAIPUR_SSC_22Dec
 PROGRAM_NAME::सूर्य शक्ति (Raipur),,,,Surya Shakti (Raipur)
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर,,,,Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::22 दिसंबर 2021,,,,22 Dec 2021
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
@@ -149,9 +149,9 @@ SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@RAIPUR_BS_19Dec
 PROGRAM_NAME::भूत शुद्धि (Raipur),,,,Bhuta Shuddhi (Raipur)
-TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying five elements
+TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर,,,,Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::19 दिसंबर 2021,,,,19 Dec 2021
 TIME::सुबह 6:00 - 7:15,,,,6:00 AM - 7:15 AM
@@ -169,9 +169,9 @@ SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::4D@RAIPUR_SK_18Dec21Dec
 PROGRAM_NAME::सूर्य क्रिया (Raipur),,,,Surya Kriya (Raipur)
-TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate the sun within
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर,,,,Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::18 दिसंबर से 21 दिसंबर,,,,18 Dec - 21 Dec
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
@@ -191,7 +191,7 @@ PROGRAM_CODE::5D@RAIPUR_Y_13Dec17Dec
 PROGRAM_NAME::योगासन (Raipur),,,,Yogasanas (Raipur)
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर,,,,Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::13 दिसंबर - 17 दिसंबर,,,,13 Dec - 17 Dec
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
@@ -208,7 +208,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true 
 ====
 PROGRAM_CODE::1D@RAIPUR_YFW_11Dec
-PROGRAM_NAME::कल्याण के लिए योग (Raipur),,,,Yoga for Wellbeing (Raipur)
+PROGRAM_NAME::कल्याण के लिए योग (Raipur),,,,Yoga For Wellbeing (Raipur)
 TAGLINE1::NA
 TAGLINE2::NA
 PROGRAM_INFO::संपूर्ण स्वास्थ्य के लिए एक शक्तिशाली योग अभ्यास और ध्यान सीखें,,,,Learn one powerful yoga practice and a meditation for overall wellbeing
@@ -231,7 +231,7 @@ PROGRAM_CODE::4D@RAIPUR_ANGA_6Dec10Dec
 PROGRAM_NAME::अंगमर्दना (Raipur),,,,Angamardana (Raipur)
 TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
 TAGLINE2::NA
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर,,,,Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::6 दिसंबर - 10 दिसंबर,,,,6 Dec - 10 Dec
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
@@ -251,7 +251,7 @@ PROGRAM_CODE::1M@RAIPUR_DGY_1Dec30Dec
 PROGRAM_NAME::दैनिक निर्देशित योग (Raipur),,,,Daily Guided Yoga (Raipur)
 TAGLINE1::NA 
 TAGLINE2:: * मासिक सदस्यता *,,,, * Monthly Subscription For December*
-PROGRAM_INFO::NA
+PROGRAM_INFO::स्थान - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर,,,,Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::1 दिसंबर - 30 दिसंबर,,,,1 Dec - 30 Dec
 TIME::सुबह 6:00 - 7:00 या शाम 6:30 - 7:30,,,,6:00 AM - 7:00 AM or 6:30 PM - 7:30 PM

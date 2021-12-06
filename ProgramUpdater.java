@@ -330,11 +330,24 @@ class ProgramUpdater {
         
         Element upDiv = doc.getElementById("upcomingPrograms");
         if(upDiv == null) return;
+
+        Element raipurDiv = doc.getElementById("Raipur");
+        if(raipurDiv == null) return;
+
+        Element bhilaiDiv = doc.getElementById("Bhilai");
+        if(bhilaiDiv == null) return;
        
         // add programs
         for (int i = 0; i < progArr.size(); i++){
-            if(progArr.get(i) != null){
-                upDiv.after(getContentForUpcomingPrograms(progArr.get(i), language));
+            Program program = progArr.get(i);
+            if(program != null){
+                //System.out.println("%%%%%%%%%%%%%%% getContentForUpcomingPrograms " + program.id + "    "+ (program.id).indexOf("@RAIPUR") + "     "+ raipurDiv);
+                if((program.id).indexOf("@RAIPUR") >= 0) {
+                    raipurDiv.append(getContentForUpcomingPrograms(program, language));
+                }
+                if((program.id).indexOf("@BHILAI") >= 0) {
+                    bhilaiDiv.append(getContentForUpcomingPrograms(program, language));
+                }
             }
         }
         
@@ -578,11 +591,26 @@ class ProgramUpdater {
             upcomingProgramsDiv += "  <h2 class='mb-1'>" + UPCOMING_PROGS_HINDI + "</h2>";
         } else {
             upcomingProgramsDiv += "  <h2 class='mb-1'>Upcoming Programs</h2>";
-        }  
-        
+        }
         upcomingProgramsDiv += "</div>";
         upcomingProgramsDiv += "</div>";        
         upcomingProgramsDiv += "</div>";
+
+        upcomingProgramsDiv += "<div class='tab'>";
+        upcomingProgramsDiv += "<button class='tablinks' onclick=openCity(event,'Raipur') id='defaultOpen'>Raipur</button>";
+        upcomingProgramsDiv += "<button class='tablinks' onclick=openCity(event,'Bhilai')>Bhilai</button>";
+        upcomingProgramsDiv += "<button class='tablinks' onclick=openCity(event,'Bilaspur')>Bilaspur</button>";
+        upcomingProgramsDiv += "</div>";
+
+        upcomingProgramsDiv += "<div id='Raipur' class='tabcontent'>";
+        upcomingProgramsDiv += "</div>";
+        upcomingProgramsDiv += "<div id='Bhilai' class='tabcontent'>";
+        upcomingProgramsDiv += "</div>";
+        upcomingProgramsDiv += "<div id='Bilaspur' class='tabcontent'>";
+        upcomingProgramsDiv += "<h3>Bilaspur</h3>";
+        upcomingProgramsDiv += "<p>No classes scheduled yet</p>";
+        upcomingProgramsDiv += "</div>";
+    
         elementToEmpty.html(upcomingProgramsDiv);
     }
 
