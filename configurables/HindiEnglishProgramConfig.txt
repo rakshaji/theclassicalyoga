@@ -16,12 +16,12 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::27 दिसंबर 2021,,,,27 Dec 2021
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::NA
+EFLYER1::images/banner/PromoPP237.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1000  
 FEE_INFO::NA
-BANNER_IMAGE::NA 
+BANNER_IMAGE::images/banner/PromoPP237.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::false  
 SHOW_REGISTER_BTN::true 
@@ -36,7 +36,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::26 दिसंबर 2021,,,,26 Dec 2021
 TIME::सुबह 10:00 - 11:15,,,,10:00 AM - 11:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::NA
+EFLYER1::images/banner/BhutaShuddhi2.webp
 EFLYER2::NA 
 EFLYER3::NA
 FEE::₹ 3500
@@ -56,7 +56,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::23 दिसंबर - 27 दिसंबर,,,,23 Dec - 27 Dec
 TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
-EFLYER1::NA
+EFLYER1::images/banner/PromoPP200.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500  
@@ -76,7 +76,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::23 दिसंबर से 26 दिसंबर,,,,23 Dec - 26 Dec
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
-EFLYER1::NA
+EFLYER1::images/banner/PromoPP237.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 2500  
@@ -96,7 +96,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::23 दिसंबर - 27 दिसंबर,,,,23 Dec - 27 Dec
 TIME::सुबह 6:00 - 8:45,,,,6:00 AM - 8:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
-EFLYER1::NA
+EFLYER1::images/banner/PromoPP221.webp
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500
