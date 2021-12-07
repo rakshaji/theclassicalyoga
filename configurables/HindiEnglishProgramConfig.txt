@@ -7,26 +7,6 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-PROGRAM_CODE::1D@BHILAI_SSC_27Dec
-PROGRAM_NAME::सूर्य शक्ति ,,,,Surya Shakti 
-TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
-TAGLINE2::NA
-PROGRAM_INFO::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::27 दिसंबर 2021,,,,27 Dec 2021
-TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::images/banner/PromoPP208.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 1000  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP208.webp 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true   
-====
 PROGRAM_CODE::5D@BHILAI_Y_23Dec27Dec 
 PROGRAM_NAME::योगासन ,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
@@ -86,6 +66,46 @@ SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@BHILAI_BS_26Dec
+PROGRAM_NAME::भूत शुद्धि ,,,,Bhuta Shuddhi 
+TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
+TAGLINE2::NA
+PROGRAM_INFO::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::26 दिसंबर 2021,,,,26 Dec 2021
+TIME::सुबह 10:00 - 11:15,,,,10:00 AM - 11:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@BHILAI_SSC_27Dec
+PROGRAM_NAME::सूर्य शक्ति ,,,,Surya Shakti 
+TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
+TAGLINE2::NA
+PROGRAM_INFO::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::27 दिसंबर 2021,,,,27 Dec 2021
+TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
+EFLYER1::images/banner/PromoPP208.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1000  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP208.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true   
 ====
 PROGRAM_CODE::1D@RAIPUR_YFW_11Dec
 PROGRAM_NAME::कल्याण के लिए योग ,,,,Yoga For Wellbeing 
