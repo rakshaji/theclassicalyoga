@@ -294,7 +294,8 @@ class ProgramUpdater {
         }
         for(int i = progArr.size() -1; i >= 0; i--){
             Program program = progArr.get(i);
-            if (program.showRegisterNowBtn) {
+            // skip the banner only programs
+            if (program.showRegisterNowBtn && !(program.id).startsWith("PROMO")) {
                 optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
                     + program.programName + "(" + program.city + ")" + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.time 
                     + PIPE_SEPARATOR + program.fee + "</option>";
@@ -350,7 +351,8 @@ class ProgramUpdater {
         // add programs
         for (int i = 0; i < progArr.size(); i++){
             Program program = progArr.get(i);
-            if(program != null && !(program.id).equals("NA")){
+            // skip the banner only programs
+            if(program != null && !(program.id).startsWith("PROMO")){
                 if((program.id).indexOf("@RAIPUR") >= 0) {
                     raipurDiv.append(getContentForUpcomingPrograms(program, language));
                 }
