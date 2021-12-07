@@ -8,7 +8,7 @@
 और अधिक जानें
 ====
 PROGRAM_CODE::1D@BHILAI_SSC_27Dec
-PROGRAM_NAME::सूर्य शक्ति (Bhilai),,,,Surya Shakti (Bhilai)
+PROGRAM_NAME::सूर्य शक्ति ,,,,Surya Shakti 
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
 PROGRAM_INFO::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
@@ -28,12 +28,12 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true   
 ====
 PROGRAM_CODE::5D@BHILAI_Y_23Dec27Dec 
-PROGRAM_NAME::योगासन (Bhilai),,,,Yogasanas (Bhilai)
+PROGRAM_NAME::योगासन ,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
 PROGRAM_INFO::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसंबर - 27 दिसंबर,,,,23 Dec - 27 Dec
+DATE::23 दिसंबर से 27 दिसंबर,,,,23 Dec - 27 Dec
 TIME::सुबह 6:00 - 8:45,,,,6:00 AM - 8:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/banner/PromoPP221.webp
@@ -48,7 +48,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true 
 ====
 PROGRAM_CODE::4D@BHILAI_SK_23Dec26Dec
-PROGRAM_NAME::सूर्य क्रिया (Bhilai),,,,Surya Kriya (Bhilai)
+PROGRAM_NAME::सूर्य क्रिया ,,,,Surya Kriya 
 TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
 PROGRAM_INFO::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
@@ -68,12 +68,12 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::5D@BHILAI_ANGA_23Dec27Dec
-PROGRAM_NAME::अंगमर्दना (Bhilai),,,,Angamardana (Bhilai)
+PROGRAM_NAME::अंगमर्दना ,,,,Angamardana 
 TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
 TAGLINE2::NA
 PROGRAM_INFO::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसंबर - 27 दिसंबर,,,,23 Dec - 27 Dec
+DATE::23 दिसंबर से 27 दिसंबर,,,,23 Dec - 27 Dec
 TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::images/banner/PromoPP200.webp
@@ -88,7 +88,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@RAIPUR_YFW_11Dec
-PROGRAM_NAME::कल्याण के लिए योग (Raipur),,,,Yoga For Wellbeing (Raipur)
+PROGRAM_NAME::कल्याण के लिए योग ,,,,Yoga For Wellbeing 
 TAGLINE1::NA
 TAGLINE2::NA
 PROGRAM_INFO::संपूर्ण स्वास्थ्य के लिए एक शक्तिशाली योग अभ्यास और ध्यान सीखें,,,,Learn one powerful yoga practice and a meditation for overall wellbeing
@@ -108,12 +108,12 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::false
 ====
 PROGRAM_CODE::5D@RAIPUR_Y_13Dec17Dec 
-PROGRAM_NAME::योगासन (Raipur),,,,Yogasanas (Raipur)
+PROGRAM_NAME::योगासन ,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
 PROGRAM_INFO::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::13 दिसंबर - 17 दिसंबर,,,,13 Dec - 17 Dec
+DATE::13 दिसंबर से 17 दिसंबर,,,,13 Dec - 17 Dec
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/flyer/Nov2021/yogasanas.webp
@@ -128,7 +128,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::4D@RAIPUR_SK_18Dec21Dec
-PROGRAM_NAME::सूर्य क्रिया (Raipur),,,,Surya Kriya (Raipur)
+PROGRAM_NAME::सूर्य क्रिया ,,,,Surya Kriya 
 TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
 PROGRAM_INFO::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
@@ -148,7 +148,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@RAIPUR_BS_19Dec
-PROGRAM_NAME::भूत शुद्धि (Raipur),,,,Bhuta Shuddhi (Raipur)
+PROGRAM_NAME::भूत शुद्धि ,,,,Bhuta Shuddhi 
 TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
 TAGLINE2::NA
 PROGRAM_INFO::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
@@ -168,7 +168,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@RAIPUR_SSC_22Dec
-PROGRAM_NAME::सूर्य शक्ति (Raipur),,,,Surya Shakti (Raipur)
+PROGRAM_NAME::सूर्य शक्ति ,,,,Surya Shakti 
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
 PROGRAM_INFO::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>

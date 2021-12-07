@@ -89,14 +89,14 @@ class ProgramUpdater {
             programPageMapHindi.put(splitArr[1], splitArr[2]);  
             programPageMapEng.put(splitArr[0], splitArr[2].replace("_hi", ""));   
 
-            // System.out.println(line);
-            // System.out.println(splitArr[0]);
-            // System.out.println(splitArr[1]);
-            // System.out.println(splitArr[2]);
+            // // System.out.println(line);
+            // // System.out.println(splitArr[0]);
+            // // System.out.println(splitArr[1]);
+            // // System.out.println(splitArr[2]);
         }    
 
-        System.out.println(programPageMapEng);
-        System.out.println(programPageMapHindi);
+        // System.out.println(programPageMapEng);
+        // System.out.println(programPageMapHindi);
     }
 
     private static void initPrograms() throws IOException {
@@ -118,7 +118,7 @@ class ProgramUpdater {
 
         String line = null;
         // read program info hindi
-        //System.out.println("line - " + line);
+        //// System.out.println("line - " + line);
         while ((line = bufferedReader.readLine()) != null) {
             String programCode = bufferedReader.readLine().trim();//1
             programCode = programCode.replace("PROGRAM_CODE::", "");
@@ -224,8 +224,8 @@ class ProgramUpdater {
                 , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
             progArrEng.add(prog);   
         }    
-        System.out.println("Hindi size - "+progArrHindi.size());
-        System.out.println("Hindi size - "+progArrEng.size());
+        // System.out.println("Hindi size - "+progArrHindi.size());
+        // System.out.println("Hindi size - "+progArrEng.size());
     }
 
     private static void initEnglishProgs() throws IOException {
@@ -238,7 +238,7 @@ class ProgramUpdater {
         // read program info english
         String line = null;
         // read program info english
-        //System.out.println("line - " + line);
+        //// System.out.println("line - " + line);
         while ((line = bufferedReader.readLine()) != null) {
             Program prog = new ProgramUpdater().new Program(
                 bufferedReader.readLine().trim(), // program code
@@ -263,12 +263,12 @@ class ProgramUpdater {
                 ); 
             progArrEng.add(prog);   
         }    
-        System.out.println("English size - " + progArrEng.size());
+        // System.out.println("English size - " + progArrEng.size());
     }
 
     private static void updateRegistrationPage(ArrayList<Program> progArr, String fileName) throws IOException {
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
-        System.out.println(fileName + "    |    updateRegistrationPage - " + language);
+        // System.out.println(fileName + "    |    updateRegistrationPage - " + language);
 
         // parse html
         Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
@@ -289,14 +289,14 @@ class ProgramUpdater {
             Program program = progArr.get(i);
             if (program.showRegisterNowBtn) {
                 optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
-                    + program.programName + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.time 
+                    + program.programName + "(" + program.city + ")" + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.time 
                     + PIPE_SEPARATOR + program.fee + "</option>";
             }
         }
         programSelectTag.html(optionsHtml);
 
         writeToFile(doc, fileName);
-        System.out.println("Updated Registration Page");
+        // System.out.println("Updated Registration Page");
     }
 
     private static void writeToFile(Document doc, String fileName) throws IOException{
@@ -312,14 +312,14 @@ class ProgramUpdater {
 
     private static String getAmount(String fee) {
         fee = (fee.substring(1, fee.length())).trim();
-        // System.out.println("fee = "+ fee);
+        // // System.out.println("fee = "+ fee);
         return fee;
     }
 
     private static void updateClassesPage(ArrayList<Program> progArr
                 , String fileName) throws IOException {
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
-        System.out.println(fileName + "    |    updateClassesPage - " + language);
+        // System.out.println(fileName + "    |    updateClassesPage - " + language);
         // parse html
         Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
         
@@ -357,12 +357,12 @@ class ProgramUpdater {
         }
         
         writeToFile(doc, fileName);
-        System.out.println("Updated Classes Page");
+        // System.out.println("Updated Classes Page");
     }
 
     private static void updateHomePage(ArrayList<Program> progArr, String fileName) throws IOException {
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
-        System.out.println(fileName + "    |    updateHomePage - " + language);
+        // System.out.println(fileName + "    |    updateHomePage - " + language);
         // parse html
         Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
         
@@ -384,12 +384,12 @@ class ProgramUpdater {
         testimonyDiv.append(getContentForTestimony(language));
         
         writeToFile(doc, fileName);
-        System.out.println("Updated Home Page - Banners, testimonies & gallery");
+        // System.out.println("Updated Home Page - Banners, testimonies & gallery");
     }
     
     private static void updateProgramPage(ArrayList<Program> progArr, String fileName) throws IOException {
         String language = fileName.endsWith("_hi.html")? "Hindi" : "English";
-        System.out.println(fileName + "    |    updateHomePage - " + language);
+        // System.out.println(fileName + "    |    updateHomePage - " + language);
         // parse html
         Document doc = Jsoup.parse(new File(fileName), "UTF-8", "");
         
@@ -411,7 +411,7 @@ class ProgramUpdater {
         // scheduleDiv.append(getContentForTestimony(language));
         
         writeToFile(doc, fileName);
-        System.out.println("Updated Home Page - Banners, testimonies & gallery");
+        // System.out.println("Updated Home Page - Banners, testimonies & gallery");
     }
 
     private static String getContentForProgramDetails(Program program, String language) throws IOException {
@@ -432,7 +432,7 @@ class ProgramUpdater {
         String line = null;
         // read program info hindi
         while ((line = bufferedReader.readLine()) != null) {
-            //System.out.println("line - " + line);
+            //// System.out.println("line - " + line);
             Testimony testimony = new ProgramUpdater().new Testimony(
                 bufferedReader.readLine(),// testimony
                 bufferedReader.readLine(),// name
@@ -444,7 +444,7 @@ class ProgramUpdater {
                 testimonyList.add(testimony);
             }
         }
-        System.out.println("testimonyList size - " + testimonyList.size());
+        // System.out.println("testimonyList size - " + testimonyList.size());
         String content = "";
         for (Testimony t : testimonyList){
             content += "<div class='item'>";
@@ -484,7 +484,7 @@ class ProgramUpdater {
             for (Map.Entry<String, String> set : programPageMapHindi.entrySet()) {
                 String programName = set.getKey();
                 String programPage = set.getValue();
-                System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
+                // System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
                 if(programNameOriginal.startsWith(programName)){
                     return programPage;
                 }
@@ -493,7 +493,7 @@ class ProgramUpdater {
             for (Map.Entry<String, String> set : programPageMapEng.entrySet()) {
                 String programName = set.getKey();
                 String programPage = set.getValue();
-                System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
+                // System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
                 if(programNameOriginal.startsWith(programName)){
                     return programPage;
                 }
@@ -504,6 +504,7 @@ class ProgramUpdater {
     }
 
     private static String getContentForUpcomingPrograms(Program program, String language){ 
+        System.out.println(program.id + " " + program.showLearnMoreBtn);
         String content = "<div class='row' id='" + program.id + "'>";
         content += "<div class='col-md-12'>";
         content += "<div class='services-2 ftco-animate d-flex w-100'>";
@@ -531,24 +532,24 @@ class ProgramUpdater {
         
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
-                 if(!htmlFilePath.equalsIgnoreCase("NA")){
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
                     content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
-                }content += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+                }
+                content += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             } else {
-                if(!htmlFilePath.equalsIgnoreCase("NA")){
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
                     content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
                 }
                 content += "  <a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             }
         } else {
-            
             if(language.equals("Hindi")){
-                if(!htmlFilePath.equalsIgnoreCase("NA")){
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
                     content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
                 }
                 content += "<p>" + REGISTRATION_CLOSED_HINDI + "</p> ";
             } else {
-                if(!htmlFilePath.equalsIgnoreCase("NA")){
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
                     content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
                 }
                 content += "<p><b>Registrations Closed</b></p> ";
@@ -586,7 +587,7 @@ class ProgramUpdater {
     }
 
     private static void clearUpcomingPrograms(Element elementToEmpty, String language){
-        System.out.println(language);
+        // System.out.println(language);
         if(elementToEmpty == null) return;
         elementToEmpty.html("");
         String upcomingProgramsDiv = "<div class='container'>";
@@ -620,7 +621,7 @@ class ProgramUpdater {
     }
 
     private static String getContentForBanners(Program program, String language){
-        System.out.println("***\n" + program.toString());
+        // System.out.println("***\n" + program.toString());
 
         if("NA".equalsIgnoreCase(program.bannerImagePath)) {
             return "";
@@ -649,7 +650,6 @@ class ProgramUpdater {
                 content += "style='background-color: #ffb5b5; opacity: 90%;'>Register Now</a> ";
             }           
         }    
-
         
         if(program.showLearnMoreBtn) {
              if(language.equals("Hindi")){
@@ -725,7 +725,7 @@ class ProgramUpdater {
                 pics.add(fileEntry.getName());
             }
         }
-        System.out.println(pics);
+        // System.out.println(pics);
         return pics;
     }
 
@@ -771,6 +771,7 @@ class ProgramUpdater {
         boolean showRegisterNowBtn;
         boolean showLearnMoreBtn;
         String amount;
+        String city;
 
         Program (String id,
             String programName,
@@ -813,6 +814,13 @@ class ProgramUpdater {
                 this.amount = getAmount(this.fee);
             }
             this.showLearnMoreBtn = showLearnMoreBtn;
+            if((this.id).indexOf("RAIPUR") >= 0){
+                this.city = "Raipur";
+            } else if((this.id).indexOf("BILASPUR") >= 0){
+                this.city = "Bilaspur";
+            } else if((this.id).indexOf("BHILAI") >= 0){
+                this.city = "Bhilai";
+            }
         }
 
         private String convertToUTF8(String rawString){
@@ -841,7 +849,8 @@ class ProgramUpdater {
             this.showUpcomingProgsBtn + "\n" +
             this.showRegisterNowBtn + "\n" +
             this.showLearnMoreBtn + "\n" +
-            this.amount;
+            this.amount + "\n" + 
+            this.city;
         }
     }
     
