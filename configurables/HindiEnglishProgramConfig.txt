@@ -43,7 +43,7 @@ FEE::₹ 2500
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP237.webp
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
@@ -83,7 +83,7 @@ FEE::₹ 3500
 FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
 BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
@@ -103,7 +103,7 @@ FEE::₹ 1000
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP208.webp 
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true   
 ====
@@ -163,7 +163,7 @@ FEE::₹ 2500
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP237.webp
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
@@ -183,7 +183,7 @@ FEE::₹ 3500
 FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
 BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
@@ -203,6 +203,6 @@ FEE::₹ 1000
 FEE_INFO::NA
 BANNER_IMAGE::NA 
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true

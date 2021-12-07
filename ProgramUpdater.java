@@ -632,7 +632,7 @@ class ProgramUpdater {
         content += "<div class='container'>";
         content += "<div class='row no-gutters slider-text js-fullheight align-items-center justify-content-center' data-scrollax-parent='true'>";
         content += "<div class='col-md-10 text ftco-animate'>";
-        content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.programName ;
+        content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.programName;
         if(!(program.tagLine1).equalsIgnoreCase("NA")) {
             content += " - " + program.tagLine1 + "</h1>";
         } 
@@ -640,7 +640,7 @@ class ProgramUpdater {
             content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.tagLine2 + "</h1>";
         }
         if(program.showRegisterNowBtn) {
-            content += "<h3 class='subheading'>" + program.date + PIPE_SEPARATOR + program.time + PIPE_SEPARATOR + program.ageLimit + " </h3> <p></p>";
+            content += "<h3 class='subheading'>" + program.date + PIPE_SEPARATOR + program.time + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.city + " </h3> <p></p>";
             
             if(language.equals("Hindi")){
                 content += "<a href='registration_page_hi.html' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
