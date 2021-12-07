@@ -74,7 +74,7 @@ PROGRAM_CODE::1D@BHILAI_BS_26Dec
 PROGRAM_NAME::भूत शुद्धि ,,,,Bhuta Shuddhi 
 TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::26 दिसंबर 2021,,,,26 Dec 2021
@@ -216,3 +216,24 @@ SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::PROMO@BHILAI 
+PROGRAM_NAME::भिलाई में ईशा हठ योग,,,,Isha Hatha Yoga in Bhilai 
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::NA
+PROGRAM_INFO::योगासन, अंगमर्दन, भूत शुद्धि, सूर्य क्रिया और सूर्य शक्ति समापन कार्यक्रम की पेशकश,,,,Offering Yogasanas, Angamardana, Bhuta Shudhi, Surya Kriya & Surya Shakti Completion programs
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::23 दिसंबर से 27 दिसंबर,,,,23 Dec - 27 Dec
+TIME::NA
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::NA
+FEE_INFO::NA  
+BANNER_IMAGE::images/banner/bg_4.webp  
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::false 

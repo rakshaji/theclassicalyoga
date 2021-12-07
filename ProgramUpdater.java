@@ -218,7 +218,7 @@ class ProgramUpdater {
                 , progNameArr.length > 1? progNameArr[1]:"NA"
                 , tagLine1Arr.length > 1? tagLine1Arr[1]:"NA"
                 , tagLine2Arr.length > 1? tagLine2Arr[1]:"NA"
-                , venueArr.length > 0? venueArr[1]:"NA"
+                , venueArr.length > 1? venueArr[1]:"NA"
                 , progInfoArr.length > 1? progInfoArr[1]:"NA"
                 , languageArr.length > 1? languageArr[1]:"NA"
                 , dateArr.length > 1? dateArr[1]:"NA"
@@ -350,7 +350,7 @@ class ProgramUpdater {
         // add programs
         for (int i = 0; i < progArr.size(); i++){
             Program program = progArr.get(i);
-            if(program != null){
+            if(program != null && !(program.id).equals("NA")){
                 if((program.id).indexOf("@RAIPUR") >= 0) {
                     raipurDiv.append(getContentForUpcomingPrograms(program, language));
                 }
@@ -511,7 +511,7 @@ class ProgramUpdater {
     }
 
     private static String getContentForUpcomingPrograms(Program program, String language){ 
-        System.out.println(program.id + " " + program.showLearnMoreBtn);
+        // System.out.println(program.id + " " + program.showLearnMoreBtn);
         String content = "<div class='row' id='" + program.id + "'>";
         content += "<div class='col-md-12'>";
         content += "<div class='services-2 ftco-animate d-flex w-100'>";
@@ -631,7 +631,7 @@ class ProgramUpdater {
     }
 
     private static String getContentForBanners(Program program, String language){
-        // System.out.println("***\n" + program.toString());
+         System.out.println("***\n" + program.id + " " + program.city);
 
         if("NA".equalsIgnoreCase(program.bannerImagePath)) {
             return "";
@@ -649,9 +649,14 @@ class ProgramUpdater {
         if(!"NA".equals(program.tagLine2)) {
             content += "<h1 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.tagLine2 + "</h1>";
         }
+        if(!"NA".equals(program.progInfo)) {
+            content += "<h3 class='mb-4' style='color: rgb(252, 251, 249);'>" + program.progInfo + "</h3>";
+        }
+        content += "<h3 class='subheading'>" + program.date 
+            + ((program.time).equals("NA") ? "" : PIPE_SEPARATOR + program.time ) 
+            + ((program.ageLimit).equals("NA") ? "" : PIPE_SEPARATOR + program.ageLimit )
+            + PIPE_SEPARATOR + program.city + " </h3> <p></p>";
         if(program.showRegisterNowBtn) {
-            content += "<h3 class='subheading'>" + program.date + PIPE_SEPARATOR + program.time + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.city + " </h3> <p></p>";
-            
             if(language.equals("Hindi")){
                 content += "<a href='registration_page_hi.html' class='btn btn-white btn-outline-white px-4 py-3 mt-3' ";
                 content += "style='background-color: #ffb5b5; opacity: 90%;'>" + REGISTER_NOW_HINDI + "</a> ";
