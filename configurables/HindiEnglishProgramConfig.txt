@@ -80,12 +80,12 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::26 दिसंबर 2021,,,,26 Dec 2021
 TIME::सुबह 10:00 - 11:15,,,,10:00 AM - 11:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
+EFLYER1::images/banner/BhutaShuddhi1.webp
 EFLYER2::NA 
 EFLYER3::NA
 FEE::₹ 3500
 FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
+BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 

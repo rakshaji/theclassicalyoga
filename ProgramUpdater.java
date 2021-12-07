@@ -292,16 +292,34 @@ class ProgramUpdater {
         } else {
             optionsHtml = "<option value=''>- Select Program -</option>";
         }
-        for(int i = progArr.size() -1; i >= 0; i--){
+        String raipurOptionsHtml = "";
+        String bhilaiOptionsHtml = "";
+        String bilaspurOptionsHtml = "";
+        for(int i = 0 ; i <= progArr.size() -1; i++){
             Program program = progArr.get(i);
+            
             // skip the banner only programs
             if (program.showRegisterNowBtn && !(program.id).startsWith("PROMO")) {
-                optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
-                    + program.programName + "(" + program.city + ")" + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.time 
-                    + PIPE_SEPARATOR + program.fee + "</option>";
+                if((program.id).indexOf("RAIPUR") > 0) {
+                    raipurOptionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
+                                        + program.programName + " (" + program.city + ")" + PIPE_SEPARATOR 
+                                        + program.date + PIPE_SEPARATOR + program.time 
+                                        + PIPE_SEPARATOR + program.fee + "</option>";
+                } else if((program.id).indexOf("BHILAI") > 0) {
+                    bhilaiOptionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
+                                        + program.programName + " (" + program.city + ")" + PIPE_SEPARATOR 
+                                        + program.date + PIPE_SEPARATOR + program.time 
+                                        + PIPE_SEPARATOR + program.fee + "</option>";
+                } else if((program.id).indexOf("BILASPUR") > 0) {
+                    bilaspurOptionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
+                                        + program.programName + " (" + program.city + ")" + PIPE_SEPARATOR 
+                                        + program.date + PIPE_SEPARATOR + program.time 
+                                        + PIPE_SEPARATOR + program.fee + "</option>";
+                }   
             }
         }
-        programSelectTag.html(optionsHtml);
+       
+        programSelectTag.html(optionsHtml+raipurOptionsHtml+bhilaiOptionsHtml+bilaspurOptionsHtml);
 
         writeToFile(doc, fileName);
         // System.out.println("Updated Registration Page");
