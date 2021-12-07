@@ -336,17 +336,22 @@ class ProgramUpdater {
 
         Element bhilaiDiv = doc.getElementById("Bhilai");
         if(bhilaiDiv == null) return;
+
+        Element bilaspurDiv = doc.getElementById("Bilaspur");
+        if(bilaspurDiv == null) return;
        
         // add programs
         for (int i = 0; i < progArr.size(); i++){
             Program program = progArr.get(i);
             if(program != null){
-                //System.out.println("%%%%%%%%%%%%%%% getContentForUpcomingPrograms " + program.id + "    "+ (program.id).indexOf("@RAIPUR") + "     "+ raipurDiv);
                 if((program.id).indexOf("@RAIPUR") >= 0) {
                     raipurDiv.append(getContentForUpcomingPrograms(program, language));
                 }
                 if((program.id).indexOf("@BHILAI") >= 0) {
                     bhilaiDiv.append(getContentForUpcomingPrograms(program, language));
+                }
+                if((program.id).indexOf("@BILASPUR") >= 0) {
+                    bilaspurDiv.append(getContentForUpcomingPrograms(program, language));
                 }
             }
         }
@@ -608,7 +613,7 @@ class ProgramUpdater {
         upcomingProgramsDiv += "</div>";
         upcomingProgramsDiv += "<div id='Bilaspur' class='tabcontent'>";
         upcomingProgramsDiv += "<h3>Bilaspur</h3>";
-        upcomingProgramsDiv += "<p>No classes scheduled yet</p>";
+        upcomingProgramsDiv += "<p>Coming soon..</p>";
         upcomingProgramsDiv += "</div>";
     
         elementToEmpty.html(upcomingProgramsDiv);
