@@ -297,7 +297,7 @@ class ProgramUpdater {
             // skip the banner only programs
             if (program.showRegisterNowBtn && !(program.id).startsWith("PROMO")) {
                 optionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
-                    + program.programName + "(" + program.city + ")" + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.time 
+                    + program.programName + " (" + program.city + ")" + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.time 
                     + PIPE_SEPARATOR + program.fee + "</option>";
             }
         }

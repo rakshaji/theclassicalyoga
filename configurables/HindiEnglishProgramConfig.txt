@@ -112,27 +112,6 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true   
 ====
-PROGRAM_CODE::1D@RAIPUR_YFW_11Dec
-PROGRAM_NAME::कल्याण के लिए योग ,,,,Yoga For Wellbeing 
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::संपूर्ण स्वास्थ्य के लिए एक शक्तिशाली योग अभ्यास और ध्यान सीखें,,,,Know about Hatha Yoga, learn one powerful yoga practice and a meditation for overall wellbeing
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::11 दिसंबर 2021,,,,11 Dec 2021
-TIME::सुबह 7:00 - 8:30,,,,7:00 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/yogaforwellbeing.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 200  
-FEE_INFO::NA
-BANNER_IMAGE::images/flyer/Nov2021/yogaforwellbeing.webp
-SHOW_INTEREST_BTN::false
-SHOW_UPCOMING_PROG_BTN::true
-SHOW_REGISTER_BTN::true
-SHOW_LEARN_MORE_BTN::false
-====
 PROGRAM_CODE::5D@RAIPUR_Y_13Dec17Dec 
 PROGRAM_NAME::योगासन ,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
