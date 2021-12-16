@@ -6,7 +6,7 @@ $(window).load(function () {
   // get all the timings in and id-timings map
   $("#program option").each(function()
   {
-    //// console.log($(this).text());
+    // console.log($(this).text());
 
     var optionText = $(this).text();
     var key = $(this).val();
@@ -23,7 +23,7 @@ $(window).load(function () {
 
     // get timings removing the exceptions part
     var timeArr = clearExceptions(timeWithExceptions);
-    
+
     // replace program details by removing timings
     $(this).text(id + " | " + date + " | " + amount);
     
@@ -79,6 +79,7 @@ $(window).load(function () {
       }
     }
   });
+
 });
 
 function clearExceptions(timeWithExceptions){

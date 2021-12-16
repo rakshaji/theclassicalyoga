@@ -14,7 +14,7 @@ TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसंबर से 27 दिसंबर,,,,23 Dec - 27 Dec
+DATE::23 दिसम्बर - 27 दिसम्बर,,,,23 Dec - 27 Dec
 TIME::सुबह 6:00 - 8:45,,,,6:00 AM - 8:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/banner/PromoPP221.webp
@@ -35,7 +35,7 @@ TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसंबर से 26 दिसंबर,,,,23 Dec - 26 Dec
+DATE::23 दिसम्बर - 26 दिसम्बर,,,,23 Dec - 26 Dec
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
 EFLYER1::images/banner/PromoPP237.webp
@@ -56,7 +56,7 @@ TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसंबर से 27 दिसंबर,,,,23 Dec - 27 Dec
+DATE::23 दिसम्बर - 27 दिसम्बर,,,,23 Dec - 27 Dec
 TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::images/banner/PromoPP200.webp
@@ -77,7 +77,7 @@ TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::26 दिसंबर 2021,,,,26 Dec 2021
+DATE::26 दिसम्बर 2021,,,,26 Dec 2021
 TIME::सुबह 10:00 - 11:15,,,,10:00 AM - 11:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::images/banner/BhutaShuddhi1.webp
@@ -98,7 +98,7 @@ TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::27 दिसंबर 2021,,,,27 Dec 2021
+DATE::27 दिसम्बर 2021,,,,27 Dec 2021
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
 EFLYER1::images/banner/PromoPP208.webp
@@ -119,7 +119,7 @@ TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::13 दिसंबर से 17 दिसंबर,,,,13 Dec - 17 Dec
+DATE::13 दिसम्बर - 17 दिसम्बर,,,,13 Dec - 17 Dec
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/flyer/Nov2021/yogasanas.webp
@@ -140,7 +140,7 @@ TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::18 दिसंबर से 21 दिसंबर,,,,18 Dec - 21 Dec
+DATE::18 दिसम्बर - 21 दिसम्बर,,,,18 Dec - 21 Dec
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
 EFLYER1::images/flyer/Nov2021/skss.webp
@@ -161,7 +161,7 @@ TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::19 दिसंबर 2021,,,,19 Dec 2021
+DATE::19 दिसम्बर 2021,,,,19 Dec 2021
 TIME::सुबह 6:00 - 7:15,,,,6:00 AM - 7:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
@@ -182,7 +182,7 @@ TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::22 दिसंबर 2021,,,,22 Dec 2021
+DATE::22 दिसम्बर 2021,,,,22 Dec 2021
 TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
 EFLYER1::images/flyer/Nov2021/skss.webp
@@ -203,7 +203,7 @@ TAGLINE2::NA
 VENUE::NA
 PROGRAM_INFO::योगासन, अंगमर्दन, भूत शुद्धि, सूर्य क्रिया और सूर्य शक्ति समापन कार्यक्रम की पेशकश,,,,Offering Yogasanas, Angamardana, Bhuta Shudhi, Surya Kriya & Surya Shakti Completion programs
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसंबर से 27 दिसंबर,,,,23 Dec - 27 Dec
+DATE::23 दिसम्बर - 27 दिसम्बर,,,,23 Dec - 27 Dec
 TIME::NA
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA

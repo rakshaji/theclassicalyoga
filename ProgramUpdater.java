@@ -552,37 +552,38 @@ class ProgramUpdater {
         } 
         content +=  "</h3></a>";// <b> (" + program.language + ")</b>
         if(!(program.progInfo).equalsIgnoreCase("NA")) {
-            content += "<p class='up-details'>" + program.progInfo + " </p>";
+            content += "<p class='up-prog-info1'>" + program.progInfo + " </p>";
         }
-        content += "<p class='up-details'>" + program.date + PIPE_SEPARATOR + program.time 
-        + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.fee + " " + program.feeInfo + " </p>";
+        content += "<p class='up-prog-info2'>" + program.date + PIPE_SEPARATOR + program.time 
+            + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.fee + " " 
+            + program.feeInfo + " </p>";
         if(!(program.venue).equalsIgnoreCase("NA")) {
-            content += "<p class='up-details'>" + program.venue + " </p>";
+            content += "<p class='up-venue'>" + program.venue + " </p>";
         }
         
         if (program.showRegisterNowBtn) {
             if(language.equals("Hindi")){
                 if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
-                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
                 }
-                content += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+                content += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3' id='reg_btn'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             } else {
                 if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
-                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
                 }
-                content += "  <a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+                content += "  <a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3' id='reg_btn'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
             }
         } else {
             if(language.equals("Hindi")){
                 if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
-                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
                 }
-                content += "<p>" + REGISTRATION_CLOSED_HINDI + "</p> ";
+                content += "<p id='reg_btn'>" + REGISTRATION_CLOSED_HINDI + "</p> ";
             } else {
                 if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
-                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
+                    content += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
                 }
-                content += "<p><b>Registrations Closed</b></p> ";
+                content += "<p id='reg_btn'><b>Registrations Closed</b></p> ";
             }
         } 
         content += "<div class='container-fluid px-md-5'>";
