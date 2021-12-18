@@ -7,14 +7,182 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
+PROGRAM_CODE::6M@RAIPUR_DGY_3Jan31Jun
+PROGRAM_NAME::Daily Guided Yoga (6 months membership),,,,Daily Guided Yoga (6 months membership)
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::** रियायती मूल्य पर सदस्यता उपलब्ध,,,,** Membership Plans Available At Discounted Price
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::3 Jan 2022 - 31 Jun 2022,,,,3 Jan 2022 - 31 Jun 2022
+TIME::सुबह 6:15 - 7:15 या सुबह 7:30 - 8:30 या सुबह 9:00 - 10:00,,,,6:15 AM - 7:15 AM or 7:30 AM - 8:30 AM or 9:00 AM - 10:00 AM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years    
+EFLYER1::images/banner/PromoPP226.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 9000
+FEE_INFO::(₹ 1500/month, Save ₹ 3000),,,,(₹ 1500/month, Save ₹ 3000)
+BANNER_IMAGE::NA 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::3M@RAIPUR_DGY_3Jan31Mar
+PROGRAM_NAME::Daily Guided Yoga (3 months membership),,,,Daily Guided Yoga (3 months membership)
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::** रियायती मूल्य पर सदस्यता उपलब्ध,,,,** Membership Plans Available At Discounted Price
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::3 Jan 2022 - 31 Mar 2022,,,,3 Jan 2022 - 31 Mar 2022
+TIME::सुबह 6:15 - 7:15 या सुबह 7:30 - 8:30 या सुबह 9:00 - 10:00,,,,6:15 AM - 7:15 AM or 7:30 AM - 8:30 AM or 9:00 AM - 10:00 AM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years    
+EFLYER1::images/banner/PromoPP226.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 5250 
+FEE_INFO::(₹ 1750/month, Save ₹ 750),,,,(₹ 1750/month, Save ₹ 750)
+BANNER_IMAGE::NA 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1M@RAIPUR_DGY_3Jan31Jan
+PROGRAM_NAME::Daily Guided Yoga (1 month),,,,Daily Guided Yoga (1 month)
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::<b><span style="color:black;background: yellow;">** रियायती मूल्य पर सदस्यता उपलब्ध **</span></b>,,,,<b><span style="color:black;background: yellow;">** Membership Plans Available At Discounted Price **</span></b>
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::3 Jan 2022 - 31 Jan 2022,,,,3 Jan 2022 - 31 Jan 2022
+TIME::सुबह 6:15 - 7:15 या सुबह 7:30 - 8:30 या सुबह 9:00 - 10:00,,,,6:15 AM - 7:15 AM or 7:30 AM - 8:30 AM or 9:00 AM - 10:00 AM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years    
+EFLYER1::images/banner/PromoPP226.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1999  
+FEE_INFO::NA
+BANNER_IMAGE::NA 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_SSC_21Jan
+PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
+TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::21 Jan 2022,,,,21 Jan 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
+EFLYER1::images/flyer/Nov2021/skss.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1000  
+FEE_INFO::NA
+BANNER_IMAGE::NA 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::4D@RAIPUR_SK_17Jan20Jan
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::17 Jan 2022 - 20 Jan 2022,,,,17 Jan 2022 - 20 Jan 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
+EFLYER1::images/flyer/Nov2021/skss.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP237.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_BS_15Jan
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
+TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::15 Jan 2022,,,,15 Jan 2022
+TIME::सुबह 7:00 - 8:15,,,,7:00 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::5D@RAIPUR_Y_10Jan14Jan 
+PROGRAM_NAME::योगासन,,,,Yogasanas 
+TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::10 Jan 2022 - 14 Jan 2022,,,,10 Jan 2022 - 14 Jan 2022
+TIME::शाम 6:15 - 8:45,,,,6:15 PM - 8:45 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
+EFLYER1::images/flyer/Nov2021/yogasanas.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::NA  
+BANNER_IMAGE::images/banner/PromoPP221.webp  
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::5D@RAIPUR_ANGA_3Jan7Jan
+PROGRAM_NAME::अंगमर्दना,,,,Angamardana 
+TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
+TAGLINE2::NA
+VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::3 Jan 2022 - 7 Jan 2022,,,,3 Jan 2022 - 7 Jan 2022
+TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
+EFLYER1::images/banner/PromoPP200.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
 PROGRAM_CODE::5D@BHILAI_Y_23Dec27Dec 
-PROGRAM_NAME::योगासन ,,,,Yogasanas 
+PROGRAM_NAME::योगासन,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसम्बर - 27 दिसम्बर,,,,23 Dec - 27 Dec
+DATE::23 Dec 2021 - 27 Dec 2021,,,,23 Dec 2021 - 27 Dec 2021
 TIME::सुबह 6:00 - 8:45,,,,6:00 AM - 8:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/banner/PromoPP221.webp
@@ -29,13 +197,13 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true 
 ====
 PROGRAM_CODE::4D@BHILAI_SK_23Dec26Dec
-PROGRAM_NAME::सूर्य क्रिया ,,,,Surya Kriya 
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
 TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसम्बर - 26 दिसम्बर,,,,23 Dec - 26 Dec
+DATE::23 Dec 2021 - 26 Dec 2021,,,,23 Dec 2021 - 26 Dec 2021
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
 EFLYER1::images/banner/PromoPP237.webp
@@ -50,13 +218,13 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::5D@BHILAI_ANGA_23Dec27Dec
-PROGRAM_NAME::अंगमर्दना ,,,,Angamardana 
+PROGRAM_NAME::अंगमर्दना,,,,Angamardana 
 TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
 TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसम्बर - 27 दिसम्बर,,,,23 Dec - 27 Dec
+DATE::23 Dec 2021 - 27 Dec 2021,,,,23 Dec 2021 - 27 Dec 2021
 TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::images/banner/PromoPP200.webp
@@ -71,13 +239,13 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@BHILAI_BS_26Dec
-PROGRAM_NAME::भूत शुद्धि ,,,,Bhuta Shuddhi 
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
 TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
 TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::26 दिसम्बर 2021,,,,26 Dec 2021
+DATE::26 Dec 2021,,,,26 Dec 2021
 TIME::सुबह 10:00 - 11:15,,,,10:00 AM - 11:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::images/banner/BhutaShuddhi1.webp
@@ -92,13 +260,13 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@BHILAI_SSC_27Dec
-PROGRAM_NAME::सूर्य शक्ति ,,,,Surya Shakti 
+PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::27 दिसम्बर 2021,,,,27 Dec 2021
+DATE::27 Dec 2021 2021,,,,27 Dec 2021 2021
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
 EFLYER1::images/banner/PromoPP208.webp
@@ -113,13 +281,13 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true   
 ====
 PROGRAM_CODE::5D@RAIPUR_Y_13Dec17Dec 
-PROGRAM_NAME::योगासन ,,,,Yogasanas 
+PROGRAM_NAME::योगासन,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::13 दिसम्बर - 17 दिसम्बर,,,,13 Dec - 17 Dec
+DATE::13 Dec 2021 - 17 Dec 2021,,,,13 Dec 2021 - 17 Dec 2021
 TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/flyer/Nov2021/yogasanas.webp
@@ -133,35 +301,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::4D@RAIPUR_SK_18Dec21Dec
-PROGRAM_NAME::सूर्य क्रिया ,,,,Surya Kriya 
-TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::18 दिसम्बर - 21 दिसम्बर,,,,18 Dec - 21 Dec
-TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
-EFLYER1::images/flyer/Nov2021/skss.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 2500  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP237.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
 PROGRAM_CODE::1D@RAIPUR_BS_19Dec
-PROGRAM_NAME::भूत शुद्धि ,,,,Bhuta Shuddhi 
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
 TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::19 दिसम्बर 2021,,,,19 Dec 2021
+DATE::19 Dec 2021,,,,19 Dec 2021
 TIME::सुबह 6:00 - 7:15,,,,6:00 AM - 7:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
@@ -175,27 +322,6 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@RAIPUR_SSC_22Dec
-PROGRAM_NAME::सूर्य शक्ति ,,,,Surya Shakti 
-TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::22 दिसम्बर 2021,,,,22 Dec 2021
-TIME::सुबह 7:30 - 9:30,,,,7:30 AM - 9:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::images/flyer/Nov2021/skss.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 1000  
-FEE_INFO::NA
-BANNER_IMAGE::NA 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
 PROGRAM_CODE::PROMO@BHILAI 
 PROGRAM_NAME::भिलाई में ईशा हठ योग,,,,Isha Hatha Yoga in Bhilai 
 TAGLINE1::NA
@@ -203,7 +329,7 @@ TAGLINE2::NA
 VENUE::NA
 PROGRAM_INFO::योगासन, अंगमर्दन, भूत शुद्धि, सूर्य क्रिया और सूर्य शक्ति समापन कार्यक्रम की पेशकश,,,,Offering Yogasanas, Angamardana, Bhuta Shudhi, Surya Kriya & Surya Shakti Completion programs
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 दिसम्बर - 27 दिसम्बर,,,,23 Dec - 27 Dec
+DATE::23 Dec 2021 - 27 Dec 2021,,,,23 Dec 2021 - 27 Dec 2021
 TIME::NA
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA

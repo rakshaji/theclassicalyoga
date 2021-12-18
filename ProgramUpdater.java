@@ -22,6 +22,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.charset.StandardCharsets;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;  
+import java.util.Date;  
+
 
 class ProgramUpdater {
     // hindi constants
@@ -210,7 +214,8 @@ class ProgramUpdater {
                 , feeInfoArr.length > 0? feeInfoArr[0].equalsIgnoreCase("NA")? "" : feeInfoArr[0] :""
                 , bannerImagePath
                 , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
-            progArrHindi.add(prog);               
+            progArrHindi.add(prog);  
+            Collections.sort(progArrHindi, new SortByDate());             
 
             // english prog
             prog = new ProgramUpdater().new Program(
@@ -229,6 +234,7 @@ class ProgramUpdater {
                 , bannerImagePath
                 , showInterestBtn, showUpcomingProgsBtn, showRegisterNowBtn, showLearnMoreBtn); 
             progArrEng.add(prog);   
+            Collections.sort(progArrEng, new SortByDate());
         }    
         // System.out.println("Hindi size - "+progArrHindi.size());
         // System.out.println("Hindi size - "+progArrEng.size());
@@ -295,24 +301,40 @@ class ProgramUpdater {
         String raipurOptionsHtml = "";
         String bhilaiOptionsHtml = "";
         String bilaspurOptionsHtml = "";
+        int raipurCounter = 0;
+        int bhilaiCounter = 0;
+        int bilaspurCounter = 0;
+
         for(int i = 0 ; i <= progArr.size() -1; i++){
             Program program = progArr.get(i);
             
             // skip the banner only programs
             if (program.showRegisterNowBtn && !(program.id).startsWith("PROMO")) {
                 if((program.id).indexOf("RAIPUR") > 0) {
+                    if(raipurCounter == 0){
+                        raipurOptionsHtml += "<option value='' disabled>" + "-- Raipur Programs --" + "</option>";
+                    }
+                    raipurCounter++;
                     raipurOptionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
-                                        + program.programName + " (" + program.city + ")" + PIPE_SEPARATOR 
+                                        + program.programName + PIPE_SEPARATOR 
                                         + program.date + PIPE_SEPARATOR + program.time 
                                         + PIPE_SEPARATOR + program.fee + "</option>";
                 } else if((program.id).indexOf("BHILAI") > 0) {
+                    if(bhilaiCounter == 0){
+                        bhilaiOptionsHtml += "<option value='' disabled>" + "-- Bhilai Programs --" + "</option>";
+                    }
+                    bhilaiCounter++;
                     bhilaiOptionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
-                                        + program.programName + " (" + program.city + ")" + PIPE_SEPARATOR 
+                                        + program.programName + PIPE_SEPARATOR 
                                         + program.date + PIPE_SEPARATOR + program.time 
                                         + PIPE_SEPARATOR + program.fee + "</option>";
                 } else if((program.id).indexOf("BILASPUR") > 0) {
+                    if(bilaspurCounter == 0){
+                        bilaspurOptionsHtml += "<option value='' disabled>" + "-- Bilaspur Programs --" + "</option>";
+                    }
+                    bilaspurCounter++;
                     bilaspurOptionsHtml += "<option value='" + program.id + "_" + program.amount + "'>" 
-                                        + program.programName + " (" + program.city + ")" + PIPE_SEPARATOR 
+                                        + program.programName + PIPE_SEPARATOR 
                                         + program.date + PIPE_SEPARATOR + program.time 
                                         + PIPE_SEPARATOR + program.fee + "</option>";
                 }   
@@ -323,6 +345,21 @@ class ProgramUpdater {
 
         writeToFile(doc, fileName);
         // System.out.println("Updated Registration Page");
+    }
+
+    static class SortByDate implements Comparator<Program> {
+        @Override
+        public int compare(Program a, Program b) {
+            int result = -1;
+            try{
+                Date date1 = new SimpleDateFormat("dd MMM yyyy").parse(a.date);  
+                Date date2 = new SimpleDateFormat("dd MMM yyyy").parse(b.date);  
+                result = date1.compareTo(date2);
+            }catch(ParseException pe){
+                
+            }
+            return result;
+        }
     }
 
     private static void writeToFile(Document doc, String fileName) throws IOException{
@@ -365,12 +402,14 @@ class ProgramUpdater {
 
         Element bilaspurDiv = doc.getElementById("Bilaspur");
         if(bilaspurDiv == null) return;
+        
+        raipurDiv.append(getContentForDGYProgram(progArr, language));
        
         // add programs
         for (int i = 0; i < progArr.size(); i++){
             Program program = progArr.get(i);
             // skip the banner only programs
-            if(program != null && !(program.id).startsWith("PROMO")){
+            if(program != null && !(program.id).startsWith("PROMO") && !(program.id).contains("DGY")){
                 if((program.id).indexOf("@RAIPUR") >= 0) {
                     raipurDiv.append(getContentForUpcomingPrograms(program, language));
                 }
@@ -530,8 +569,129 @@ class ProgramUpdater {
         return "";
     }
 
+    private static String getContentForDGYProgram(ArrayList<Program> progArr, String language){ 
+        
+        //System.out.println(program.id + " " + program.programName);
+        String preContent = "";
+        String midContent = "";
+        String postContent = "";
+        Program program = null;
+        String htmlFilePath = "";
+        int dgyIndex = 0;
+        // add programs
+        for (int i = 0; i < progArr.size(); i++){
+            program = progArr.get(i);
+            htmlFilePath = getMatchingProgramFile(program.programName, language);
+            // skip the banner only programs
+            if(program != null && (program.id).indexOf("@RAIPUR_DGY") >= 0){
+                        
+                if((program.id).indexOf("1M@RAIPUR_DGY") >= 0){
+                    dgyIndex = i;
+                    preContent = "<div class='row' id='" + program.id + "'>";
+                    preContent += "<div class='col-md-12'>";
+                    preContent += "<div class='services-2 ftco-animate d-flex w-100'>";
+                    preContent += "<div class='icon d-flex justify-content-center align-items-center'>";
+                    preContent += "<span class='flaticon-meditation'></span>";
+                    preContent += "</div>";
+                    preContent += "<div class='text text-left pl-4'>";
+                    
+                    if(!htmlFilePath.equalsIgnoreCase("NA")){
+                        preContent += "<a href='" + getMatchingProgramFile(program.programName, language) + "'>" ;
+                    }
+
+                    int index = (program.programName).indexOf("(");
+                    if(index > 0){
+                        preContent += "<h3> <b>" + (program.programName).substring(0, index-1) + "</b>" ;
+                    } else {
+                        preContent += "<h3> <b>" + program.programName + "</b>" ;
+                    }
+                    
+                    if(!(program.tagLine1).equalsIgnoreCase("NA")) {
+                        preContent += " - " + program.tagLine1;
+                    } 
+                    if(!(program.tagLine2).equalsIgnoreCase("NA")) {
+                        preContent += program.tagLine2;
+                    } 
+                    preContent +=  "</h3></a>";// <b> (" + program.language + ")</b>
+                    
+                    // preContent += "<p class='up-prog-info2'>" + program.date + PIPE_SEPARATOR + program.time 
+                       // + PIPE_SEPARATOR + program.ageLimit + " </p>";
+                    if(!(program.venue).equalsIgnoreCase("NA")) {
+                        preContent += "<p class='up-venue'><b>" + program.venue + " </b></p>";
+                    }
+                    if(!(program.progInfo).equalsIgnoreCase("NA")) {
+                        preContent += "<p class='up-prog-info1'>" + program.progInfo + " </p>";
+                    }
+                }
+                
+                midContent += "<p class='up-prog-info2'><b>" + program.programName + PIPE_SEPARATOR + program.date + PIPE_SEPARATOR + program.fee + " " 
+                    + program.feeInfo + "</b>" +  " </p>";
+                
+            }
+
+        }
+
+        program = progArr.get(dgyIndex);
+        if (program.showRegisterNowBtn) {
+            if(language.equals("Hindi")){
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
+                    postContent += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                }
+                postContent += "  <a href='registration_page_hi.html' target='_blank' class='btn btn-white px-4 py-3' id='reg_btn'> " + REGISTER_NOW_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+            } else {
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
+                    postContent += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
+                }
+                postContent += "  <a href='registration_page.html' target='_blank' class='btn btn-white px-4 py-3' id='reg_btn'> Register Now <span class='ion-ios-arrow-round-forward'></span></a><p></p>";
+            }
+        } else {
+            if(language.equals("Hindi")){
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
+                    postContent += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> " + LEARN_MORE_HINDI + " <span class='ion-ios-arrow-round-forward'></span></a>";
+                }
+                postContent += "<p id='reg_btn'>" + REGISTRATION_CLOSED_HINDI + "</p> ";
+            } else {
+                if(!htmlFilePath.equalsIgnoreCase("NA") && program.showLearnMoreBtn){
+                    postContent += "<a href='" + htmlFilePath + "' target='_blank' class='btn btn-white px-4 py-3' id='learn_more_btn'> Learn More <span class='ion-ios-arrow-round-forward'></span></a>";
+                }
+                postContent += "<p id='reg_btn'><b>Registrations Closed</b></p> ";
+            }
+        } 
+        postContent += "<div class='container-fluid px-md-5'>";
+        postContent += "<div class='row'>";
+        
+        if(program.eflyerImg1 != null && !"NA".equals(program.eflyerImg1)) {
+            postContent += "<div class='col-md-3 ftco-animate'>";
+            postContent += "<a href='" + program.eflyerImg1 ;
+            postContent += "' class='gallery image-popup img d-flex align-items-center' style='background-image: url(" + program.eflyerImg1 + ");'></a>";
+            postContent += "</div>";
+        }
+        if(program.eflyerImg2 != null && !"NA".equals(program.eflyerImg2)) {
+            postContent += "<div class='col-md-3 ftco-animate'>";
+            postContent += "<a href='" + program.eflyerImg2 ;
+            postContent += "' class='gallery image-popup img d-flex align-items-center' style='background-image: url(" + program.eflyerImg2 + ");'></a>";
+            postContent += "</div>";
+        } 
+        if(program.eflyerImg3 != null && !"NA".equals(program.eflyerImg3)) {
+            postContent += "<div class='col-md-3 ftco-animate'>";
+            postContent += "<a href='" + program.eflyerImg3 ;
+            postContent += "' class='gallery image-popup img d-flex align-items-center' style='background-image: url(" + program.eflyerImg3 + ");'></a>";
+            postContent += "</div>";
+        }
+        postContent += "</div>";
+        postContent += "</div>";
+        postContent += "</div>";
+        postContent += "</div>";
+        postContent += "</div>";
+        postContent += "</div>";
+        postContent += "</div>";
+        
+         
+        return preContent+midContent+postContent;
+    }
+
     private static String getContentForUpcomingPrograms(Program program, String language){ 
-        // System.out.println(program.id + " " + program.showLearnMoreBtn);
+        System.out.println(program.id + " " + program.programName);
         String content = "<div class='row' id='" + program.id + "'>";
         content += "<div class='col-md-12'>";
         content += "<div class='services-2 ftco-animate d-flex w-100'>";
@@ -558,7 +718,7 @@ class ProgramUpdater {
             + PIPE_SEPARATOR + program.ageLimit + PIPE_SEPARATOR + program.fee + " " 
             + program.feeInfo + " </p>";
         if(!(program.venue).equalsIgnoreCase("NA")) {
-            content += "<p class='up-venue'>" + program.venue + " </p>";
+            content += "<p class='up-venue'><b>" + program.venue + " </b></p>";
         }
         
         if (program.showRegisterNowBtn) {

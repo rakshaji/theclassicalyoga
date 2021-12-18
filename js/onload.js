@@ -16,7 +16,7 @@ $(window).load(function () {
         const dateArr = date.split(" - ");
         //console.log(dateArr);
 
-        var from = new Date(getEnglishDate(dateArr[0]) + " " + year); 
+        var from = new Date(getEnglishDate(dateArr[0])); 
         //keep open on the first day of program for the evening programs
         from.setDate(from.getDate() + 1);
         //console.log(from + " " + to);
@@ -29,7 +29,7 @@ $(window).load(function () {
         }
         
         if(dateArr.length > 1){
-            var to = new Date(getEnglishDate(dateArr[1]) + " " + year);
+            var to = new Date(getEnglishDate(dateArr[1]));
             console.log(from + " " + to);
             if(today > to) {
                 // once last date passes, remove from view
@@ -53,13 +53,13 @@ $(window).load(function () {
         const progDetailArr = optionText.split(" | ");
         let date1 = progDetailArr[1];
         var today = new Date(); 
-        var year = today.getFullYear();
+        //var year = today.getFullYear();
         //console.log(date1);
 
         const dateArr = date1.split(" - ");
         console.log(dateArr);
 
-        var from = new Date(getEnglishDate(dateArr[0]) + " " + year); 
+        var from = new Date(getEnglishDate(dateArr[0])); 
         //keep open on the first day of program for the evening programs or onspot regs
         from.setDate(from.getDate() + 1);
         //console.log(from + " " + to);
@@ -70,7 +70,7 @@ $(window).load(function () {
         }
 
         if(dateArr.length > 1){
-            var to = new Date(getEnglishDate(dateArr[1]) + " " + year);
+            var to = new Date(getEnglishDate(dateArr[1]));
             //console.log(from + " " + to);
             if(today > to) {
                 // once last date passes, remove from view
@@ -96,7 +96,7 @@ $(window).load(function () {
         const dateArr = date.split(" - ");
         //console.log(dateArr);
 
-        var from = new Date(getEnglishDate(dateArr[0]) + " " + year); 
+        var from = new Date(getEnglishDate(dateArr[0])); 
         //keep open on the first day of program for the evening programs
         from.setDate(from.getDate() + 1);
         
@@ -107,7 +107,7 @@ $(window).load(function () {
         }
 
         if(dateArr.length > 1){
-            var to = new Date(getEnglishDate(dateArr[1]) + " " + year);
+            var to = new Date(getEnglishDate(dateArr[1]));
             //console.log(from + " " + to);
             if(today > to) {
                 //console.log("Yes! " + today + " >= " + from);
