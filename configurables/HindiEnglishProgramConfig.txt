@@ -12,7 +12,7 @@ PROGRAM_NAME::Daily Guided Yoga (6 months membership),,,,Daily Guided Yoga (6 mo
 TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::** रियायती मूल्य पर सदस्यता उपलब्ध,,,,** Membership Plans Available At Discounted Price
+PROGRAM_INFO::<b><span style="color:black;background: yellow;">** रियायती मूल्य पर सदस्यता उपलब्ध **</span></b>,,,,<b><span style="color:black;background: yellow;">** Membership Plans Available At Discounted Price **</span></b>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::3 Jan 2022 - 31 Jun 2022,,,,3 Jan 2022 - 31 Jun 2022
 TIME::सुबह 6:15 - 7:15 या सुबह 7:30 - 8:30 या सुबह 9:00 - 10:00,,,,6:15 AM - 7:15 AM or 7:30 AM - 8:30 AM or 9:00 AM - 10:00 AM
@@ -22,7 +22,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 9000
 FEE_INFO::(₹ 1500/month, Save ₹ 3000),,,,(₹ 1500/month, Save ₹ 3000)
-BANNER_IMAGE::NA 
+BANNER_IMAGE::images/banner/PromoPP226.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -33,7 +33,7 @@ PROGRAM_NAME::Daily Guided Yoga (3 months membership),,,,Daily Guided Yoga (3 mo
 TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::** रियायती मूल्य पर सदस्यता उपलब्ध,,,,** Membership Plans Available At Discounted Price
+PROGRAM_INFO::<b><span style="color:black;background: yellow;">** रियायती मूल्य पर सदस्यता उपलब्ध **</span></b>,,,,<b><span style="color:black;background: yellow;">** Membership Plans Available At Discounted Price **</span></b>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::3 Jan 2022 - 31 Mar 2022,,,,3 Jan 2022 - 31 Mar 2022
 TIME::सुबह 6:15 - 7:15 या सुबह 7:30 - 8:30 या सुबह 9:00 - 10:00,,,,6:15 AM - 7:15 AM or 7:30 AM - 8:30 AM or 9:00 AM - 10:00 AM
@@ -43,7 +43,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 5250 
 FEE_INFO::(₹ 1750/month, Save ₹ 750),,,,(₹ 1750/month, Save ₹ 750)
-BANNER_IMAGE::NA 
+BANNER_IMAGE::images/banner/PromoPP226.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -64,7 +64,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1999  
 FEE_INFO::NA
-BANNER_IMAGE::NA 
+BANNER_IMAGE::images/banner/PromoPP226.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
