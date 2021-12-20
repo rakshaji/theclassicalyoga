@@ -581,9 +581,10 @@ class ProgramUpdater {
         // add programs
         for (int i = 0; i < progArr.size(); i++){
             program = progArr.get(i);
-            htmlFilePath = getMatchingProgramFile(program.programName, language);
+            
             // skip the banner only programs
             if(program != null && (program.id).indexOf("@RAIPUR_DGY") >= 0){
+                htmlFilePath = getMatchingProgramFile(program.programName, language);
                         
                 if((program.id).indexOf("1M@RAIPUR_DGY") >= 0){
                     dgyIndex = i;
