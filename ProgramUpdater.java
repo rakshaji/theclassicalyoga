@@ -443,7 +443,7 @@ class ProgramUpdater {
         testimonyDiv.html("");
         
         // add program banners and testimonies
-        for (int i = progArr.size()-1; i >= 0; i--) {
+        for (int i = 0; i < progArr.size(); i++) {
             sliderDiv.append(getContentForBanners(progArr.get(i), language));
         }
 

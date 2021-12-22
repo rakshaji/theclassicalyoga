@@ -70,27 +70,6 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@RAIPUR_SSC_21Jan
-PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
-TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::21 Jan 2022,,,,21 Jan 2022
-TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::images/flyer/Nov2021/skss.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 1000  
-FEE_INFO::NA
-BANNER_IMAGE::NA 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
 PROGRAM_CODE::4D@RAIPUR_SK_17Jan20Jan
 PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
 TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
@@ -107,48 +86,6 @@ EFLYER3::NA
 FEE::₹ 2500  
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP237.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1D@RAIPUR_BS_15Jan
-PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
-TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::15 Jan 2022,,,,15 Jan 2022
-TIME::सुबह 7:00 - 8:15,,,,7:00 AM - 8:15 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/flyer/Nov2021/bhutashuddhi.webp
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 3500
-FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi2.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::5D@RAIPUR_Y_10Jan14Jan 
-PROGRAM_NAME::योगासन,,,,Yogasanas 
-TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::10 Jan 2022 - 14 Jan 2022,,,,10 Jan 2022 - 14 Jan 2022
-TIME::शाम 6:15 - 8:45,,,,6:15 PM - 8:45 PM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
-EFLYER1::images/flyer/Nov2021/yogasanas.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 3500
-FEE_INFO::NA  
-BANNER_IMAGE::images/banner/PromoPP221.webp  
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -190,7 +127,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500
 FEE_INFO::NA  
-BANNER_IMAGE::images/banner/PromoPP221.webp  
+BANNER_IMAGE::NA  
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -211,7 +148,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 2500  
 FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP237.webp
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -232,7 +169,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500  
 FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP200.webp 
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -253,7 +190,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500
 FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -274,32 +211,11 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1000  
 FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP208.webp 
+BANNER_IMAGE::NA 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true   
-====
-PROGRAM_CODE::5D@RAIPUR_Y_13Dec17Dec 
-PROGRAM_NAME::योगासन,,,,Yogasanas 
-TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::13 Dec 2021 - 17 Dec 2021,,,,13 Dec 2021 - 17 Dec 2021
-TIME::सुबह 7:30 - 9:45,,,,7:30 AM - 9:45 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
-EFLYER1::images/flyer/Nov2021/yogasanas.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 3500
-FEE_INFO::NA  
-BANNER_IMAGE::images/banner/PromoPP221.webp  
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::PROMO@BHILAI 
 PROGRAM_NAME::भिलाई में ईशा हठ योग,,,,Isha Hatha Yoga in Bhilai 
