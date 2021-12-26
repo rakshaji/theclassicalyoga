@@ -70,48 +70,6 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::4D@RAIPUR_SK_17Jan20Jan
-PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
-TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::17 Jan 2022 - 20 Jan 2022,,,,17 Jan 2022 - 20 Jan 2022
-TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
-EFLYER1::images/flyer/Nov2021/skss.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 2500  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP237.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::5D@RAIPUR_ANGA_3Jan7Jan
-PROGRAM_NAME::अंगमर्दना,,,,Angamardana 
-TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
-TAGLINE2::NA
-VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Jan 2022 - 7 Jan 2022,,,,3 Jan 2022 - 7 Jan 2022
-TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
-AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
-EFLYER1::images/banner/PromoPP200.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 3500  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP200.webp 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
 PROGRAM_CODE::5D@BHILAI_Y_23Dec27Dec 
 PROGRAM_NAME::योगासन,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
