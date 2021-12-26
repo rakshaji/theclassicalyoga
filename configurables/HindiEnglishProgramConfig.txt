@@ -7,64 +7,43 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-PROGRAM_CODE::6M@RAIPUR_DGY_3Jan31Jun
-PROGRAM_NAME::Daily Guided Yoga (6 months membership),,,,Daily Guided Yoga (6 months membership)
-TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
+PROGRAM_CODE::4D@RAIPUR_SK_24Jan28Jan
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::<b><span style="color:black;background: yellow;">** रियायती मूल्य पर सदस्यता उपलब्ध **</span></b>,,,,<b><span style="color:black;background: yellow;">** Membership Plans Available At Discounted Price **</span></b>
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Jan 2022 - 31 Jun 2022,,,,3 Jan 2022 - 31 Jun 2022
-TIME::सुबह 6:30 - 7:30 या सुबह 7:45 - 8:45 या सुबह 9:00 - 10:00 या सुबह 10:00 - 11:00,,,,6:30 AM - 7:30 AM or 7:45 AM - 8:45 AM or 9:00 AM - 10:00 AM or 10:00 AM - 11:00 AM
-AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years    
-EFLYER1::images/banner/PromoPP226.webp
+DATE::24 Jan 2022 - 28 Jan 2022,,,,24 Jan 2022 - 28 Jan 2022
+TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
+EFLYER1::images/flyer/Nov2021/skss.webp
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 9000
-FEE_INFO::(₹ 1500/month, Save ₹ 3000),,,,(₹ 1500/month, Save ₹ 3000)
-BANNER_IMAGE::images/banner/PromoPP226.webp 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::3M@RAIPUR_DGY_3Jan31Mar
-PROGRAM_NAME::Daily Guided Yoga (3 months membership),,,,Daily Guided Yoga (3 months membership)
-TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::<b><span style="color:black;background: yellow;">** रियायती मूल्य पर सदस्यता उपलब्ध **</span></b>,,,,<b><span style="color:black;background: yellow;">** Membership Plans Available At Discounted Price **</span></b>
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Jan 2022 - 31 Mar 2022,,,,3 Jan 2022 - 31 Mar 2022
-TIME::सुबह 6:30 - 7:30 या सुबह 7:45 - 8:45 या सुबह 9:00 - 10:00 या सुबह 10:00 - 11:00,,,,6:30 AM - 7:30 AM or 7:45 AM - 8:45 AM or 9:00 AM - 10:00 AM or 10:00 AM - 11:00 AM
-AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years    
-EFLYER1::images/banner/PromoPP226.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 5250 
-FEE_INFO::(₹ 1750/month, Save ₹ 750),,,,(₹ 1750/month, Save ₹ 750)
-BANNER_IMAGE::images/banner/PromoPP226.webp 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1M@RAIPUR_DGY_3Jan31Jan
-PROGRAM_NAME::Daily Guided Yoga (1 month),,,,Daily Guided Yoga (1 month)
-TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::<b><span style="color:black;background: yellow;">** रियायती मूल्य पर सदस्यता उपलब्ध **</span></b>,,,,<b><span style="color:black;background: yellow;">** Membership Plans Available At Discounted Price **</span></b>
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Jan 2022 - 31 Jan 2022,,,,3 Jan 2022 - 31 Jan 2022
-TIME::सुबह 6:30 - 7:30 या सुबह 7:45 - 8:45 या सुबह 9:00 - 10:00 या सुबह 10:00 - 11:00,,,,6:30 AM - 7:30 AM or 7:45 AM - 8:45 AM or 9:00 AM - 10:00 AM or 10:00 AM - 11:00 AM
-AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years    
-EFLYER1::images/banner/PromoPP226.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 1999  
+FEE::₹ 2500  
 FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP226.webp 
+BANNER_IMAGE::images/banner/PromoPP237.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::5D@RAIPUR_ANGA_10Jan14Jan
+PROGRAM_NAME::अंगमर्दना,,,,Angamardana 
+TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::10 Jan 2022 - 14 Jan 2022,,,,10 Jan 2022 - 14 Jan 2022
+TIME::सुबह 6:30 - 8:45,,,,6:30 AM - 8:45 AM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
+EFLYER1::images/banner/PromoPP200.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 

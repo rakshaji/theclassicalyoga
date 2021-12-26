@@ -577,7 +577,7 @@ class ProgramUpdater {
         String postContent = "";
         Program program = null;
         String htmlFilePath = "";
-        int dgyIndex = 0;
+        int dgyIndex = -1;
         // add programs
         for (int i = 0; i < progArr.size(); i++){
             program = progArr.get(i);
@@ -630,6 +630,10 @@ class ProgramUpdater {
                 
             }
 
+        }
+
+        if(dgyIndex == -1){
+            return "";
         }
 
         program = progArr.get(dgyIndex);
