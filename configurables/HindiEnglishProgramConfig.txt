@@ -203,7 +203,7 @@ TAGLINE2::NA
 VENUE::<a href="http://shorturl.at/ivHO2" target="_blank">स्थान - राधा कृष्ण मंदिर, नेहरू नगर, भिलाई</a>,,,,<a href="http://shorturl.at/ivHO2" target="_blank">𝗩𝗲𝗻𝘂𝗲 - Radha Krishna Temple, Nehru Nagar, Bhilai</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::27 Dec 2021 2021,,,,27 Dec 2021 2021
+DATE::27 Dec 2021,,,,27 Dec 2021
 TIME::शाम 4:00 - 6:00,,,,4:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
 EFLYER1::images/banner/PromoPP208.webp
