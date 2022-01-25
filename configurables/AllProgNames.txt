@@ -9,3 +9,4 @@ Upa Yoga,उप योग,./offerings/upa_yoga_hi.html
 Daily Guided Yoga,दैनिक निर्देशित योग,./offerings/daily_guided_yoga_hi.html
 Free Yoga Day,फ्री योग दिवस,NA
 Yoga For Depression,डिप्रेशन के लिए योग,NA
+Yoga For Beginners,शुरुआती के लिए योग,./offerings/upa_yoga_hi.html

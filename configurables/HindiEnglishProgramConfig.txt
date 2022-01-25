@@ -7,6 +7,27 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
+PROGRAM_CODE::1D@RAIPUR_BS_19Feb
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
+TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::19 Feb 2022,,,,19 Feb 2022
+TIME::सुबह 7:00 - 8:30,,,,7:00 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::images/banner/BhutaShuddhi1.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+BANNER_IMAGE::NA
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
 PROGRAM_CODE::1D@RAIPUR_BS_29Jan
 PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
 TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
@@ -49,14 +70,35 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true   
 ====
-PROGRAM_CODE::5D@RAIPUR_Y_24Jan28Jan 
+PROGRAM_CODE::1D@RAIPUR_SSC_4Feb
+PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
+TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::4 Mar 2022,,,,4 Mar 2022
+TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
+EFLYER1::images/banner/PromoPP208.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1000  
+FEE_INFO::NA
+BANNER_IMAGE::NA 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true   
+====
+PROGRAM_CODE::5D@RAIPUR_Y_14Feb18Feb 
 PROGRAM_NAME::योगासन,,,,Yogasanas 
 TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::24 Jan 2022 - 28 Jan 2022,,,,24 Jan 2022 - 28 Jan 2022
+DATE::14 Feb 2022 - 18 Feb 2022,,,,14 Feb 2022 - 18 Feb 2022
 TIME::शाम 6:00 - 8:45,,,,6:00 PM - 8:45 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/banner/PromoPP221.webp
@@ -70,14 +112,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true 
 ====
-PROGRAM_CODE::4D@RAIPUR_SK_24Jan28Jan
+PROGRAM_CODE::4D@RAIPUR_SK_28Feb3Mar
 PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
 TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::24 Jan 2022 - 27 Jan 2022,,,,24 Jan 2022 - 27 Jan 2022
+DATE::28 Feb 2022 - 3 Mar 2022,,,,28 Feb 2022 - 3 Mar 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
 EFLYER1::images/flyer/Nov2021/skss.webp
@@ -91,14 +133,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::5D@RAIPUR_ANGA_12Jan16Jan
+PROGRAM_CODE::5D@RAIPUR_ANGA_14Feb18Feb
 PROGRAM_NAME::अंगमर्दना,,,,Angamardana 
 TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::12 Jan 2022 - 16 Jan 2022,,,,12 Jan 2022 - 16 Jan 2022
+DATE::14 Feb 2022 - 18 Jan 2022,,,,14 Feb 2022 - 18 Feb 2022
 TIME::सुबह 6:30 - 8:45,,,,6:30 AM - 8:45 AM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::images/banner/PromoPP200.webp
@@ -107,6 +149,27 @@ EFLYER3::NA
 FEE::₹ 3500  
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_UY_7Feb9Feb
+PROGRAM_NAME::शुरुआती के लिए योग,,,,Yoga For Beginners
+TAGLINE1::जोड़ों, मांसपेशियों और ऊर्जा के लिए,,,,Activate the joints, muscles and energy system
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::7 Feb 2022 - 9 Feb 2022,,,,7 Feb 2022 - 9 Feb 2022
+TIME::सुबह 7:00 - 8:00,,,,7:00 AM - 8:00 AM
+AGE_LIMIT::आयु - 7+ वर्ष,,,,Age - 7+ years 
+EFLYER1::images/banner/PromoPP214.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 800
+FEE_INFO::NA
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
