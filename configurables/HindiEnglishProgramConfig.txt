@@ -163,7 +163,7 @@ PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::7 Feb 2022 - 9 Feb 2022,,,,7 Feb 2022 - 9 Feb 2022
 TIME::सुबह 7:00 - 8:00,,,,7:00 AM - 8:00 AM
-AGE_LIMIT::आयु - 7+ वर्ष,,,,Age - 7+ years 
+AGE_LIMIT::आयु - 4+ वर्ष,,,,Age - 4+ years 
 EFLYER1::images/banner/PromoPP214.webp
 EFLYER2::NA 
 EFLYER3::NA
