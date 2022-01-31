@@ -809,8 +809,8 @@ class ProgramUpdater {
         upcomingProgramsDiv += "<div id='Bhilai' class='tabcontent'>";
         upcomingProgramsDiv += "</div>";
         upcomingProgramsDiv += "<div id='Bilaspur' class='tabcontent'>";
-        upcomingProgramsDiv += "<h3>Bilaspur</h3>";
-        upcomingProgramsDiv += "<p>Coming soon..</p>";
+        //upcomingProgramsDiv += "<h3>Bilaspur</h3>";
+        //upcomingProgramsDiv += "<p>Coming soon..</p>";
         upcomingProgramsDiv += "</div>";
     
         elementToEmpty.html(upcomingProgramsDiv);

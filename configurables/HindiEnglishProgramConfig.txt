@@ -7,15 +7,15 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-PROGRAM_CODE::1D@RAIPUR_BS_19Feb
+PROGRAM_CODE::1D@BILASPUR_BS_25Feb
 PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
 TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" ><b>स्थान</b> - श्री आदिनाथ दिगंबर जैन मंदिर, क्रांति नगर, बिलासपुर, छत्तीसगढ़</a>,,,,<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" target="_blank" >Venue - Shri Adinath Digambar Jain Mandir, Kranti Nagar, Bilaspur, Chhattisgarh</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::19 Feb 2022,,,,19 Feb 2022
-TIME::सुबह 7:00 - 8:30,,,,7:00 AM - 8:30 AM
+DATE::25 Feb 2022,,,,25 Feb 2022
+TIME::शाम 7:30 - 8:30,,,,7:30 PM - 8:30 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::images/banner/BhutaShuddhi1.webp
 EFLYER2::NA 
@@ -28,47 +28,68 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@RAIPUR_BS_29Jan
-PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
-TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
+PROGRAM_CODE::5D@BILASPUR_Y_21Feb25Feb 
+PROGRAM_NAME::योगासन,,,,Yogasanas 
+TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" ><b>स्थान</b> - श्री आदिनाथ दिगंबर जैन मंदिर, क्रांति नगर, बिलासपुर, छत्तीसगढ़</a>,,,,<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" target="_blank" >Venue - Shri Adinath Digambar Jain Mandir, Kranti Nagar, Bilaspur, Chhattisgarh</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::29 Jan 2022,,,,29 Jan 2022
-TIME::सुबह 7:00 - 8:15,,,,7:00 AM - 8:15 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/banner/BhutaShuddhi1.webp
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 3500
-FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::NA
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1D@RAIPUR_SSC_28Jan
-PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
-TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::28 Jan 2022,,,,28 Jan 2022
-TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::images/banner/PromoPP208.webp
+DATE::21 Feb 2022 - 25 Feb 2022,,,,21 Feb 2022 - 25 Feb 2022
+TIME::सुबह 6:00 - 8:45,,,,6:00 AM - 8:45 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
+EFLYER1::images/banner/PromoPP221.webp
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 1000  
-FEE_INFO::NA
-BANNER_IMAGE::NA 
+FEE::₹ 3500
+FEE_INFO::NA  
+BANNER_IMAGE::NA  
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true   
+SHOW_LEARN_MORE_BTN::true 
+====
+PROGRAM_CODE::4D@BILASPUR_SK_21Feb24Feb
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" ><b>स्थान</b> - श्री आदिनाथ दिगंबर जैन मंदिर, क्रांति नगर, बिलासपुर, छत्तीसगढ़</a>,,,,<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" target="_blank" >Venue - Shri Adinath Digambar Jain Mandir, Kranti Nagar, Bilaspur, Chhattisgarh</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::21 Feb 2022 - 24 Feb 2022,,,,21 Feb 2022 - 24 Feb 2022
+TIME::शाम 6:45 - 8:45,,,,6:45 PM - 8:45 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
+EFLYER1::images/flyer/Nov2021/skss.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP237.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::5D@BILASPUR_ANGA_21Feb24Feb
+PROGRAM_NAME::अंगमर्दना,,,,Angamardana 
+TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" ><b>स्थान</b> - श्री आदिनाथ दिगंबर जैन मंदिर, क्रांति नगर, बिलासपुर, छत्तीसगढ़</a>,,,,<a href="https://goo.gl/maps/obLSB2fDoFtkoFdz8" target="_blank" >Venue - Shri Adinath Digambar Jain Mandir, Kranti Nagar, Bilaspur, Chhattisgarh</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::21 Feb 2022 - 25 Jan 2022,,,,21 Feb 2022 - 25 Feb 2022
+TIME::शाम 4:00 - 6:15,,,,4:00 PM - 6:15 PM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
+EFLYER1::images/banner/PromoPP200.webp
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@RAIPUR_SSC_4Feb
 PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
