@@ -217,14 +217,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::PROMO@BHILAI 
-PROGRAM_NAME::भिलाई में ईशा हठ योग,,,,Isha Hatha Yoga in Bhilai 
+PROGRAM_CODE::PROMO@BILASPUR 
+PROGRAM_NAME::Bilaspur में ईशा हठ योग,,,,Isha Hatha Yoga in Bilaspur 
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::NA
-PROGRAM_INFO::योगासन, अंगमर्दन, भूत शुद्धि, सूर्य क्रिया और सूर्य शक्ति समापन कार्यक्रम की पेशकश,,,,Offering Yogasanas, Angamardana, Bhuta Shudhi, Surya Kriya & Surya Shakti Completion programs
+PROGRAM_INFO::योगासन, अंगमर्दन, भूत शुद्धि और सूर्य क्रिया कार्यक्रम की पेशकश,,,,Offering Yogasanas, Angamardana, Bhuta Shudhi & Surya Kriya programs
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::23 Dec 2021 - 27 Dec 2021,,,,23 Dec 2021 - 27 Dec 2021
+DATE::21 Feb 2022 - 25 Feb 2022,,,,21 Feb 2022 - 25 Feb 2022
 TIME::NA
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA

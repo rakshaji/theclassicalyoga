@@ -66,7 +66,7 @@ $(window).load(function () {
 
         if(today >= from) {
             // disable the option for currently running programs
-            $(this).prop('disabled', true);
+            $(this).hide();//prop('disabled', true);
         }
 
         if(dateArr.length > 1){

@@ -54,18 +54,18 @@ $(window).load(function () {
     // rename submit button if they are for free programs
     if(key.endsWith("_0")) {
       $('#submit-reg-form').html("Register");
-      $('#payByCashBtn').hide();
+      //$('#payByCashBtn').hide();
     } else {
       // if they are for paid programs
       $('#submit-reg-form').html("Pay Online");  
-      $('#payByCashBtn').show();
+      //$('#payByCashBtn').show();
     }
 
     // show cash payment button only for raipur programs alone
     if(key.search("@RAIPUR") > 0) {
-      $('#payByCashBtn').show();
+      //$('#payByCashBtn').show();
     } else {
-      $('#payByCashBtn').hide();
+      //$('#payByCashBtn').hide();
     }
 
     // add timings to the drop down
@@ -134,21 +134,21 @@ function get(k) {
 
     }, false);
 
-    $('#payByCashBtn').bind( 'click', function(event) {
-      var $regform = $('form#registration-form')[0];
-      if (!$regform.checkValidity()) {
-        event.preventDefault();
-        event.stopPropagation();
-        // console.log("check validity failed");
-        $regform.classList.add('was-validated');
-        $("#formErrorsModal").modal('show');
-      } else {
-        // console.log("check validity done");
-        $("#formErrorsModal").modal('hide');
-        $("#payByCashPopup").modal('show');
-      }
+    // $('#payByCashBtn').bind( 'click', function(event) {
+    //   var $regform = $('form#registration-form')[0];
+    //   if (!$regform.checkValidity()) {
+    //     event.preventDefault();
+    //     event.stopPropagation();
+    //     // console.log("check validity failed");
+    //     $regform.classList.add('was-validated');
+    //     $("#formErrorsModal").modal('show');
+    //   } else {
+    //     // console.log("check validity done");
+    //     $("#formErrorsModal").modal('hide');
+    //     $("#payByCashPopup").modal('show');
+    //   }
 
-    });
+    // });
 
   });
 })();
