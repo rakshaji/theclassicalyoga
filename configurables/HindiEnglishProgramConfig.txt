@@ -7,15 +7,57 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-PROGRAM_CODE::1D@BILASPUR_BS_25Feb
-PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi 
-TAGLINE1::पांच तत्वों को शुद्ध करना,,,,Purifying Five Elements
+PROGRAM_CODE::3D@RAIPUR_YFAM_14Mar16Mar
+PROGRAM_NAME::ध्यान और स्मृति के लिए योग,,,,Yoga For Attention & Memory
+TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<b>स्थान</b> - यश पैलेस, ओल्ड हाई कोर्ट रोड के पास, बिलासपुर, छत्तीसगढ़</a>,,,,Venue - Yash Palace, Near Old High Court Road, Bilaspur, Chhattisgarh</a>
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::25 Feb 2022,,,,25 Feb 2022
-TIME::शाम 7:30 - 8:30,,,,7:30 PM - 8:30 PM
+DATE::14 Mar 2022 - 16 Mar 2022,,,,14 Mar 2022 - 16 Mar 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
+AGE_LIMIT::आयु - 7+ वर्ष,,,,Age - 7+ years 
+EFLYER1::images/banner/PromoPP214.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 950
+FEE_INFO::NA
+BANNER_IMAGE::NA
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::4D@RAIPUR_UY_21Mar24Mar
+PROGRAM_NAME::शुरुआती के लिए योग - II,,,,Yoga For Beginners - II
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::21 Mar 2022 - 24 Mar 2022,,,,21 Mar 2022 - 24 Mar 2022
+TIME::शाम 6:30 - 8:15,,,,6:30 PM - 8:15 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::images/banner/PromoPP139.webp
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 1200
+FEE_INFO::NA
+BANNER_IMAGE::NA
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_BS_10Mar
+PROGRAM_NAME::त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग,,,,Yoga For Skin Diseases, Allergies & Joint Problems
+TAGLINE1::भूत शुद्धि,,,,Bhuta Shuddhi
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::10 Mar 2022,,,,10 Mar 2022
+TIME::सुबह 9:00 - 10:15,,,,9:00 AM - 10:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::images/banner/BhutaShuddhi1.webp
 EFLYER2::NA 
@@ -28,20 +70,20 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::5D@BILASPUR_Y_21Feb25Feb 
-PROGRAM_NAME::योगासन,,,,Yogasanas 
-TAGLINE1::परमात्मा के साथ संरेखित करें,,,,Align With The Divine
+PROGRAM_CODE::5D@RAIPUR_Y_21Mar25Mar 
+PROGRAM_NAME::पुरानी स्वास्थ्य स्थितियों के लिए,,,,For Chronic Health Conditions
+TAGLINE1::योगासन,,,,Yogasanas
 TAGLINE2::NA
-VENUE::<b>स्थान</b> - यश पैलेस, ओल्ड हाई कोर्ट रोड के पास, बिलासपुर, छत्तीसगढ़</a>,,,,Venue - Yash Palace, Near Old High Court Road, Bilaspur, Chhattisgarh</a>
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::21 Feb 2022 - 25 Feb 2022,,,,21 Feb 2022 - 25 Feb 2022
-TIME::सुबह 6:00 - 8:45,,,,6:00 AM - 8:45 AM
+DATE::21 Mar 2022 - 25 Mar 2022,,,,21 Mar 2022 - 25 Mar 2022
+TIME::सुबह 6:00 - 8:30,,,,6:00 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::images/banner/PromoPP221.webp
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 3500
+FEE::₹ 4000
 FEE_INFO::NA  
 BANNER_IMAGE::NA  
 SHOW_INTEREST_BTN::false  
@@ -70,15 +112,15 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::5D@BILASPUR_ANGA_21Feb24Feb
-PROGRAM_NAME::अंगमर्दना,,,,Angamardana 
-TAGLINE1::परम स्वास्थ्य सत्र,,,,The Ultimate Fitness Session
+PROGRAM_CODE::7D@RAIPUR_ANGA_6Mar12Mar
+PROGRAM_NAME::अनिद्रा, मोटापा और लत के लिए योग,,,,Yoga for Insomnia, Obesity & Addiction
+TAGLINE1::अंगमर्दना,,,,Angamardana
 TAGLINE2::NA
-VENUE::<b>स्थान</b> - यश पैलेस, ओल्ड हाई कोर्ट रोड के पास, बिलासपुर, छत्तीसगढ़</a>,,,,Venue - Yash Palace, Near Old High Court Road, Bilaspur, Chhattisgarh</a>
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::21 Feb 2022 - 25 Jan 2022,,,,21 Feb 2022 - 25 Feb 2022
-TIME::शाम 4:00 - 6:15,,,,4:00 PM - 6:15 PM
+DATE::6 Mar 2022 - 12 Mar 2022,,,,6 Mar 2022 - 12 Mar 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::images/banner/PromoPP200.webp
 EFLYER2::NA
@@ -91,14 +133,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@RAIPUR_SSC_7Mar
+PROGRAM_CODE::1D@RAIPUR_SSC_10Mar
 PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::7 Mar 2022,,,,7 Mar 2022
+DATE::10 Mar 2022,,,,10 Mar 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
 EFLYER1::images/banner/PromoPP208.webp
@@ -112,14 +154,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::4D@RAIPUR_SK_3Mar6Mar
-PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
-TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
+PROGRAM_CODE::4D@RAIPUR_SK_6Mar9Mar
+PROGRAM_NAME::पीठ दर्द, हार्मोन असंतुलन और गैस्ट्रोइंटेस्टाइनल समस्याओं के लिए,,,,For Back Pain, Harmonal Imbalances & Gastrointestinal Problems
+TAGLINE1::सूर्य क्रिया,,,,Surya Kriya 
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Mar 2022 - 6 Mar 2022,,,,3 Mar 2022 - 6 Mar 2022
+DATE::6 Mar 2022 - 9 Mar 2022,,,,6 Mar 2022 - 9 Mar 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
 EFLYER1::images/flyer/Nov2021/skss.webp
