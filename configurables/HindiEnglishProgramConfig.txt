@@ -29,7 +29,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::4D@RAIPUR_UY_21Mar24Mar
-PROGRAM_NAME::शुरुआती के लिए योग - II,,,,Yoga For Beginners - II
+PROGRAM_NAME::बिगिनर्स के लिए योग - II,,,,Yoga For Beginners - II
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
@@ -50,7 +50,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@RAIPUR_BS_10Mar
-PROGRAM_NAME::(त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग) भूत शुद्धि ,,,,(Yoga For Skin Diseases, Allergies & Joint Problems) Bhuta Shuddhi 
+PROGRAM_NAME::त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग (भूत शुद्धि),,,,Yoga For Skin Diseases, Allergies & Joint Problems (Bhuta Shuddhi) 
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
