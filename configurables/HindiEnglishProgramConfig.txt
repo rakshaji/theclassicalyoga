@@ -50,8 +50,8 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1D@RAIPUR_BS_10Mar
-PROGRAM_NAME::त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग,,,,Yoga For Skin Diseases, Allergies & Joint Problems
-TAGLINE1::भूत शुद्धि,,,,Bhuta Shuddhi
+PROGRAM_NAME::(त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग) भूत शुद्धि ,,,,(Yoga For Skin Diseases, Allergies & Joint Problems) Bhuta Shuddhi 
+TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
@@ -71,8 +71,8 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::5D@RAIPUR_Y_21Mar25Mar 
-PROGRAM_NAME::पुरानी स्वास्थ्य स्थितियों के लिए,,,,For Chronic Health Conditions
-TAGLINE1::योगासन,,,,Yogasanas
+PROGRAM_NAME::पुरानी स्वास्थ्य स्थितियों के लिए (योगासन),,,,For Chronic Health Conditions (Yogasanas)
+TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
@@ -113,8 +113,8 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::7D@RAIPUR_ANGA_6Mar12Mar
-PROGRAM_NAME::अनिद्रा, मोटापा और लत के लिए योग,,,,Yoga for Insomnia, Obesity & Addiction
-TAGLINE1::अंगमर्दना,,,,Angamardana
+PROGRAM_NAME::अनिद्रा, मोटापा और लत के लिए योग (अंगमर्दना),,,,Yoga for Insomnia, Obesity & Addiction (Angamardana)
+TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
@@ -155,8 +155,8 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::4D@RAIPUR_SK_6Mar9Mar
-PROGRAM_NAME::पीठ दर्द, हार्मोन असंतुलन और गैस्ट्रोइंटेस्टाइनल समस्याओं के लिए,,,,For Back Pain, Harmonal Imbalances & Gastrointestinal Problems
-TAGLINE1::सूर्य क्रिया,,,,Surya Kriya 
+PROGRAM_NAME::पीठ दर्द, हार्मोन असंतुलन और गैस्ट्रोइंटेस्टाइनल समस्याओं के लिए (सूर्य क्रिया),,,,For Back Pain, Harmonal Imbalances & Gastrointestinal Problems (Surya Kriya)
+TAGLINE1::
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
