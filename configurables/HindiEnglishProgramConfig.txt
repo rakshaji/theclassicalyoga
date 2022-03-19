@@ -7,27 +7,6 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-PROGRAM_CODE::3D@RAIPUR_YFAM_14Mar16Mar
-PROGRAM_NAME::ध्यान और स्मृति के लिए योग,,,,Yoga For Attention & Memory
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::14 Mar 2022 - 16 Mar 2022,,,,14 Mar 2022 - 16 Mar 2022
-TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
-AGE_LIMIT::आयु - 7+ वर्ष,,,,Age - 7+ years 
-EFLYER1::images/banner/PromoPP214.webp
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 950
-FEE_INFO::NA
-BANNER_IMAGE::NA
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
 PROGRAM_CODE::4D@RAIPUR_UY_21Mar24Mar
 PROGRAM_NAME::बिगिनर्स के लिए योग - II,,,,Yoga For Beginners - II
 TAGLINE1::NA
@@ -43,11 +22,11 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1200
 FEE_INFO::NA
-BANNER_IMAGE::NA
-SHOW_INTEREST_BTN::false  
+BANNER_IMAGE::images/banner/PromoPP226.webp 
+SHOW_INTEREST_BTN::true  
 SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::false
 ====
 PROGRAM_CODE::1D@RAIPUR_BS_26Mar
 PROGRAM_NAME::त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग (भूत शुद्धि),,,,Yoga For Skin Diseases, Allergies & Joint Problems (Bhuta Shuddhi) 
@@ -64,7 +43,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500
 FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::NA
+BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -85,32 +64,11 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 4000
 FEE_INFO::NA  
-BANNER_IMAGE::NA  
+BANNER_IMAGE::images/banner/PromoPP221.webp  
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true 
-====
-PROGRAM_CODE::4D@BILASPUR_SK_21Feb24Feb
-PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
-TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
-TAGLINE2::NA
-VENUE::<b>स्थान</b> - यश पैलेस, ओल्ड हाई कोर्ट रोड के पास, बिलासपुर, छत्तीसगढ़</a>,,,,Venue - Yash Palace, Near Old High Court Road, Bilaspur, Chhattisgarh</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::21 Feb 2022 - 24 Feb 2022,,,,21 Feb 2022 - 24 Feb 2022
-TIME::शाम 6:45 - 8:45,,,,6:45 PM - 8:45 PM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
-EFLYER1::images/flyer/Nov2021/skss.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 2500  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP237.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::5D@RAIPUR_ANGA_28Mar1Apr
 PROGRAM_NAME::अनिद्रा, मोटापा और लत के लिए योग (अंगमर्दना),,,,Yoga for Insomnia, Obesity & Addiction (Angamardana)
@@ -148,28 +106,7 @@ EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1000  
 FEE_INFO::NA
-BANNER_IMAGE::NA 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::4D@RAIPUR_SK_6Mar9Mar
-PROGRAM_NAME::पीठ दर्द, हार्मोन असंतुलन और गैस्ट्रोइंटेस्टाइनल समस्याओं के लिए (सूर्य क्रिया),,,,For Back Pain, Harmonal Imbalances & Gastrointestinal Problems (Surya Kriya)
-TAGLINE1::
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::6 Mar 2022 - 9 Mar 2022,,,,6 Mar 2022 - 9 Mar 2022
-TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
-EFLYER1::images/flyer/Nov2021/skss.webp
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 2500  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP237.webp
+BANNER_IMAGE::images/banner/PromoPP208.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
