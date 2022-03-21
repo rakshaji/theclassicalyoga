@@ -7,25 +7,46 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-PROGRAM_CODE::4D@RAIPUR_UY_21Mar24Mar
-PROGRAM_NAME::बिगिनर्स के लिए योग - II,,,,Yoga For Beginners - II
+PROGRAM_CODE::4D@RAIPUR_UY_4Apr6Apr
+PROGRAM_NAME::बिगिनर्स के लिए योग - I,,,,Yoga For Beginners - I
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::21 Mar 2022 - 24 Mar 2022,,,,21 Mar 2022 - 24 Mar 2022
-TIME::शाम 6:30 - 8:15,,,,6:30 PM - 8:15 PM
+DATE::4 Apr 2022 - 6 Apr 2022,,,,4 Apr 2022 - 6 Apr 2022
+TIME::शाम 6:30 - 7:30,,,,6:30 PM - 7:30 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/banner/PromoPP139.webp
+EFLYER1::NA
 EFLYER2::NA 
 EFLYER3::NA
-FEE::₹ 1200
+FEE::₹ 850
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP226.webp 
 SHOW_INTEREST_BTN::true  
 SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::false 
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::false
+====
+PROGRAM_CODE::2D@RAIPUR_YFD_7Apr8Apr
+PROGRAM_NAME::Yoga For Depression,,,,Yoga For Depression
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::7 Apr 2022 - 8 Apr 2022,,,,7 Apr 2022 - 8 Apr 2022
+TIME::शाम 6:30 - 7:30,,,,6:30 PM - 7:30 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 1000
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP226.webp 
+SHOW_INTEREST_BTN::true  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::false
 ====
 PROGRAM_CODE::1D@RAIPUR_BS_26Mar
@@ -38,7 +59,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::26 Mar 2022,,,,26 Mar 2022
 TIME::सुबह 9:00 - 10:15,,,,9:00 AM - 10:15 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::images/banner/BhutaShuddhi1.webp
+EFLYER1::NA
 EFLYER2::NA 
 EFLYER3::NA
 FEE::₹ 3500
@@ -59,7 +80,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::21 Mar 2022 - 25 Mar 2022,,,,21 Mar 2022 - 25 Mar 2022
 TIME::सुबह 6:00 - 8:30,,,,6:00 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
-EFLYER1::images/banner/PromoPP221.webp
+EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 4000
@@ -80,7 +101,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::28 Mar 2022 - 1 Apr 2022,,,,28 Mar 2022 - 1 Apr 2022
 TIME::सुबह 6:30 - 8:45,,,,6:30 AM - 8:45 AM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
-EFLYER1::images/banner/PromoPP200.webp
+EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3500  
@@ -101,7 +122,7 @@ LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::26 Mar 2022,,,,26 Mar 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::images/banner/PromoPP208.webp
+EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 1000  
@@ -112,23 +133,149 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::PROMO@BILASPUR 
-PROGRAM_NAME::Bilaspur में ईशा हठ योग,,,,Isha Hatha Yoga in Bilaspur 
+PROGRAM_CODE::4D@RAIPUR_SK_3Apr6Apr
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::3 Apr 2022 - 6 Apr 2022,,,,3 Apr 2022 - 6 Apr 2022
+TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP237.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_SSC_7Apr
+PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
+TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::7 Apr 2022,,,,7 Apr 2022
+TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1000  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP208.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_DGM_4Apr29Apr
+PROGRAM_NAME::Daily Guided Meditation,,,,Daily Guided Meditation
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::NA
-PROGRAM_INFO::योगासन, अंगमर्दन, भूत शुद्धि और सूर्य क्रिया कार्यक्रम की पेशकश,,,,Offering Yogasanas, Angamardana, Bhuta Shudhi & Surya Kriya programs
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::21 Feb 2022 - 25 Feb 2022,,,,21 Feb 2022 - 25 Feb 2022
-TIME::NA
+DATE::4 Apr 2022 - 29 Apr 2022,,,,4 Apr 2022 - 29 Apr 2022
+TIME::शाम 5:30 - 6:00,,,,5:30 PM - 6:00 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP208.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::false
+====
+PROGRAM_CODE::4D@RAIPUR_SSFK_11Apr14Apr
+PROGRAM_NAME::सूर्य शक्ति (बच्चों के लिए),,,,Surya Shakti For Kids
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::11 Apr 2022 - 14 Apr 2022,,,,11 Apr 2022 - 14 Apr 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
+AGE_LIMIT::आयु 7-14 वर्ष,,,,Age 7-14 years    
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2000  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP208.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::7D@RAIPUR_Y_17Apr23Apr 
+PROGRAM_NAME::पुरानी स्वास्थ्य स्थितियों के लिए (योगासन),,,,For Chronic Health Conditions (Yogasanas)
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::17 Apr 2022 - 23 Apr 2022,,,,17 Apr 2022 - 23 Apr 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
-FEE::NA
+FEE::₹ 4000
 FEE_INFO::NA  
-BANNER_IMAGE::images/banner/bg_4.webp  
+BANNER_IMAGE::images/banner/PromoPP221.webp  
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::false 
+SHOW_LEARN_MORE_BTN::true 
+====
+PROGRAM_CODE::5D@RAIPUR_ANGA_25Apr29Apr
+PROGRAM_NAME::अनिद्रा, मोटापा और लत के लिए योग (अंगमर्दना),,,,Yoga for Insomnia, Obesity & Addiction (Angamardana)
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::25 Apr 2022 - 29 Apr 2022,,,,25 Apr 2022 - 29 Apr 2022
+TIME::सुबह 6:15 - 8:30,,,,6:15 AM - 8:30 AM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::4D@RAIPUR_YFAM_26Apr29Apr
+PROGRAM_NAME::Yoga For Attention & Memory,,,,Yoga For Attention & Memory
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::26 Apr 2022 - 29 Apr 2022,,,,26 Apr 2022 - 29 Apr 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::false
