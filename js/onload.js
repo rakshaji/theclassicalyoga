@@ -1,4 +1,6 @@
 $(window).load(function () {
+
+    $('#saveSoilModal').modal('show');
     // for classes page
     $(".up-prog-info2").each(function(){
 

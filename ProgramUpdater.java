@@ -551,7 +551,7 @@ class ProgramUpdater {
                 String programName = set.getKey();
                 String programPage = set.getValue();
                 // System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
-                if(programNameOriginal.startsWith(programName)){
+                if(programNameOriginal.indexOf(programName) != -1){
                     return programPage;
                 }
             }
@@ -560,7 +560,7 @@ class ProgramUpdater {
                 String programName = set.getKey();
                 String programPage = set.getValue();
                 // System.out.println(programName + " - " + programPage + " - " + programNameOriginal);
-                if(programNameOriginal.startsWith(programName)){
+                if(programNameOriginal.indexOf(programName) != -1){
                     return programPage;
                 }
             }
