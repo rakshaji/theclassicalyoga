@@ -25,7 +25,7 @@ FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP226.webp 
 SHOW_INTEREST_BTN::true  
 SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
+SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false
 ====
 PROGRAM_CODE::2D@RAIPUR_YFD_7Apr8Apr
@@ -48,90 +48,6 @@ SHOW_INTEREST_BTN::true
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::false
-====
-PROGRAM_CODE::1D@RAIPUR_BS_26Mar
-PROGRAM_NAME::त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग (भूत शुद्धि),,,,Yoga For Skin Diseases, Allergies & Joint Problems (Bhuta Shuddhi) 
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::योग की एक पूरी प्रणाली है जिसे भूत शुद्धि कहा जाता है, जिसका अर्थ है "तत्वों की शुद्धि।" ईशा द्वारा दी गई भूत शुद्धि प्रक्रियाएं इस गूढ़ योग विज्ञान से सभी को लाभ उठाने का एक अनूठा अवसर प्रदान करती हैं, जिसके लिए अन्यथा गहन साधना (आध्यात्मिक अभ्यास) की आवश्यकता होती है।,,,,There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices).
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::26 Mar 2022,,,,26 Mar 2022
-TIME::सुबह 9:00 - 10:15,,,,9:00 AM - 10:15 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::NA
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 3500
-FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::5D@RAIPUR_Y_21Mar25Mar 
-PROGRAM_NAME::पुरानी स्वास्थ्य स्थितियों के लिए (योगासन),,,,For Chronic Health Conditions (Yogasanas)
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::योगासन व्यायाम नहीं हैं, बल्कि एक विशेष दिशा में किसी की ऊर्जा को हेरफेर करने के लिए बहुत सूक्ष्म प्रक्रियाएं हैं। हठ योग को 36 शक्तिशाली मुद्राओं, या योगासनों के एक सेट के रूप में पेश किया जाता है, ताकि सिस्टम को ऊर्जा के उच्च आयामों को बनाए रखने में सक्षम बनाया जा सके।,,,,Yogasanas are not exercises, but rather very subtle processes to manipulate one’s energy in a particular direction. Hatha Yoga is offered as a set of 36 powerful postures, or yogasanas, to enable the system to sustain higher dimensions of energy.
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::21 Mar 2022 - 25 Mar 2022,,,,21 Mar 2022 - 25 Mar 2022
-TIME::सुबह 6:00 - 8:30,,,,6:00 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
-EFLYER1::NA
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 4000
-FEE_INFO::NA  
-BANNER_IMAGE::images/banner/PromoPP221.webp  
-SHOW_INTEREST_BTN::true  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true 
-====
-PROGRAM_CODE::5D@RAIPUR_ANGA_28Mar1Apr
-PROGRAM_NAME::अंगमर्दना,,,,Angamardana - The Ultimate Fitness Session
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::"अंगमर्दन" का अर्थ है अंगों और शरीर के अन्य हिस्सों पर पूर्ण महारत हासिल करना।,,,,"Angamardana" means gaining complete mastery over the limbs, organs, and other parts of the body.
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::28 Mar 2022 - 1 Apr 2022,,,,28 Mar 2022 - 1 Apr 2022
-TIME::सुबह 6:30 - 8:45,,,,6:30 AM - 8:45 AM
-AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
-EFLYER1::NA
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 3500  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP200.webp 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1D@RAIPUR_SSC_26Mar
-PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
-TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
-TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::NA
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::26 Mar 2022,,,,26 Mar 2022
-TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
-EFLYER1::NA
-EFLYER2::NA
-EFLYER3::NA
-FEE::₹ 1000  
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP208.webp 
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::4D@RAIPUR_SK_3Apr6Apr
 PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
@@ -193,7 +109,7 @@ FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP208.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
+SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false
 ====
 PROGRAM_CODE::4D@RAIPUR_SSFK_11Apr14Apr
@@ -218,7 +134,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::7D@RAIPUR_Y_17Apr23Apr 
-PROGRAM_NAME::पुरानी स्वास्थ्य स्थितियों के लिए (योगासन),,,,For Chronic Health Conditions (Yogasanas)
+PROGRAM_NAME::योगासन,,,,Yogasanas - Align With The Divine
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
@@ -281,7 +197,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::false
 ====
 PROGRAM_CODE::1D@RAIPUR_BS_24Apr
-PROGRAM_NAME::त्वचा रोगों, एलर्जी और जोड़ों की समस्याओं के लिए योग (भूत शुद्धि),,,,Yoga For Skin Diseases, Allergies & Joint Problems (Bhuta Shuddhi) 
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi - Cleansing the Five Elements
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
