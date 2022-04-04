@@ -133,15 +133,15 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::7D@RAIPUR_Y_17Apr23Apr 
+PROGRAM_CODE::5D@RAIPUR_Y_17Apr23Apr 
 PROGRAM_NAME::योगासन,,,,Yogasanas - Align With The Divine
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगासन व्यायाम नहीं हैं, बल्कि एक विशेष दिशा में किसी की ऊर्जा को हेरफेर करने के लिए बहुत सूक्ष्म प्रक्रियाएं हैं। हठ योग को 36 शक्तिशाली मुद्राओं, या योगासनों के एक सेट के रूप में पेश किया जाता है, ताकि सिस्टम को ऊर्जा के उच्च आयामों को बनाए रखने में सक्षम बनाया जा सके।,,,,Yogasanas are not exercises, but rather very subtle processes to manipulate one’s energy in a particular direction. Hatha Yoga is offered as a set of 36 powerful postures, or yogasanas, to enable the system to sustain higher dimensions of energy.
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::17 Apr 2022 - 23 Apr 2022,,,,17 Apr 2022 - 23 Apr 2022
-TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
+DATE::18 Apr 2022 - 22 Apr 2022,,,,18 Apr 2022 - 22 Apr 2022
+TIME::शाम 6:00 - 8:45,,,,6:00 PM - 8:45 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA
 EFLYER2::NA
