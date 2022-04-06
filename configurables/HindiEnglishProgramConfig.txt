@@ -28,15 +28,15 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::false 
 SHOW_LEARN_MORE_BTN::false
 ====
-PROGRAM_CODE::2D@RAIPUR_YFD_7Apr8Apr
+PROGRAM_CODE::2D@RAIPUR_YFD_13Apr14Apr
 PROGRAM_NAME::डिप्रेशन के लिए योग,,,,Yoga For Depression & Anxiety
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::अवसाद और चिंता जैसी स्थितियों के लाभ के लिए डिज़ाइन किए गए शक्तिशाली योग अभ्यास सीखें। यह इस स्थिति के लिए पहला कदम अनुशंसित है।,,,,Learn powerful yogic practices designed to benefit conditions like depresssion and anxiety. This is a recommended first step to these conditions.
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::7 Apr 2022 - 8 Apr 2022,,,,7 Apr 2022 - 8 Apr 2022
-TIME::शाम 6:30 - 7:30,,,,6:30 PM - 7:30 PM
+DATE::13 Apr 2022 - 14 Apr 2022,,,,13 Apr 2022 - 14 Apr 2022
+TIME::शाम 5:00 - 6:00,,,,5:00 PM - 6:00 PM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
 EFLYER2::NA 
