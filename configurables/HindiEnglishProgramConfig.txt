@@ -121,7 +121,7 @@ PROGRAM_INFO::"जीवन में जल्दी योग शुरू क
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::11 Apr 2022 - 14 Apr 2022,,,,11 Apr 2022 - 14 Apr 2022
 TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
-AGE_LIMIT::आयु 7-14 वर्ष,,,,Age 7-14 years    
+AGE_LIMIT::आयु 7-14 वर्ष,,,,Age 7-13 years    
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
