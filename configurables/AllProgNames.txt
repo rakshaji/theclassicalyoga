@@ -7,6 +7,7 @@ Yogasanas,योगासन,./offerings/yogasanas_hi.html
 Angamardana,अंगमर्दना,./offerings/angamardana_hi.html
 Upa Yoga,उप योग,./offerings/upa_yoga_hi.html
 Daily Guided Yoga,दैनिक निर्देशित योग,./offerings/daily_guided_yoga_hi.html
+Weight Loss Yoga,वेट लॉस योग,./offerings/weight_loss_yoga_hi.html
 Free Yoga Day,फ्री योग दिवस,NA
 Yoga For Depression,डिप्रेशन के लिए योग,./offerings/aum.html
 Yoga For Beginners,शुरुआती के लिए योग,./offerings/upa_yoga_hi.html
