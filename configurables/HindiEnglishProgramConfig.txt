@@ -92,7 +92,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1M@RAIPUR_DGY_6Jun24Jun
-PROGRAM_NAME::Daily Guided Yoga,,,,Daily Guided Yoga
+PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
 TAGLINE1::Establish Yourself Into yoga,,,,Establish Yourself Into Yoga
 TAGLINE2::1 Month Plan,,,,1 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
@@ -113,7 +113,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::3M@RAIPUR_DGY_6Jun24Jun
-PROGRAM_NAME::Daily Guided Yoga,,,,Daily Guided Yoga
+PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
 TAGLINE1::Establish Yourself Into yoga,,,,Establish Yourself Into Yoga
 TAGLINE2::3 Month Plan,,,,3 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
@@ -134,7 +134,7 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::6M@RAIPUR_DGY_6Jun24Jun
-PROGRAM_NAME::Daily Guided Yoga,,,,Daily Guided Yoga
+PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
 TAGLINE1::Establish Yourself Into yoga,,,,Establish Yourself Into Yoga
 TAGLINE2::6 Month Plan,,,,6 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
@@ -155,8 +155,8 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1M@RAIPUR_WLY_6Jun24Jun
-PROGRAM_NAME::Weight Loss Yoga,,,,Weight Loss Yoga
-TAGLINE1::NA
+PROGRAM_NAME::वेट लॉस योग,,,,Weight Loss Yoga
+TAGLINE1::योगिक तरीके से वजन घटाए,,,,Loose weight in a yogic way.
 TAGLINE2::1 Month Plan,,,,1 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगिक तरीके से वजन कम करें। शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Lose weight in a yogic way. Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
@@ -176,11 +176,11 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::3M@RAIPUR_WLY_6Jun24Jun
-PROGRAM_NAME::Weight Loss Yoga,,,,Weight Loss Yoga
-TAGLINE1::NA
+PROGRAM_NAME::वेट लॉस योग,,,,Weight Loss Yoga
+TAGLINE1::योगिक तरीके से वजन घटाए,,,,Loose weight in a yogic way.
 TAGLINE2::3 Month Plan,,,,3 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::योगिक तरीके से वजन कम करें। शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Lose weight in a yogic way. Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
+PROGRAM_INFO::शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::6 Jun 2022 - 25 Aug 2022,,,,6 Jun 2022 - 25 Aug 2022
 TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
@@ -197,11 +197,11 @@ SHOW_REGISTER_BTN::true
 SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::6M@RAIPUR_WLY_6Jun24Jun
-PROGRAM_NAME::Weight Loss Yoga,,,,Weight Loss Yoga
-TAGLINE1::NA
+PROGRAM_NAME::वेट लॉस योग,,,,Weight Loss Yoga
+TAGLINE1::योगिक तरीके से वजन घटाए,,,,Loose weight in a yogic way.
 TAGLINE2::6 Month Plan,,,,6 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::योगिक तरीके से वजन कम करें। शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Lose weight in a yogic way. Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
+PROGRAM_INFO::शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::6 Jun 2022 - 25 Nov 2022,,,,6 Jun 2022 - 25 Nov 2022
 TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
