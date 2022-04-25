@@ -93,7 +93,7 @@ SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::1M@RAIPUR_DGY_6Jun24Jun
 PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
-TAGLINE1::Establish Yourself Into yoga,,,,Establish Yourself Into Yoga
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
 TAGLINE2::1 Month Plan,,,,1 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगाभ्यास और ध्यान सीखें जो ध्यान को अपने चरम पर लाने के लिए लाभकारी होने के लिए डिज़ाइन किए गए हैं।,,,,Establish yourself into yoga under the guidance of a certified ISHA teacher.
@@ -114,7 +114,7 @@ SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::3M@RAIPUR_DGY_6Jun24Jun
 PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
-TAGLINE1::Establish Yourself Into yoga,,,,Establish Yourself Into Yoga
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
 TAGLINE2::3 Month Plan,,,,3 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगाभ्यास और ध्यान सीखें जो ध्यान को अपने चरम पर लाने के लिए लाभकारी होने के लिए डिज़ाइन किए गए हैं।,,,,Establish yourself into yoga under the guidance of a certified ISHA teacher.
@@ -135,7 +135,7 @@ SHOW_LEARN_MORE_BTN::true
 ====
 PROGRAM_CODE::6M@RAIPUR_DGY_6Jun24Jun
 PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
-TAGLINE1::Establish Yourself Into yoga,,,,Establish Yourself Into Yoga
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
 TAGLINE2::6 Month Plan,,,,6 Month Plan
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगाभ्यास और ध्यान सीखें जो ध्यान को अपने चरम पर लाने के लिए लाभकारी होने के लिए डिज़ाइन किए गए हैं।,,,,Establish yourself into yoga under the guidance of a certified ISHA teacher.
