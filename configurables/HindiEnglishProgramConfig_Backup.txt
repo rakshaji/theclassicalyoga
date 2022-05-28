@@ -1,0 +1,386 @@
+अभी पंजीकरण करें
+पंजीकरण बंद
+आगामी कार्यक्रम
+सभी आगामी कार्यक्रम देखें
+अपनी रुचि दिखाएं
+प्रतिभागी
+- कार्यक्रम का चयन करें -
+और अधिक जानें
+====
+PROGRAM_CODE::4D@RAIPUR_YFB1_4Apr6Apr
+PROGRAM_NAME::बिगिनर्स के लिए योग - I,,,,Yoga For Beginners - I
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::हठ योग के लिए आपको तैयार करने के लिए डिज़ाइन किए गए सरल लेकिन शक्तिशाली योग अभ्यास सीखें।,,,,Learn simple but powerful yogic practices designed to prepare you for hatha yoga.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::4 Apr 2022 - 6 Apr 2022,,,,4 Apr 2022 - 6 Apr 2022
+TIME::शाम 6:30 - 7:30,,,,6:30 PM - 7:30 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 850
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP226.webp 
+SHOW_INTEREST_BTN::true  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::false
+====
+PROGRAM_CODE::2D@RAIPUR_YFD_13Apr14Apr
+PROGRAM_NAME::डिप्रेशन के लिए योग,,,,Yoga For Depression & Anxiety
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::अवसाद और चिंता जैसी स्थितियों के लाभ के लिए डिज़ाइन किए गए शक्तिशाली योग अभ्यास सीखें। यह इस स्थिति के लिए पहला कदम अनुशंसित है।,,,,Learn powerful yogic practices designed to benefit conditions like depresssion and anxiety. This is a recommended first step to these conditions.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::13 Apr 2022 - 14 Apr 2022,,,,13 Apr 2022 - 14 Apr 2022
+TIME::शाम 5:00 - 6:00,,,,5:00 PM - 6:00 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 1000
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP226.webp 
+SHOW_INTEREST_BTN::true  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::false
+====
+PROGRAM_CODE::4D@RAIPUR_SK_27Jun30Jun
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::सूर्य क्रिया हमारे भीतर सूर्य को सक्रिय करने का मौलिक अभ्यास और एक शक्तिशाली प्रक्रिया है। यह एक परिष्कृत प्रक्रिया है जिस पर शरीर की ज्यामिति के संदर्भ में अत्यधिक ध्यान देने की आवश्यकता है।,,,,Surya Kriya is the fundamental practice and a powerful process of activating the sun within us. This is a refined process that needs enormous attention in terms of the geometry of the body.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::27 Jun 2022 - 30 Jun 2022,,,,27 Jun 2022 - 30 Jun 2022
+TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP237.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_SSC_2Jul
+PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
+TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::2 Jul 2022,,,,2 Jul 2022
+TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1000  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP208.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1M@RAIPUR_DGY_6Jun24Jun
+PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
+TAGLINE2::1 Month Plan,,,,1 Month Plan
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::योगाभ्यास और ध्यान सीखें जो ध्यान को अपने चरम पर लाने के लिए लाभकारी होने के लिए डिज़ाइन किए गए हैं।,,,,Establish yourself into yoga under the guidance of a certified ISHA teacher.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::6 Jun 2022 - 24 Jun 2022,,,,6 Jun 2022 - 24 Jun 2022
+TIME::सुबह 6:00 - 7:00 या सुबह 7:15 - 8:15,,,,6:00 AM - 7:00 AM or 7:15 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2499  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::3M@RAIPUR_DGY_6Jun24Jun
+PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
+TAGLINE2::3 Month Plan,,,,3 Month Plan
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::योगाभ्यास और ध्यान सीखें जो ध्यान को अपने चरम पर लाने के लिए लाभकारी होने के लिए डिज़ाइन किए गए हैं।,,,,Establish yourself into yoga under the guidance of a certified ISHA teacher.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::6 Jun 2022 - 25 Aug 2022,,,,6 Jun 2022 - 25 Aug 2022
+TIME::सुबह 6:00 - 7:00 या सुबह 7:15 - 8:15,,,,6:00 AM - 7:00 AM or 7:15 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 6747
+FEE_INFO::(3 * ₹2249),,,,(3 * ₹2249)
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::6M@RAIPUR_DGY_6Jun24Jun
+PROGRAM_NAME::दैनिक निर्देशित योग,,,,Daily Guided Yoga
+TAGLINE1::योग में खुद को स्थापित करें,,,,Establish Yourself Into Yoga
+TAGLINE2::6 Month Plan,,,,6 Month Plan
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::योगाभ्यास और ध्यान सीखें जो ध्यान को अपने चरम पर लाने के लिए लाभकारी होने के लिए डिज़ाइन किए गए हैं।,,,,Establish yourself into yoga under the guidance of a certified ISHA teacher.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::6 Jun 2022 - 25 Nov 2022,,,,6 Jun 2022 - 25 Nov 2022
+TIME::सुबह 6:00 - 7:00 या सुबह 7:15 - 8:15,,,,6:00 AM - 7:00 AM or 7:15 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 11994  
+FEE_INFO::(6 * 1999),,,,(6 * ₹1999)
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1M@RAIPUR_WLY_6Jun24Jun
+PROGRAM_NAME::वेट लॉस योग,,,,Weight Loss Yoga
+TAGLINE1::योगिक तरीके से वजन घटाए,,,,Loose weight in a yogic way.
+TAGLINE2::1 Month Plan,,,,1 Month Plan
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::योगिक तरीके से वजन कम करें। शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Lose weight in a yogic way. Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::6 Jun 2022 - 24 Jun 2022,,,,6 Jun 2022 - 24 Jun 2022
+TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3999  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::3M@RAIPUR_WLY_6Jun24Jun
+PROGRAM_NAME::वेट लॉस योग,,,,Weight Loss Yoga
+TAGLINE1::योगिक तरीके से वजन घटाए,,,,Loose weight in a yogic way.
+TAGLINE2::3 Month Plan,,,,3 Month Plan
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::6 Jun 2022 - 25 Aug 2022,,,,6 Jun 2022 - 25 Aug 2022
+TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 11247 
+FEE_INFO::(3 * ₹3749),,,,(3 * ₹3749)
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::6M@RAIPUR_WLY_6Jun24Jun
+PROGRAM_NAME::वेट लॉस योग,,,,Weight Loss Yoga
+TAGLINE1::योगिक तरीके से वजन घटाए,,,,Loose weight in a yogic way.
+TAGLINE2::6 Month Plan,,,,6 Month Plan
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::शारीरिक फिटनेस और मानसिक स्पष्टता के लिए योग, ध्यान, प्राणायाम सीखें।।,,,,Learn Yoga, Meditation, Pranayama for physical fitness and mental clarity.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::6 Jun 2022 - 25 Nov 2022,,,,6 Jun 2022 - 25 Nov 2022
+TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 20994  
+FEE_INFO::(6 * ₹3499),,,,(6 * ₹3499)
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::4D@RAIPUR_SSFK_13Jun16Jun
+PROGRAM_NAME::सूर्य शक्ति (बच्चों के लिए),,,,Surya Shakti For Kids
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::"जीवन में जल्दी योग शुरू करने से शरीर और मस्तिष्क के विकास में बहुत फर्क पड़ता है। हम बच्चों को उनके लिए उपयुक्त आसन सिखाने का ध्यान रखते हैं" - सद्गुरु,,,,"Starting yoga early on in life makes a big difference for the development of the body and brain. We take care to teach children asanas that are suitable for them"-Sadhguru
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::13 Jun 2022 - 16 Jun 2022,,,,13 Jun 2022 - 16 Jun 2022
+TIME::शाम 6:00 - 8:00,,,,6:00 PM - 8:00 PM
+AGE_LIMIT::आयु 7-13 वर्ष,,,,Age 7-13 years    
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2000  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP208.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::5D@RAIPUR_Y_27Jun1Jul 
+PROGRAM_NAME::योगासन,,,,Yogasanas - Align With The Divine
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::योगासन व्यायाम नहीं हैं, बल्कि एक विशेष दिशा में किसी की ऊर्जा को हेरफेर करने के लिए बहुत सूक्ष्म प्रक्रियाएं हैं। हठ योग को 36 शक्तिशाली मुद्राओं, या योगासनों के एक सेट के रूप में पेश किया जाता है, ताकि सिस्टम को ऊर्जा के उच्च आयामों को बनाए रखने में सक्षम बनाया जा सके।,,,,Yogasanas are not exercises, but rather very subtle processes to manipulate one’s energy in a particular direction. Hatha Yoga is offered as a set of 36 powerful postures, or yogasanas, to enable the system to sustain higher dimensions of energy.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::27 Jun 2022 - 1 Jul 2022,,,,27 Jun 2022 - 1 Jul 2022
+TIME::शाम 3:15 - 6:00,,,,3:15 PM - 6:00 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 4000
+FEE_INFO::NA  
+BANNER_IMAGE::images/banner/PromoPP221.webp  
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true 
+====
+PROGRAM_CODE::5D@RAIPUR_ANGA_25Apr29Apr
+PROGRAM_NAME::अंगमर्दना,,,,Angamardana - The Ultimate Fitness Session
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::"अंगमर्दन" का अर्थ है अंगों और शरीर के अन्य हिस्सों पर पूर्ण महारत हासिल करना।,,,,"Angamardana” means gaining complete mastery over the limbs, organs, and other parts of the body.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::27 Jun 2022 - 1 Jul 2022,,,,27 Jun 2022 - 1 Jul 2022
+TIME::शाम 6:30 - 8:45,,,,6:30 PM - 8:45 PM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_BS_24Apr
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi - Cleansing the Five Elements
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::योग की एक पूरी प्रणाली है जिसे भूत शुद्धि कहा जाता है, जिसका अर्थ है "तत्वों की शुद्धि।" ईशा द्वारा दी गई भूत शुद्धि प्रक्रियाएं इस गूढ़ योग विज्ञान से सभी को लाभ उठाने का एक अनूठा अवसर प्रदान करती हैं, जिसके लिए अन्यथा गहन साधना (आध्यात्मिक अभ्यास) की आवश्यकता होती है।,,,,There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices).
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::1 Jul 2022,,,,1 Jul 2022
+TIME::सुबह 7:30 - 8:45,,,,7:30 AM - 8:45 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_JN_1Jul
+PROGRAM_NAME::जल नेति,,,,Jal Neti - Relieves cold, allergies, sinusitis
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::यह अस्थमा, सर्दी और कफ संबंधी सभी समस्याओं से छुटकारा दिलाता है।,,,,It relieves from asthma, cold, and all kappa related problems.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::1 Jul 2022,,,,1 Jul 2022
+TIME::सुबह 6:00 - 7:00,,,,6:00 AM - 7:00 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 2150
+FEE_INFO::(किट के लिए ₹ 1150 शामिल हैं),,,,(includes ₹ 1150 for the kit)
+BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIGARH_BS_1Jun
+PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi - Cleansing the Five Elements
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/Kq8PgSkLU3gsmazT7" ><b>स्थान</b> - Anchal Fashion, Raigarh</a>,,,,<a href="https://goo.gl/maps/Kq8PgSkLU3gsmazT7" target="_blank" >Venue - Anchal Fashion, Raigarh</a>
+PROGRAM_INFO::योग की एक पूरी प्रणाली है जिसे भूत शुद्धि कहा जाता है, जिसका अर्थ है "तत्वों की शुद्धि।" ईशा द्वारा दी गई भूत शुद्धि प्रक्रियाएं इस गूढ़ योग विज्ञान से सभी को लाभ उठाने का एक अनूठा अवसर प्रदान करती हैं, जिसके लिए अन्यथा गहन साधना (आध्यात्मिक अभ्यास) की आवश्यकता होती है।,,,,There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices).
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::1 Jun 2022,,,,1 Jun 2022
+TIME::सुबह 9:30 - 10:30,,,,9:30 AM - 10:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 3500
+FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::4D@RAIGARH_ANGA_29Jun1Jul
+PROGRAM_NAME::अंगमर्दना,,,,Angamardana - The Ultimate Fitness Session
+TAGLINE1::NA
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/Kq8PgSkLU3gsmazT7" ><b>स्थान</b> - Anchal Fashion, Raigarh</a>,,,,<a href="https://goo.gl/maps/Kq8PgSkLU3gsmazT7" target="_blank" >Venue - Anchal Fashion, Raigarh</a>
+PROGRAM_INFO::"अंगमर्दन" का अर्थ है अंगों और शरीर के अन्य हिस्सों पर पूर्ण महारत हासिल करना।,,,,"Angamardana” means gaining complete mastery over the limbs, organs, and other parts of the body.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::29 May 2022 - 1 Jun 2022,,,,29 May 2022 - 1 Jun 2022
+TIME::शाम 3:00 - 6:00,,,,3:00 PM - 6:00 PM
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 3500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP200.webp 
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::4D@RAIGARH_SK_29May1Jul
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/Kq8PgSkLU3gsmazT7" ><b>स्थान</b> - Anchal Fashion, Raigarh</a>,,,,<a href="https://goo.gl/maps/Kq8PgSkLU3gsmazT7" target="_blank" >Venue - Anchal Fashion, Raigarh</a>
+PROGRAM_INFO::सूर्य क्रिया हमारे भीतर सूर्य को सक्रिय करने का मौलिक अभ्यास और एक शक्तिशाली प्रक्रिया है। यह एक परिष्कृत प्रक्रिया है जिस पर शरीर की ज्यामिति के संदर्भ में अत्यधिक ध्यान देने की आवश्यकता है।,,,,Surya Kriya is the fundamental practice and a powerful process of activating the sun within us. This is a refined process that needs enormous attention in terms of the geometry of the body.
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::29 May 2022 - 1 Jun 2022,,,,29 May 2022 - 1 Jun 2022
+TIME::सुबह 6:30 - 8:30 या सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM or 6:30 PM - 8:30 PM 
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 2500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP237.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::true
