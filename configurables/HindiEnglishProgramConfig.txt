@@ -20,7 +20,7 @@ AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 2500  
+FEE::₹ 3000  
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP237.webp
 SHOW_INTEREST_BTN::false  
@@ -41,7 +41,7 @@ AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 1000  
+FEE::₹ 1500  
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP208.webp 
 SHOW_INTEREST_BTN::false  
@@ -104,7 +104,7 @@ AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 3500  
+FEE::₹ 3750 
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP200.webp 
 SHOW_INTEREST_BTN::false  
@@ -125,7 +125,7 @@ AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA
 EFLYER2::NA 
 EFLYER3::NA
-FEE::₹ 3500
+FEE::₹ 3750
 FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
 BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
 SHOW_INTEREST_BTN::false  
@@ -146,7 +146,7 @@ AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
 EFLYER1::NA
 EFLYER2::NA 
 EFLYER3::NA
-FEE::₹ 2150
+FEE::₹ 2500
 FEE_INFO::(किट के लिए ₹ 1150 शामिल हैं),,,,(includes ₹ 1150 for the kit)
 BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
 SHOW_INTEREST_BTN::false  
