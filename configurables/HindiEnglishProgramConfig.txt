@@ -126,7 +126,7 @@ EFLYER1::NA
 EFLYER2::NA 
 EFLYER3::NA
 FEE::₹ 3750
-FEE_INFO::(किट के लिए ₹ 2200 शामिल हैं),,,,(includes ₹ 2200 for the kit)
+FEE_INFO::(किट के लिए ₹ 2400 शामिल हैं),,,,(includes ₹ 2400 for the kit)
 BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
