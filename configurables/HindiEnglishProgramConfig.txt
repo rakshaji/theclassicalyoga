@@ -66,9 +66,9 @@ FEE::₹ 2000
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP208.webp 
 SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
+SHOW_UPCOMING_PROG_BTN::false  
+SHOW_REGISTER_BTN::false 
+SHOW_LEARN_MORE_BTN::false
 ====
 PROGRAM_CODE::5D@RAIPUR_Y_27Jun1Jul 
 PROGRAM_NAME::योगासन,,,,Yogasanas - Align With The Divine
