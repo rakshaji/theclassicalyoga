@@ -266,7 +266,7 @@ TAGLINE2::NA
 VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
 PROGRAM_INFO::योग की एक पूरी प्रणाली है जिसे भूत शुद्धि कहा जाता है, जिसका अर्थ है "तत्वों की शुद्धि।" ईशा द्वारा दी गई भूत शुद्धि प्रक्रियाएं इस गूढ़ योग विज्ञान से सभी को लाभ उठाने का एक अनूठा अवसर प्रदान करती हैं, जिसके लिए अन्यथा गहन साधना (आध्यात्मिक अभ्यास) की आवश्यकता होती है।,,,,There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices).
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::7 Aug 2022,,,,7 Aug 2022
+DATE::8 Aug 2022,,,,8 Aug 2022
 TIME::सुबह 7:30 - 8:30,,,,7:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
@@ -280,14 +280,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@BHILAI_JN_7Aug
+PROGRAM_CODE::1D@BHILAI_JN_8Aug
 PROGRAM_NAME::जल नेति,,,,Jal Neti - Relieves cold, allergies, sinusitis
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
 PROGRAM_INFO::यह अस्थमा, सर्दी और कफ संबंधी सभी समस्याओं से छुटकारा दिलाता है।,,,,It relieves from asthma, cold, and all kappa related problems.
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::7 Aug 2022,,,,7 Aug 2022
+DATE::8 Aug 2022,,,,8 Aug 2022
 TIME::सुबह 6:15 - 7:00,,,,6:15 AM - 7:00 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
@@ -301,14 +301,14 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@BHILAI_EC_8Aug
+PROGRAM_CODE::1D@BHILAI_EC_7Aug
 PROGRAM_NAME::सुनयना,,,,Sunayna - Eye Care Practice
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
 PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है,,,,Improves eyesight through yogic practices
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::8 Aug 2022,,,,8 Aug 2022
+DATE::7 Aug 2022,,,,7 Aug 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::NA
