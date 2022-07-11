@@ -180,7 +180,7 @@ PROGRAM_NAME::सुनयना,,,,Sunayna - Eye Care Practice
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
-PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है (Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas),,,,Improves eyesight through yogic practices (Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas)
+PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas)</b>,,,,Improves eyesight through yogic practices <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas)</b>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::29 Jul 2022,,,,29 Jul 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
@@ -306,7 +306,7 @@ PROGRAM_NAME::सुनयना,,,,Sunayna - Eye Care Practice
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है (Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas),,,,Improves eyesight through yogic practices (Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas)
+PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas)</b>,,,,Improves eyesight through yogic practices <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas)</b>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::7 Aug 2022,,,,7 Aug 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
