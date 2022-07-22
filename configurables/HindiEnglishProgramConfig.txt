@@ -342,3 +342,24 @@ SHOW_INTEREST_BTN::false
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@BHILAI_INTRO_2Aug
+PROGRAM_NAME::Free Yoga Session,,,,Free Yoga Session 
+TAGLINE1::NA,,,,NA
+TAGLINE2::NA
+VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
+PROGRAM_INFO::Introduction to yoga, learn a powerful meditation & QA with certified teacher,,,,Introduction to yoga, learn a powerful meditation & QA with certified teacher
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::2 Aug 2022,,,,2 Aug 2022
+TIME::सुबह 7:00 - 8:00 or शाम 7:00 - 8:00,,,,7:00 AM - 8:00 AM or 7:00 PM - 8:00 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 0
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/Shanmukhi.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::false
