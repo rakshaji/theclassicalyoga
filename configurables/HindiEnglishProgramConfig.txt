@@ -7,14 +7,14 @@
 - कार्यक्रम का चयन करें -
 और अधिक जानें
 ====
-PROGRAM_CODE::1D@RAIPUR_SM_26Aug
+PROGRAM_CODE::1D@RAIPUR_SM_30Aug
 PROGRAM_NAME::सनमुखी,,,,Shanmukhi 
 TAGLINE1::नाक, कान और आंखों के लिए,,,,For Nose, Ears & Eyes
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::नाक, कान और आंख से संबंधित रोगों में मदद करता है,,,,Helps in aliments related to nose, ears & eyes
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::26 Aug 2022,,,,26 Aug 2022
+DATE::30 Aug 2022,,,,30 Aug 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
@@ -44,6 +44,27 @@ EFLYER3::NA
 FEE::₹ 3000  
 FEE_INFO::NA
 BANNER_IMAGE::images/banner/PromoPP237.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::true
+====
+PROGRAM_CODE::1D@RAIPUR_SSC_26Aug
+PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
+TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
+TAGLINE2::NA
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::NA
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::26 Aug 2022,,,,26 Aug 2022
+TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years    
+EFLYER1::NA
+EFLYER2::NA
+EFLYER3::NA
+FEE::₹ 1500  
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP208.webp 
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -98,8 +119,8 @@ TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::"अंगमर्दन" का अर्थ है अंगों और शरीर के अन्य हिस्सों पर पूर्ण महारत हासिल करना।,,,,"Angamardana” means gaining complete mastery over the limbs, organs, and other parts of the body.
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::16 Aug 2022 - 20 Aug 2022,,,,16 Aug 2022 - 20 Aug 2022
-TIME::सुबह 6:30 - 8:45,,,,6:30 AM - 8:45 AM
+DATE::22 Aug 2022 - 26 Aug 2022,,,,22 Aug 2022 - 26 Aug 2022
+TIME::शाम 4:00 - 6:15,,,,4:00 PM - 6:15 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::NA
 EFLYER2::NA
@@ -154,20 +175,20 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@RAIPUR_EC_29Aug30Aug
+PROGRAM_CODE::1D@RAIPUR_EC_29Aug
 PROGRAM_NAME::सुनयना,,,,Sunayna - Eye Care Practice
 TAGLINE1::NA
 TAGLINE2::NA
 VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas or Angamardana or Surya Shakti)</b>,,,,Improves eyesight through yogic practices <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas or Angamardana or Surya Shakti)</b>
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::29 Aug 2022 - 30 Aug 2022,,,,29 Aug 2022 - 30 Aug 2022
+DATE::29 Aug 2022,,,,29 Aug 2022
 TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::NA
 EFLYER2::NA 
 EFLYER3::NA
-FEE::₹ 2000
+FEE::₹ 1000
 FEE_INFO::NA
 BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
