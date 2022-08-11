@@ -196,57 +196,78 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::4D@BHILAI_SK_3Aug6Aug
-PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
-TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
+PROGRAM_CODE::1D@RAIPUR_INTRO_31Aug
+PROGRAM_NAME::Free Yoga Session,,,,Free Yoga Session 
+TAGLINE1::NA,,,,NA
 TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::सूर्य क्रिया हमारे भीतर सूर्य को सक्रिय करने का मौलिक अभ्यास और एक शक्तिशाली प्रक्रिया है। यह एक परिष्कृत प्रक्रिया है जिस पर शरीर की ज्यामिति के संदर्भ में अत्यधिक ध्यान देने की आवश्यकता है।,,,,Surya Kriya is the fundamental practice and a powerful process of activating the sun within us. This is a refined process that needs enormous attention in terms of the geometry of the body.
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::Introduction to yoga, learn a powerful meditation & QA with certified teacher,,,,Introduction to yoga, learn a powerful meditation & QA with certified teacher
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Aug 2022 - 6 Aug 2022,,,,3 Aug 2022 - 6 Aug 2022
-TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
+DATE::31 Aug 2022,,,,31 Aug 2022
+TIME::सुबह 7:00 - 8:00,,,,7:00 AM - 8:00 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+EFLYER1::NA
+EFLYER2::NA 
+EFLYER3::NA
+FEE::₹ 0
+FEE_INFO::NA
+BANNER_IMAGE::images/banner/PromoPP221.webp
+SHOW_INTEREST_BTN::false  
+SHOW_UPCOMING_PROG_BTN::true  
+SHOW_REGISTER_BTN::true 
+SHOW_LEARN_MORE_BTN::false
+====
+PROGRAM_CODE::1M@RAIPUR_DGY_1Sep30Sep
+PROGRAM_NAME::दिनचर्या,,,,Dincharya 
+TAGLINE1::शारीरिक, मानसिक और आध्यात्मिक कल्याण के लिए,,,,For Physical, Mental & Spiritual Well-being
+TAGLINE2::* मासिक सदस्यता *,,,,* Monthly Subscription *
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::20, 1 Hr Sessions
+LANGUAGE::द्विभाषिक,,,,Bilingual
+DATE::1 Sep 2022 - 30 Sep 2022,,,,1 Sep 2022 - 30 Sep 2022
+TIME::सुबह 6:00 - 7:00 या सुबह 7:15 - 8:15,,,,6:00 AM - 7:00 AM or 7:15 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 3000  
+FEE::₹ 3000 
 FEE_INFO::NA
-BANNER_IMAGE::images/banner/PromoPP237.webp
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::5D@BHILAI_Y_3Aug7Aug 
-PROGRAM_NAME::योगासन,,,,Yogasanas - Align With The Divine
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::योगासन व्यायाम नहीं हैं, बल्कि एक विशेष दिशा में किसी की ऊर्जा को हेरफेर करने के लिए बहुत सूक्ष्म प्रक्रियाएं हैं। हठ योग को 36 शक्तिशाली मुद्राओं, या योगासनों के एक सेट के रूप में पेश किया जाता है, ताकि सिस्टम को ऊर्जा के उच्च आयामों को बनाए रखने में सक्षम बनाया जा सके।,,,,Yogasanas are not exercises, but rather very subtle processes to manipulate one’s energy in a particular direction. Hatha Yoga is offered as a set of 36 powerful postures, or yogasanas, to enable the system to sustain higher dimensions of energy.
+PROGRAM_CODE::1M@RAIPUR_WLY_1Sep30Sep
+PROGRAM_NAME::Weight Loss Yoga,,,,Weight Loss Yoga 
+TAGLINE1::Yoga For Weightloss,,,,Yoga For Weightloss
+TAGLINE2::* मासिक सदस्यता *,,,,* Monthly Subscription *
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::20, 2 Hr Sessions
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Aug 2022 - 7 Aug 2022,,,,3 Aug 2022 - 7 Aug 2022
-TIME::शाम 4:00 - 6:30,,,,4:00 PM - 6:30 PM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years
+DATE::1 Sep 2022 - 30 Sep 2022,,,,1 Sep 2022 - 30 Sep 2022
+TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 4000
-FEE_INFO::NA  
-BANNER_IMAGE::images/banner/PromoPP221.webp  
+FEE::₹ 4500 
+FEE_INFO::NA
+BANNER_IMAGE::NA
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true 
+SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::5D@BHILAI_ANGA_23Jul27Jul
+PROGRAM_CODE::5D@RAIPUR_ANGA_19Sep22Sep
 PROGRAM_NAME::अंगमर्दना,,,,Angamardana - The Ultimate Fitness Session
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::"अंगमर्दन" का अर्थ है अंगों और शरीर के अन्य हिस्सों पर पूर्ण महारत हासिल करना।,,,,"Angamardana” means gaining complete mastery over the limbs, organs, and other parts of the body.
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::3 Aug 2022 - 7 Aug 2022,,,,3 Aug 2022 - 7 Aug 2022
-TIME::शाम 6:45 - 9:00,,,,6:45 PM - 9:00 PM
+DATE::19 Sep 2022 - 22 Sep 2022,,,,19 Sep 2022 - 22 Sep 2022
+TIME::शाम 6:00 - 9:00,,,,6:00 PM - 9:00 PM
 AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
 EFLYER1::NA
 EFLYER2::NA
@@ -259,107 +280,23 @@ SHOW_UPCOMING_PROG_BTN::true
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
 ====
-PROGRAM_CODE::1D@BHILAI_BS_8Aug
-PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi - Cleansing the Five Elements
-TAGLINE1::NA
+PROGRAM_CODE::4D@RAIPUR_SK_27Sep30Sep
+PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
+TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::योग की एक पूरी प्रणाली है जिसे भूत शुद्धि कहा जाता है, जिसका अर्थ है "तत्वों की शुद्धि।" ईशा द्वारा दी गई भूत शुद्धि प्रक्रियाएं इस गूढ़ योग विज्ञान से सभी को लाभ उठाने का एक अनूठा अवसर प्रदान करती हैं, जिसके लिए अन्यथा गहन साधना (आध्यात्मिक अभ्यास) की आवश्यकता होती है।,,,,There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices).
+VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+PROGRAM_INFO::सूर्य क्रिया हमारे भीतर सूर्य को सक्रिय करने का मौलिक अभ्यास और एक शक्तिशाली प्रक्रिया है। यह एक परिष्कृत प्रक्रिया है जिस पर शरीर की ज्यामिति के संदर्भ में अत्यधिक ध्यान देने की आवश्यकता है।,,,,Surya Kriya is the fundamental practice and a powerful process of activating the sun within us. This is a refined process that needs enormous attention in terms of the geometry of the body.
 LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::8 Aug 2022,,,,8 Aug 2022
-TIME::सुबह 7:30 - 8:30,,,,7:30 AM - 8:30 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+DATE::27 Sep 2022 - 30 Sep 2022,,,,27 Sep 2022 - 30 Sep 2022
+TIME::शाम 6:30 - 8:30,,,,6:30 PM - 8:30 PM
+AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years  
 EFLYER1::NA
-EFLYER2::NA 
+EFLYER2::NA
 EFLYER3::NA
-FEE::₹ 3900
-FEE_INFO::(किट के लिए ₹ 2400 शामिल हैं),,,,(includes ₹ 2400 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1D@BHILAI_JN_8Aug
-PROGRAM_NAME::जल नेति,,,,Jal Neti - Relieves cold, allergies, sinusitis
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::यह अस्थमा, सर्दी और कफ संबंधी सभी समस्याओं से छुटकारा दिलाता है।,,,,It relieves from asthma, cold, and all kappa related problems.
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::8 Aug 2022,,,,8 Aug 2022
-TIME::सुबह 6:15 - 7:00,,,,6:15 AM - 7:00 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::NA
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 2500
-FEE_INFO::(किट के लिए ₹ 1150 शामिल हैं),,,,(includes ₹ 1150 for the kit)
-BANNER_IMAGE::images/banner/BhutaShuddhi1.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1D@BHILAI_EC_7Aug
-PROGRAM_NAME::सुनयना,,,,Sunayna - Eye Care Practice
-TAGLINE1::NA
-TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas or Angamardana or Surya Shakti)</b>,,,,Improves eyesight through yogic practices <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas or Angamardana or Surya Shakti)</b>
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::7 Aug 2022,,,,7 Aug 2022
-TIME::सुबह 6:30 - 8:30,,,,6:30 AM - 8:30 AM
-AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 8+ years 
-EFLYER1::NA
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 1000
+FEE::₹ 3000  
 FEE_INFO::NA
-BANNER_IMAGE::NA
+BANNER_IMAGE::images/banner/PromoPP237.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
 SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1D@BHILAI_SM_7Aug
-PROGRAM_NAME::सनमुखी,,,,Shanmukhi 
-TAGLINE1::नाक, कान और आंखों के लिए,,,,For Nose, Ears & Eyes
-TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::नाक, कान और आंख से संबंधित रोगों में मदद करता है,,,,Helps in aliments related to nose, ears & eyes
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::7 Aug 2022,,,,7 Aug 2022
-TIME::सुबह 9:00 - 11:00,,,,9:00 AM - 11:00 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::NA
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 1000
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/Shanmukhi.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::true
-====
-PROGRAM_CODE::1D@BHILAI_INTRO_2Aug
-PROGRAM_NAME::Free Yoga Session,,,,Free Yoga Session 
-TAGLINE1::NA,,,,NA
-TAGLINE2::NA
-VENUE::<a href="https://shorturl.at/egFPU" ><b>स्थान</b> - अक्षय कॉम्प्लेक्स, भिलाई स्कैन डायग्नोस्टिक के पीछे, वाणिज्यिक क्षेत्र, नेहरू नगर पूर्व, भिलाई</a>,,,,<a href="https://shorturl.at/egFPU" target="_blank" >Venue - Akshaya Complex, Behind Bhilai Scan Diagnostic, Commercial Area, Nehru Nagar East, Bhilai</a>
-PROGRAM_INFO::Introduction to yoga, learn a powerful meditation & QA with certified teacher,,,,Introduction to yoga, learn a powerful meditation & QA with certified teacher
-LANGUAGE::द्विभाषिक,,,,Bilingual
-DATE::2 Aug 2022,,,,2 Aug 2022
-TIME::सुबह 7:00 - 8:00 or शाम 7:00 - 8:00,,,,7:00 AM - 8:00 AM or 7:00 PM - 8:00 PM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
-EFLYER1::NA
-EFLYER2::NA 
-EFLYER3::NA
-FEE::₹ 0
-FEE_INFO::NA
-BANNER_IMAGE::images/banner/Shanmukhi.webp
-SHOW_INTEREST_BTN::false  
-SHOW_UPCOMING_PROG_BTN::true  
-SHOW_REGISTER_BTN::true 
-SHOW_LEARN_MORE_BTN::false
