@@ -226,13 +226,13 @@ PROGRAM_INFO::20, 1 Hr Sessions
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::1 Sep 2022 - 30 Sep 2022,,,,1 Sep 2022 - 30 Sep 2022
 TIME::सुबह 6:00 - 7:00 या सुबह 7:15 - 8:15,,,,6:00 AM - 7:00 AM or 7:15 AM - 8:15 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 3000 
 FEE_INFO::NA
-BANNER_IMAGE::NA
+BANNER_IMAGE::images/banner/dincharya.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
@@ -247,13 +247,13 @@ PROGRAM_INFO::20, 2 Hr Sessions
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::1 Sep 2022 - 30 Sep 2022,,,,1 Sep 2022 - 30 Sep 2022
 TIME::सुबह 6:00 - 8:15,,,,6:00 AM - 8:15 AM
-AGE_LIMIT::आयु - 14+ वर्ष,,,,Age - 14+ years 
+AGE_LIMIT::आयु - 8+ वर्ष,,,,Age - 14+ years 
 EFLYER1::NA
 EFLYER2::NA
 EFLYER3::NA
 FEE::₹ 4500 
 FEE_INFO::NA
-BANNER_IMAGE::NA
+BANNER_IMAGE::images/banner/wly.webp
 SHOW_INTEREST_BTN::false  
 SHOW_UPCOMING_PROG_BTN::true  
 SHOW_REGISTER_BTN::true 
