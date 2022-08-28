@@ -71,14 +71,14 @@ class ProgramUpdater {
         // english pages
         updateClassesPage(progArrEng, CLASSES_PAGE_ENGLISH);
         updateRegistrationPage(progArrEng, REGISTRATION_PAGE_ENGLISH);
-        updateHomePage(progArrEng, HOME_PAGE_ENGLISH);
+        // updateHomePage(progArrEng, HOME_PAGE_ENGLISH);
         updateGalleryWithLatestPics(GALLERY_PAGE_ENGLISH);
 
         // hindi pages
-        updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
-        updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
-        updateHomePage(progArrHindi, HOME_PAGE_HINDI);
-        updateGalleryWithLatestPics(GALLERY_PAGE_HINDI);
+        //updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
+        //updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
+        // updateHomePage(progArrHindi, HOME_PAGE_HINDI);
+        //updateGalleryWithLatestPics(GALLERY_PAGE_HINDI);
     }
 
     private static void initProgramPageMap() throws IOException { 
