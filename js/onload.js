@@ -1,5 +1,5 @@
 $(window).load(function () {
-
+    
     //$('#saveSoilModal').modal('show');
     // for classes page
     $(".up-prog-info2").each(function(){
@@ -46,7 +46,7 @@ $(window).load(function () {
     $("#program option").each(function()
     {
         var optionText = $(this).text();
-        //console.log(optionText);
+        console.log(optionText);
         var key = $(this).val();
         if(key == "") {
         return;
@@ -59,7 +59,7 @@ $(window).load(function () {
         //console.log(date1);
 
         const dateArr = date1.split(" - ");
-        console.log(dateArr);
+        //console.log(dateArr);
 
         var from = new Date(getEnglishDate(dateArr[0])); 
         //keep open on the first day of program for the evening programs or onspot regs
@@ -82,43 +82,43 @@ $(window).load(function () {
     });
 
     // for home/banner page
-    $(".subheading").each(function(){
+    // $(".subheading").each(function(){
 
-        var infoText = $(this).text();
-        //console.log(infoText);  
-        // get all program details in an array
-        const progDetailArr = infoText.split(" | ");
-        let date = progDetailArr[0];
-        //console.log(date);
+    //     var infoText = $(this).text();
+    //     //console.log(infoText);  
+    //     // get all program details in an array
+    //     const progDetailArr = infoText.split(" | ");
+    //     let date = progDetailArr[0];
+    //     //console.log(date);
 
-        var today = new Date(); 
-        var year = today.getFullYear();
-        //console.log(today);
+    //     var today = new Date(); 
+    //     var year = today.getFullYear();
+    //     //console.log(today);
 
-        const dateArr = date.split(" - ");
-        //console.log(dateArr);
+    //     const dateArr = date.split(" - ");
+    //     //console.log(dateArr);
 
-        var from = new Date(getEnglishDate(dateArr[0])); 
-        //keep open on the first day of program for the evening programs
-        from.setDate(from.getDate() + 1);
+    //     var from = new Date(getEnglishDate(dateArr[0])); 
+    //     //keep open on the first day of program for the evening programs
+    //     from.setDate(from.getDate() + 1);
         
-        if(today >= from) {
-            //console.log("Yes! " + today + " >= " + from);
-            // only remove the button for currently running programs
-            $(this).closest(".owl-item").find(".btn").remove();
-        }
+    //     if(today >= from) {
+    //         //console.log("Yes! " + today + " >= " + from);
+    //         // only remove the button for currently running programs
+    //         $(this).closest(".owl-item").find(".btn").remove();
+    //     }
 
-        if(dateArr.length > 1){
-            var to = new Date(getEnglishDate(dateArr[1]));
-            //console.log(from + " " + to);
-            if(today > to) {
-                //console.log("Yes! " + today + " >= " + from);
-                // once last date passes, remove from view
-                $(this).closest(".owl-item").remove();
-            }
-        }
+    //     if(dateArr.length > 1){
+    //         var to = new Date(getEnglishDate(dateArr[1]));
+    //         //console.log(from + " " + to);
+    //         if(today > to) {
+    //             //console.log("Yes! " + today + " >= " + from);
+    //             // once last date passes, remove from view
+    //             $(this).closest(".owl-item").remove();
+    //         }
+    //     }
 
-    });
+    // });
 
 });
 

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en"> 
- <head> <!-- Global site tag (gtag.js) - Google Analytics --> 
+ <head><!-- Share this - follow us social media buttons -->
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=632d29a7b22a350012c8759b&product=inline-follow-buttons" async="async"></script> <!-- Global site tag (gtag.js) - Google Analytics --> 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-206288111-1"></script> 
   <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,15 +44,17 @@
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar"> 
    <div class="container"> 
     <div class="row m-auto"> 
-     <div class="col-12 w-100 text-center"> <a class="navbar-brand w-100" href="index.html"><img class="logo" src="images/logo.png">The Classical Yoga</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="oi oi-menu"></span> Menu </button> 
+     <div class="col-12 w-100 text-center"> 
+      <div class="sharethis-inline-follow-buttons"></div><a class="navbar-brand w-100" href="index.html"><img class="logo" src="images/logo.png">The Classical Yoga</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="oi oi-menu"></span> Menu </button> 
      </div> 
      <div class="col-12 w-100 text-center"> 
       <div class="collapse navbar-collapse" id="ftco-nav"> 
        <ul class="navbar-nav m-auto"> 
         <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li> 
         <li class="nav-item"><a href="trainer.html" class="nav-link">Trainers</a></li> 
+        <li class="nav-item"><a href="offerings.html" class="nav-link">Yoga & Meditation</a></li>
         <li class="nav-item"><a href="classes.html" class="nav-link">Upcoming Programs</a></li> 
-        <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li> 
+        <!--<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>--> 
         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> 
        </ul> 
        <div>
@@ -199,10 +202,9 @@
           <option value="1M@RAIPUR_WLY_3Oct30Oct_4500">Weight Loss Yoga | 1 Month | 6:00 AM - 8:15 AM or 7:15 AM - 9:30 AM | ₹ 4500</option>
           <option value="1M@RAIPUR_WLY_3Oct30Oct_12000">Weight Loss Yoga | 3 Months | 6:00 AM - 8:15 AM or 7:15 AM - 9:30 AM | ₹ 12000</option>
           <option value="" disabled>-- Raipur Workshops --</option>
-          <option value="5D@RAIPUR_ANGA_19Sep22Sep_4000">Yogasanas | 19 Sep 2022 - 23 Sep 2022 | 6:30 PM - 9:00 PM | ₹ 4000</option>
           <option value="4D@RAIPUR_SK_27Sep30Sep_3000">Surya Kriya | 27 Sep 2022 - 30 Sep 2022 | 6:30 PM - 8:30 PM | ₹ 3000</option>
           <option value="1D@RAIPUR_INTRO_1Oct_0">Free Yoga | 1 Oct 2022 | 7:00 AM - 8:00 AM | ₹ 0</option>
-          <option value="5D@RAIPUR_Y_3Oct7Oct_4000">Yogasanas | 3 Oct 2022 - 7 Oct 2022 | 6:30 PM - 9:00 PM | ₹ 4000</option>
+          <option value="5D@RAIPUR_Y_3Oct7Oct_4000">Yogasanas | 1 Oct 2022 - 5 Oct 2022 | 6:30 PM - 9:00 PM | ₹ 4000</option>
           <option value="1D@RAIPUR_BS_9Oct_3900">Bhuta Shuddhi | 9 Oct 2022 | 6:30 AM - 7:45 AM | ₹ 3900</option>
           <option value="1D@RAIPUR_JN_9Oct_2500">Jal Neti | 9 Oct 2022 | 8:00 AM - 9:00 AM | ₹ 2500</option>
           <option value="1D@RAIPUR_EC_9Oct_1000">Sunayna | 16 Oct 2022 | 6:30 AM - 8:30 AM | ₹ 1000</option>
@@ -446,7 +448,8 @@
             </div>
           </div>           --> 
       <input type="hidden" id="payOptionClicked" name="payOptionClicked" value=""> 
-      <div class="col-12"> <button id="submit-reg-form" class="btn btn-primary" type="submit" style="margin-bottom: 1rem;">Pay Online</button> <!--<button id="payByCashBtn" class="btn btn-primary" type="button" style="margin-bottom: 1rem;">Pay by Cash</button> --> 
+      <div class="col-12"> <button id="submit-reg-form" class="btn btn-primary" type="submit" 
+        style="margin-bottom: 1rem;" class="button-51" role="button">Pay Online</button> <!--<button id="payByCashBtn" class="btn btn-primary" type="button" style="margin-bottom: 1rem;">Pay by Cash</button> --> 
        <div class="invalid-feedback" id="error-on-submit">
          Oops! Something went wrong. Please try again. 
        </div> 
@@ -532,7 +535,11 @@
    </div> 
   </section> <!-- <h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:rgb(8, 8, 8)"> Your Request has been posted to Google Spreadsheet</h3>
     <h3 id="error-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:rgb(221, 14, 14)"> Your Request has been posted with error to Google Spreadsheet</h3> --> 
-  <footer class="ftco-footer ftco-section bg-light just"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=918109696955&text=Namaskaram" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+      <footer class="ftco-footer ftco-section bg-light just"> 
    <div class="container"> 
     <div class="row d-flex"> 
      <div class="col-md"> 
