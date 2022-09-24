@@ -1,4 +1,47 @@
 $(window).load(function () {
+
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items:4,
+        loop:true,
+        margin:10,
+        rewind:true,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        responsiveClass: true,
+        autoHeight: true,
+        smartSpeed: 800,
+        nav: true,
+        responsive: {
+            0: {
+            items: 1,
+            margin:10
+            },
+
+            600: {
+            items: 3,
+            margin:10
+            },
+
+            1024: {
+            items: 4,
+            margin:10
+            },
+
+            1366: {
+            items: 4,
+            margin:10
+            }
+        }
+    });
+    //owl.trigger('play.owl.autoplay',[1000])
+    // $('.play').on('click',function(){
+        
+    // })
+    // $('.stop').on('click',function(){
+    //     owl.trigger('stop.owl.autoplay')
+    // })
     
     //$('#saveSoilModal').modal('show');
     // for classes page
