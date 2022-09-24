@@ -10305,3 +10305,47 @@ cite {
 .my-float{
 	margin-top:16px;
 }
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: var(--gray-dark);
+  opacity: 80%;
+  color: white;
+  font-size: 30px;
+}
+
+.instagram {
+  background: var(--gray-dark);
+  opacity: 80%;
+  color: white;
+  font-size: 30px;
+}
+
+.share-alt {
+  background: var(--gray-dark);
+  opacity: 80%;
+  color: white;
+  font-size: 25px;
+}
