@@ -1,5 +1,6 @@
 $(window).load(function () {
 
+    // upcoming programs carousal
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         items:4,
