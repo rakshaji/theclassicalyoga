@@ -1,10 +1,10 @@
 $(window).load(function () {
 
     // upcoming programs carousal
-    var owl = $('.owl-carousel');
+    var owl = $('#home-carousel');
     owl.owlCarousel({
         items:4,
-        loop:true,
+        loop:false,
         margin:10,
         rewind:true,
         autoplay:true,
@@ -36,6 +36,7 @@ $(window).load(function () {
             }
         }
     });
+    
     //owl.trigger('play.owl.autoplay',[1000])
     // $('.play').on('click',function(){
         
