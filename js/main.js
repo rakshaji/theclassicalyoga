@@ -293,7 +293,7 @@ var owl = $("#prog-carousel");
         loop:false,
         margin:10,
         rewind:true,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:2000,
         autoplayHoverPause:true,
         responsiveClass: true,
@@ -322,3 +322,11 @@ var owl = $("#prog-carousel");
             }
         }
     });
+
+	
+function showCardsForSelectedDropDownVal(evt, selectedDropdownVal) {
+	//console.log(selectedDropdownVal);
+	selectedDropdownVal = selectedDropdownVal.replace(/\s/g, '');
+	$(".col-md-3").hide();
+	$('.'+ selectedDropdownVal.toLowerCase()).show();
+}
