@@ -138,410 +138,363 @@
     </div>
     <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
     <p></p>
-    <div class="tab" style="margin-left:10%;margin-right:10%">
+    <!-- <div class="tab" style="margin-left:10%;margin-right:10%">
      <button class="tablinks" onclick="openCity(event,'Raipur')" id="defaultOpen">Raipur</button>
      <button class="tablinks" onclick="openCity(event,'Bilaspur')">Bilaspur</button>
      <button class="tablinks" onclick="openCity(event,'Bhilai')">Bhilai</button>
+    </div> -->
+    <!-- <div style="display: flex;justify-content: center;"> -->
+      <div class="dropdown mr-2" >
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Filter By City <span class="caret"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <h6 class="dropdown-header">Filter By City</h6>
+          <a class="dropdown-item" href="#" id="defaultOpen">Raipur</a>
+          <a class="dropdown-item" href="#" >Bilaspur</a>
+          <a class="dropdown-item" href="#" >Bhilai</a>
+          <a class="dropdown-item" href="#" >Raigarh</a>
+        </div>
+      </div>
+      <!-- <div class="dropdown mr-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Filter By Program Type<span class="caret"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <h6 class="dropdown-header">Filter By Program Type</h6>
+          <a class="dropdown-item" href="#">Free</a>
+          <a class="dropdown-item" href="#">Workshop</a>
+          <a class="dropdown-item" href="#">Membership</a>
+          <a class="dropdown-item" href="#">Online</a>
+        </div>
+      </div>
+      <div class="dropdown mr-2">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Filter By Program Name<span class="caret"></span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <h6 class="dropdown-header">Filter By Program Name</h6>
+          <a class="dropdown-item" href="#">Surya Kriya</a>
+          <a class="dropdown-item" href="#">Angamardana</a>
+          <a class="dropdown-item" href="#">Yogasanas</a>
+          <a class="dropdown-item" href="#">Jal Neti</a>
+          <a class="dropdown-item" href="#">Bhuta Shuddhi</a>
+          <a class="dropdown-item" href="#">Shanmukhi</a>
+          <a class="dropdown-item" href="#">Sunayna</a>
+        </div>
+      </div> -->
+      <!-- <button class="btn btn-secondary " type="button" id="clearBtn">
+          Clear Filter
+        </button> -->
     </div>
+    
+    <div id="AllCities" >
+      <div class="row mt-3" >
+        <div class="col-md-3 mt-3 raipur free">
+          <div class="card" style="width: 18rem;" id="1D@RAIPUR_INTRO_1Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Free</h5>
+            <div class="card-body">
+              <h4 class="card-title">Free Yoga</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Intro or Demo Class</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">1 Oct 2022</p>
+              <p class="card-text">7:00 AM - 8:00 AM</p>
+              <p class="card-text">₹ 0</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/free_yoga.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 raipur free">
+          <div class="card" style="width: 18rem;" id="1D@RAIPUR_INTRO_31Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Free</h5>
+            <div class="card-body">
+              <h4 class="card-title">Free Yoga</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Intro or Demo Class</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">31 Oct 2022</p>
+              <p class="card-text">7:00 AM - 8:00 AM</p>
+              <p class="card-text">₹ 0</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/free_yoga.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 raipur membership">
+          <div class="card" style="width: 18rem;" id="1M@RAIPUR_DGY_1M3M">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Membership</h5>
+            <div class="card-body">
+              <h4 class="card-title">Dincharya</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Yogic Routine</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">6:00 AM - 7:00 AM or 7:15 AM - 8:15 AM or 8:30 AM - 9:30 AM</p>
+              <p class="card-text">1 Month - ₹ 3000 / 3 Months - ₹ 7500</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/dincharya.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 raipur membership">
+          <div class="card" style="width: 18rem;" id="1M@RAIPUR_WL_1M3M">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Membership</h5>
+            <div class="card-body">
+              <h4 class="card-title">Weightloss</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Yogic Way</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">6:00 AM - 8:15 AM or 7:15 AM - 9:30 AM</p>
+              <p class="card-text">1 Month - ₹ 4500 / 3 Months - ₹ 12000</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/weight_loss_yoga.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+      <!-- </div>
+      <div class="row mt-3" > -->
+        <div class="col-md-3 mt-3 raipur workshop yogasanas">
+          <div class="card" style="width: 18rem;" id="5D@RAIPUR_Y_1Oct5Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Yogasanas</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Align With The Divine</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">1 Oct 2022 - 5 Oct 2022</p>
+              <p class="card-text">6:30 PM - 9:00 PM</p>
+              <p class="card-text">₹ 4000</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/yogasanas.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 raipur workshop bhutashuddhi">
+          <div class="card" style="width: 18rem;" id="1D@RAIPUR_BS_9Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Bhuta Shuddhi</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Cleansing the Five Elements</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">9 Oct 2022</p>
+              <p class="card-text">6:30 AM - 7:45 AM</p>
+              <p class="card-text">₹ 3900 (includes ₹ 2400 for the kit)</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/bhuta_shudhi.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 raipur workshop jalneti">
+          <div class="card" style="width: 18rem;" id="1D@RAIPUR_JN_9Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Jal Neti</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Relieves cold, allergies, sinusitis</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">9 Oct 2022</p>
+              <p class="card-text">8:00 AM - 9:00 AM</p>
+              <p class="card-text">₹ 2500 (includes ₹ 1150 for the kit)</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/surya_kriya.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 raipur workshop sunayna">
+          <div class="card" style="width: 18rem;" id="1D@RAIPUR_EC_1Oct5Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Sunayna</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Eye Care Practice</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">9 Oct 2022</p>
+              <p class="card-text">9:00 AM - 11:00 AM</p>
+              <p class="card-text">₹ 1000</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/yogasanas.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+      <!-- </div>
+      <div class="row mt-3" > -->
+        <div class="col-md-3 mt-3 raipur online">
+          <div class="card" style="width: 18rem;" id="5D@RAIPUR_BS_9Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Online</h5>
+            <div class="card-body">
+              <h4 class="card-title">Online Yoga</h5>
+              <h6 class="card-subtitle mb-2 text-muted">5-Day Yoga & Meditation</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">17 Oct 2022 - 21 Oct 2022</p>
+              <p class="card-text">6:00 PM - 7:15 PM</p>
+              <p class="card-text">₹ 500 (NOTE - Online link will be provided after registration)</p>
+              <p class="card-text">Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="classes/online_class.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+    <!-- </div> -->
+<!-- Bilaspur programs listings -->
+    <!-- <div id="Bilaspur"  class="city">
+      <div class="row mt-3" > -->
+        <div class="col-md-3 mt-3 bilaspur free" >
+          <div class="card" style="width: 18rem;" id="1D@BILASPUR_INTRO_11Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Free</h5>
+            <div class="card-body">
+              <h4 class="card-title">Free Yoga</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Intro or Demo Class</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">11 Oct 2022</p>
+              <p class="card-text">7:00 PM - 8:00 PM</p>
+              <p class="card-text">₹ 0</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/free_yoga.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 bilaspur workshop yogasanas">
+          <div class="card" style="width: 18rem;" id="4D@BILASPUR_Y_12Oct15Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Yogasanas</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Align With The Divine</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">12 Oct 2022 - 15 Oct 2022</p>
+              <p class="card-text">6:00 AM - 9:00 AM</p>
+              <p class="card-text">₹ 4000</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/yogasanas.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 bilaspur workshop angamardana">
+          <div class="card" style="width: 18rem;" id="4D@BILASPUR_A_12Oct15Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Angamardana</h5>
+              <h6 class="card-subtitle mb-2 text-muted">The Ultimate Fitness Session</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">12 Oct 2022 - 15 Oct 2022</p>
+              <p class="card-text">4:00 PM - 6:30 PM</p>
+              <p class="card-text">₹ 4000</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/angamardana.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 bilaspur workshop jalneti">
+          <div class="card" style="width: 18rem;" id="1D@BILASPUR_JN_16Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Jal Neti</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Relieves cold, allergies, sinusitis</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">16 Oct 2022</p>
+              <p class="card-text">4:00 PM - 4:45 PM</p>
+              <p class="card-text">₹ 2500 (includes ₹ 1150 for the kit)</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/jal_neti.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+      <!-- </div>
+      <div class="row mt-3" > -->
+        <div class="col-md-3 mt-3 bilaspur workshop sunayna">
+          <div class="card" style="width: 18rem;" id="1D@BILASPUR_SN_9Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Sunayna</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Eye Care Practice</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">9 Oct 2022</p>
+              <p class="card-text">9:00 AM - 11:00 AM</p>
+              <p class="card-text">₹ 1000</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/sunayna.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 bilaspur workshop shanmukhi">
+          <div class="card" style="width: 18rem;" id="1D@BILASPUR_SM_16Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Shanmukhi</h5>
+              <h6 class="card-subtitle mb-2 text-muted">For Nose, Eyes and Ears</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">16 Oct 2022</p>
+              <p class="card-text">9:00 AM - 11:00 AM</p>
+              <p class="card-text">₹ 1000</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/shanmukhi.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 bilaspur workshop bhutashuddhi">
+          <div class="card" style="width: 18rem;" id="1D@BILASPUR_BS_9Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Bhuta Shuddhi</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Cleansing the Five Elements</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">9 Oct 2022</p>
+              <p class="card-text">5:30 PM - 6:30 PM</p>
+              <p class="card-text">₹ 3900 (includes ₹ 2400 for the kit)</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/bhuta_shudhi.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mt-3 bilaspur workshop surya kriya">
+          <div class="card" style="width: 18rem;" id="4D@BILASPUR_SK_12Oct15Oct">
+            <!-- <img class="card-img-top" src="images/about/YN.webp" alt="Card image cap"> -->
+            <h5 class="card-header">Workshop</h5>
+            <div class="card-body">
+              <h4 class="card-title">Surya Kriya</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Activate the Sun Within</h6>
+              <p class="card-text">Hindi</p>
+              <p class="card-text">12 Oct 2022 - 15 Oct 2022</p>
+              <p class="card-text">6:45 PM - 8:45 PM</p>
+              <p class="card-text">₹ 3000</p>
+              <p class="card-text">Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p>
+              <a href="offerings/surya_kriya.html" class="btn btn-primary">Learn More</a>
+              <a href="registration_page.html" class="btn btn-primary">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
 
-    <div id="Bilaspur" class="tabcontent" style="margin-left:10%;margin-right:10%">
-        <div class="row" id="5D@BILASPUR_Y_12Oct15Oct">
-          <div class="col-md-12">
-            <div class="services-2 ftco-animate d-flex w-100">
-              <img src="images/miscelleneous/lotus-flower.webp" class="icon"
-                style="height: 55px;width: 55px;background-color: aliceblue;">
-              <div class="text text-left pl-4">
-                <a href="./offerings/yogasanas.html">
-                  <h3> <b>Yogasanas </b>- Align With The Divine</h3>
-                </a>
-                <p class="up-prog-desc">Yogasanas are not exercises, but rather very subtle processes to manipulate one's energy
-                  in a particular direction. Hatha Yoga is offered as a set of 36 powerful postures, or yogasanas, to enable the
-                  system to sustain higher dimensions of energy.</p>
-                <p class="up-prog-info1"><b>Date:</b> 12 Oct 2022 - 15 Oct 2022</p>
-                <p class="up-prog-info1"><b>Timings:</b> 6:00 AM - 9:00 AM</p>
-                <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-                <p class="up-prog-info1"><b>Fee:</b> ₹ 4000 </p>
-                <p class="up-prog-info1"><b>Venue - </b>Deendayal Upadhyay, Vyapar Vihar, Bilaspur (<a
-                    href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google
-                    Maps</a>)</p>
-                <!-- <a href="./offerings/yogasanas.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-                <a href="./offerings/yogasanas.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button
-                    class="button-51 " role="button"> Learn More</button></a><a href="registration_page.html" id="reg_btn"
-                  target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button">Register Now</button></a>
-                <p></p>
-                <div class="container-fluid px-md-5">
-                  <div class="row"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" id="5D@BILASPUR_A_12Oct15Oct">
-          <div class="col-md-12">
-            <div class="services-2 ftco-animate d-flex w-100">
-              <img src="images/miscelleneous/lotus-flower.webp" class="icon"
-                style="height: 55px;width: 55px;background-color: aliceblue;">
-              <div class="text text-left pl-4">
-                <a href="./offerings/angamardana.html">
-                  <h3> <b>Angamardana </b>- The Ultimate Fitness Session</h3>
-                </a>
-                <p class="up-prog-desc">Angamardana, a fitness system rooted in yoga, offers everyone the opportunity to invigorate the body and reach peak physical and mental health. Angamardana uses your own body weight and movement and needs no fitness equipment.</p>
-                <p class="up-prog-info1"><b>Date:</b> 12 Oct 2022 - 15 Oct 2022</p>
-                <p class="up-prog-info1"><b>Timings:</b> 4:00 PM - 6:30 PM</p>
-                <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-                <p class="up-prog-info1"><b>Fee:</b> ₹ 4000 </p>
-                <p class="up-prog-info1"><b>Venue - </b>Deendayal Upadhyay, Vyapar Vihar, Bilaspur (<a
-                    href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank" style="color:#ffb5b5;">Click for Google
-                    Maps</a>)</p>
-                <!-- <a href="./offerings/yogasanas.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-                <a href="./offerings/angamardana.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button
-                    class="button-51 " role="button"> Learn More</button></a><a href="registration_page.html" id="reg_btn"
-                  target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button">Register Now</button></a>
-                <p></p>
-                <div class="container-fluid px-md-5">
-                  <div class="row"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-       <div class="row" id="4D@BILASPUR_SK_12Oct15Oct">
-        <div class="col-md-12">
-         <div class="services-2 ftco-animate d-flex w-100">
-          <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-          <div class="text text-left pl-4">
-           <a href="./offerings/surya_kriya.html"><h3> <b>Surya Kriya</b> - Activate The Sun Within</h3></a>
-           <p class="up-prog-desc">Surya Kriya is the fundamental practice and a powerful process of activating the sun within us. This is a refined process that needs enormous attention in terms of the geometry of the body. </p>
-           <p class="up-prog-info1"><b>Date:</b> 12 Oct 2022 - 15 Oct 2022</p>
-            <p class="up-prog-info1"><b>Timings:</b> 6:45 PM - 8:45 PM</p>
-            <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-            <p class="up-prog-info1"><b>Fee:</b> ₹ 3000 </p>
-            <p class="up-prog-info1"><b>Venue - </b>Deendayal Upadhyay, Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-            <!-- <a href="./offerings/surya_kriya.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-            <a href="./offerings/surya_kriya.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-            <p></p>
-           <div class="container-fluid px-md-5">
-            <div class="row"></div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="row" id="1D@BILASPUR_BS_16Oct">
-        <div class="col-md-12">
-         <div class="services-2 ftco-animate d-flex w-100">
-          <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-          <div class="text text-left pl-4">
-           <a href="./offerings/bhuta_shudhi.html"><h3> <b>Bhuta Shuddhi</b> - Cleansing the Five Elements</h3></a>
-           <p class="up-prog-desc">There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices). </p>
-           <p class="up-prog-info1"><b>Date:</b> 16 Oct 2022</p>
-           <p class="up-prog-info1"><b>Timings:</b> 5:30 PM - 6:30 PM</p>
-           <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-           <p class="up-prog-info1"><b>Fee:</b> ₹ 3900 (includes ₹ 2400 for the kit)</p>
-           <p class="up-prog-info1"><b>Venue - </b>Deendayal Upadhyay, Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-           <!-- <a href="./offerings/bhuta_shudhi.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-           <a href="./offerings/bhuta_shudhi.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-           <p></p>
-           <div class="container-fluid px-md-5">
-            <div class="row"></div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="row" id="1D@BILASPUR_JN_16Oct">
-        <div class="col-md-12">
-         <div class="services-2 ftco-animate d-flex w-100">
-          <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-          <div class="text text-left pl-4">
-           <a href=""><h3> <b>Jal Neti</b> - Relieves cold, allergies, sinusitis</h3></a>
-           <p class="up-prog-desc">It relieves from asthma, cold, and all kapha related problems. </p>
-           <p class="up-prog-info1"><b>Date:</b> 16 Oct 2022</p>
-           <p class="up-prog-info1"><b>Timings:</b> 4:00 PM - 4:45 PM</p>
-           <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-           <p class="up-prog-info1"><b>Fee:</b> ₹ 2500 (includes ₹ 1150 for the kit)</p>
-           <p class="up-prog-info1"><b>Venue - </b>Deendayal Upadhyay, Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-           <!-- <a href="./offerings/jal_neti.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-           <a href="./offerings/jal_neti.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-           <p></p>
-           <div class="container-fluid px-md-5">
-            <div class="row"></div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="row" id="1D@BILASPUR_SM_16Oct">
-        <div class="col-md-12">
-         <div class="services-2 ftco-animate d-flex w-100">
-          <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-          <div class="text text-left pl-4">
-           <a href=""><h3> <b>Shanmukhi</b> - For Nose, Ears &amp; Eyes</h3></a>
-           <p class="up-prog-desc">Helps in aliments related to nose, ears &amp; eyes. It improves the aura in the face.  </p>
-           <p class="up-prog-info1"><b>Date:</b> 16 Oct 2022</p>
-           <p class="up-prog-info1"><b>Timings:</b> 9:00 AM - 11:00 AM</p>
-           <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-           <p class="up-prog-info1"><b>Fee:</b> ₹ 1000 </p>
-           <p class="up-prog-info1"><b>Venue - </b>Deendayal Upadhyay, Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-           <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-           <a href="./offerings/shanmukhi.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-           <p></p>
-           <div class="container-fluid px-md-5">
-            <div class="row"></div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="row" id="1D@BILASPUR_EC_16Oct">
-        <div class="col-md-12">
-         <div class="services-2 ftco-animate d-flex w-100">
-          <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-          <div class="text text-left pl-4">
-           <a href=""><h3> <b>Sunayna </b>- Eye Care Practice</h3></a>
-           <p class="up-prog-desc">Improves eyesight through yogic practices </p>
-           <p class="up-prog-info1"><b>Pre-requisite:</b> Must have learnt - Surya Kriya or Upa Yoga or Yogasanas or Angmardana or Surya Shakti</p>
-           <p class="up-prog-info1"><b>Date:</b> 16 Oct 2022</p>
-           <p class="up-prog-info1"><b>Timings:</b> 6:30 AM - 8:30 AM</p>
-           <p class="up-prog-info1"><b>Age:</b> 8+ years</p>
-           <p class="up-prog-info1"><b>Fee:</b> ₹ 1000 </p>
-           <p class="up-prog-info1"><b>Venue - </b>Deendayal Upadhyay, Vyapar Vihar, Bilaspur (<a href="https://goo.gl/maps/KTfaFMUREjPd14xC7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-           <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-           <a href="./offerings/sunayna.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-           <p></p>
-           <div class="container-fluid px-md-5">
-            <div class="row"></div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-    </div>
-    
-    <div id="Raipur" class="tabcontent" style="margin-left:10%;margin-right:10%">
-      <!-- <p>Type something in the input field to search for a specific text inside the div element with id="myDIV":</p>
-      <input class="form-control" id="myInput" type="text" placeholder="Search.."> -->
-      <div class="row" id="1D@RAIPUR_INTRO_1Oct31Oct">
-        <div class="col-md-12">
-        <div class="services-2 ftco-animate d-flex w-100">
-          <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-          <div class="text text-left pl-4">
-            <a href=""><h3> <b>Free Yoga</b> - Introduction or Demo Class</h3></a>
-            <p class="up-prog-desc">Introduction to Hatha Yoga, learn a simple yet powerful practice, Q & A with a certified teacher </p>
-            <p class="up-prog-info1"><b>Date:</b> 1 Oct 2022 & 31 Oct 2022</p>
-            <p class="up-prog-info1"><b>Timings:</b> 7:00 AM - 8:00 AM</p>
-            <p class="up-prog-info1"><b>Age:</b> 8+ years</p>
-            <p class="up-prog-info1"><b>Fee:</b> ₹ 0 </p>
-            <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-            <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-            <a href="./offerings/free_yoga.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a>
-            <a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-            <p></p>
-            <div class="container-fluid px-md-5">
-              <div class="row">
-               
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-     <div class="row" id="1M@RAIPUR_DGY_1Oct30Oct">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href="./offerings/dincharya.html"><h3> <b>Dincharya</b> - The Yogic Routine</h3></a>
-         <p class="up-prog-desc">Dinacharya refers to the wisdom of cultivating a daily routine where one lives each day well</p>
-         <p class="up-prog-info1"><b>Timings:</b> 6:00 AM - 7:00 AM or 7:15 AM - 8:15 AM or 8:30 AM - 9:30 AM</p>
-         <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-         <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-         <p class="up-prog-info1-head" style="font-weight: bold;"><b>1 Month Membership</b> </p>
-         <p class="up-prog-info1"><b>Fee:</b> ₹ 3000 </p>
-         <p></p>
-         <p class="up-prog-info1-head" style="font-weight: bold;"><b>3 Months Membership</b> </p>
-         <p class="up-prog-info1"><b>Fee:</b> ₹ 7500 </p>
-         <!-- <a href="./offerings/dincharya.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-         <a href="./offerings/dincharya.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-         <p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="row" id="1M@RAIPUR_WLY_3Oct30Oct">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href="./offerings/weight_loss_yoga.html"><h3> <b>Weight Loss</b> - The Yogic Way</h3></a>
-         <p class="up-prog-desc">We help people lose weight safely in a natural and sustainable way</p>
-         <p class="up-prog-info1"><b>Timings:</b> 6:00 AM - 8:15 AM or 7:15 AM - 9:30 AM</p>
-          <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-          <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-          <p class="up-prog-info1-head" style="font-weight: bold;"><b>* 1 Month Membership * </b> </p>
-          <p class="up-prog-info1"><b>Fee:</b> ₹ 4500 </p>
-          <p></p>
-          <p class="up-prog-info1-head" style="font-weight: bold;"><b>* 3 Months Membership * </b> </p>
-          <p class="up-prog-info1"><b>Fee:</b> ₹ 12000 </p>
-          <!-- <a href="./offerings/weight_loss_yoga.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-          <a href="./offerings/weight_loss_yoga.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-          <p></p>
-          <div class="container-fluid px-md-5">
-           <div class="row"></div>
-          </div>
-         
-         <p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="row" id="5D@RAIPUR_Y_19Sep23Sep">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href="./offerings/yogasanas.html"><h3> <b>Yogasanas </b>- Align With The Divine</h3></a>
-         <p class="up-prog-desc">Yogasanas are not exercises, but rather very subtle processes to manipulate one's energy in a particular direction. Hatha Yoga is offered as a set of 36 powerful postures, or yogasanas, to enable the system to sustain higher dimensions of energy.</p>
-         <p class="up-prog-info1"><b>Date:</b> 19 Sep 2022 - 23 Sep 2022 or 1 Oct 2022 - 5 Oct 2022</p>
-          <p class="up-prog-info1"><b>Timings:</b> 6:30 PM - 9:00 PM</p>
-          <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-          <p class="up-prog-info1"><b>Fee:</b> ₹ 4000 </p>
-          <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-          <!-- <a href="./offerings/yogasanas.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-          <a href="./offerings/yogasanas.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-          <p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="row" id="4D@RAIPUR_SK_27Sep30Sep">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href="./offerings/surya_kriya.html"><h3> <b>Surya Kriya</b> - Activate The Sun Within</h3></a>
-         <p class="up-prog-desc">Surya Kriya is the fundamental practice and a powerful process of activating the sun within us. This is a refined process that needs enormous attention in terms of the geometry of the body. </p>
-         <p class="up-prog-info1"><b>Date:</b> 27 Sep 2022 - 30 Sep 2022</p>
-          <p class="up-prog-info1"><b>Timings:</b> 6:30 PM - 8:30 PM</p>
-          <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-          <p class="up-prog-info1"><b>Fee:</b> ₹ 3000 </p>
-          <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-          <!-- <a href="./offerings/surya_kriya.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-          <!-- <a href="./offerings/surya_kriya.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a> -->
-          <!-- <a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;" ><button class="button-51 " role="button" >Register Now</button></a> -->
-          <h4 style="color: gray;">Registrations Closed</h4><p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="row" id="1D@RAIPUR_BS_9Oct">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href="./offerings/bhuta_shudhi.html"><h3> <b>Bhuta Shuddhi</b> - Cleansing the Five Elements</h3></a>
-         <p class="up-prog-desc">There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices). </p>
-         <p class="up-prog-info1"><b>Date:</b> 9 Oct 2022</p>
-         <p class="up-prog-info1"><b>Timings:</b> 6:30 AM - 7:45 AM</p>
-         <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-         <p class="up-prog-info1"><b>Fee:</b> ₹ 3900 (includes ₹ 2400 for the kit)</p>
-         <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-         <!-- <a href="./offerings/bhuta_shudhi.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-         <a href="./offerings/bhuta_shudhi.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-         <p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="row" id="1D@RAIPUR_JN_9Oct">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href=""><h3> <b>Jal Neti</b> - Relieves cold, allergies, sinusitis</h3></a>
-         <p class="up-prog-desc">It relieves from asthma, cold, and all kapha related problems. </p>
-         <p class="up-prog-info1"><b>Date:</b> 9 Oct 2022</p>
-         <p class="up-prog-info1"><b>Timings:</b> 8:00 AM - 9:00 AM</p>
-         <p class="up-prog-info1"><b>Age:</b> 14+ years</p>
-         <p class="up-prog-info1"><b>Fee:</b> ₹ 2500 (includes ₹ 1150 for the kit)</p>
-         <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-         <!-- <a href="./offerings/jal_neti.html " target="_blank" class="btn btn-white px-4 py-3" id="learn_more_btn"> Learn More <span class="ion-ios-arrow-round-forward"></span></a> <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-         <a href="./offerings/jal_neti.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-         <p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     
-     <div class="row" id="1D@RAIPUR_EC_9Oct">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href=""><h3> <b>Sunayna </b>- Eye Care Practice</h3></a>
-         <p class="up-prog-desc">Improves eyesight through yogic practices </p>
-         <p class="up-prog-info1"><b>Pre-requisite:</b> Must have learnt - Surya Kriya or Upa Yoga or Yogasanas or Angmardana or Surya Shakti</p>
-         <p class="up-prog-info1"><b>Date:</b> 9 Oct 2022</p>
-         <p class="up-prog-info1"><b>Timings:</b> 9:00 AM - 11:00 AM</p>
-         <p class="up-prog-info1"><b>Age:</b> 8+ years</p>
-         <p class="up-prog-info1"><b>Fee:</b> ₹ 1000 </p>
-         <p class="up-prog-info1"><b>Venue - </b>Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur (<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank"style="color:#ffb5b5;">Click for Google Maps</a>)</p> 
-         <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-         <a href="./offerings/sunayna.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-         <p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="row" id="1D@RAIPUR_OL_17Oct21Oct">
-      <div class="col-md-12">
-       <div class="services-2 ftco-animate d-flex w-100">
-        <img src="images/miscelleneous/lotus-flower.webp" class="icon" style="height: 55px;width: 55px;background-color: aliceblue;" >
-        <div class="text text-left pl-4">
-         <a href=""><h3> <b>Online Yoga</b> - 5-Day Yoga & Meditation</h3></a>
-         <p class="up-prog-desc">Learn simple yet powerful yoga and meditations online at your convenient place for five days </p>
-         <p class="up-prog-info1"><b>Date:</b> 17 Oct 2022 - 21 Oct 2022</p>
-         <p class="up-prog-info1"><b>Timings:</b> 6:00 PM - 7:15 PM</p>
-         <p class="up-prog-info1"><b>Age:</b> 7+ years</p>
-         <p class="up-prog-info1"><b>Fee:</b> ₹ 500 </p>
-         <p class="up-prog-info1"><b>NOTE - </b>Online link will be provided after registration</p> 
-         <!-- <a href="registration_page.html" target="_blank" class="btn btn-white px-4 py-3" id="reg_btn"> Register Now <span class="ion-ios-arrow-round-forward"></span></a> -->
-         <a href="./classes/online_class.html" id="learn_more_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" > Learn More</button></a><a href="registration_page.html" id="reg_btn" target="_blank" style="margin-right: 2%;"><button class="button-51 " role="button" >Register Now</button></a>
-         <p></p>
-         <div class="container-fluid px-md-5">
-          <div class="row"></div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-    <div id="Raigarh" class="tabcontent" > <img src="images/miscelleneous/apologize.webp" style="height: 45px;width: 45px;" >No programs scheduled yet.</div>
-    <div id="Bhilai" class="tabcontent" > <img src="images/miscelleneous/apologize.webp" style="height: 45px;width: 45px;" >No programs scheduled yet.</div>
-    <div id="Bilaspur" class="tabcontent" > <img src="images/miscelleneous/apologize.webp" style="height: 45px;width: 45px;" >No programs scheduled yet.</div>
-    
-   </section> 
    <section class="ftco-counter img" id="section-counter" style="background-image: url(images/banner/bg_4.webp);background-position: 50% -44.7607px;" data-stellar-background-ratio="0.5" > 
     <div class="overlay"></div> 
     <div class="container"> 
@@ -631,33 +584,9 @@
      </div>  --> 
     </div> 
    </footer> 
-   <script>
 
+   
 
-function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-
-  </script> 
    <script src="js/jquery.min.js"></script> 
    <script src="js/jquery-migrate-3.0.1.min.js"></script> 
    <script src="js/popper.min.js"></script> 
@@ -676,6 +605,21 @@ document.getElementById("defaultOpen").click();
    <script src="js/google-map.js"></script> 
    <script src="js/main.js"></script> 
    <script src="js/onload.js"></script> 
+
+   <script>
+    
+    $(".dropdown-menu .dropdown-item").click(function(e){
+        var selText = $(this).text();
+        //console.log(selText);
+        $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+        showCardsForSelectedDropDownVal(e, selText);
+      });
+    
+      // $("clear").click(function(e){
+      //   $(this).parents('.dropdown').find('.dropdown-toggle').html(' <span class="caret"></span>');
+
+      // });
+      </script> 
   </section>  
  </body>
 </html>

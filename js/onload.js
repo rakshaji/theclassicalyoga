@@ -187,3 +187,11 @@ function getEnglishDate(hindiDate){
     console.log(hindiDate);
     return hindiDate;
 }
+
+      function showCardsForSelectedDropDownVal(evt, selectedDropdownVal) {
+        //console.log(selectedDropdownVal);
+        selectedDropdownVal = selectedDropdownVal.replace(/\s/g, '');
+        $(".col-md-3").hide();
+        $('.'+ selectedDropdownVal.toLowerCase()).show();
+      }
+    
