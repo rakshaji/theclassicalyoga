@@ -1,6 +1,6 @@
 $(window).load(function () {
 
-    // upcoming programs carousal
+    // upcoming programs carousal for home page
     var owl = $('#home-carousel');
     owl.owlCarousel({
         items:4,
@@ -94,7 +94,7 @@ $(window).load(function () {
         console.log(optionText);
         var key = $(this).val();
         if(key == "") {
-        return;
+            return;
         }
         // get all program details in an array
         const progDetailArr = optionText.split(" | ");
