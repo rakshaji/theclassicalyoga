@@ -148,23 +148,26 @@
       <div class="dropdown mr-2">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
-          Filter By City <span class="caret"></span>
+          Filter By <span class="caret"></span>
         </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <button class="btn btn-secondary" type="button" id="clearFilterButton" >
+          Clear Filter
+        </button>
+        <div class="dropdown-menu pre-scrollable" aria-labelledby="dropdownMenuButton">
           <h6 class="dropdown-header">Filter By City</h6>
           <a class="dropdown-item" href="#" id="defaultOpen">Raipur</a>
           <a class="dropdown-item" href="#">Bilaspur</a>
           <a class="dropdown-item" href="#">Bhilai</a>
           <a class="dropdown-item" href="#">Raigarh</a>
-        </div>
-        <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <!-- </div>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> -->
           <h6 class="dropdown-header">Filter By Program Type</h6>
           <a class="dropdown-item" href="#">Free</a>
           <a class="dropdown-item" href="#">Workshop</a>
           <a class="dropdown-item" href="#">Membership</a>
           <a class="dropdown-item" href="#">Online</a>
-        </div>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <!-- </div>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> -->
           <h6 class="dropdown-header">Filter By Program Name</h6>
           <a class="dropdown-item" href="#">Surya Kriya</a>
           <a class="dropdown-item" href="#">Angamardana</a>
@@ -173,7 +176,7 @@
           <a class="dropdown-item" href="#">Bhuta Shuddhi</a>
           <a class="dropdown-item" href="#">Shanmukhi</a>
           <a class="dropdown-item" href="#">Sunayna</a>
-        </div> -->
+        </div>
       </div>
       <!-- <div class="dropdown mr-2">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
@@ -616,8 +619,6 @@
     </div> 
    </footer> 
 
-   
-
    <script src="js/jquery.min.js"></script> 
    <script src="js/jquery-migrate-3.0.1.min.js"></script> 
    <script src="js/popper.min.js"></script> 
@@ -640,17 +641,17 @@
    <script>
     
     $(".dropdown-menu .dropdown-item").click(function(e){
-        var selText = $(this).text();
-        //console.log(selText);
-        $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
-        showCardsForSelectedDropDownVal(e, selText);
-      });
-    
-      // $("clear").click(function(e){
-      //   $(this).parents('.dropdown').find('.dropdown-toggle').html(' <span class="caret"></span>');
+      var selText = $(this).text();
+      //console.log(selText);
+      $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+      showCardsForSelectedDropDownVal(e, selText);
+    });
 
-      // });
-      </script> 
+    $("#clearFilterButton").click(function(e){
+      clearFilter();
+    });
+    
+    </script> 
   </section>  
  </body>
 </html>

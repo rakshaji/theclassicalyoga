@@ -330,3 +330,9 @@ function showCardsForSelectedDropDownVal(evt, selectedDropdownVal) {
 	$(".col-md-3").hide();
 	$('.'+ selectedDropdownVal.toLowerCase()).show();
 }
+
+function clearFilter(){
+	$(".col-md-3").hide();
+	$(".col-md-3").show();
+	$(".dropdown-toggle").html('Filter By <span class="caret"></span>');
+}
