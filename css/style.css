@@ -10086,18 +10086,6 @@ body {
 	margin: auto;
 }
 
-h1 {
-	width: max-content;
-	margin: 0 auto 1.8em;
-	box-shadow:
-		0 2px 0 var(--accent-color),
-		0 4px 0 white,
-		0 6px 0 var(--accent-color);
-	font: 1.4rem var(--type-quote);
-	color: hsl(0 0% 25%);
-}
-
-
 blockquote {
 	position: relative;
 	margin: 40px 0;
