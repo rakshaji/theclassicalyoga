@@ -10,22 +10,39 @@
 // IF JSOUP FILE IS NOT FOUND OR ERRORS: GIVE 'EXECUTABLE' PERMISSION :
 // ls -l ./jar/jsoup-1.14.1.jar
 // chmod 755 ./jar/jsoup-1.14.1.jar
-import org.jsoup.Jsoup;
-import org.jsoup.helper.Validate;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-import java.io.*;
-import java.util.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.charset.StandardCharsets;
+//import org.jsoup.Jsoup;
+//import org.jsoup.helper.Validate;
+//import org.jsoup.nodes.Document;
+//import org.jsoup.nodes.Element;
+//import org.jsoup.select.Elements;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.nio.charset.StandardCharsets;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;  
-import java.util.Date;  
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
+import org.apache.http.*;
+import org.apache.http.client.*;
+import org.apache.http.client.methods.*;
+import org.apache.http.client.utils.*;
+import org.apache.http.entity.*;
+import org.apache.http.impl.client.*;
+import org.apache.http.util.*;
 
 class ProgramUpdater {
     // hindi constants
@@ -62,23 +79,27 @@ class ProgramUpdater {
     public static Map<String, String> programPageMapHindi = new HashMap<String, String>();;
     
     public static void main(String[] args) throws IOException {
-        
-        initProgramPageMap();
+    	String stubsApiBaseUri = "http://localhost:7819/RTCP/rest/stubs/";
+        String domain = "default";
+        String environment = "addNumbers";
+        String stubName = "1+1=2";
+
+       
         // initHindiProgs();  
         // initEnglishProgs();  
-        initPrograms();
+        // initPrograms();
 
         // english pages
-        updateClassesPage(progArrEng, CLASSES_PAGE_ENGLISH);
-        updateRegistrationPage(progArrEng, REGISTRATION_PAGE_ENGLISH);
+        // updateClassesPage(progArrEng, CLASSES_PAGE_ENGLISH);
+        // updateRegistrationPage(progArrEng, REGISTRATION_PAGE_ENGLISH);
         // updateHomePage(progArrEng, HOME_PAGE_ENGLISH);
-        updateGalleryWithLatestPics(GALLERY_PAGE_ENGLISH);
+        // updateGalleryWithLatestPics(GALLERY_PAGE_ENGLISH);
 
         // hindi pages
-        //updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
-        //updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
+        // updateClassesPage(progArrHindi, CLASSES_PAGE_HINDI);
+        // updateRegistrationPage(progArrHindi, REGISTRATION_PAGE_HINDI);
         // updateHomePage(progArrHindi, HOME_PAGE_HINDI);
-        //updateGalleryWithLatestPics(GALLERY_PAGE_HINDI);
+        // updateGalleryWithLatestPics(GALLERY_PAGE_HINDI);
     }
 
     private static void initProgramPageMap() throws IOException { 
