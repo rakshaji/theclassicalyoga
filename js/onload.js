@@ -47,7 +47,7 @@ $(window).load(function () {
     
     //$('#saveSoilModal').modal('show');
     // for classes page
-    $(".up-prog-info2").each(function(){
+    $(".prog-date").each(function(){
 
         var infoText = $(this).text();
         //console.log(infoText);  
