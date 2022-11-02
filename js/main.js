@@ -329,6 +329,13 @@ function showCardsForSelectedDropDownVal(evt, selectedDropdownVal) {
 	selectedDropdownVal = selectedDropdownVal.replace(/\s/g, '');
 	$(".col-md-3").hide();
 	$('.'+ selectedDropdownVal.toLowerCase()).show();
+	var numItems = $('.'+ selectedDropdownVal.toLowerCase()).length;
+	//alert(numItems);
+	if(numItems == 0) {
+		$('.NoPrograms').show();
+	} else {
+		$('.NoPrograms').hide();
+	}
 }
 
 function clearFilter(){
