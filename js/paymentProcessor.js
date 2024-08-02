@@ -57,7 +57,8 @@ $(window).load(function () {
       //$('#payByCashBtn').hide();
     } else {
       // if they are for paid programs
-      $('#submit-reg-form').html("Pay Online");  
+      $('#submit-reg-form').html("Submit");  
+      //$('#submit-reg-form').html("Pay Online");  
       //$('#payByCashBtn').show();
     }
 
