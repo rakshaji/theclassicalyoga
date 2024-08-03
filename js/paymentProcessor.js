@@ -59,7 +59,7 @@ $(window).load(function () {
       // if they are for paid programs
       $('#submit-reg-form').html("Submit");  
       //$('#submit-reg-form').html("Pay Online");  
-      $('#payByCashBtn').show();
+      //$('#payByCashBtn').show();
     }
 
     // show cash payment button only for raipur programs alone
@@ -248,7 +248,8 @@ function submitForm(e) {
           , time);
         }
       } else {
-        processPayment();  
+        //processPayment();  
+        $('Registration was successful').show();
       }
       
     },
