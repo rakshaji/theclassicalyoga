@@ -249,7 +249,8 @@ function submitForm(e) {
         }
       } else {
         //processPayment();  
-        $('Registration was successful').show();
+        //$('Registration was successful').show();
+        $("#staticBackdropSuccess").modal('show');
       }
       
     },
