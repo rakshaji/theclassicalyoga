@@ -10,11 +10,11 @@
 // IF JSOUP FILE IS NOT FOUND OR ERRORS: GIVE 'EXECUTABLE' PERMISSION :
 // ls -l ./jar/jsoup-1.14.1.jar
 // chmod 755 ./jar/jsoup-1.14.1.jar
-//import org.jsoup.Jsoup;
-//import org.jsoup.helper.Validate;
-//import org.jsoup.nodes.Document;
-//import org.jsoup.nodes.Element;
-//import org.jsoup.select.Elements;
+import org.jsoup.Jsoup;
+import org.jsoup.helper.Validate;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -36,13 +36,13 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.http.*;
-import org.apache.http.client.*;
-import org.apache.http.client.methods.*;
-import org.apache.http.client.utils.*;
-import org.apache.http.entity.*;
-import org.apache.http.impl.client.*;
-import org.apache.http.util.*;
+//import org.apache.http.*;
+//import org.apache.http.client.*;
+//import org.apache.http.client.methods.*;
+//import org.apache.http.client.utils.*;
+//import org.apache.http.entity.*;
+//import org.apache.http.impl.client.*;
+//import org.apache.http.util.*;
 
 class ProgramUpdater {
     // hindi constants
