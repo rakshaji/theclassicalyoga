@@ -11,7 +11,7 @@ PROGRAM_CODE::1D@RAIPUR_YAR_14Aug
 PROGRAM_NAME::Yogasanas Personal Review,,,,Yogasanas Personal Review 
 TAGLINE1::(उन लोगों के लिए जिन्होंने Yogasanas पूरी कर ली है),,,, (For those who have completed Yogasanas)  
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::14 Aug 2022,,,,14 Aug 2022
@@ -32,7 +32,7 @@ PROGRAM_CODE::1D@RAIPUR_SKR_21Aug
 PROGRAM_NAME::Surya Kriya Personal Review,,,,Surya Kriya Personal Review 
 TAGLINE1::(उन लोगों के लिए जिन्होंने Surya Kriya पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::21 Aug 2022,,,,21 Aug 2022
@@ -53,7 +53,7 @@ PROGRAM_CODE::1D@RAIPUR_AMR_28Aug
 PROGRAM_NAME::Angamardana Personal Review,,,,Agamardana Personal Review 
 TAGLINE1::(उन लोगों के लिए जिन्होंने Angamardana पूरी कर ली है),,,, (For those who have completed Angamardana)  
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::28 Aug 2022,,,,28 Aug 2022
@@ -74,7 +74,7 @@ PROGRAM_CODE::1D@RAIPUR_SM_26Aug
 PROGRAM_NAME::सनमुखी,,,,Shanmukhi 
 TAGLINE1::नाक, कान और आंखों के लिए,,,,For Nose, Ears & Eyes
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::नाक, कान और आंख से संबंधित रोगों में मदद करता है,,,,Helps in aliments related to nose, ears & eyes
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::26 Aug 2022,,,,26 Aug 2022
@@ -95,7 +95,7 @@ PROGRAM_CODE::4D@RAIPUR_SK_22Aug25Aug
 PROGRAM_NAME::सूर्य क्रिया,,,,Surya Kriya 
 TAGLINE1::अपने भीतर सूर्य को सक्रिय करें,,,,Activate The Sun Within
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::सूर्य क्रिया हमारे भीतर सूर्य को सक्रिय करने का मौलिक अभ्यास और एक शक्तिशाली प्रक्रिया है। यह एक परिष्कृत प्रक्रिया है जिस पर शरीर की ज्यामिति के संदर्भ में अत्यधिक ध्यान देने की आवश्यकता है।,,,,Surya Kriya is the fundamental practice and a powerful process of activating the sun within us. This is a refined process that needs enormous attention in terms of the geometry of the body.
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::22 Aug 2022 - 25 Aug 2022,,,,22 Aug 2022 - 25 Aug 2022
@@ -116,7 +116,7 @@ PROGRAM_CODE::1D@RAIPUR_SSC_27Jul
 PROGRAM_NAME::सूर्य शक्ति,,,,Surya Shakti 
 TAGLINE1::(उन लोगों के लिए जिन्होंने सूर्य क्रिया पूरी कर ली है),,,, (For those who have completed Surya Kriya)  
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::NA
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::27 Jul 2022,,,,27 Jul 2022
@@ -137,7 +137,7 @@ PROGRAM_CODE::4D@RAIPUR_SSFK_20Jun23Jun
 PROGRAM_NAME::सूर्य शक्ति (बच्चों के लिए),,,,Surya Shakti For Kids
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::"जीवन में जल्दी योग शुरू करने से शरीर और मस्तिष्क के विकास में बहुत फर्क पड़ता है। हम बच्चों को उनके लिए उपयुक्त आसन सिखाने का ध्यान रखते हैं" - सद्गुरु,,,,"Starting yoga early on in life makes a big difference for the development of the body and brain. We take care to teach children asanas that are suitable for them"-Sadhguru
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::20 Jun 2022 - 23 Jun 2022,,,,20 Jun 2022 - 23 Jun 2022
@@ -158,7 +158,7 @@ PROGRAM_CODE::5D@RAIPUR_Y_22Aug26Aug
 PROGRAM_NAME::योगासन,,,,Yogasanas - Align With The Divine
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगासन व्यायाम नहीं हैं, बल्कि एक विशेष दिशा में किसी की ऊर्जा को हेरफेर करने के लिए बहुत सूक्ष्म प्रक्रियाएं हैं। हठ योग को 36 शक्तिशाली मुद्राओं, या योगासनों के एक सेट के रूप में पेश किया जाता है, ताकि सिस्टम को ऊर्जा के उच्च आयामों को बनाए रखने में सक्षम बनाया जा सके।,,,,Yogasanas are not exercises, but rather very subtle processes to manipulate one’s energy in a particular direction. Hatha Yoga is offered as a set of 36 powerful postures, or yogasanas, to enable the system to sustain higher dimensions of energy.
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::22 Aug 2022 - 26 Aug 2022,,,,22 Aug 2022 - 26 Aug 2022
@@ -179,7 +179,7 @@ PROGRAM_CODE::5D@RAIPUR_ANGA_16Aug20Aug
 PROGRAM_NAME::अंगमर्दना,,,,Angamardana - The Ultimate Fitness Session
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::"अंगमर्दन" का अर्थ है अंगों और शरीर के अन्य हिस्सों पर पूर्ण महारत हासिल करना।,,,,"Angamardana” means gaining complete mastery over the limbs, organs, and other parts of the body.
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::16 Aug 2022 - 20 Aug 2022,,,,16 Aug 2022 - 20 Aug 2022
@@ -200,7 +200,7 @@ PROGRAM_CODE::1D@RAIPUR_BS_27Aug
 PROGRAM_NAME::भूत शुद्धि,,,,Bhuta Shuddhi - Cleansing the Five Elements
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योग की एक पूरी प्रणाली है जिसे भूत शुद्धि कहा जाता है, जिसका अर्थ है "तत्वों की शुद्धि।" ईशा द्वारा दी गई भूत शुद्धि प्रक्रियाएं इस गूढ़ योग विज्ञान से सभी को लाभ उठाने का एक अनूठा अवसर प्रदान करती हैं, जिसके लिए अन्यथा गहन साधना (आध्यात्मिक अभ्यास) की आवश्यकता होती है।,,,,There is a whole system of yoga called Bhuta Shuddhi, which means “purification of the elements.” The Bhuta Shuddhi processes offered by Isha provide a unique opportunity for everyone to benefit from this esoteric yogic science, which otherwise requires intense sadhana (spiritual practices).
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::27 Aug 2022,,,,27 Aug 2022
@@ -221,7 +221,7 @@ PROGRAM_CODE::1D@RAIPUR_JN_27Aug
 PROGRAM_NAME::जल नेति,,,,Jal Neti - Relieves cold, allergies, sinusitis
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::यह अस्थमा, सर्दी और कफ संबंधी सभी समस्याओं से छुटकारा दिलाता है।,,,,It relieves from asthma, cold, and all kappa related problems.
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::27 Aug 2022,,,,27 Aug 2022
@@ -242,7 +242,7 @@ PROGRAM_CODE::1D@RAIPUR_EC_29Aug30Aug
 PROGRAM_NAME::सुनयना,,,,Sunayna - Eye Care Practice
 TAGLINE1::NA
 TAGLINE2::NA
-VENUE::<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://goo.gl/maps/d6QSViren1CiyRWj7" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
+VENUE::<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" ><b>स्थान</b> - रोटरी ग्रेटर हॉल, पगरिया कॉम्प्लेक्स, बस स्टैंड, पंडरी, रायपुर</a>,,,,<a href="https://maps.app.goo.gl/hPupMFhfvKMgDFTYA" target="_blank" >Venue - Rotary Greater Hall, Pagaria Complex, Bus Stand, Pandri, Raipur</a>
 PROGRAM_INFO::योगाभ्यास से आंखों की रोशनी बढ़ाता है <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas or Angamardana or Surya Shakti)</b>,,,,Improves eyesight through yogic practices <b>(Pre-requisite: Upa Yoga or Surya Kriya or Yogasanas or Angamardana or Surya Shakti)</b>
 LANGUAGE::द्विभाषिक,,,,Bilingual
 DATE::29 Aug 2022 - 30 Aug 2022,,,,29 Aug 2022 - 30 Aug 2022
