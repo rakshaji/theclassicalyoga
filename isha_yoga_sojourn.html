@@ -336,7 +336,7 @@
                       </div> 
                     </div> 
                   </div> 
-                  
+
                   <!-- 6 -->
                   <div class="col-md-4 d-flex align-items-stretch"> 
                     <div class="offer-deal text-center"> 
@@ -587,60 +587,190 @@
       </style>
 
 <div class="testimonials-section">
-    <h2 class="section-title">What Renowned Personalities Say About Isha & Sadhguru</h2>
-    <p class="section-subtitle">Heartfelt experiences and words of appreciation from those who have connected deeply with Isha Yoga Center and Sadhguru’s wisdom.</p>
-  
+    <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Appreciations - Isha & Sadhguru</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .testimonials-section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      background: linear-gradient(to bottom, #ffffff, #f0f4f8);
+    }
+
+    .testimonials-section h2 {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #1a3c34; /* Deep green inspired by Isha */
+      position: relative;
+    }
+
+    .testimonials-section h2::after {
+      content: '';
+      width: 80px;
+      height: 4px;
+      background: #00695c;
+      display: block;
+      margin: 15px auto 0;
+      border-radius: 2px;
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 40px;
+      margin-top: 60px;
+    }
+
+    .testimonial-card {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      padding: 30px 25px;
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 105, 92, 0.15);
+    }
+
+    .person-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #e0f2f1;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s ease;
+    }
+
+    .testimonial-card:hover .person-photo {
+      transform: scale(1.08);
+    }
+
+    .person-name {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #00695c;
+      margin: 0 0 12px;
+    }
+
+    .person-quote {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #444;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .person-quote::before,
+    .person-quote::after {
+      content: '“';
+      font-size: 2.5rem;
+      color: #80cbc4;
+      line-height: 0.5;
+      vertical-align: middle;
+    }
+
+    .person-quote::after {
+      content: '”';
+    }
+
+    @media (max-width: 768px) {
+      .testimonials-section {
+        padding: 60px 15px;
+      }
+      .testimonials-section h2 {
+        font-size: 2.4rem;
+      }
+      .person-photo {
+        width: 160px;
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="testimonials-section">
+    <h2>Experience & Sharing</h2>
+
     <div class="testimonials-grid">
-  
+
       <!-- Sara Arjun -->
       <div class="testimonial-card">
-        <div class="profile-header">
-          <img src="https://www.bollywoodhungama.com/wp-content/uploads/2025/01/Sara-Arjun-1.jpg" 
-               alt="Sara Arjun" class="profile-photo" 
-               onerror="this.src='https://via.placeholder.com/80/4a7043/ffffff?text=Sara';">
-          <h3>Sara Arjun</h3>
-        </div>
-        <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/XMu3gC6MKDg" 
-                  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-        </div>
-        <p class="quote">Blessed and grateful to celebrate Mahashivratri at Isha – the energy is truly inexpressible and beautiful.</p>
+        <img 
+          src="https://stat4.bollywoodhungama.in/wp-content/uploads/2016/03/saraarjunn_-322x322.jpg" 
+          alt="Sara Arjun" 
+          class="person-photo"
+          loading="lazy"
+        />
+        <h3 class="person-name">Sara Arjun</h3>
+        <p class="person-quote">
+          I am still spellbound by the energy at Isha Mahashivratri. Being part of this sacred space and Sadhguru's presence leaves a profound impact — I feel truly blessed.
+        </p>
       </div>
-  
-      <!-- PM Narendra Modi -->
+
+      <!-- Will Smith -->
       <div class="testimonial-card">
-        <div class="profile-header">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Official_Photograph_of_Prime_Minister_Narendra_Modi_Portrait.png" 
-               alt="Narendra Modi" class="profile-photo" 
-               onerror="this.src='https://via.placeholder.com/80/4a7043/ffffff?text=Modi';">
-          <h3>PM Narendra Modi</h3>
-        </div>
-        <div class="video-wrapper">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mC33zUuLdMU" 
-                  title="PM Modi at Isha" frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <p class="quote">Unveiling Adiyogi at Isha – a powerful symbol of inner well-being and human potential.</p>
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Will_Smith_2019_by_Glenn_Francis.jpg" 
+          alt="Will Smith" 
+          class="person-photo"
+          loading="lazy"
+        />
+        <h3 class="person-name">Will Smith</h3>
+        <p class="person-quote">
+          I've been following Sadhguru for a while — his book Inner Engineering is wonderful. It's a beautiful opportunity to connect with someone not caught in the material world.
+        </p>
       </div>
-  
+
       <!-- Tamannaah Bhatia -->
       <div class="testimonial-card">
-        <div class="profile-header">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tamannaah_Bhatia_at_the_62nd_Filmfare_Awards_South.jpg/800px-Tamannaah_Bhatia_at_the_62nd_Filmfare_Awards_South.jpg" 
-               alt="Tamannaah Bhatia" class="profile-photo" 
-               onerror="this.src='https://via.placeholder.com/80/4a7043/ffffff?text=Tamannaah';">
-          <h3>Tamannaah Bhatia</h3>
-        </div>
-        <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/t6kvz0zia2c" 
-                  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-        </div>
-        <p class="quote">Soaking in the divine energy of Mahashivratri at Isha Yoga Center – pure peace and devotion.</p>
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Tamannaah_at_Bigg_Boss_Telugu_4_%28cropped%29.jpg" 
+          alt="Tamannaah Bhatia" 
+          class="person-photo"
+          loading="lazy"
+        />
+        <h3 class="person-name">Tamannaah Bhatia</h3>
+        <p class="person-quote">
+          Sadhguru's wisdom and the transformative energy of Isha have deeply touched my life. The clarity and peace I experience here are truly special and uplifting.
+        </p>
       </div>
-  
-      
-  
+
+      <!-- Narendra Modi -->
+      <div class="testimonial-card">
+        <img 
+          src="https://upload.wikimedia.org/wikipedia/commons/5/5f/The_official_portrait_of_Shr_i_Narendra_Modi%2C_the_Prime_Minister_of_the_Republic_of_India.jpg" 
+          alt="Narendra Modi" 
+          class="person-photo"
+          loading="lazy"
+        />
+        <h3 class="person-name">Narendra Modi</h3>
+        <p class="person-quote">
+          Sadhguru's vision and the work of Isha Foundation are inspiring millions towards inner well-being, environmental consciousness, and human upliftment.
+        </p>
+      </div>
+
     </div>
+  </section>
+
+</body>
   </div>
   
   <style>
